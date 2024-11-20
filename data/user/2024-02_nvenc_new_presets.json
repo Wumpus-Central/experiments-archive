@@ -1,0 +1,31 @@
+{
+    "id": "2024-02_nvenc_new_presets",
+    "label": "nvenc new presets",
+    "hash": 1871481173,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enable adaptive key frame for nvenc",
+            "config": {
+                "nvEnableNewPresets": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

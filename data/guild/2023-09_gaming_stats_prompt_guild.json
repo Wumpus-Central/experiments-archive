@@ -1,0 +1,39 @@
+{
+    "id": "2023-09_gaming_stats_prompt_guild",
+    "label": "Gaming stats prompt",
+    "hash": 2478854553,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "ability to trigger gaming stats prompt",
+            "config": {
+                "triggerGamingStats": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "ability to trigger gaming stats prompt (leaderboard)",
+            "config": {
+                "triggerGamingStats": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

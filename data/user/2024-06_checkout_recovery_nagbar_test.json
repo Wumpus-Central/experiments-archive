@@ -1,0 +1,38 @@
+{
+    "id": "2024-06_checkout_recovery_nagbar_test",
+    "label": "Testing",
+    "hash": 2984314285,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users will not see the nagbar",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Users will see the nagbar",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "2024-10_tile_resolution_gating",
+    "label": "Tile Resolution Gating",
+    "hash": 3172358820,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Tile size based wants enabled only for 1:1 videos",
+            "config": {
+                "enabledSingle": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 40,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2500
+                        },
+                        {
+                            "start": 5000,
+                            "end": 6500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 40,
+                    "ranges": [
+                        {
+                            "start": 2500,
+                            "end": 5000
+                        },
+                        {
+                            "start": 6500,
+                            "end": 8000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

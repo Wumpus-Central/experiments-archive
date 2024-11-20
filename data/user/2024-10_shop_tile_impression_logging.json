@@ -1,0 +1,31 @@
+{
+    "id": "2024-10_shop_tile_impression_logging",
+    "label": "Shop tile impressions logging",
+    "hash": 1219608372,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable shop tile impression logging",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

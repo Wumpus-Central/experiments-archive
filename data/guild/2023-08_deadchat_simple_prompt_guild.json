@@ -1,0 +1,88 @@
+{
+    "id": "2023-08_deadchat_simple_prompt_guild",
+    "label": "Simple deadchat prompt",
+    "hash": 2716650836,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "triggerDeadchat": true,
+                "enableDeadchat": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "trigger deadchat upon connection open",
+            "config": {
+                "triggerDeadchat": true,
+                "enableDeadchat": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 3,
+                        "max": 200
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

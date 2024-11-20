@@ -1,0 +1,75 @@
+{
+    "id": "2024-09_league_of_legends_leaderboard",
+    "label": "League of Legends Leaderboard",
+    "hash": 107802454,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Leaderboard",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 3013771838,
+                    "data": {
+                        "ids": [
+                            "1266851512559210577"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "LEADERBOARD_ENABLED"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 96,
+                    "ranges": [
+                        {
+                            "start": 200,
+                            "end": 9800
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 9800,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

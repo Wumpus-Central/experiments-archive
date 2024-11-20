@@ -1,0 +1,97 @@
+{
+    "id": "2023-03_server_subscriptions_tier_templates",
+    "label": "Server Subscriptions Tier Templates",
+    "hash": 808859253,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "299 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "399 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "399 basic tier + link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "ROLE_SUBSCRIPTIONS_ENABLED"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "2023-12_marketing_automation_experiment",
+    "label": "Marketing Automation",
+    "hash": 2969274422,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Ask server for marketing content for rendering",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

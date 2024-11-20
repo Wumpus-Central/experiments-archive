@@ -1,0 +1,6 @@
+{
+    "id": "2023-09_register_device_post_connection_open",
+    "label": "Experiment to register the device concurrently vs after opening the connection",
+    "hash": 145805887,
+    "kind": "user"
+}

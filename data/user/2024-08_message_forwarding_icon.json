@@ -1,0 +1,40 @@
+{
+    "id": "2024-08_message_forwarding_icon",
+    "label": "Message forwarding icon change",
+    "hash": 1378883154,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Icon: upper right arrow",
+            "config": {
+                "canForwardMessages": true,
+                "useOldIcon": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Icon: chat bubble",
+            "config": {
+                "canForwardMessages": true,
+                "useOldIcon": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "id": "2023-06_unique_username_registration",
+    "label": "Unique Username Registration",
+    "hash": 2476969328,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Unique Username Registration enabled -livecheck -suggestions",
+            "config": {
+                "livecheckEnabled": false,
+                "suggestions": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Unique Username Registration enabled -livecheck +suggestions",
+            "config": {
+                "livecheckEnabled": false,
+                "suggestions": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Unique Username Registration enabled +livecheck -suggestions",
+            "config": {
+                "livecheckEnabled": true,
+                "suggestions": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Unique Username Registration enabled +livecheck +suggestions",
+            "config": {
+                "livecheckEnabled": true,
+                "suggestions": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 4,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

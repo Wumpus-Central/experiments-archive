@@ -1,0 +1,31 @@
+{
+    "id": "2024-04_markdown_subtext",
+    "label": "Subtext Markdown",
+    "hash": 673657872,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show subtext markdown",
+            "config": {
+                "showSubtextMarkdown": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

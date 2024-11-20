@@ -1,0 +1,31 @@
+{
+    "id": "2023-09_iar_user_reporting",
+    "label": "Safety Experience IAR User Reporting",
+    "hash": 2180379513,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

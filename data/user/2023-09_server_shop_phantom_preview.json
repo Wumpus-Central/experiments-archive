@@ -1,0 +1,31 @@
+{
+    "id": "2023-09_server_shop_phantom_preview",
+    "label": "Server Shop Phantom Preview",
+    "hash": 759064140,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables Server shop phantom preview",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

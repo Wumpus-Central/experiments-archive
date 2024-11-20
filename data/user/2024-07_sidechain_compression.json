@@ -1,0 +1,70 @@
+{
+    "id": "2024-07_sidechain_compression",
+    "label": "Test sidechain compression",
+    "hash": 3312979622,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Sidechain Compression available, default enabled",
+            "config": {
+                "sidechainAvailable": true,
+                "sidechainEnabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Sidechain Compression avialable, default disabled",
+            "config": {
+                "sidechainAvailable": true,
+                "sidechainEnabled": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 80,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2500,
+                            "end": 4500
+                        },
+                        {
+                            "start": 5000,
+                            "end": 9000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 2000,
+                            "end": 2500
+                        },
+                        {
+                            "start": 4500,
+                            "end": 5000
+                        },
+                        {
+                            "start": 9000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

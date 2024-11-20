@@ -1,0 +1,32 @@
+{
+    "id": "2023-08_improved_bans_page",
+    "label": "Guild Settings Improved Bans Page",
+    "hash": 3768642622,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Guild Settings Improved Bans Page",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

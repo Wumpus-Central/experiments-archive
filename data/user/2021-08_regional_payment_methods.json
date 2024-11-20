@@ -1,0 +1,237 @@
+{
+    "id": "2021-08_regional_payment_methods",
+    "label": "Regional Payment Methods",
+    "hash": 3091068323,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Regional Payment Method for Germany",
+            "config": {
+                "enabledPaymentTypes": [],
+                "forceCountryCode": "DE",
+                "validCountryCodes": [
+                    "DE"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "label": "Regional Payment Method for US",
+            "config": {
+                "enabledPaymentTypes": [
+                    null,
+                    null
+                ],
+                "forceCountryCode": "US",
+                "validCountryCodes": [
+                    "US"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "label": "Regional Payment Method for Brazil",
+            "config": {
+                "enabledPaymentTypes": [],
+                "forceCountryCode": "BR",
+                "validCountryCodes": [
+                    "BR"
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "label": "Regional Payment Method for Turkey",
+            "config": {
+                "enabledPaymentTypes": [],
+                "forceCountryCode": "TR",
+                "validCountryCodes": [
+                    "TR"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "label": "Regional Payment Method for Poland",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "PL",
+                "validCountryCodes": [
+                    "PL"
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "label": "Enable paysafecard",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "DE",
+                "validCountryCodes": [
+                    "BG",
+                    "CZ",
+                    "DK",
+                    "HU",
+                    "RO",
+                    "SE",
+                    "DE"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "label": "Regional Payment Method for Philippines",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "PH",
+                "validCountryCodes": [
+                    "PH"
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "label": "Regional Payment Method for Malaysia",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "MY",
+                "validCountryCodes": [
+                    "MY"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "label": "Regional Payment Method for Vietnam",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "VN",
+                "validCountryCodes": [
+                    "VN"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "label": "Regional Payment Method for Indonesia",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "ID",
+                "validCountryCodes": [
+                    "ID"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "label": "Regional Payment Method for South Korea",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "KR",
+                "validCountryCodes": [
+                    "KR"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "label": "Regional Payment Method for Belgium",
+            "config": {
+                "enabledPaymentTypes": [
+                    null,
+                    null
+                ],
+                "forceCountryCode": "BE",
+                "validCountryCodes": [
+                    "BE"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "label": "Regional Payment Method for Austria",
+            "config": {
+                "enabledPaymentTypes": [
+                    null,
+                    null
+                ],
+                "forceCountryCode": "AT",
+                "validCountryCodes": [
+                    "AT"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "label": "Regional Payment Method for Netherlands",
+            "config": {
+                "enabledPaymentTypes": [
+                    null,
+                    null
+                ],
+                "forceCountryCode": "NL",
+                "validCountryCodes": [
+                    "NL"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "label": "Launch Paysafecard",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "ES",
+                "validCountryCodes": [
+                    "ES",
+                    "IT"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "label": "Launch Cash App",
+            "config": {
+                "enabledPaymentTypes": [
+                    null
+                ],
+                "forceCountryCode": "US",
+                "validCountryCodes": [
+                    "US"
+                ]
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 5,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

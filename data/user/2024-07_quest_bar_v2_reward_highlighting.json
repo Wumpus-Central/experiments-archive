@@ -1,0 +1,56 @@
+{
+    "id": "2024-07_quest_bar_v2_reward_highlighting",
+    "label": "Quest Bar V2 Reward Highlighting",
+    "hash": 3548239607,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false,
+                "variant": 0
+            }
+        },
+        {
+            "id": 1,
+            "label": "Reward Available",
+            "config": {
+                "enabled": true,
+                "variant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Earn a Reward",
+            "config": {
+                "enabled": true,
+                "variant": 2
+            }
+        },
+        {
+            "id": 3,
+            "label": "Earn a Reward!",
+            "config": {
+                "enabled": true,
+                "variant": 3
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

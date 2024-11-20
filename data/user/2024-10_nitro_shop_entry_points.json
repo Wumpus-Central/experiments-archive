@@ -1,0 +1,68 @@
+{
+    "id": "2024-10_nitro_shop_entry_points",
+    "label": "User Profile Nitro Shop Entry Points",
+    "hash": 842501197,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Permanent Entry Points",
+            "config": {
+                "permanentEntryPointsEnabled": true,
+                "dimissibleUpsellsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Dimissible Upsells",
+            "config": {
+                "permanentEntryPointsEnabled": false,
+                "dimissibleUpsellsEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 2000,
+                            "end": 4000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 4000,
+                            "end": 6000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

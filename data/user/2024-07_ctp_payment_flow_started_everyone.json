@@ -1,0 +1,45 @@
+{
+    "id": "2024-07_ctp_payment_flow_started_everyone",
+    "label": "CTP payment flow started - A/A test - Everyone",
+    "hash": 529306240,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

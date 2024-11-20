@@ -1,0 +1,45 @@
+{
+    "id": "2024-07_ctp_open_user_settings_everyone",
+    "label": "CTP open user settings - A/A test - Everyone",
+    "hash": 2882656906,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

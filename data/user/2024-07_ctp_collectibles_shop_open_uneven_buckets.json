@@ -1,0 +1,45 @@
+{
+    "id": "2024-07_ctp_collectibles_shop_open_uneven_buckets",
+    "label": "CTP collectibles shop open - A/A test - Uneven buckets",
+    "hash": 3211810241,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 400
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 400,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": "2024-10_golive_simulcast",
+    "label": "GoLive Simulcast",
+    "hash": 3942584255,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Simulcast @ 1.5Mbps",
+            "config": {
+                "simulcastEnabled": true,
+                "lqStreamBitrate": 1500000
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        },
+                        {
+                            "start": 1000,
+                            "end": 5500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        },
+                        {
+                            "start": 5500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

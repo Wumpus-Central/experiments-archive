@@ -1,0 +1,31 @@
+{
+    "id": "2023-06_unique_username_live_check_in_settings",
+    "label": "Username Livecheck in Settings",
+    "hash": 2698112799,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Livecheck enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

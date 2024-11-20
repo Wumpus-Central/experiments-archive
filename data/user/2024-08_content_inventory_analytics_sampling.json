@@ -1,0 +1,45 @@
+{
+    "id": "2024-08_content_inventory_analytics_sampling",
+    "label": "Content Inventory Analytics Sampling",
+    "hash": 1274464129,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Tracking disabled",
+            "config": {
+                "trackingEnabled": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 90,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

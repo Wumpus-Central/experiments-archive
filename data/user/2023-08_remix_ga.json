@@ -1,0 +1,51 @@
+{
+    "id": "2023-08_remix_ga",
+    "label": "Remix General Available",
+    "hash": 3382036696,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Remix for Nitro Subscribers",
+            "config": {
+                "canSeeRemixBadge": true,
+                "canRemix": true,
+                "isNitroPerk": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Upsell Remix for Non-Nitro Users",
+            "config": {
+                "canSeeRemixBadge": true,
+                "canRemix": false,
+                "isNitroPerk": true
+            }
+        },
+        {
+            "id": 5,
+            "label": "Remix GA for everyone",
+            "config": {
+                "canSeeRemixBadge": true,
+                "canRemix": true,
+                "isNitroPerk": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 5,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

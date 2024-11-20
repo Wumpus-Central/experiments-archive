@@ -1,0 +1,45 @@
+{
+    "id": "2024-07_ctp_open_user_settings_vanilla",
+    "label": "CTP open user settings - A/A test - Vanilla",
+    "hash": 844414773,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

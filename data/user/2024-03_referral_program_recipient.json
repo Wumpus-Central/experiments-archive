@@ -1,0 +1,45 @@
+{
+    "id": "2024-03_referral_program_recipient",
+    "label": "Referral Program Recipient Experience",
+    "hash": 1203883687,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 9500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

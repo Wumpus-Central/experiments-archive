@@ -1,0 +1,65 @@
+{
+    "id": "2022-12_mention_raid_limit",
+    "label": "Automod Mention Raid Limit",
+    "hash": 1318029053,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Automod Mention Raid Limit",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "PARTNERED"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

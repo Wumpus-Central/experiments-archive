@@ -1,0 +1,52 @@
+{
+    "id": "2024-08_open_platform_app_launcher_holdout",
+    "label": "Open Platform App Launcher Holdout",
+    "hash": 154757202,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "clicking activity in voice app launcher -> performs activity action",
+            "config": {
+                "clickOnHomeActivityOpensAppDetail": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "clicking activity in voice app launcher -> opens activity detail page",
+            "config": {
+                "clickOnHomeActivityOpensAppDetail": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

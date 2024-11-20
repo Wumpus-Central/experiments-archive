@@ -1,0 +1,31 @@
+{
+    "id": "2023-04_server_subscriptions_tier_templates_user",
+    "label": "Server Subscriptions Tier Templates",
+    "hash": 4265918989,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable tier templates for user",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

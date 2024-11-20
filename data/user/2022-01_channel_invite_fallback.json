@@ -1,0 +1,6 @@
+{
+    "id": "2022-01_channel_invite_fallback",
+    "label": "Redirect user to valid channel if the user does not have access to the invite channel.",
+    "hash": 2393539652,
+    "kind": "user"
+}

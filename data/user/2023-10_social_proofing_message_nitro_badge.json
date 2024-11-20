@@ -1,0 +1,40 @@
+{
+    "id": "2023-10_social_proofing_message_nitro_badge",
+    "label": "Social Proofing Message Nitro Badge",
+    "hash": 725728798,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Prefer BOTH nitro badge AND role icon(s)",
+            "config": {
+                "enabled": true,
+                "hideNitroBadgeWhenRoleBadgePresent": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Prefer role icon(s) over nitro badge if both are present",
+            "config": {
+                "enabled": true,
+                "hideNitroBadgeWhenRoleBadgePresent": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 3,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 300
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

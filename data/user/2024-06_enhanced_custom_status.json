@@ -1,0 +1,31 @@
+{
+    "id": "2024-06_enhanced_custom_status",
+    "label": "Enhanced Custom Status Experiment",
+    "hash": 3903029744,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 3,
+            "label": "Enables custom status bubble editing in all user profile surfaces",
+            "config": {
+                "customStatusBubbleEditEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

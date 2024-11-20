@@ -1,0 +1,6 @@
+{
+    "id": "2021-03_resoloution_fps_ladder_experiment",
+    "label": "Varies the resolution and bitrate of video senders based on the number of video senders in a call.",
+    "hash": 144783748,
+    "kind": "user"
+}

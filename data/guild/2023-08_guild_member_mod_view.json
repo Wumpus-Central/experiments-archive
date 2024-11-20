@@ -1,0 +1,32 @@
+{
+    "id": "2023-08_guild_member_mod_view",
+    "label": "Guild Member Mod View",
+    "hash": 2342285461,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Guild Member Mod View",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "2023-11_voice_activity_notification_guild",
+    "label": "General Voice Channel Notifications for Guild",
+    "hash": 3997016690,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 2,
+            "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
+            "config": {
+                "voiceChannelActivityNotifsEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 2,
+                        "max": 50
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 80,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 8000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 2,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 8000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

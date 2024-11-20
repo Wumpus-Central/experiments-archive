@@ -1,0 +1,45 @@
+{
+    "id": "2024-10_mobile_video_disable",
+    "label": "Backgrounding Mobile App Disables Incoming Video",
+    "hash": 1715296116,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "stopVideoWhenHidden": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

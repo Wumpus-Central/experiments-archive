@@ -1,0 +1,31 @@
+{
+    "id": "2022-08_churro_experiment",
+    "label": "PS5 Voice Experiment",
+    "hash": 4136574802,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 3,
+            "label": "PS Experiment + upsells + Staging",
+            "config": {
+                "allowPlayStationStaging": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

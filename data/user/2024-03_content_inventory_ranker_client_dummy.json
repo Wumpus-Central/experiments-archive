@@ -1,0 +1,6 @@
+{
+    "id": "2024-03_content_inventory_ranker_client_dummy",
+    "label": "Tracks exposure for which ranker bucket the user is in. This is here to test an exposure bug",
+    "hash": 826622459,
+    "kind": "user"
+}

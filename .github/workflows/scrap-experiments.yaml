@@ -1,0 +1,43 @@
+name: Archive Experiments
+
+on:
+  schedule:
+    - cron: '0,30 14-23,0-5 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v2
+
+      - name: Python Setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./src/requirements.txt
+
+      - name: Run Collector
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          ARCHIVE_URL: ${{ secrets.ARCHIVE_URL }}
+          ROLLOUTS_SRC: ${{ secrets.ROLLOUTS_SRC }}
+        run: |
+          python ./src/main.py
+
+      - name: Update Archive
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.name "Archivizer"
+          git config --global user.email "archivizer@discord.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          git add .
+          git commit -m "Archive Updated" || echo "No changes to commit"
+          git push

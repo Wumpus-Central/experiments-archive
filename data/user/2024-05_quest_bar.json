@@ -1,0 +1,40 @@
+{
+    "id": "2024-05_quest_bar",
+    "label": "Quest Bar",
+    "hash": 4231678187,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Quest Bar V2 with V1 Progress",
+            "config": {
+                "primaryVariant": 1,
+                "progressVariant": 0
+            }
+        },
+        {
+            "id": 2,
+            "label": "Quest Bar V2",
+            "config": {
+                "primaryVariant": 1,
+                "progressVariant": 1
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

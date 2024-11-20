@@ -1,0 +1,45 @@
+{
+    "id": "2024-09_improved_reaction_button",
+    "label": "Improved Reaction Button",
+    "hash": 96191983,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show improved reaction button",
+            "config": {
+                "canShowImprovedReactionButton": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

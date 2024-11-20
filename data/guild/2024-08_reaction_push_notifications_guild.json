@@ -1,0 +1,32 @@
+{
+    "id": "2024-08_reaction_push_notifications_guild",
+    "label": "In App Notifications for Reactions (Guild)",
+    "hash": 3810214821,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable In App Notifications for Reactions",
+            "config": {
+                "enableInAppNotifications": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "2022-07_guild_role_subscriptions_variable_max_tiers",
+    "label": "Guild Role Subscription Max Tiers",
+    "hash": 179711638,
+    "kind": "guild",
+    "treatments": [],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

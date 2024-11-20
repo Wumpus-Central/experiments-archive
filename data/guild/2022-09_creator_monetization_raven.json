@@ -1,0 +1,48 @@
+{
+    "id": "2022-09_creator_monetization_raven",
+    "label": "Creator Monetization Onboarding v2",
+    "hash": 3723449866,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables guild to create Guild Role Subscriptions quickly",
+            "config": {
+                "enableFastMonetizationOnboardingForGuild": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1000,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2000,
+                            "end": 3000
+                        },
+                        {
+                            "start": 3000,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

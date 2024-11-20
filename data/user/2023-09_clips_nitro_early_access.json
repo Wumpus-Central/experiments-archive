@@ -1,0 +1,60 @@
+{
+    "id": "2023-09_clips_nitro_early_access",
+    "label": "Clips (Nitro EA)",
+    "hash": 67524618,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Clips Nitro EA Upsells Visible",
+            "config": {
+                "enableClips": false,
+                "enablePremiumEarlyAccessAnnouncementCoachmark": true,
+                "enablePremiumEarlyAccessGoLiveRoadblock": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Clips Enabled (Nitro)",
+            "config": {
+                "enableClips": true,
+                "enablePremiumEarlyAccessAnnouncementCoachmark": true,
+                "enablePremiumEarlyAccessGoLiveRoadblock": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 7,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 700
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 6,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 400
+                        },
+                        {
+                            "start": 700,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

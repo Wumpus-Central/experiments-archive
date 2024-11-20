@@ -1,0 +1,63 @@
+{
+    "id": "2022-11_default_disable_mass_mention",
+    "label": "Disable mass mentions for communities by default",
+    "hash": 2462216785,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                },
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 5000,
+                        "max": null
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

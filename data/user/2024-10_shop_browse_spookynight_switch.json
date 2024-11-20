@@ -1,0 +1,31 @@
+{
+    "id": "2024-10_shop_browse_spookynight_switch",
+    "label": "Collectibles Shop SpookyNight Switch",
+    "hash": 1624577893,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable spooky night switch for shop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

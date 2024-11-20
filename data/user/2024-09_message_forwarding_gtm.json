@@ -1,0 +1,36 @@
+{
+    "id": "2024-09_message_forwarding_gtm",
+    "label": "Message forwarding GTM",
+    "hash": 1298178098,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "GTM",
+            "config": {
+                "canForwardMessages": true,
+                "hasInlineForwardButton": false,
+                "hasOneTapSendButton": false,
+                "hasMessageInput": true,
+                "hasPreview": true,
+                "useOldIcon": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

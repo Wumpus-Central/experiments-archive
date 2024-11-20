@@ -1,0 +1,68 @@
+{
+    "id": "2024-06_message_bookmarks",
+    "label": "For Later - Bookmarks & Reminders",
+    "hash": 3155441480,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Display in inbox",
+            "config": {
+                "enabled": true,
+                "inInbox": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Display in header bar",
+            "config": {
+                "enabled": true,
+                "inInbox": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

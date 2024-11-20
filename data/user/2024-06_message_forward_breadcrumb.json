@@ -1,0 +1,31 @@
+{
+    "id": "2024-06_message_forward_breadcrumb",
+    "label": "Message forward breadcrumb",
+    "hash": 3302321270,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "No breadcrumb",
+            "config": {
+                "showForwardBreadcrumb": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

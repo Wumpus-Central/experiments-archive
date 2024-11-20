@@ -1,0 +1,92 @@
+{
+    "id": "2024-09_user_app_install_education",
+    "label": "User App Install Education Experiment",
+    "hash": 2283061372,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "show animation on app launcher icon + tooltip when a user app is authorized when in a channel instead of showing auth success modal",
+            "config": {
+                "enabled": true,
+                "showsTooltip": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "show animation on app launcher icon when a user app is authorized when in a channel instead of showing auth success modal",
+            "config": {
+                "enabled": true,
+                "showsTooltip": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 33,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        },
+                        {
+                            "start": 1500,
+                            "end": 2500
+                        },
+                        {
+                            "start": 4500,
+                            "end": 6300
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 33,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        },
+                        {
+                            "start": 2500,
+                            "end": 3500
+                        },
+                        {
+                            "start": 6300,
+                            "end": 8100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 33,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1500
+                        },
+                        {
+                            "start": 3500,
+                            "end": 4500
+                        },
+                        {
+                            "start": 8100,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

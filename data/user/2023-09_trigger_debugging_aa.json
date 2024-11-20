@@ -1,0 +1,49 @@
+{
+    "id": "2023-09_trigger_debugging_aa",
+    "label": "trigger debugging aa mobile",
+    "hash": 1454135605,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "inUse": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 6,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 600
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 200
+                        },
+                        {
+                            "start": 600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

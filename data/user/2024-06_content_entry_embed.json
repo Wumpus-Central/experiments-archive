@@ -1,0 +1,31 @@
+{
+    "id": "2024-06_content_entry_embed",
+    "label": "Content Inventory Embed",
+    "hash": 1466873010,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

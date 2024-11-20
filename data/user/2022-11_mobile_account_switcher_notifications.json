@@ -1,0 +1,31 @@
+{
+    "id": "2022-11_mobile_account_switcher_notifications",
+    "label": "Mobile Account Switcher: Notifications",
+    "hash": 1333727,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable notifications for multiple accounts",
+            "config": {
+                "isMultiAccountMobileNotificationsEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

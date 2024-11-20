@@ -1,0 +1,49 @@
+{
+    "id": "2024-03_krisp_sentiment",
+    "label": "override krisp setting",
+    "hash": 2156584863,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Force enable krisp",
+            "config": {
+                "shouldOverrideKrisp": true,
+                "overrideKrispSetting": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Force disable krisp",
+            "config": {
+                "shouldOverrideKrisp": true,
+                "overrideKrispSetting": false
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 1,
+                        "max": 200
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

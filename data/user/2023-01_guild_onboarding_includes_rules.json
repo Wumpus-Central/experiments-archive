@@ -1,0 +1,31 @@
+{
+    "id": "2023-01_guild_onboarding_includes_rules",
+    "label": "Guild Onboarding includes rules experience",
+    "hash": 987713133,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Last page of onboarding is rules",
+            "config": {
+                "includeRules": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

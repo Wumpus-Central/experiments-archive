@@ -1,0 +1,31 @@
+{
+    "id": "2023-04_guild_media_channel_post_preview_embed_users",
+    "label": "Guild Role Subscription Users",
+    "hash": 288968706,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables for users Guild Media Post Preview Embeds",
+            "config": {
+                "enabledForUser": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

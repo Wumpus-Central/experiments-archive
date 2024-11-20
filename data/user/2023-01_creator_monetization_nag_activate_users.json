@@ -1,0 +1,31 @@
+{
+    "id": "2023-01_creator_monetization_nag_activate_users",
+    "label": "Creator Monetization Nag Activate Users",
+    "hash": 3029387945,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables users to see nag bar to activate server subscriptions",
+            "config": {
+                "enableCreatorMonetizationNagActivateForUser": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

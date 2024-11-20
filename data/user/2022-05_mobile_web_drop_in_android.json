@@ -1,0 +1,6 @@
+{
+    "id": "2022-05_mobile_web_drop_in_android",
+    "label": "Drop users into mobile web after registration instead of deep-linking to the app/store. Enabled for Android only.",
+    "hash": 3510685252,
+    "kind": "user"
+}

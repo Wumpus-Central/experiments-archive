@@ -1,0 +1,84 @@
+{
+    "id": "2024-08_reaction_push_notifications_user",
+    "label": "In App Notifications for Reactions",
+    "hash": 939840210,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable In App Notifications for Reactions (First Reaction)",
+            "config": {
+                "enableInAppNotifications": true,
+                "enableNotificationsForAllReactions": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable In App Notifications for Reactions (All Reactions)",
+            "config": {
+                "enableInAppNotifications": true,
+                "enableNotificationsForAllReactions": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enable In App Notifications for Reactions (All Reactions)",
+            "config": {
+                "enableInAppNotifications": true,
+                "enableNotificationsForAllReactions": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 8,
+                    "ranges": [
+                        {
+                            "start": 7900,
+                            "end": 8300
+                        },
+                        {
+                            "start": 9100,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 8,
+                    "ranges": [
+                        {
+                            "start": 8300,
+                            "end": 8700
+                        },
+                        {
+                            "start": 9200,
+                            "end": 9600
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 8700,
+                            "end": 9700
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

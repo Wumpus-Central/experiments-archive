@@ -1,0 +1,45 @@
+{
+    "id": "2024-08_soundboard_refresh",
+    "label": "Soundboard UI Refresh",
+    "hash": 670930559,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the updated soundboard picker UI",
+            "config": {
+                "refreshEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 80,
+                    "ranges": [
+                        {
+                            "start": 2000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

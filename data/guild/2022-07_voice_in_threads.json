@@ -1,0 +1,41 @@
+{
+    "id": "2022-07_voice_in_threads",
+    "label": "Voice in Threads",
+    "hash": 944104242,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "VOICE_IN_THREADS"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "2024-08_toggle_soundshare_menu_experiment",
+    "label": "Toggle soundshare from stream settings menu",
+    "hash": 3853396589,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

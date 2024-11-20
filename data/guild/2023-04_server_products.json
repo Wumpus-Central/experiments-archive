@@ -1,0 +1,127 @@
+{
+    "id": "2023-04_server_products",
+    "label": "Server Products",
+    "hash": 2236798974,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables Server Products (AKA one time purchases for creator guilds)",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "GUILD_PRODUCTS"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 1000,
+                        "max": 100000
+                    }
+                },
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1000,
+                            "end": 2500
+                        },
+                        {
+                            "start": 2500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1000,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

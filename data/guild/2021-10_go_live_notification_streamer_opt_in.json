@@ -1,0 +1,6 @@
+{
+    "id": "2021-10_go_live_notification_streamer_opt_in",
+    "label": "Allow streamer in the guild to opt-in to notifying their friends",
+    "hash": 1946589843,
+    "kind": "guild"
+}

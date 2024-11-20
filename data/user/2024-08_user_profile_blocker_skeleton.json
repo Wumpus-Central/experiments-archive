@@ -1,0 +1,57 @@
+{
+    "id": "2024-08_user_profile_blocker_skeleton",
+    "label": "User Profile Blocker Skeleton",
+    "hash": 2213424224,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable User Profile Blocker Skeleton",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 11,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 600
+                        },
+                        {
+                            "start": 1000,
+                            "end": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 200
+                        },
+                        {
+                            "start": 600,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1500,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

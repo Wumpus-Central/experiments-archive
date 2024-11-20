@@ -1,0 +1,70 @@
+{
+    "id": "2024-08_reaction_frecency_algorithms",
+    "label": "Reaction Frecency Algorithms",
+    "hash": 92152290,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Stable algorithm with no hover bar",
+            "config": {
+                "frecencyAlgorithm": "safe",
+                "canShowReactionsOnMessageHover": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Volatile algorithm with no hover bar",
+            "config": {
+                "frecencyAlgorithm": "day_recency",
+                "canShowReactionsOnMessageHover": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Stable algorithm with hover bar",
+            "config": {
+                "frecencyAlgorithm": "safe",
+                "canShowReactionsOnMessageHover": true
+            }
+        },
+        {
+            "id": 4,
+            "label": "Volatile algorithm with hover bar",
+            "config": {
+                "frecencyAlgorithm": "day_recency",
+                "canShowReactionsOnMessageHover": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 9500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 9500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

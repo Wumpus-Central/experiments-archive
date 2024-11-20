@@ -1,0 +1,31 @@
+{
+    "id": "2024-01_safety_hub_display_guild_violations",
+    "label": "Safety Hub Display Guild Violations",
+    "hash": 1136043234,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Display guild violations in account standing",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

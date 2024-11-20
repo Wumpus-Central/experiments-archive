@@ -1,0 +1,6 @@
+{
+    "id": "2021-08_max_sync_delay",
+    "label": "Overrides the default max sync delay for AV streams in WebRTC",
+    "hash": 578035700,
+    "kind": "user"
+}

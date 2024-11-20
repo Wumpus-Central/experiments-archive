@@ -1,0 +1,53 @@
+{
+    "id": "2021-11_hub_events",
+    "label": "Hub Events",
+    "hash": 1107510295,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show Hub Events List",
+            "config": {
+                "showHubEventsList": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 4148745523,
+                    "data": {
+                        "hubTypes": [
+                            2
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 3333
+                        },
+                        {
+                            "start": 3333,
+                            "end": 6666
+                        },
+                        {
+                            "start": 6666,
+                            "end": 9999
+                        },
+                        {
+                            "start": 9999,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "2024-07_contextual_image_recs_user",
+    "label": "Contextual Image Recommendations",
+    "hash": 2916972233,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the Contextual Image Recommendations with options",
+            "config": {
+                "imageRecsEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

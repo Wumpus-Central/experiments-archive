@@ -1,0 +1,49 @@
+{
+    "id": "2024-03_clickstream_analytics",
+    "label": "Clickstream Analytics",
+    "hash": 937474337,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Clickstream Analytics",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 13,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1300
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 12,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 600
+                        },
+                        {
+                            "start": 1300,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

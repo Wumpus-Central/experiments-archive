@@ -1,0 +1,55 @@
+{
+    "id": "2023-02_onboardingdropdowns",
+    "label": "Enables dropdown selections from onboarding prompts",
+    "hash": 3884904940,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "dropdownsAllowed": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2294888943,
+                    "data": {
+                        "hashKey": 3884904940,
+                        "percentage": 10000
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

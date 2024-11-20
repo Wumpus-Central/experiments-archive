@@ -1,0 +1,65 @@
+{
+    "id": "2023-01_shared_canvas",
+    "label": "Shared Canvas",
+    "hash": 280866660,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Shared Canvas",
+            "config": {
+                "isSharedCanvasEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "SHARED_CANVAS_FRIENDS_AND_FAMILY_TEST"
+                        ]
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

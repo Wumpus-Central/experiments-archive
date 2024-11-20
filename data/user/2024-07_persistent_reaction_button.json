@@ -1,0 +1,31 @@
+{
+    "id": "2024-07_persistent_reaction_button",
+    "label": "Persistent Reaction Button (Desktop)",
+    "hash": 1940896451,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show the reaction button next to message reactions on Desktop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

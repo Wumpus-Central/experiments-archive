@@ -1,0 +1,87 @@
+{
+    "id": "2024-04_gdm_presence",
+    "label": "Group DM Presence",
+    "hash": 2244369299,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Status Indicator Only",
+            "config": {
+                "isFacepileEnabled": false,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Typing Indicator Only",
+            "config": {
+                "isFacepileEnabled": false,
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Status Indicator + Typing Indicator",
+            "config": {
+                "isFacepileEnabled": false,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": true
+            }
+        },
+        {
+            "id": 4,
+            "label": "Facepile Only",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": false
+            }
+        },
+        {
+            "id": 5,
+            "label": "Facepile + Status Indicator",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": false
+            }
+        },
+        {
+            "id": 6,
+            "label": "Facepile + Typing Indicator",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": true
+            }
+        },
+        {
+            "id": 7,
+            "label": "Facepile + Typing Indicator + Status Indicator",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 7,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

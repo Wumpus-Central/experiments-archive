@@ -1,0 +1,31 @@
+{
+    "id": "2024-03_nitro_tenure_reward_card",
+    "label": "Nitro Tenure Reward Card",
+    "hash": 2962984975,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables the nitro tenure reward card for users",
+            "config": {
+                "enableNitroTenureRewardCard": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "2024-09_rustadm",
+    "label": "Rust Audio Device Manager",
+    "hash": 4226263373,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Automatic is Rust ADM",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 3500,
+                            "end": 4000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 4000,
+                            "end": 4500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

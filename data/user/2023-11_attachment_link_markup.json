@@ -1,0 +1,38 @@
+{
+    "id": "2023-11_attachment_link_markup",
+    "label": "Attachment Link Config User Experiment",
+    "hash": 1894288113,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Shows links to attachments as regular links",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Shows links to attachments as \"mentions\" of the filename",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

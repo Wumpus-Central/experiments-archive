@@ -1,0 +1,6 @@
+{
+    "id": "2022-08_application_command_forced_migration",
+    "label": "Run Commands scope migration then show upsell to enable disabled integrations",
+    "hash": 43837900,
+    "kind": "guild"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "2022-11_creator_monetization_onboarding_waitlist",
+    "label": "Creator Monetization Onboarding Waitlist",
+    "hash": 987884927,
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables Guilds to (possibly) see the waitlist",
+            "config": {
+                "enableWaitlist": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2294888943,
+                    "data": {
+                        "hashKey": 987884927,
+                        "percentage": 10000
+                    }
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

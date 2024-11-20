@@ -1,0 +1,6 @@
+{
+    "id": "2021-03_contact_sync_existing_user_prompt_phone_only",
+    "label": "Contact sync: show existing users with a phone number a prompt to get them to contact sync",
+    "hash": 4224229301,
+    "kind": "user"
+}

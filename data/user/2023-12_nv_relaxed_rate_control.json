@@ -1,0 +1,45 @@
+{
+    "id": "2023-12_nv_relaxed_rate_control",
+    "label": "Alternative rate control proposal for Nvidia encoder",
+    "hash": 3216770283,
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "250 ms",
+            "config": {
+                "nvMediumVbvSizeMs": 250
+            }
+        },
+        {
+            "id": 2,
+            "label": "500 ms",
+            "config": {
+                "nvMediumVbvSizeMs": 500
+            }
+        },
+        {
+            "id": 3,
+            "label": "1000 ms",
+            "config": {
+                "nvMediumVbvSizeMs": 1000
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
