@@ -2,5 +2,44 @@
     "id": "2024-11_nitro_tenure_rewards_collectible",
     "label": "Nitro Tenure Reward Collectible",
     "hash": 369847441,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables nitro tenure reward collectible for the user",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 15,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 14,
+                    "ranges": [
+                        {
+                            "start": 1600,
+                            "end": 3000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

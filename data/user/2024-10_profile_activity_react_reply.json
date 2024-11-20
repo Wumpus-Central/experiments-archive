@@ -57,8 +57,8 @@
                     "percentage": 5,
                     "ranges": [
                         {
-                            "start": 9500,
-                            "end": 10000
+                            "start": 8000,
+                            "end": 8500
                         }
                     ]
                 }
