@@ -14086,10 +14086,14 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 46,
                         "ranges": [
                             {
                                 "start": 100,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1300,
                                 "end": 5000
                             }
                         ]
@@ -18662,11 +18666,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 50,
+                        "percentage": 75,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 5000
+                                "end": 7500
                             }
                         ]
                     }
@@ -21661,11 +21665,19 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 50,
+                        "percentage": 53,
                         "ranges": [
                             {
                                 "start": 0,
                                 "end": 5000
+                            },
+                            {
+                                "start": 5400,
+                                "end": 5500
+                            },
+                            {
+                                "start": 5900,
+                                "end": 6100
                             }
                         ]
                     }
@@ -22673,10 +22685,10 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 14,
+                        "percentage": 15,
                         "ranges": [
                             {
-                                "start": 1600,
+                                "start": 1500,
                                 "end": 3000
                             }
                         ]
