@@ -7682,64 +7682,7 @@
         "id": "2022-11_default_to_server_vanity_v2",
         "label": "Default To Server Vanity v2",
         "hash": 2507971540,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 2507971540,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 9000
-                            },
-                            {
-                                "start": 9000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2022-11_desktop_notification_center",
@@ -14143,11 +14086,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 48,
+                        "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 4800
+                                "start": 100,
+                                "end": 5000
                             }
                         ]
                     }
@@ -18719,11 +18662,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 25,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 2500
+                                "end": 5000
                             }
                         ]
                     }
