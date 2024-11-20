@@ -1,0 +1,80 @@
+:root {
+    background-color: #31353a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: #1a1c1f;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0 25px;
+    height: 70px;
+}
+
+body {
+    margin-top: 70px;
+    margin-left: 320px;
+    color: white;
+}
+
+.header-m10al1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navButtonsContainer-81ma01 {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navButton-19am1a {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.navButton-19am1a:hover {
+    background-color: #25282b;
+}
+
+.selectorContainer-18alma {
+    background-color: #26292e;
+    position: fixed;
+    height: 100%;
+    width: 320px;
+    left: 0;
+}
+
+.selectorNavigatorItems-19mal1 {
+    list-style-type: none;
+    width: 100%;
+    left: 0;
+    padding: 0;
+}
+
+.selectorNavigatorItems-19mal1>li {
+    height: 24px;
+    color: white;
+}
+
+.selectorNavigatorItems-19mal1>li>a {
+    display: flex;
+    text-decoration: none; 
+    color: inherit;
+}
+
+.selectorNavigatorItems-19mal1>li:hover {
+    background-color: gray;
+    border-radius: 4px;
+}
