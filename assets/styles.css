@@ -1,32 +1,35 @@
 :root {
-    background-color: #31353a;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav {
-    position: fixed;
-    background-color: #1a1c1f;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    padding: 0 25px;
-    height: 70px;
+    --background-color: #31353a;
+    --nav-bg-color: #1a1c1f;
+    --nav-hover-color: #25282b;
+    --text-color: white;
+    --font-family: Arial, Helvetica, sans-serif;
+    --nav-height: 70px;
+    --nav-padding-x: 25px;
 }
 
 body {
-    margin-top: 70px;
-    margin-left: 320px;
-    color: white;
+    margin: 0;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    background-color: var(--background-color);
 }
 
-.header-m10al1 {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--nav-bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    padding: 0 var(--nav-padding-x);
+    z-index: 10;
 }
 
-.navButtonsContainer-81ma01 {
+header .navButtonsContainer {
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -34,47 +37,33 @@ body {
     height: 100%;
 }
 
-.navButton-19am1a {
+header .navButton {
     display: flex;
-    color: white;
+    color: var(--text-color);
     align-items: center;
     justify-content: center;
     text-decoration: none;
     height: 100%;
     padding: 0 15px;
+    transition: background-color 0.33s ease;
 }
 
-.navButton-19am1a:hover {
-    background-color: #25282b;
+header .navButton:hover {
+    background-color: var(--nav-hover-color);
 }
 
-.selectorContainer-18alma {
-    background-color: #26292e;
-    position: fixed;
-    height: 100%;
-    width: 320px;
-    left: 0;
+body {
+    margin-top: var(--nav-height);
 }
 
-.selectorNavigatorItems-19mal1 {
-    list-style-type: none;
-    width: 100%;
-    left: 0;
-    padding: 0;
-}
+@media (max-width: 768px) {
+    header .navButtonsContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.selectorNavigatorItems-19mal1>li {
-    height: 24px;
-    color: white;
-}
-
-.selectorNavigatorItems-19mal1>li>a {
-    display: flex;
-    text-decoration: none; 
-    color: inherit;
-}
-
-.selectorNavigatorItems-19mal1>li:hover {
-    background-color: gray;
-    border-radius: 4px;
+    header .navButton {
+        width: 100%;
+        padding: 10px 20px;
+    }
 }
