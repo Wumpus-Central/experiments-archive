@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    margin-top: var(--nav-height);
     color: var(--text-color);
     font-family: var(--font-family);
     background-color: var(--background-color);
@@ -52,8 +53,9 @@ header .navButton:hover {
     background-color: var(--nav-hover-color);
 }
 
-body {
-    margin-top: var(--nav-height);
+header .logo img {
+    height: 50px;
+    image-rendering: auto;
 }
 
 @media (max-width: 768px) {
