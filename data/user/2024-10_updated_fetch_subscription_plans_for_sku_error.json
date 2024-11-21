@@ -2,5 +2,30 @@
     "id": "2024-10_updated_fetch_subscription_plans_for_sku_error",
     "label": "Updated Fetch Subscription Plans For SKU Error",
     "hash": 1907997422,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable updated error throwing",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

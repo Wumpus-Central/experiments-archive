@@ -14086,14 +14086,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 46,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 1000
-                            },
-                            {
-                                "start": 1300,
+                                "start": 0,
                                 "end": 5000
                             }
                         ]
@@ -21665,19 +21661,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 53,
+                        "percentage": 75,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5400,
-                                "end": 5500
-                            },
-                            {
-                                "start": 5900,
-                                "end": 6100
+                                "end": 7500
                             }
                         ]
                     }
@@ -22271,32 +22259,7 @@
         "id": "2024-10_shop_browse_spookynight_switch",
         "label": "Collectibles Shop SpookyNight Switch",
         "hash": 1624577893,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable spooky night switch for shop",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_shop_tile_impression_logging",
@@ -22444,7 +22407,32 @@
         "id": "2024-10_updated_fetch_subscription_plans_for_sku_error",
         "label": "Updated Fetch Subscription Plans For SKU Error",
         "hash": 1907997422,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enable updated error throwing",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-10_user_profile_panel_recent_activity",
