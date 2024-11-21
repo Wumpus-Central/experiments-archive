@@ -58,6 +58,34 @@ header .logo img {
     image-rendering: auto;
 }
 
+.bodyNavButtonsContainer {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bodyNavButton {
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(27, 28, 31);
+    margin-bottom: 20px;
+    min-height: 45px;
+    border-radius: 6px;
+}
+
+.bodyNavButton img {
+    margin-left: 10px;
+}
+
+.bodyNavButtonText {
+    color: white;
+    font-weight: bold;
+    vertical-align: center;
+    margin-left: 15px;
+}
+
 @media (max-width: 768px) {
     header .navButtonsContainer {
         flex-direction: column;
