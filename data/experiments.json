@@ -14086,10 +14086,14 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 47,
                         "ranges": [
                             {
-                                "start": 100,
+                                "start": 0,
+                                "end": 2300
+                            },
+                            {
+                                "start": 2600,
                                 "end": 5000
                             }
                         ]
@@ -18662,11 +18666,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 75,
+                        "percentage": 100,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 7500
+                                "end": 10000
                             }
                         ]
                     }
@@ -21044,7 +21048,53 @@
         "id": "2024-09_hd_streaming_potion",
         "label": "Consumable HD Streaming Experiment",
         "hash": 963601694,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 0,
+                "label": "Control",
+                "config": {
+                    "enabled": false
+                }
+            },
+            {
+                "id": 1,
+                "label": "Treatment",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_improved_reaction_button",
@@ -22606,7 +22656,66 @@
         "id": "2024-11_activity_popout_window",
         "label": "Activity Popout Window Experiment",
         "hash": 4090186469,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enable activity popout window",
+                "config": {
+                    "enabled": true,
+                    "enableOverlayInActivityPopoutWindow": false,
+                    "enableGoLiveFromActivityCard": false
+                }
+            },
+            {
+                "id": 2,
+                "label": "Enable activity popout window with overlay",
+                "config": {
+                    "enabled": true,
+                    "enableOverlayInActivityPopoutWindow": true,
+                    "enableGoLiveFromActivityCard": false
+                }
+            },
+            {
+                "id": 3,
+                "label": "Enable activity popout window with overlay and GoLive from activity card",
+                "config": {
+                    "enabled": true,
+                    "enableOverlayInActivityPopoutWindow": true,
+                    "enableGoLiveFromActivityCard": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-11_android_call_notifications",

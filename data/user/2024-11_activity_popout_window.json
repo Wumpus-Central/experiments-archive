@@ -2,5 +2,64 @@
     "id": "2024-11_activity_popout_window",
     "label": "Activity Popout Window Experiment",
     "hash": 4090186469,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable activity popout window",
+            "config": {
+                "enabled": true,
+                "enableOverlayInActivityPopoutWindow": false,
+                "enableGoLiveFromActivityCard": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable activity popout window with overlay",
+            "config": {
+                "enabled": true,
+                "enableOverlayInActivityPopoutWindow": true,
+                "enableGoLiveFromActivityCard": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enable activity popout window with overlay and GoLive from activity card",
+            "config": {
+                "enabled": true,
+                "enableOverlayInActivityPopoutWindow": true,
+                "enableGoLiveFromActivityCard": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 200
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
