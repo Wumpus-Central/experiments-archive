@@ -2,6 +2,8 @@
     --background-color: #31353a;
     --nav-bg-color: #1a1c1f;
     --nav-hover-color: #25282b;
+    --app-element-bg-color: #1b1c1f;
+    --app-element-bg-color-hover: #1c1d20;
     --text-color: white;
     --font-family: Arial, Helvetica, sans-serif;
     --nav-height: 70px;
@@ -69,10 +71,15 @@ header .logo img {
     display: flex;
     align-items: center;
     text-decoration: none;
-    background-color: rgb(27, 28, 31);
+    background-color: var(--app-element-bg-color);
     margin-bottom: 20px;
     min-height: 60px;
     border-radius: 6px;
+}
+
+.bodyNavButton:hover {
+    background-color: var(--app-element-bg-color-hover);
+    transition: background-color 0.33s ease;
 }
 
 .bodyNavButton img {
