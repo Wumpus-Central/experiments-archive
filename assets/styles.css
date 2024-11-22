@@ -55,8 +55,8 @@ header .navButton:hover {
 }
 
 header .logo img {
-    height: 50px;
     image-rendering: auto;
+    height: 50px;
 }
 
 .bodyNavButtonsContainer {
@@ -103,6 +103,31 @@ ul.bodyNavButtonsContainer li:last-child {
     margin-left: 15px;
 }
 
+.experimentsListContainer {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.experimentsListContainer ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 400px));
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.experimentsListItem {
+    list-style-type: none;
+    background-color: var(--app-element-bg-color);
+    min-width: 400px;
+    max-width: 400px;
+}
+
 @media (max-width: 768px) {
     header ul.navButtonsContainer {
         overflow-x: auto;
@@ -110,5 +135,9 @@ ul.bodyNavButtonsContainer li:last-child {
 
     header .navButtonsContainer {
         padding: 0 10px;
+    }
+
+    .experimentsListContainer ul {
+        grid-template-columns: repeat(1, minmax(400px, 400px));
     }
 }
