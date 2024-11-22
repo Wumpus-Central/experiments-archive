@@ -6,10 +6,10 @@ function buildList(kind) {
 
     const ul = document.createElement("ul");
 
-    for (let i = 1; i <= 7; i++) {
+    for (let i = 1; i <= 11; i++) {
         const li = document.createElement("li");
         li.className = "experimentsListItem"
-        li.textContent = `Typ ${kind}, id ${i}`;
+        li.textContent = `${kind}_${i}`;
         ul.appendChild(li);
     }
 
