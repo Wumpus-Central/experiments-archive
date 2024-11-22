@@ -114,19 +114,20 @@ ul.bodyNavButtonsContainer li:last-child {
 
 .experimentsListContainer ul {
     display: grid;
-    grid-template-columns: repeat(2, minmax(400px, 400px));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
-
 
 .experimentsListItem {
     list-style-type: none;
     background-color: var(--app-element-bg-color);
-    min-width: 400px;
-    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
 }
+
 
 @media (max-width: 768px) {
     header ul.navButtonsContainer {
@@ -138,6 +139,6 @@ ul.bodyNavButtonsContainer li:last-child {
     }
 
     .experimentsListContainer ul {
-        grid-template-columns: repeat(1, minmax(400px, 400px));
+        grid-template-columns: repeat(1, 1fr);
     }
 }
