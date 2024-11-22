@@ -14086,11 +14086,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 48,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 4900
+                                "start": 0,
+                                "end": 5000
                             }
                         ]
                     }
@@ -22496,91 +22496,13 @@
         "id": "2024-10_user_profile_panel_recent_activity",
         "label": "User Profile Panel Recent Activity",
         "hash": 686077637,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Recent activity in user profile panels enabled",
-                "config": {
-                    "recentActivityEnabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 3600,
-                                "end": 4100
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 4100,
-                                "end": 4600
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_user_profile_panel_recent_activity_status",
         "label": "User Profile Panel Recent Activity Status",
         "hash": 2843610715,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Recent activity in user profile panels and status in private channels list enabled",
-                "config": {
-                    "recentActivityStatusEnabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 4600,
-                                "end": 5100
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 5100,
-                                "end": 5600
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_voice_icon_states",
@@ -22699,11 +22621,15 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 11,
+                        "percentage": 21,
                         "ranges": [
                             {
                                 "start": 0,
                                 "end": 1100
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3000
                             }
                         ]
                     }
@@ -22713,7 +22639,7 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 10,
+                        "percentage": 20,
                         "ranges": [
                             {
                                 "start": 100,
@@ -22722,6 +22648,10 @@
                             {
                                 "start": 1100,
                                 "end": 2000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 4000
                             }
                         ]
                     }
