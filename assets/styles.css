@@ -62,17 +62,24 @@ header .logo img {
 .bodyNavButtonsContainer {
     list-style-type: none;
     padding: 0px;
-    margin-top: 90px;
+    padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.bodyNavButtonsContainer li {
+    margin-bottom: 20px;
+}
+
+ul.bodyNavButtonsContainer li:last-child {
+    margin-bottom: 0;
+  }
 
 .bodyNavButton {
     display: flex;
     align-items: center;
     text-decoration: none;
     background-color: var(--app-element-bg-color);
-    margin-bottom: 20px;
     min-height: 60px;
     border-radius: 6px;
 }
@@ -89,9 +96,10 @@ header .logo img {
 }
 
 .bodyNavButtonText {
+    margin: 0;
+    display: flex;
     color: white;
     font-weight: bold;
-    vertical-align: center;
     margin-left: 15px;
 }
 
