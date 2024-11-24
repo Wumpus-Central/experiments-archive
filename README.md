@@ -1,12 +1,5 @@
 ## Experiments Archive
-Part of the of the https://wumpus-central.github.io/ website
+Part of the of the https://wumpus-central.github.io/experiments/ website
 
-Biggest existing public Discord experiments database with rollouts.
-Comparing to other popular experiments services, our database includes:
-* User experiments rollouts
-* Marketing experiments
-* Archived removed experiments.
-* Experiments hidden in API
-* Mobile experiments (soon:tm:)
-* Devportal experiments (soon:tm:)
-* Experiments details documentation created by Wumpus Central team.
+### Credits & Outsources
+* Experiments Archive: [XYZenix](https://github.com/XYZenix) - [gist](https://gist.github.com/XYZenix/95de40ff80091c0ff7b0cfd610bd10d7)
