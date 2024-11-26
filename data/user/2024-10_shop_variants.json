@@ -2,5 +2,44 @@
     "id": "2024-10_shop_variants",
     "label": "Shop Variants Experiment",
     "hash": 2849820511,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Return Variants as Group",
+            "config": {
+                "variantsReturnStyle": null
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

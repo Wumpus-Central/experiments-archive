@@ -14086,10 +14086,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
+                                "start": 100,
                                 "end": 5000
                             }
                         ]
@@ -21044,65 +21044,7 @@
         "id": "2024-09_hd_streaming_potion",
         "label": "Consumable HD Streaming Experiment",
         "hash": 963601694,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 0,
-                "label": "Control",
-                "config": {
-                    "enabled": false
-                }
-            },
-            {
-                "id": 1,
-                "label": "Treatment",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 11,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 600
-                            },
-                            {
-                                "start": 1000,
-                                "end": 1500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 100,
-                                "end": 200
-                            },
-                            {
-                                "start": 600,
-                                "end": 1000
-                            },
-                            {
-                                "start": 1500,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-09_improved_reaction_button",
@@ -22360,7 +22302,46 @@
         "id": "2024-10_shop_variants",
         "label": "Shop Variants Experiment",
         "hash": 2849820511,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Return Variants as Group",
+                "config": {
+                    "variantsReturnStyle": null
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-10_stealth_remediation",
