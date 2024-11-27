@@ -16985,11 +16985,11 @@
                 "rollout": [
                     {
                         "treatment": 3,
-                        "percentage": 95,
+                        "percentage": 100,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 9500
+                                "end": 10000
                             }
                         ]
                     }
