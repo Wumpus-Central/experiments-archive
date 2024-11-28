@@ -14086,14 +14086,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 46,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 2700
-                            },
-                            {
-                                "start": 3000,
+                                "start": 0,
                                 "end": 5000
                             }
                         ]
@@ -16974,32 +16970,7 @@
         "id": "2024-06_enhanced_custom_status",
         "label": "Enhanced Custom Status Experiment",
         "hash": 3903029744,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 3,
-                "label": "Enables custom status bubble editing in all user profile surfaces",
-                "config": {
-                    "customStatusBubbleEditEnabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 3,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-06_fastest_list",
