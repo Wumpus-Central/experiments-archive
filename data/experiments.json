@@ -14086,10 +14086,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
+                                "start": 100,
                                 "end": 5000
                             }
                         ]
@@ -19671,81 +19671,7 @@
         "id": "2024-08_friend_anniversaries",
         "label": "Friend Anniversaries",
         "hash": 1006930170,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Friend anniversaries enabled with text CTA",
-                "config": {
-                    "enabled": true,
-                    "enableEmojiCTA": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "Friend anniversaries enabled with emoji CTA",
-                "config": {
-                    "enabled": true,
-                    "enableEmojiCTA": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            },
-                            {
-                                "start": 1500,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            },
-                            {
-                                "start": 2000,
-                                "end": 2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 1000,
-                                "end": 1500
-                            },
-                            {
-                                "start": 2500,
-                                "end": 3000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_game_follow_survey",
@@ -21876,20 +21802,6 @@
             {
                 "rollout": [
                     {
-                        "treatment": 0,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
                         "treatment": 1,
                         "percentage": 100,
                         "ranges": [
@@ -22495,10 +22407,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 30,
+                        "percentage": 100,
                         "ranges": [
                             {
-                                "start": 7000,
+                                "start": 0,
                                 "end": 10000
                             }
                         ]
