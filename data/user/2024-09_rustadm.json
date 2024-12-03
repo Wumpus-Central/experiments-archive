@@ -6,7 +6,14 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Automatic is Rust ADM",
+            "label": "Automatic is Rust ADM (previous cohort)",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Automatic is Rust ADM (new stats slice)",
             "config": {
                 "enabled": true
             }
