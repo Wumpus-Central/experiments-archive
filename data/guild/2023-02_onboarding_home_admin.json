@@ -2,58 +2,5 @@
     "id": "2023-02_onboarding_home_admin",
     "label": "[ADMIN] Home as a community onboarding surface",
     "hash": 748249793,
-    "kind": "guild",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show the Onboarding Version of Home in Admin Settings",
-            "config": {
-                "homeSettingsEnabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2294888943,
-                    "data": {
-                        "hashKey": 748249793,
-                        "percentage": 10000
-                    }
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5000
-                        },
-                        {
-                            "start": 5000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filters": [],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "guild"
 }

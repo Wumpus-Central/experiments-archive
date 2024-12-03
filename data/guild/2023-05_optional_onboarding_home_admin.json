@@ -2,54 +2,5 @@
     "id": "2023-05_optional_onboarding_home_admin",
     "label": "[ADMIN] Make server guide optional",
     "hash": 695300504,
-    "kind": "guild",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Optional",
-            "config": {
-                "serverGuideOptional": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2294888943,
-                    "data": {
-                        "hashKey": 695300504,
-                        "percentage": 10000
-                    }
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filters": [],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "guild"
 }
