@@ -14086,10 +14086,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 48,
                         "ranges": [
                             {
-                                "start": 0,
+                                "start": 200,
                                 "end": 5000
                             }
                         ]
@@ -20871,7 +20871,65 @@
         "id": "2024-09_hd_streaming_potion",
         "label": "Consumable HD Streaming Experiment",
         "hash": 963601694,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 0,
+                "label": "Control",
+                "config": {
+                    "enabled": false
+                }
+            },
+            {
+                "id": 1,
+                "label": "Treatment",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 11,
+                        "ranges": [
+                            {
+                                "start": 2000,
+                                "end": 2600
+                            },
+                            {
+                                "start": 3000,
+                                "end": 3500
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 2100,
+                                "end": 2200
+                            },
+                            {
+                                "start": 2600,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3500,
+                                "end": 4000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_improved_reaction_button",
