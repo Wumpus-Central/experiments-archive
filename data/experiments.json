@@ -13984,11 +13984,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 48,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 4900
+                                "start": 0,
+                                "end": 5000
                             }
                         ]
                     }
@@ -15023,32 +15023,7 @@
         "id": "2024-04_content_inventory_listened_media",
         "label": "Content Inventory: LISTENED_MEDIA",
         "hash": 1355948205,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-04_content_inventory_voice_enrichments",
