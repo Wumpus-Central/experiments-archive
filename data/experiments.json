@@ -13984,11 +13984,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 49,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 5000
+                                "end": 4900
                             }
                         ]
                     }
@@ -22322,7 +22322,55 @@
         "id": "2024-11_checkout_optimization_browser_autofill_global",
         "label": "Checkout Optimization Browser Autofill Global",
         "hash": 402972005,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enabled",
+                "config": {
+                    "enabled": true,
+                    "delay": false
+                }
+            },
+            {
+                "id": 2,
+                "label": "Enabled with delay",
+                "config": {
+                    "enabled": true,
+                    "delay": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-11_mobile_friend_request_move",
