@@ -13984,11 +13984,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 4900
+                                "end": 5000
                             }
                         ]
                     }
@@ -15208,53 +15208,7 @@
         "id": "2024-04_hang_status_v2",
         "label": "Hang Statuses - V2 experiment",
         "hash": 1512150978,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "enable hang statuses with no default",
-                "config": {
-                    "enableHangStatus": true,
-                    "setDefaultStatus": false,
-                    "allowChannelTopic": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "enable hang statuses with default",
-                "config": {
-                    "enableHangStatus": true,
-                    "setDefaultStatus": true,
-                    "allowChannelTopic": false
-                }
-            },
-            {
-                "id": 3,
-                "label": "enable hang statuses with channel topic",
-                "config": {
-                    "enableHangStatus": true,
-                    "setDefaultStatus": false,
-                    "allowChannelTopic": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2024-04_hd_streaming_parent",
