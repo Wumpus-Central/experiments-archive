@@ -13987,8 +13987,8 @@
                         "percentage": 49,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 5000
+                                "start": 0,
+                                "end": 4900
                             }
                         ]
                     }
@@ -22110,7 +22110,14 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Tile size based wants enabled only for 1:1 videos",
+                "label": "Tile size based wants enabled only for 1:1 videos (rollout)",
+                "config": {
+                    "enabledSingle": true
+                }
+            },
+            {
+                "id": 2,
+                "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)",
                 "config": {
                     "enabledSingle": true
                 }
@@ -22121,15 +22128,11 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 40,
+                        "percentage": 5,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 2500
-                            },
-                            {
-                                "start": 5000,
-                                "end": 6500
+                                "start": 9000,
+                                "end": 9500
                             }
                         ]
                     }
@@ -22139,15 +22142,25 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 40,
+                        "percentage": 90,
                         "ranges": [
                             {
-                                "start": 2500,
-                                "end": 5000
-                            },
+                                "start": 0,
+                                "end": 9000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 5,
+                        "ranges": [
                             {
-                                "start": 6500,
-                                "end": 8000
+                                "start": 9500,
+                                "end": 10000
                             }
                         ]
                     }
@@ -22332,11 +22345,11 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 1,
+                        "percentage": 11,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 100
+                                "end": 1100
                             }
                         ]
                     }
@@ -22346,11 +22359,15 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 1,
+                        "percentage": 10,
                         "ranges": [
                             {
                                 "start": 100,
                                 "end": 200
+                            },
+                            {
+                                "start": 1100,
+                                "end": 2000
                             }
                         ]
                     }
