@@ -13987,11 +13987,11 @@
                         "percentage": 45,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 4400
+                                "start": 100,
+                                "end": 2800
                             },
                             {
-                                "start": 4800,
+                                "start": 3100,
                                 "end": 4900
                             }
                         ]
