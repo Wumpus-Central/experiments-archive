@@ -22364,46 +22364,7 @@
         "id": "2024-11_premium_q4_moment_marketing",
         "label": "Premium Q4 Moment Marketing",
         "hash": 1993855251,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 95,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 9500
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-11_seasonal_gifting",
