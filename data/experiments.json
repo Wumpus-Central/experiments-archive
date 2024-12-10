@@ -7190,32 +7190,7 @@
         "id": "2022-09_free_file_upload_limit",
         "label": "Free File Upload Limit Increase",
         "hash": 3991298449,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2022-09_guild_onboarding_admin_only",
@@ -13959,15 +13934,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 44,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 4000
-                            },
-                            {
-                                "start": 4400,
-                                "end": 4900
+                                "start": 0,
+                                "end": 5000
                             }
                         ]
                     }
