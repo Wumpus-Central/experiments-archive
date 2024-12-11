@@ -2,31 +2,5 @@
     "id": "2023-09_user_apps_guild",
     "label": "Allow user app commands",
     "hash": 1570379293,
-    "kind": "guild",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Allow user app commands",
-            "config": {
-                "userAppsTreatment": "allowed"
-            }
-        }
-    ],
-    "populations": [
-        {
-            "filters": [],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "guild"
 }
