@@ -13937,8 +13937,8 @@
                         "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 4900
+                                "start": 100,
+                                "end": 5000
                             }
                         ]
                     }
