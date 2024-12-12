@@ -2,5 +2,30 @@
     "id": "2024-08_user_app_subscription_redesign",
     "label": "User App Subscription Redesign",
     "hash": 757311854,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

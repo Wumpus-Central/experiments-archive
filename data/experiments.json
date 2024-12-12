@@ -13908,15 +13908,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 43,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 3100
-                            },
-                            {
-                                "start": 3500,
-                                "end": 4700
+                                "end": 5000
                             }
                         ]
                     }
@@ -19877,50 +19873,7 @@
         "id": "2024-08_keyword_filter_upsells",
         "label": "Language Filter Upsells",
         "hash": 3902307858,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable Upsell for Keyword Language Filters",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 15,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 12,
-                        "ranges": [
-                            {
-                                "start": 300,
-                                "end": 1000
-                            },
-                            {
-                                "start": 1500,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_load_test_guild_recs",
@@ -20145,7 +20098,32 @@
         "id": "2024-08_user_app_subscription_redesign",
         "label": "User App Subscription Redesign",
         "hash": 757311854,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enable",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_user_profile_blockee_hide_mutuals",
@@ -20271,7 +20249,52 @@
         "id": "2024-09_app_dms",
         "label": "App DMs Experiment",
         "hash": 898010800,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enable special UI for DMs with Apps",
+                "config": {
+                    "enabled": true,
+                    "quickLaunchEnabled": false,
+                    "activityPopoutWindowInAppDMEnabled": false
+                }
+            },
+            {
+                "id": 2,
+                "label": "Enable special UI for DMs with Apps including quick launch",
+                "config": {
+                    "enabled": true,
+                    "quickLaunchEnabled": true,
+                    "activityPopoutWindowInAppDMEnabled": false
+                }
+            },
+            {
+                "id": 3,
+                "label": "Enable App DMs UI including quick launch and activity popout window in app DM",
+                "config": {
+                    "enabled": true,
+                    "quickLaunchEnabled": true,
+                    "activityPopoutWindowInAppDMEnabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_app_oauth2_link_embed",
@@ -20482,7 +20505,46 @@
         "id": "2024-09_global_discovery_apps",
         "label": "Global Discovery Apps",
         "hash": 692504301,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enabled",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 7,
+                        "ranges": [
+                            {
+                                "start": 800,
+                                "end": 1500
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 7,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 700
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_hd_streaming_potion",
@@ -21050,20 +21112,6 @@
             }
         ],
         "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            },
             {
                 "rollout": [
                     {

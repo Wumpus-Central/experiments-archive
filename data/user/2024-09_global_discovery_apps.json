@@ -2,5 +2,44 @@
     "id": "2024-09_global_discovery_apps",
     "label": "Global Discovery Apps",
     "hash": 692504301,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 7,
+                    "ranges": [
+                        {
+                            "start": 800,
+                            "end": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 7,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 700
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
