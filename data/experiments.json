@@ -13908,15 +13908,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 45,
+                        "percentage": 49,
                         "ranges": [
                             {
                                 "start": 100,
-                                "end": 3300
-                            },
-                            {
-                                "start": 3600,
-                                "end": 4900
+                                "end": 5000
                             }
                         ]
                     }
@@ -19510,11 +19506,15 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 12,
+                        "percentage": 52,
                         "ranges": [
                             {
                                 "start": 0,
                                 "end": 1200
+                            },
+                            {
+                                "start": 2000,
+                                "end": 6000
                             }
                         ]
                     }
@@ -21169,10 +21169,19 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Simulcast @ 1.5Mbps",
+                "label": "Simulcast",
                 "config": {
                     "simulcastEnabled": true,
                     "lqStreamBitrate": 1500000
+                }
+            },
+            {
+                "id": 2,
+                "label": "Simulcast, no pacer for LQ",
+                "config": {
+                    "simulcastEnabled": true,
+                    "lqStreamBitrate": 1500000,
+                    "workerExperimentString": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-lq-no-pacer"
                 }
             }
         ],

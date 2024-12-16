@@ -6,10 +6,19 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Simulcast @ 1.5Mbps",
+            "label": "Simulcast",
             "config": {
                 "simulcastEnabled": true,
                 "lqStreamBitrate": 1500000
+            }
+        },
+        {
+            "id": 2,
+            "label": "Simulcast, no pacer for LQ",
+            "config": {
+                "simulcastEnabled": true,
+                "lqStreamBitrate": 1500000,
+                "workerExperimentString": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-lq-no-pacer"
             }
         }
     ],
