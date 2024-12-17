@@ -13908,11 +13908,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 48,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 4800
+                                "end": 5000
                             }
                         ]
                     }
@@ -20355,7 +20355,7 @@
     },
     {
         "id": "2024-09_global_discovery_apps",
-        "label": "Global Discovery Apps",
+        "label": "Global Discovery Apps - Logged In",
         "hash": 692504301,
         "kind": "user",
         "treatments": [
