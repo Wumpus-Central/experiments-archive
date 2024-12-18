@@ -13626,32 +13626,7 @@
         "id": "2024-01_safety_hub_display_guild_violations",
         "label": "Safety Hub Display Guild Violations",
         "hash": 1136043234,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Display guild violations in account standing",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-01-search_improvements",
@@ -13908,10 +13883,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
+                                "start": 0,
                                 "end": 5000
                             }
                         ]
@@ -14983,39 +14958,7 @@
         "id": "2024-04_dm_settings_upsell",
         "label": "DM Settings Upsell",
         "hash": 948586570,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable DM Settings Upsell (with upsell threshold at 2 rejected MRs)",
-                "config": {
-                    "enabled": true
-                }
-            },
-            {
-                "id": 2,
-                "label": "Enable DM Settings Upsell (with upsell threshold at 3 rejected MRs)",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-04_dm_settings_upsell_staff_bypass",
@@ -18177,32 +18120,7 @@
         "id": "2024-07_friend_request_spam_inbox",
         "label": "Friend request spam inbox",
         "hash": 2045608872,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Separate spam friend requests into separate inbox and suppress notifications",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-07_gdm_blocked_user_warning",
@@ -21068,7 +20986,39 @@
                             },
                             {
                                 "start": 1000,
+                                "end": 1500
+                            },
+                            {
+                                "start": 2000,
+                                "end": 2500
+                            },
+                            {
+                                "start": 3000,
+                                "end": 3500
+                            },
+                            {
+                                "start": 4000,
+                                "end": 4500
+                            },
+                            {
+                                "start": 5000,
                                 "end": 5500
+                            },
+                            {
+                                "start": 6000,
+                                "end": 6500
+                            },
+                            {
+                                "start": 7000,
+                                "end": 7500
+                            },
+                            {
+                                "start": 8000,
+                                "end": 8500
+                            },
+                            {
+                                "start": 9000,
+                                "end": 9500
                             }
                         ]
                     }
@@ -21085,7 +21035,39 @@
                                 "end": 1000
                             },
                             {
+                                "start": 1500,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2500,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3500,
+                                "end": 4000
+                            },
+                            {
+                                "start": 4500,
+                                "end": 5000
+                            },
+                            {
                                 "start": 5500,
+                                "end": 6000
+                            },
+                            {
+                                "start": 6500,
+                                "end": 7000
+                            },
+                            {
+                                "start": 7500,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8500,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9500,
                                 "end": 10000
                             }
                         ]

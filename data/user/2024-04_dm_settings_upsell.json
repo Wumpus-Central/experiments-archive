@@ -2,37 +2,5 @@
     "id": "2024-04_dm_settings_upsell",
     "label": "DM Settings Upsell",
     "hash": 948586570,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable DM Settings Upsell (with upsell threshold at 2 rejected MRs)",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable DM Settings Upsell (with upsell threshold at 3 rejected MRs)",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
