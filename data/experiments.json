@@ -11219,32 +11219,7 @@
         "id": "2023-08_overlay3_out_of_process_enablement",
         "label": "Overlay3 - Out of Process Enablement",
         "hash": 2544068076,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "useGlobalOverlay": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-08_periodic_voice_stats",
@@ -13883,11 +13858,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 48,
+                        "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 4800
+                                "start": 100,
+                                "end": 5000
                             }
                         ]
                     }

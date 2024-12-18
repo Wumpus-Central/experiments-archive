@@ -2,30 +2,5 @@
     "id": "2023-08_overlay3_out_of_process_enablement",
     "label": "Overlay3 - Out of Process Enablement",
     "hash": 2544068076,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "useGlobalOverlay": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
