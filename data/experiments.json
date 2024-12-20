@@ -13858,10 +13858,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
+                                "start": 0,
                                 "end": 5000
                             }
                         ]
@@ -15110,32 +15110,7 @@
         "id": "2024-04_markdown_subtext",
         "label": "Subtext Markdown",
         "hash": 673657872,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Show subtext markdown",
-                "config": {
-                    "showSubtextMarkdown": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-04_marketing_page_non_sub_perk_tile_order",
@@ -22082,11 +22057,15 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 0.2,
+                        "percentage": 1.2,
                         "ranges": [
                             {
                                 "start": 0,
                                 "end": 20
+                            },
+                            {
+                                "start": 500,
+                                "end": 600
                             }
                         ]
                     }
@@ -22096,11 +22075,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 5,
+                        "percentage": 30,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 500
+                                "end": 3000
                             }
                         ]
                     }
