@@ -13858,15 +13858,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 45,
+                        "percentage": 48,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 2100
-                            },
-                            {
-                                "start": 2500,
-                                "end": 5000
+                                "start": 0,
+                                "end": 4800
                             }
                         ]
                     }
@@ -21924,32 +21920,6 @@
             }
         ],
         "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 4.1,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10
-                            },
-                            {
-                                "start": 500,
-                                "end": 600
-                            },
-                            {
-                                "start": 3000,
-                                "end": 3100
-                            },
-                            {
-                                "start": 6000,
-                                "end": 6200
-                            }
-                        ]
-                    }
-                ]
-            },
             {
                 "rollout": [
                     {
