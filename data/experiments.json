@@ -4409,7 +4409,7 @@
             {
                 "rollout": [
                     {
-                        "treatment": 2,
+                        "treatment": 5,
                         "percentage": 100,
                         "ranges": [
                             {
@@ -5915,32 +5915,7 @@
         "id": "2022-04_creator_monetization_country_allowlist",
         "label": "Creator Monetization Available in Country",
         "hash": 2532700533,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enables users to view Creator Monetization entrypoints",
-                "config": {
-                    "isUserEligibleForCreatorMonetization": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2022-04_donut_experiment",
@@ -10702,41 +10677,7 @@
         "id": "2023-07_checkout_optimization_browser_autofill",
         "label": "Checkout Optimization Browser Autofill",
         "hash": 3608176496,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true,
-                    "delay": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "Enabled with delay",
-                "config": {
-                    "enabled": true,
-                    "delay": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-07_checkout_prevent_accidental_modal_dismissal",
@@ -11746,7 +11687,39 @@
         "id": "2023-09_iar_dsa_webform",
         "label": "Safety Experience Unauthenticated Report Form",
         "hash": 1438986391,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "EU user",
+                "config": {
+                    "enabled": true
+                }
+            },
+            {
+                "id": 2,
+                "label": "DSA E2E testing user",
+                "config": {
+                    "enabled": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-09_iar_user_reporting",
@@ -13885,11 +13858,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 47,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 4900
+                                "start": 100,
+                                "end": 4800
                             }
                         ]
                     }
@@ -21686,46 +21659,7 @@
         "id": "2024-10_weighted_sample_activity_shelf",
         "label": "Weighted Sample Activity Shelf",
         "hash": 2793808763,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable weighted sample for activity shelf",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 2,
-                        "ranges": [
-                            {
-                                "start": 9600,
-                                "end": 9800
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 2,
-                        "ranges": [
-                            {
-                                "start": 9800,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-11_activity_popout_window",
@@ -21809,12 +21743,12 @@
             {
                 "rollout": [
                     {
-                        "treatment": 1,
-                        "percentage": 100,
+                        "treatment": 2,
+                        "percentage": 5,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 10000
+                                "end": 500
                             }
                         ]
                     }
@@ -21826,7 +21760,75 @@
         "id": "2024-11_checkout_optimization_browser_autofill_global",
         "label": "Checkout Optimization Browser Autofill Global",
         "hash": 402972005,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 1,
+                "label": "Enabled",
+                "config": {
+                    "enabled": true,
+                    "delay": false
+                }
+            },
+            {
+                "id": 2,
+                "label": "Enabled with delay",
+                "config": {
+                    "enabled": true,
+                    "delay": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 51,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1100
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3500
+                            },
+                            {
+                                "start": 5000,
+                                "end": 7500
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 1100,
+                                "end": 2000
+                            },
+                            {
+                                "start": 3500,
+                                "end": 5000
+                            },
+                            {
+                                "start": 7500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-11_mobile_friend_request_move",

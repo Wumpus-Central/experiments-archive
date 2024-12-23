@@ -2,39 +2,5 @@
     "id": "2023-07_checkout_optimization_browser_autofill",
     "label": "Checkout Optimization Browser Autofill",
     "hash": 3608176496,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true,
-                "delay": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enabled with delay",
-            "config": {
-                "enabled": true,
-                "delay": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
