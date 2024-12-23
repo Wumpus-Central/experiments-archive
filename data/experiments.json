@@ -13858,10 +13858,14 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 45,
                         "ranges": [
                             {
                                 "start": 100,
+                                "end": 2100
+                            },
+                            {
+                                "start": 2500,
                                 "end": 5000
                             }
                         ]
@@ -21924,11 +21928,11 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 4.2,
+                        "percentage": 4.1,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 20
+                                "end": 10
                             },
                             {
                                 "start": 500,
@@ -21981,7 +21985,7 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 2.2,
+                        "percentage": 4.2,
                         "ranges": [
                             {
                                 "start": 0,
@@ -21994,6 +21998,10 @@
                             {
                                 "start": 3000,
                                 "end": 3100
+                            },
+                            {
+                                "start": 6000,
+                                "end": 6200
                             }
                         ]
                     }
@@ -22003,11 +22011,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 60,
+                        "percentage": 100,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 6000
+                                "end": 10000
                             }
                         ]
                     }
