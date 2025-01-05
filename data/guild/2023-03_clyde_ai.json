@@ -45,6 +45,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "INTERNAL_EMPLOYEE_ONLY"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 5,

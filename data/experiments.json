@@ -3780,6 +3780,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                1405831955
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -3821,6 +3836,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -4922,6 +4938,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        4148745523,
+                        [
+                            [
+                                4148745523,
+                                [
+                                    2
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -5274,6 +5303,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                770139301
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -5289,6 +5333,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -6623,6 +6668,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -6753,6 +6799,19 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "VOICE_IN_THREADS"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -7106,6 +7165,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7535,6 +7595,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                987884927
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7550,6 +7625,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -7598,6 +7674,32 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                5000
+                            ],
+                            [
+                                1238858341,
+                                null
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -7613,6 +7715,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7914,6 +8017,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "PARTNERED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7937,6 +8053,19 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -8215,6 +8344,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "INTERNAL_EMPLOYEE_ONLY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -8238,6 +8380,19 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "SHARED_CANVAS_FRIENDS_AND_FAMILY_TEST"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -8400,6 +8555,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_ONBOARDING_HAS_PROMPTS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -8428,6 +8596,30 @@
                             "max": 200
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        188952590,
+                        [
+                            [
+                                188952590,
+                                false
+                            ]
+                        ]
+                    ],
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -8561,6 +8753,32 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY_CANARY"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                2544556038
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -8585,6 +8803,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY_CANARY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -8608,6 +8839,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                2544556038
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -8623,6 +8869,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -8675,6 +8922,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                3884904940
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -8690,6 +8952,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -8914,6 +9177,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "INTERNAL_EMPLOYEE_ONLY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 5,
@@ -8997,6 +9273,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "BOT_DEVELOPER_EARLY_ACCESS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9021,6 +9310,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "CREATOR_MONETIZABLE_DISABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -9044,6 +9346,19 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "ROLE_SUBSCRIPTIONS_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -9077,6 +9392,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "CREATOR_MONETIZABLE_PROVISIONAL"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9096,6 +9424,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -9345,6 +9674,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 3,
@@ -9369,6 +9711,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "ROLE_SUBSCRIPTIONS_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 3,
@@ -9384,6 +9739,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -9858,6 +10214,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_PRODUCTS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9888,6 +10257,32 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1000
+                            ],
+                            [
+                                1238858341,
+                                100000
+                            ]
+                        ]
+                    ],
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -9921,6 +10316,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9944,6 +10352,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -10941,6 +11350,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                3
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -10965,6 +11389,19 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "INTERNAL_EMPLOYEE_ONLY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -10980,6 +11417,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -11078,6 +11516,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11128,6 +11567,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11594,6 +12034,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -11633,6 +12074,21 @@
                             "max": 200
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -12960,6 +13416,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                2
+                            ],
+                            [
+                                1238858341,
+                                50
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -13512,6 +13983,21 @@
                         }
                     }
                 ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                3032307853
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13531,6 +14017,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -13546,6 +14033,7 @@
             },
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -13858,10 +14346,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
+                                "start": 0,
                                 "end": 5000
                             }
                         ]
@@ -14033,6 +14521,21 @@
                             "max": null
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                0
+                            ],
+                            [
+                                1238858341,
+                                null
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -14339,6 +14842,21 @@
                             "max": 200
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -19204,6 +19722,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19336,6 +19855,7 @@
         "populations": [
             {
                 "filters": [],
+                "rawFilters": [],
                 "rollout": [
                     {
                         "treatment": -1,
@@ -20274,10 +20794,25 @@
                         "type": 3013771838,
                         "data": {
                             "ids": [
-                                "1266851512559210577"
+                                "1266851512559210577",
+                                "235263960050434049"
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        3013771838,
+                        [
+                            [
+                                3013771838,
+                                [
+                                    "1266851512559210577",
+                                    "235263960050434049"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {
@@ -20302,6 +20837,19 @@
                             ]
                         }
                     }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "LEADERBOARD_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
                 ],
                 "rollout": [
                     {

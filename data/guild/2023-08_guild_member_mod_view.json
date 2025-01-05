@@ -15,6 +15,7 @@
     "populations": [
         {
             "filters": [],
+            "rawFilters": [],
             "rollout": [
                 {
                     "treatment": 1,

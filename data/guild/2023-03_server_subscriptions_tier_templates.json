@@ -41,6 +41,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 3,
@@ -65,6 +78,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 3,
@@ -80,6 +106,7 @@
         },
         {
             "filters": [],
+            "rawFilters": [],
             "rollout": [
                 {
                     "treatment": -1,

@@ -23,6 +23,21 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    2294888943,
+                    [
+                        [
+                            2690752156,
+                            3032307853
+                        ],
+                        [
+                            1982804121,
+                            10000
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -42,6 +57,7 @@
         },
         {
             "filters": [],
+            "rawFilters": [],
             "rollout": [
                 {
                     "treatment": -1,
@@ -57,6 +73,7 @@
         },
         {
             "filters": [],
+            "rawFilters": [],
             "rollout": [
                 {
                     "treatment": -1,

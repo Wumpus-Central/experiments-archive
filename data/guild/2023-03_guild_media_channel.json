@@ -24,6 +24,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "BOT_DEVELOPER_EARLY_ACCESS"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -48,6 +61,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "CREATOR_MONETIZABLE_DISABLED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": -1,
@@ -71,6 +97,19 @@
                         ]
                     }
                 }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        ]
+                    ]
+                ]
             ],
             "rollout": [
                 {
@@ -104,6 +143,19 @@
                     }
                 }
             ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "CREATOR_MONETIZABLE_PROVISIONAL"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -123,6 +175,7 @@
         },
         {
             "filters": [],
+            "rawFilters": [],
             "rollout": [
                 {
                     "treatment": -1,
