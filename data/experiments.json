@@ -22457,89 +22457,13 @@
         "id": "2024-11_seasonal_gifting",
         "label": "Seasonal Gifting 2024",
         "hash": 797131451,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-11_seasonal_gifting_reminder",
         "label": "Seasonal Gifting Reminder 2024",
         "hash": 926272517,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 4.2,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 20
-                            },
-                            {
-                                "start": 500,
-                                "end": 600
-                            },
-                            {
-                                "start": 3000,
-                                "end": 3100
-                            },
-                            {
-                                "start": 6000,
-                                "end": 6200
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-11_share_screen_revamp",
