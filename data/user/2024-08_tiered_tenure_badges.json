@@ -6,9 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Tiered Tenure Badges",
+            "label": "Enable Tiered Tenure Badges v1",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "version": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Tiered Tenure Badges v2",
+            "config": {
+                "enabled": true,
+                "version": 2
             }
         }
     ],

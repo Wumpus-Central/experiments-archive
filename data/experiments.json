@@ -14346,11 +14346,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 49,
+                        "percentage": 48,
                         "ranges": [
                             {
                                 "start": 100,
-                                "end": 5000
+                                "end": 4900
                             }
                         ]
                     }
@@ -19942,9 +19942,18 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Enable Tiered Tenure Badges",
+                "label": "Enable Tiered Tenure Badges v1",
                 "config": {
-                    "enabled": true
+                    "enabled": true,
+                    "version": 1
+                }
+            },
+            {
+                "id": 2,
+                "label": "Enable Tiered Tenure Badges v2",
+                "config": {
+                    "enabled": true,
+                    "version": 2
                 }
             }
         ],
