@@ -13227,41 +13227,9 @@
     },
     {
         "id": "2023-11_safety_hub_inapp_appeal_ingestion",
-        "label": "Safety Hub In App Appeals Ingestion",
+        "label": "In-app Appeal Ingestion",
         "hash": 36882392,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Allow users to interact with the new In-App appeals ingestion flow",
-                "config": {
-                    "enabled": true
-                }
-            },
-            {
-                "id": 2,
-                "label": "DSA Testser",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-11_seasonal_gifting",
@@ -14346,10 +14314,14 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 47,
                         "ranges": [
                             {
                                 "start": 0,
+                                "end": 4400
+                            },
+                            {
+                                "start": 4700,
                                 "end": 5000
                             }
                         ]
