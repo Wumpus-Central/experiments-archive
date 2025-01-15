@@ -12630,46 +12630,7 @@
         "id": "2023-10_dcf_holdout",
         "label": "DCF Holdout",
         "hash": 2009146437,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Users will only see DCs that bypass the holdout",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 1,
-                        "ranges": [
-                            {
-                                "start": 400,
-                                "end": 500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 1,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 600
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-10_disxcore_pfx_starter_pack",
@@ -14314,15 +14275,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 46,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 600
-                            },
-                            {
-                                "start": 900,
-                                "end": 4900
+                                "end": 5000
                             }
                         ]
                     }
