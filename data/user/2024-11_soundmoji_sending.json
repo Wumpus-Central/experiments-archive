@@ -2,5 +2,67 @@
     "id": "2024-11_soundmoji_sending",
     "label": "Send soundmojis",
     "hash": 1328765334,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled w/o emoji section",
+            "config": {
+                "enabled": true,
+                "showSoundmojiInEmojiPicker": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled w/ emoji section",
+            "config": {
+                "enabled": true,
+                "showSoundmojiInEmojiPicker": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 9700,
+                            "end": 9800
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 9800,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 9900,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
