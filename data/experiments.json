@@ -19811,20 +19811,6 @@
             {
                 "rollout": [
                     {
-                        "treatment": 0,
-                        "percentage": 20,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
                         "treatment": 1,
                         "percentage": 100,
                         "ranges": [
