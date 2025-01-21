@@ -14275,11 +14275,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 48,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 5000
+                                "start": 100,
+                                "end": 4900
                             }
                         ]
                     }
@@ -18950,7 +18950,7 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 11,
+                        "percentage": 26,
                         "ranges": [
                             {
                                 "start": 0,
@@ -18959,6 +18959,10 @@
                             {
                                 "start": 1000,
                                 "end": 1500
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3500
                             }
                         ]
                     }
@@ -18968,7 +18972,7 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 10,
+                        "percentage": 25,
                         "ranges": [
                             {
                                 "start": 100,
@@ -18981,6 +18985,10 @@
                             {
                                 "start": 1500,
                                 "end": 2000
+                            },
+                            {
+                                "start": 3500,
+                                "end": 5000
                             }
                         ]
                     }
@@ -20380,7 +20388,7 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 11,
+                        "percentage": 26,
                         "ranges": [
                             {
                                 "start": 0,
@@ -20389,6 +20397,10 @@
                             {
                                 "start": 1000,
                                 "end": 1500
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3500
                             }
                         ]
                     }
@@ -20398,7 +20410,7 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 10,
+                        "percentage": 25,
                         "ranges": [
                             {
                                 "start": 100,
@@ -20411,6 +20423,10 @@
                             {
                                 "start": 1500,
                                 "end": 2000
+                            },
+                            {
+                                "start": 3500,
+                                "end": 5000
                             }
                         ]
                     }
@@ -22275,8 +22291,12 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 1,
+                        "percentage": 5,
                         "ranges": [
+                            {
+                                "start": 8500,
+                                "end": 8900
+                            },
                             {
                                 "start": 9700,
                                 "end": 9800
@@ -22289,8 +22309,12 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 1,
+                        "percentage": 5,
                         "ranges": [
+                            {
+                                "start": 8900,
+                                "end": 9300
+                            },
                             {
                                 "start": 9800,
                                 "end": 9900
@@ -22303,10 +22327,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 1,
+                        "percentage": 7,
                         "ranges": [
                             {
-                                "start": 9900,
+                                "start": 9300,
                                 "end": 10000
                             }
                         ]
