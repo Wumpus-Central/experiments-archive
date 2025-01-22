@@ -2,30 +2,5 @@
     "id": "2024-08_iar_privacy_and_safety_settings_upsells",
     "label": "IAR Privacy & Safety Settings Upsells",
     "hash": 2629592978,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

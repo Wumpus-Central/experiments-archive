@@ -14275,11 +14275,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 48,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 5000
+                                "start": 100,
+                                "end": 4900
                             }
                         ]
                     }
@@ -19394,32 +19394,7 @@
         "id": "2024-08_iar_privacy_and_safety_settings_upsells",
         "label": "IAR Privacy & Safety Settings Upsells",
         "hash": 2629592978,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_js_watchdog",
