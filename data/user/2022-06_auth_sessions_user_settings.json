@@ -2,30 +2,5 @@
     "id": "2022-06_auth_sessions_user_settings",
     "label": "Auth Sessions User Settings",
     "hash": 1095779154,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show settings",
-            "config": {
-                "showSettings": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
