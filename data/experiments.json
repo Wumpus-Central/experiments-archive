@@ -14250,14 +14250,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 46,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 2400
-                            },
-                            {
-                                "start": 2800,
                                 "end": 5000
                             }
                         ]
@@ -20511,34 +20507,9 @@
     },
     {
         "id": "2024-09_global_discovery_apps",
-        "label": "Global Discovery Apps - Logged In",
+        "label": "Global Discovery Apps",
         "hash": 692504301,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-09_hd_streaming_potion",
@@ -22245,8 +22216,12 @@
                 "rollout": [
                     {
                         "treatment": 0,
-                        "percentage": 5,
+                        "percentage": 10,
                         "ranges": [
+                            {
+                                "start": 7000,
+                                "end": 7500
+                            },
                             {
                                 "start": 8500,
                                 "end": 8900
@@ -22263,8 +22238,12 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 5,
+                        "percentage": 10,
                         "ranges": [
+                            {
+                                "start": 7500,
+                                "end": 8000
+                            },
                             {
                                 "start": 8900,
                                 "end": 9300
@@ -22281,8 +22260,12 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 7,
+                        "percentage": 12,
                         "ranges": [
+                            {
+                                "start": 8000,
+                                "end": 8500
+                            },
                             {
                                 "start": 9300,
                                 "end": 10000

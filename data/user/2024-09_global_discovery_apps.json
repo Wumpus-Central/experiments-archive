@@ -1,31 +1,6 @@
 {
     "id": "2024-09_global_discovery_apps",
-    "label": "Global Discovery Apps - Logged In",
+    "label": "Global Discovery Apps",
     "hash": 692504301,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
