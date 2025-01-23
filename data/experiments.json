@@ -11478,34 +11478,7 @@
         "id": "2023-08_guild_member_mod_view",
         "label": "Guild Member Mod View",
         "hash": 2342285461,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Guild Member Mod View",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2023-08_guild_usage_survey",
@@ -14253,12 +14226,12 @@
                         "percentage": 45,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 2000
+                                "start": 0,
+                                "end": 2600
                             },
                             {
-                                "start": 2400,
-                                "end": 5000
+                                "start": 3000,
+                                "end": 4900
                             }
                         ]
                     }
