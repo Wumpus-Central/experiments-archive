@@ -2,37 +2,5 @@
     "id": "2024-10_quests_video_dismissal_survey",
     "label": "Video Quests Dismissal Survey",
     "hash": 1800252857,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
