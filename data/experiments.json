@@ -14223,15 +14223,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 44,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 2500
-                            },
-                            {
-                                "start": 2900,
-                                "end": 4900
+                                "start": 0,
+                                "end": 5000
                             }
                         ]
                     }
@@ -21320,11 +21316,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 100,
+                        "percentage": 50,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 10000
+                                "end": 5000
                             }
                         ]
                     }
