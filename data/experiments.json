@@ -14223,10 +14223,18 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 43,
                         "ranges": [
                             {
-                                "start": 0,
+                                "start": 100,
+                                "end": 1700
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3100
+                            },
+                            {
+                                "start": 3400,
                                 "end": 5000
                             }
                         ]
