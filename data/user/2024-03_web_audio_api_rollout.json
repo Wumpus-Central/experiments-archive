@@ -2,30 +2,5 @@
     "id": "2024-03_web_audio_api_rollout",
     "label": "Web Audio API Rollout",
     "hash": 542528704,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Web Audio API usage",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
