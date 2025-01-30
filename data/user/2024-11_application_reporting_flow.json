@@ -24,11 +24,11 @@
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 25,
+                    "percentage": 100,
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 2500
+                            "end": 10000
                         }
                     ]
                 }
