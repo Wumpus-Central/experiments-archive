@@ -14223,14 +14223,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 46,
+                        "percentage": 49,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 900
-                            },
-                            {
-                                "start": 1300,
+                                "start": 100,
                                 "end": 5000
                             }
                         ]
@@ -14962,39 +14958,7 @@
         "id": "2024-03_quests_activity_quest",
         "label": "Activity Quest",
         "hash": 1874994306,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 0,
-                "label": "Control",
-                "config": {
-                    "enabled": false
-                }
-            },
-            {
-                "id": 1,
-                "label": "Activity Quest enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-03_quests_client_monitoring",
@@ -16215,32 +16179,7 @@
         "id": "2024-05_throughline_care",
         "label": "Throughline Care Experiment",
         "hash": 2558990028,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable throughline care links",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_tunein_minishelf_banner",
@@ -18619,39 +18558,7 @@
         "id": "2024-07_quests_mobile_ga",
         "label": "Quests Mobile GA",
         "hash": 3233521372,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 0,
-                "label": "Control",
-                "config": {
-                    "enabled": false
-                }
-            },
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-07_rapidash_m3_admins_browse",
@@ -19636,32 +19543,7 @@
         "id": "2024-08_shop_browse",
         "label": "Collectibles Shop Browse Experiment",
         "hash": 2387790599,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable new shop layout",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_shop_recurring_dc",
