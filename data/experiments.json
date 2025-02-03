@@ -14223,11 +14223,11 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 48,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 5000
+                                "end": 4800
                             }
                         ]
                     }
@@ -15748,7 +15748,119 @@
         "id": "2024-05_desktop_visual_refresh",
         "label": "Desktop Visual Refresh",
         "hash": 1585279012,
-        "kind": "user"
+        "kind": "user",
+        "treatments": [
+            {
+                "id": 0,
+                "label": "Control",
+                "config": {
+                    "enabled": false,
+                    "enableCollapsibleSidebar": false,
+                    "newChatInput": false,
+                    "disabledByDefault": true,
+                    "canOptOut": false
+                }
+            },
+            {
+                "id": 1,
+                "label": "Refresh with New Chat Input",
+                "config": {
+                    "enabled": true,
+                    "enableCollapsibleSidebar": false,
+                    "newChatInput": true,
+                    "disabledByDefault": false,
+                    "canOptOut": false
+                }
+            },
+            {
+                "id": 2,
+                "label": "Refresh with New Chat Input, Collapsible Sidebar",
+                "config": {
+                    "enabled": true,
+                    "enableCollapsibleSidebar": true,
+                    "newChatInput": true,
+                    "disabledByDefault": false,
+                    "canOptOut": false
+                }
+            },
+            {
+                "id": 3,
+                "label": "Refresh with Legacy Chat Input",
+                "config": {
+                    "enabled": true,
+                    "enableCollapsibleSidebar": false,
+                    "newChatInput": false,
+                    "disabledByDefault": false,
+                    "canOptOut": false
+                }
+            },
+            {
+                "id": 4,
+                "label": "Refresh with Legacy Chat Input, Collapsible Sidebar",
+                "config": {
+                    "enabled": true,
+                    "enableCollapsibleSidebar": true,
+                    "newChatInput": false,
+                    "disabledByDefault": false,
+                    "canOptOut": false
+                }
+            },
+            {
+                "id": 5,
+                "label": "External Testers",
+                "config": {
+                    "enabled": true,
+                    "enableCollapsibleSidebar": false,
+                    "newChatInput": true,
+                    "disabledByDefault": true,
+                    "canOptOut": true
+                }
+            }
+        ],
+        "populations": [
+            {
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 3,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 3,
+                        "ranges": [
+                            {
+                                "start": 300,
+                                "end": 600
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "rollout": [
+                    {
+                        "treatment": 3,
+                        "percentage": 3,
+                        "ranges": [
+                            {
+                                "start": 600,
+                                "end": 900
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-05_discount_model_data_collection",
