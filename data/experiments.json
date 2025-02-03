@@ -15742,41 +15742,7 @@
         "id": "2024-05_desktop_user_settings_search",
         "label": "Desktop User Settings Search",
         "hash": 1800298008,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable User Settings Search on Desktop",
-                "config": {
-                    "enabled": true,
-                    "showSearchCount": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "Enable User Settings Search on Desktop with Search Count",
-                "config": {
-                    "enabled": true,
-                    "showSearchCount": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_desktop_visual_refresh",
@@ -19959,32 +19925,7 @@
         "id": "2024-08_user_profile_blockee_hide_mutuals",
         "label": "User Profile Blockee Hide Mutuals",
         "hash": 1502922057,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable User Profile Blockee Hide Mutuals",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_user_profile_blocker_skeleton",
@@ -20621,10 +20562,10 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 15,
+                        "percentage": 45,
                         "ranges": [
                             {
-                                "start": 4000,
+                                "start": 1000,
                                 "end": 5500
                             }
                         ]
@@ -21042,32 +20983,7 @@
         "id": "2024-10_mobile_video_disable",
         "label": "Backgrounding Mobile App Disables Incoming Video",
         "hash": 1715296116,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "stopVideoWhenHidden": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_nitro_shop_entry_points",

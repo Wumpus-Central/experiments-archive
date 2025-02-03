@@ -2,39 +2,5 @@
     "id": "2024-05_desktop_user_settings_search",
     "label": "Desktop User Settings Search",
     "hash": 1800298008,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable User Settings Search on Desktop",
-            "config": {
-                "enabled": true,
-                "showSearchCount": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable User Settings Search on Desktop with Search Count",
-            "config": {
-                "enabled": true,
-                "showSearchCount": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
