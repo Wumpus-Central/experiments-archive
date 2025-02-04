@@ -14223,10 +14223,14 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 50,
+                        "percentage": 46,
                         "ranges": [
                             {
                                 "start": 0,
+                                "end": 800
+                            },
+                            {
+                                "start": 1200,
                                 "end": 5000
                             }
                         ]
@@ -20250,32 +20254,7 @@
         "id": "2024-09_dm_mute_feedback",
         "label": "DM Mute Feedback Experiment",
         "hash": 3721779707,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable DM Mute Feedback Survey",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 20,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-09_fewer_speaking_messages",
