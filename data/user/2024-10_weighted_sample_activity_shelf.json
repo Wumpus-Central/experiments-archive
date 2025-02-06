@@ -2,5 +2,44 @@
     "id": "2024-10_weighted_sample_activity_shelf",
     "label": "Weighted Sample Activity Shelf",
     "hash": 2793808763,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable weighted sample for activity shelf",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 9600,
+                            "end": 9800
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 9800,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

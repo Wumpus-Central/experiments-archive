@@ -2,5 +2,37 @@
     "id": "2024-02_image_load_metrics",
     "label": "Image load metrics Config User Experiment",
     "hash": 476313123,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Do not send metrics for image load",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Send metrics for image load",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 50,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
