@@ -21019,41 +21019,7 @@
         "id": "2024-10_nitro_shop_entry_points",
         "label": "User Profile Nitro Shop Entry Points",
         "hash": 842501197,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable Permanent Entry Points",
-                "config": {
-                    "permanentEntryPointsEnabled": true,
-                    "dimissibleUpsellsEnabled": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "Enable Dimissible Upsells",
-                "config": {
-                    "permanentEntryPointsEnabled": false,
-                    "dimissibleUpsellsEnabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_nitro_tab_forced_render",
