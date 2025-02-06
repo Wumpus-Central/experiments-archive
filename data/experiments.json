@@ -21042,20 +21042,6 @@
             {
                 "rollout": [
                     {
-                        "treatment": 0,
-                        "percentage": 19,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1900
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
                         "treatment": 2,
                         "percentage": 100,
                         "ranges": [
