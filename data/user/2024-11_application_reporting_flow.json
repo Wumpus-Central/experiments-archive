@@ -23,7 +23,7 @@
         {
             "rollout": [
                 {
-                    "treatment": 1,
+                    "treatment": 2,
                     "percentage": 100,
                     "ranges": [
                         {
