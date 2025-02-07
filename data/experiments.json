@@ -16366,32 +16366,7 @@
         "id": "2024-06_collectibles_shop_use_now",
         "label": "Collectibles Shop Use Now",
         "hash": 3110814161,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Use now button immediately applies collectible",
-                "config": {
-                    "realtimeUseNowEnabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-06_content_entry_embed",
