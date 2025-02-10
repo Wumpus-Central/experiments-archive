@@ -2,51 +2,5 @@
     "id": "2023-11_cannibalization_model_data_collection",
     "label": "Cannibalization Model Data Collection",
     "hash": 1294709229,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 1,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 100
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 1,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
