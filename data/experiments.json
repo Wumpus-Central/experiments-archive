@@ -12692,32 +12692,7 @@
         "id": "2023-10_premium_tier_2_trial_offer_expiring_notice",
         "label": "Premium Tier 2 Trial Offer Expiring Notice",
         "hash": 3950847537,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-10_profile_effects_mobile_editing",
@@ -12981,25 +12956,11 @@
             {
                 "rollout": [
                     {
-                        "treatment": 1,
+                        "treatment": 2,
                         "percentage": 1,
                         "ranges": [
                             {
-                                "start": 0,
-                                "end": 100
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 2,
-                        "ranges": [
-                            {
-                                "start": 0,
+                                "start": 100,
                                 "end": 200
                             }
                         ]
@@ -21254,11 +21215,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 25,
+                        "percentage": 95,
                         "ranges": [
                             {
-                                "start": 1000,
-                                "end": 3500
+                                "start": 0,
+                                "end": 9500
                             }
                         ]
                     }
