@@ -20588,69 +20588,7 @@
         "id": "2024-10_blocking_context",
         "label": "Blocking Context",
         "hash": 1289160534,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Show blocking context in block confirmation modal",
-                "config": {
-                    "enabled": true,
-                    "condensed": false
-                }
-            },
-            {
-                "id": 2,
-                "label": "Show condensed blocking context",
-                "config": {
-                    "enabled": true,
-                    "condensed": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 1000,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 2000,
-                                "end": 3000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_consumables_hd_streaming",
