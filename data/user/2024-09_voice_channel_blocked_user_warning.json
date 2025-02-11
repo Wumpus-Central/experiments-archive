@@ -2,30 +2,5 @@
     "id": "2024-09_voice_channel_blocked_user_warning",
     "label": "Voice Channel Blocked User Warning",
     "hash": 171890070,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show blocked user warning in voice channel as a modal",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
