@@ -19459,7 +19459,8 @@
                 "label": "Enable Tiered Tenure Badges v1",
                 "config": {
                     "enabled": false,
-                    "version": 1
+                    "version": 1,
+                    "isBadgeVersion2": false
                 }
             },
             {
@@ -19467,7 +19468,8 @@
                 "label": "Enable Tiered Tenure Badges v2",
                 "config": {
                     "enabled": false,
-                    "version": 2
+                    "version": 2,
+                    "isBadgeVersion2": false
                 }
             }
         ],
