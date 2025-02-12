@@ -9,7 +9,7 @@
             "label": "Can support DAVE protocol version 1 and above",
             "config": {
                 "protocolVersionFloor": 1,
-                "canSupportDaveProtocol": true
+                "canSupportDaveProtocol": false
             }
         }
     ],

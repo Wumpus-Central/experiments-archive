@@ -15,7 +15,7 @@
             "id": 1,
             "label": "Users will see the nagbar",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

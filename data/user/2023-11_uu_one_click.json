@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable one click",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

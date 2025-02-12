@@ -11,7 +11,7 @@
                 "enabled": false,
                 "enableCollapsibleSidebar": false,
                 "newChatInput": false,
-                "disabledByDefault": true,
+                "disabledByDefault": false,
                 "canOptOut": false
             }
         },
@@ -19,9 +19,9 @@
             "id": 1,
             "label": "Refresh with New Chat Input",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "enableCollapsibleSidebar": false,
-                "newChatInput": true,
+                "newChatInput": false,
                 "disabledByDefault": false,
                 "canOptOut": false
             }
@@ -30,9 +30,9 @@
             "id": 2,
             "label": "Refresh with New Chat Input, Collapsible Sidebar",
             "config": {
-                "enabled": true,
-                "enableCollapsibleSidebar": true,
-                "newChatInput": true,
+                "enabled": false,
+                "enableCollapsibleSidebar": false,
+                "newChatInput": false,
                 "disabledByDefault": false,
                 "canOptOut": false
             }
@@ -41,7 +41,7 @@
             "id": 3,
             "label": "Refresh with Legacy Chat Input",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "enableCollapsibleSidebar": false,
                 "newChatInput": false,
                 "disabledByDefault": false,
@@ -52,8 +52,8 @@
             "id": 4,
             "label": "Refresh with Legacy Chat Input, Collapsible Sidebar",
             "config": {
-                "enabled": true,
-                "enableCollapsibleSidebar": true,
+                "enabled": false,
+                "enableCollapsibleSidebar": false,
                 "newChatInput": false,
                 "disabledByDefault": false,
                 "canOptOut": false
@@ -63,11 +63,11 @@
             "id": 5,
             "label": "External Testers",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "enableCollapsibleSidebar": false,
-                "newChatInput": true,
-                "disabledByDefault": true,
-                "canOptOut": true
+                "newChatInput": false,
+                "disabledByDefault": false,
+                "canOptOut": false
             }
         }
     ],

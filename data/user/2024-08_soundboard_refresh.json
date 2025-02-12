@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable the updated soundboard picker UI",
             "config": {
-                "refreshEnabled": true
+                "refreshEnabled": false
             }
         }
     ],

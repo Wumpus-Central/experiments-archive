@@ -3765,7 +3765,7 @@
                 "id": 1,
                 "label": "Enables guild to create Guild Role Subscriptions",
                 "config": {
-                    "enableRoleSubscriptionsForGuild": true
+                    "enableRoleSubscriptionsForGuild": false
                 }
             }
         ],
@@ -4096,7 +4096,7 @@
                 "id": 1,
                 "label": "Enables users to create Guild Role Subscriptions",
                 "config": {
-                    "enableRoleSubscriptionsForUser": true
+                    "enableRoleSubscriptionsForUser": false
                 }
             }
         ],
@@ -4922,7 +4922,7 @@
                 "id": 1,
                 "label": "Show Hub Events List",
                 "config": {
-                    "showHubEventsList": true
+                    "showHubEventsList": false
                 }
             }
         ],
@@ -5288,7 +5288,7 @@
                 "id": 1,
                 "label": "Enables guild to create Guild Role Subscription Trials",
                 "config": {
-                    "enableRoleSubscriptionTrialsForGuild": true
+                    "enableRoleSubscriptionTrialsForGuild": false
                 }
             }
         ],
@@ -5731,7 +5731,7 @@
                 "id": 1,
                 "label": "Check Payment Source",
                 "config": {
-                    "checkPaymentSource": true
+                    "checkPaymentSource": false
                 }
             }
         ],
@@ -6759,7 +6759,7 @@
                 "id": 1,
                 "label": "On",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -6837,7 +6837,7 @@
                 "id": 1,
                 "label": "Back to School experience enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -6880,7 +6880,7 @@
                 "id": 3,
                 "label": "PS Experiment + upsells + Staging",
                 "config": {
-                    "allowPlayStationStaging": true
+                    "allowPlayStationStaging": false
                 }
             }
         ],
@@ -7133,7 +7133,7 @@
                 "id": 1,
                 "label": "Enables guild to create Guild Role Subscriptions quickly",
                 "config": {
-                    "enableFastMonetizationOnboardingForGuild": true
+                    "enableFastMonetizationOnboardingForGuild": false
                 }
             }
         ],
@@ -7182,7 +7182,7 @@
                 "id": 1,
                 "label": "Enables users to create Guild Role Subscriptions quickly",
                 "config": {
-                    "enableFastMonetizationOnboardingForUser": true
+                    "enableFastMonetizationOnboardingForUser": false
                 }
             }
         ],
@@ -7555,7 +7555,7 @@
                 "id": 1,
                 "label": "Enables Guilds to (possibly) see the waitlist",
                 "config": {
-                    "enableWaitlist": true
+                    "enableWaitlist": false
                 }
             }
         ],
@@ -7626,7 +7626,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -7764,7 +7764,7 @@
                 "id": 1,
                 "label": "Enable notifications for multiple accounts",
                 "config": {
-                    "isMultiAccountMobileNotificationsEnabled": true
+                    "isMultiAccountMobileNotificationsEnabled": false
                 }
             }
         ],
@@ -7933,7 +7933,7 @@
                 "id": 1,
                 "label": "Enable Poland Notice",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -7976,7 +7976,7 @@
                 "id": 1,
                 "label": "Automod Mention Raid Limit",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -8181,7 +8181,7 @@
                 "id": 1,
                 "label": "Enables users to see nag bar to activate server subscriptions",
                 "config": {
-                    "enableCreatorMonetizationNagActivateForUser": true
+                    "enableCreatorMonetizationNagActivateForUser": false
                 }
             }
         ],
@@ -8236,7 +8236,7 @@
                 "id": 1,
                 "label": "Last page of onboarding is rules",
                 "config": {
-                    "includeRules": true
+                    "includeRules": false
                 }
             }
         ],
@@ -8303,7 +8303,7 @@
                 "id": 1,
                 "label": "Enable Shared Canvas",
                 "config": {
-                    "isSharedCanvasEnabled": true
+                    "isSharedCanvasEnabled": false
                 }
             }
         ],
@@ -8514,7 +8514,7 @@
                 "id": 1,
                 "label": "Allow creation of guest voice invites",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -8705,7 +8705,7 @@
                 "id": 1,
                 "label": "On",
                 "config": {
-                    "advancedModeAllowed": true
+                    "advancedModeAllowed": false
                 }
             }
         ],
@@ -8882,7 +8882,7 @@
                 "id": 1,
                 "label": "On",
                 "config": {
-                    "dropdownsAllowed": true
+                    "dropdownsAllowed": false
                 }
             }
         ],
@@ -9232,7 +9232,7 @@
                 "id": 1,
                 "label": "Enables guild to create a media channel",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -9616,7 +9616,7 @@
                 "id": 1,
                 "label": "299 basic tier + no link",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "showCreatorPortalLink": false
                 }
             },
@@ -9624,7 +9624,7 @@
                 "id": 2,
                 "label": "399 basic tier + no link",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "showCreatorPortalLink": false
                 }
             },
@@ -9632,8 +9632,8 @@
                 "id": 3,
                 "label": "399 basic tier + link",
                 "config": {
-                    "enabled": true,
-                    "showCreatorPortalLink": true
+                    "enabled": false,
+                    "showCreatorPortalLink": false
                 }
             }
         ],
@@ -9758,7 +9758,7 @@
                 "id": 1,
                 "label": "Use latest data from api/gateway",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -9969,7 +9969,7 @@
                 "id": 1,
                 "label": "Enables for users Guild Media Post Preview Embeds",
                 "config": {
-                    "enabledForUser": true
+                    "enabledForUser": false
                 }
             }
         ],
@@ -10054,7 +10054,7 @@
                 "id": 1,
                 "label": "On",
                 "config": {
-                    "inUse": true
+                    "inUse": false
                 }
             }
         ],
@@ -10105,7 +10105,7 @@
                 "id": 1,
                 "label": "enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10136,7 +10136,7 @@
                 "id": 1,
                 "label": "enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10173,7 +10173,7 @@
                 "id": 1,
                 "label": "Enables Server Products (AKA one time purchases for creator guilds)",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10353,7 +10353,7 @@
                 "id": 1,
                 "label": "Enable tier templates for user",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10564,7 +10564,7 @@
                 "id": 1,
                 "label": "Enable Turkey Notice",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10925,7 +10925,7 @@
                 "id": 1,
                 "label": "Livecheck enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -10965,14 +10965,14 @@
                 "label": "Unique Username Registration enabled -livecheck +suggestions",
                 "config": {
                     "livecheckEnabled": false,
-                    "suggestions": true
+                    "suggestions": false
                 }
             },
             {
                 "id": 3,
                 "label": "Unique Username Registration enabled +livecheck -suggestions",
                 "config": {
-                    "livecheckEnabled": true,
+                    "livecheckEnabled": false,
                     "suggestions": false
                 }
             },
@@ -10980,8 +10980,8 @@
                 "id": 4,
                 "label": "Unique Username Registration enabled +livecheck +suggestions",
                 "config": {
-                    "livecheckEnabled": true,
-                    "suggestions": true
+                    "livecheckEnabled": false,
+                    "suggestions": false
                 }
             }
         ],
@@ -11018,7 +11018,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -11301,7 +11301,7 @@
                 "id": 0,
                 "label": "Control",
                 "config": {
-                    "triggerDeadchat": true,
+                    "triggerDeadchat": false,
                     "enableDeadchat": false
                 }
             },
@@ -11309,8 +11309,8 @@
                 "id": 1,
                 "label": "trigger deadchat upon connection open",
                 "config": {
-                    "triggerDeadchat": true,
-                    "enableDeadchat": true
+                    "triggerDeadchat": false,
+                    "enableDeadchat": false
                 }
             }
         ],
@@ -11508,7 +11508,7 @@
                 "id": 1,
                 "label": "Guild Settings Improved Bans Page",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -11667,26 +11667,26 @@
                 "id": 1,
                 "label": "Remix for Nitro Subscribers",
                 "config": {
-                    "canSeeRemixBadge": true,
-                    "canRemix": true,
-                    "isNitroPerk": true
+                    "canSeeRemixBadge": false,
+                    "canRemix": false,
+                    "isNitroPerk": false
                 }
             },
             {
                 "id": 3,
                 "label": "Upsell Remix for Non-Nitro Users",
                 "config": {
-                    "canSeeRemixBadge": true,
+                    "canSeeRemixBadge": false,
                     "canRemix": false,
-                    "isNitroPerk": true
+                    "isNitroPerk": false
                 }
             },
             {
                 "id": 5,
                 "label": "Remix GA for everyone",
                 "config": {
-                    "canSeeRemixBadge": true,
-                    "canRemix": true,
+                    "canSeeRemixBadge": false,
+                    "canRemix": false,
                     "isNitroPerk": false
                 }
             }
@@ -11725,7 +11725,7 @@
                 "label": "Can support DAVE protocol version 1 and above",
                 "config": {
                     "protocolVersionFloor": 1,
-                    "canSupportDaveProtocol": true
+                    "canSupportDaveProtocol": false
                 }
             }
         ],
@@ -11867,16 +11867,16 @@
                 "label": "Clips Nitro EA Upsells Visible",
                 "config": {
                     "enableClips": false,
-                    "enablePremiumEarlyAccessAnnouncementCoachmark": true,
-                    "enablePremiumEarlyAccessGoLiveRoadblock": true
+                    "enablePremiumEarlyAccessAnnouncementCoachmark": false,
+                    "enablePremiumEarlyAccessGoLiveRoadblock": false
                 }
             },
             {
                 "id": 2,
                 "label": "Clips Enabled (Nitro)",
                 "config": {
-                    "enableClips": true,
-                    "enablePremiumEarlyAccessAnnouncementCoachmark": true,
+                    "enableClips": false,
+                    "enablePremiumEarlyAccessAnnouncementCoachmark": false,
                     "enablePremiumEarlyAccessGoLiveRoadblock": false
                 }
             }
@@ -11968,14 +11968,14 @@
                 "id": 1,
                 "label": "ability to trigger gaming stats prompt",
                 "config": {
-                    "triggerGamingStats": true
+                    "triggerGamingStats": false
                 }
             },
             {
                 "id": 2,
                 "label": "ability to trigger gaming stats prompt (leaderboard)",
                 "config": {
-                    "triggerGamingStats": true
+                    "triggerGamingStats": false
                 }
             }
         ],
@@ -12008,7 +12008,7 @@
                 "id": 1,
                 "label": "trigger gaming stats data",
                 "config": {
-                    "trackGamingStats": true
+                    "trackGamingStats": false
                 }
             }
         ],
@@ -12097,14 +12097,14 @@
                 "id": 1,
                 "label": "EU user",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             },
             {
                 "id": 2,
                 "label": "DSA E2E testing user",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12135,7 +12135,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12274,7 +12274,7 @@
                 "id": 1,
                 "label": "Redesigned icons enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12317,7 +12317,7 @@
                 "id": 1,
                 "label": "Enables Server shop phantom preview",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12348,7 +12348,7 @@
                 "id": 1,
                 "label": "Enables showing server sub in server shop",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12403,7 +12403,7 @@
                 "id": 1,
                 "label": "On",
                 "config": {
-                    "inUse": true
+                    "inUse": false
                 }
             }
         ],
@@ -12728,7 +12728,7 @@
                 "id": 1,
                 "label": "Prefer BOTH nitro badge AND role icon(s)",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "hideNitroBadgeWhenRoleBadgePresent": false
                 }
             },
@@ -12736,8 +12736,8 @@
                 "id": 2,
                 "label": "Prefer role icon(s) over nitro badge if both are present",
                 "config": {
-                    "enabled": true,
-                    "hideNitroBadgeWhenRoleBadgePresent": true
+                    "enabled": false,
+                    "hideNitroBadgeWhenRoleBadgePresent": false
                 }
             }
         ],
@@ -12858,7 +12858,7 @@
                 "id": 1,
                 "label": "Enable the app launcher feature on desktop",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -12896,7 +12896,7 @@
                 "id": 2,
                 "label": "Shows links to attachments as \"mentions\" of the filename",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -13107,7 +13107,7 @@
                 "id": 1,
                 "label": "Use the unfinished, not ready, and totally benign notification tweaks",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -13144,7 +13144,7 @@
                 "id": 1,
                 "label": "Enable one click",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -13193,7 +13193,7 @@
                 "id": 2,
                 "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
                 "config": {
-                    "voiceChannelActivityNotifsEnabled": true
+                    "voiceChannelActivityNotifsEnabled": false
                 }
             }
         ],
@@ -13388,7 +13388,7 @@
                 "id": 1,
                 "label": "Ask server for marketing content for rendering",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -13543,7 +13543,7 @@
                 "id": 1,
                 "label": "Quests enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -13760,7 +13760,7 @@
                 "id": 1,
                 "label": "enable adaptive key frame for nvenc",
                 "config": {
-                    "enableAdaptiveKeyFrame": true
+                    "enableAdaptiveKeyFrame": false
                 }
             }
         ],
@@ -14049,7 +14049,7 @@
                 "id": 1,
                 "label": "Animated icons enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14188,7 +14188,7 @@
                 "id": 1,
                 "label": "enable adaptive key frame for nvenc",
                 "config": {
-                    "nvEnableNewPresets": true
+                    "nvEnableNewPresets": false
                 }
             }
         ],
@@ -14267,7 +14267,7 @@
                 "id": 1,
                 "label": "enable the advanced slowmode input",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14364,7 +14364,7 @@
                 "id": 1,
                 "label": "Enable Clickstream Analytics",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14422,7 +14422,7 @@
         "kind": "user",
         "treatments": [
             {
-                "id": false,
+                "id": -1,
                 "label": "Not in experiment",
                 "config": {
                     "enabled": false
@@ -14579,15 +14579,15 @@
                 "id": 1,
                 "label": "Force enable krisp",
                 "config": {
-                    "shouldOverrideKrisp": true,
-                    "overrideKrispSetting": true
+                    "shouldOverrideKrisp": false,
+                    "overrideKrispSetting": false
                 }
             },
             {
                 "id": 2,
                 "label": "Force disable krisp",
                 "config": {
-                    "shouldOverrideKrisp": true,
+                    "shouldOverrideKrisp": false,
                     "overrideKrispSetting": false
                 }
             }
@@ -14643,7 +14643,7 @@
                 "id": 1,
                 "label": "Send metrics",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14728,7 +14728,7 @@
                 "id": 1,
                 "label": "Enables the nitro tenure reward card for users",
                 "config": {
-                    "enableNitroTenureRewardCard": true
+                    "enableNitroTenureRewardCard": false
                 }
             }
         ],
@@ -14802,7 +14802,7 @@
                 "id": 1,
                 "label": "Quest Bar Progress CTA enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14860,7 +14860,7 @@
                 "id": 1,
                 "label": "enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -14909,7 +14909,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -15111,7 +15111,7 @@
                 "id": 1,
                 "label": "Concurrent Quests Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -15191,7 +15191,7 @@
                 "label": "Status Indicator Only",
                 "config": {
                     "isFacepileEnabled": false,
-                    "isStatusIndicatorEnabled": true,
+                    "isStatusIndicatorEnabled": false,
                     "isTypingIndicatorEnabled": false
                 }
             },
@@ -15201,7 +15201,7 @@
                 "config": {
                     "isFacepileEnabled": false,
                     "isStatusIndicatorEnabled": false,
-                    "isTypingIndicatorEnabled": true
+                    "isTypingIndicatorEnabled": false
                 }
             },
             {
@@ -15209,15 +15209,15 @@
                 "label": "Status Indicator + Typing Indicator",
                 "config": {
                     "isFacepileEnabled": false,
-                    "isStatusIndicatorEnabled": true,
-                    "isTypingIndicatorEnabled": true
+                    "isStatusIndicatorEnabled": false,
+                    "isTypingIndicatorEnabled": false
                 }
             },
             {
                 "id": 4,
                 "label": "Facepile Only",
                 "config": {
-                    "isFacepileEnabled": true,
+                    "isFacepileEnabled": false,
                     "isStatusIndicatorEnabled": false,
                     "isTypingIndicatorEnabled": false
                 }
@@ -15226,8 +15226,8 @@
                 "id": 5,
                 "label": "Facepile + Status Indicator",
                 "config": {
-                    "isFacepileEnabled": true,
-                    "isStatusIndicatorEnabled": true,
+                    "isFacepileEnabled": false,
+                    "isStatusIndicatorEnabled": false,
                     "isTypingIndicatorEnabled": false
                 }
             },
@@ -15235,18 +15235,18 @@
                 "id": 6,
                 "label": "Facepile + Typing Indicator",
                 "config": {
-                    "isFacepileEnabled": true,
+                    "isFacepileEnabled": false,
                     "isStatusIndicatorEnabled": false,
-                    "isTypingIndicatorEnabled": true
+                    "isTypingIndicatorEnabled": false
                 }
             },
             {
                 "id": 7,
                 "label": "Facepile + Typing Indicator + Status Indicator",
                 "config": {
-                    "isFacepileEnabled": true,
-                    "isStatusIndicatorEnabled": true,
-                    "isTypingIndicatorEnabled": true
+                    "isFacepileEnabled": false,
+                    "isStatusIndicatorEnabled": false,
+                    "isTypingIndicatorEnabled": false
                 }
             }
         ],
@@ -15640,7 +15640,7 @@
                     "enabled": false,
                     "enableCollapsibleSidebar": false,
                     "newChatInput": false,
-                    "disabledByDefault": true,
+                    "disabledByDefault": false,
                     "canOptOut": false
                 }
             },
@@ -15648,9 +15648,9 @@
                 "id": 1,
                 "label": "Refresh with New Chat Input",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "enableCollapsibleSidebar": false,
-                    "newChatInput": true,
+                    "newChatInput": false,
                     "disabledByDefault": false,
                     "canOptOut": false
                 }
@@ -15659,9 +15659,9 @@
                 "id": 2,
                 "label": "Refresh with New Chat Input, Collapsible Sidebar",
                 "config": {
-                    "enabled": true,
-                    "enableCollapsibleSidebar": true,
-                    "newChatInput": true,
+                    "enabled": false,
+                    "enableCollapsibleSidebar": false,
+                    "newChatInput": false,
                     "disabledByDefault": false,
                     "canOptOut": false
                 }
@@ -15670,7 +15670,7 @@
                 "id": 3,
                 "label": "Refresh with Legacy Chat Input",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "enableCollapsibleSidebar": false,
                     "newChatInput": false,
                     "disabledByDefault": false,
@@ -15681,8 +15681,8 @@
                 "id": 4,
                 "label": "Refresh with Legacy Chat Input, Collapsible Sidebar",
                 "config": {
-                    "enabled": true,
-                    "enableCollapsibleSidebar": true,
+                    "enabled": false,
+                    "enableCollapsibleSidebar": false,
                     "newChatInput": false,
                     "disabledByDefault": false,
                     "canOptOut": false
@@ -15692,11 +15692,11 @@
                 "id": 5,
                 "label": "External Testers",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "enableCollapsibleSidebar": false,
-                    "newChatInput": true,
-                    "disabledByDefault": true,
-                    "canOptOut": true
+                    "newChatInput": false,
+                    "disabledByDefault": false,
+                    "canOptOut": false
                 }
             }
         ],
@@ -15821,7 +15821,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "canForwardMessages": true,
+                    "canForwardMessages": false,
                     "hasInlineForwardButton": false
                 }
             },
@@ -15829,8 +15829,8 @@
                 "id": 2,
                 "label": "Enabled + inline forward button",
                 "config": {
-                    "canForwardMessages": true,
-                    "hasInlineForwardButton": true
+                    "canForwardMessages": false,
+                    "hasInlineForwardButton": false
                 }
             }
         ],
@@ -16091,7 +16091,7 @@
                 "id": 1,
                 "label": "Enabled.",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -16200,7 +16200,7 @@
                 "id": 1,
                 "label": "Enable",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -16250,7 +16250,7 @@
                 "id": 1,
                 "label": "Users will see the nagbar",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -16293,7 +16293,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -16324,7 +16324,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16375,14 +16375,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16455,7 +16455,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16500,7 +16500,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16545,7 +16545,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16620,7 +16620,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16671,14 +16671,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16751,7 +16751,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16796,7 +16796,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -16841,7 +16841,7 @@
                 "id": 1,
                 "label": "Enable the desktop app launcher in activities shelf: On home screen, clicking activity card -> performs activity action (i.e. launch)",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "clickOnHomeActivityOpensAppDetail": false
                 }
             },
@@ -16849,8 +16849,8 @@
                 "id": 2,
                 "label": "Enable the desktop app launcher in activities shelf: On home screen, clicking activity card -> activity detail page",
                 "config": {
-                    "enabled": true,
-                    "clickOnHomeActivityOpensAppDetail": true
+                    "enabled": false,
+                    "clickOnHomeActivityOpensAppDetail": false
                 }
             }
         ],
@@ -16953,15 +16953,15 @@
                 "id": 1,
                 "label": "Display in inbox",
                 "config": {
-                    "enabled": true,
-                    "inInbox": true
+                    "enabled": false,
+                    "inInbox": false
                 }
             },
             {
                 "id": 2,
                 "label": "Display in header bar",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "inInbox": false
                 }
             }
@@ -17106,7 +17106,7 @@
                 "id": 1,
                 "label": "Enable new roadblock experience",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "addSocialProof": false
                 }
             },
@@ -17114,8 +17114,8 @@
                 "id": 2,
                 "label": "Enable new roadblock experience with social proof",
                 "config": {
-                    "enabled": true,
-                    "addSocialProof": true
+                    "enabled": false,
+                    "addSocialProof": false
                 }
             }
         ],
@@ -17386,7 +17386,7 @@
                 "id": 1,
                 "label": "Enable the Contextual Image Recommendations with options",
                 "config": {
-                    "imageRecsEnabled": true
+                    "imageRecsEnabled": false
                 }
             }
         ],
@@ -17417,7 +17417,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17468,14 +17468,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17548,7 +17548,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17593,7 +17593,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17638,7 +17638,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17689,14 +17689,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17769,7 +17769,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17814,7 +17814,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17859,7 +17859,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17910,14 +17910,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -17990,7 +17990,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18035,7 +18035,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18080,7 +18080,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18131,14 +18131,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18217,7 +18217,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18358,7 +18358,7 @@
                 "id": 1,
                 "label": "Enable the App Launcher changes for Open Platform",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -18527,15 +18527,15 @@
                 "id": 1,
                 "label": "Sidechain Compression available, default enabled",
                 "config": {
-                    "sidechainAvailable": true,
-                    "sidechainEnabled": true
+                    "sidechainAvailable": false,
+                    "sidechainEnabled": false
                 }
             },
             {
                 "id": 2,
                 "label": "Sidechain Compression avialable, default disabled",
                 "config": {
-                    "sidechainAvailable": true,
+                    "sidechainAvailable": false,
                     "sidechainEnabled": false
                 }
             }
@@ -18658,15 +18658,15 @@
                 "label": "Control",
                 "config": {
                     "enabled": false,
-                    "analyticsEligible": true
+                    "analyticsEligible": false
                 }
             },
             {
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true,
-                    "analyticsEligible": true
+                    "enabled": false,
+                    "analyticsEligible": false
                 }
             }
         ],
@@ -18703,7 +18703,7 @@
                 "id": 1,
                 "label": "Enable collectibles expiry modal",
                 "config": {
-                    "expiryModalEnabled": true
+                    "expiryModalEnabled": false
                 }
             }
         ],
@@ -18785,7 +18785,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18836,14 +18836,14 @@
                 "id": 1,
                 "label": "Treatment 1",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             },
             {
                 "id": 2,
                 "label": "Treatment 2",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18916,7 +18916,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -18961,7 +18961,7 @@
                 "id": 1,
                 "label": "Treatment",
                 "config": {
-                    "doSomething": true
+                    "doSomething": false
                 }
             }
         ],
@@ -19163,7 +19163,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -19229,7 +19229,7 @@
                 "label": "Stable algorithm with hover bar",
                 "config": {
                     "frecencyAlgorithm": "safe",
-                    "canShowReactionsOnMessageHover": true
+                    "canShowReactionsOnMessageHover": false
                 }
             },
             {
@@ -19237,7 +19237,7 @@
                 "label": "Volatile algorithm with hover bar",
                 "config": {
                     "frecencyAlgorithm": "day_recency",
-                    "canShowReactionsOnMessageHover": true
+                    "canShowReactionsOnMessageHover": false
                 }
             }
         ],
@@ -19268,7 +19268,7 @@
                 "id": 1,
                 "label": "Enable In App Notifications for Reactions",
                 "config": {
-                    "enableInAppNotifications": true
+                    "enableInAppNotifications": false
                 }
             }
         ],
@@ -19301,7 +19301,7 @@
                 "id": 1,
                 "label": "Enable In App Notifications for Reactions (First Reaction)",
                 "config": {
-                    "enableInAppNotifications": true,
+                    "enableInAppNotifications": false,
                     "enableNotificationsForAllReactions": false
                 }
             },
@@ -19309,16 +19309,16 @@
                 "id": 2,
                 "label": "Enable In App Notifications for Reactions (All Reactions)",
                 "config": {
-                    "enableInAppNotifications": true,
-                    "enableNotificationsForAllReactions": true
+                    "enableInAppNotifications": false,
+                    "enableNotificationsForAllReactions": false
                 }
             },
             {
                 "id": 3,
                 "label": "Enable In App Notifications for Reactions (All Reactions)",
                 "config": {
-                    "enableInAppNotifications": true,
-                    "enableNotificationsForAllReactions": true
+                    "enableInAppNotifications": false,
+                    "enableNotificationsForAllReactions": false
                 }
             }
         ],
@@ -19376,7 +19376,7 @@
                 "label": "Can support DAVE protocol version 1 and above",
                 "config": {
                     "protocolVersionFloor": 1,
-                    "canSupportDaveProtocol": true
+                    "canSupportDaveProtocol": false
                 }
             }
         ],
@@ -19427,7 +19427,7 @@
                 "id": 1,
                 "label": "Enable the updated soundboard picker UI",
                 "config": {
-                    "refreshEnabled": true
+                    "refreshEnabled": false
                 }
             }
         ],
@@ -19458,7 +19458,7 @@
                 "id": 1,
                 "label": "Enable Tiered Tenure Badges v1",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "version": 1
                 }
             },
@@ -19466,7 +19466,7 @@
                 "id": 2,
                 "label": "Enable Tiered Tenure Badges v2",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "version": 2
                 }
             }
@@ -19532,7 +19532,7 @@
                 "id": 1,
                 "label": "Enable",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -19593,15 +19593,15 @@
                 "id": 1,
                 "label": "Icon: upper right arrow",
                 "config": {
-                    "canForwardMessages": true,
-                    "useOldIcon": true
+                    "canForwardMessages": false,
+                    "useOldIcon": false
                 }
             },
             {
                 "id": 2,
                 "label": "Icon: chat bubble",
                 "config": {
-                    "canForwardMessages": true,
+                    "canForwardMessages": false,
                     "useOldIcon": false
                 }
             }
@@ -19657,7 +19657,7 @@
                 "id": 1,
                 "label": "Enables the nitro tenure reward backfill for the user",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -19719,7 +19719,7 @@
                 "id": 2,
                 "label": "clicking activity in voice app launcher -> opens activity detail page",
                 "config": {
-                    "clickOnHomeActivityOpensAppDetail": true
+                    "clickOnHomeActivityOpensAppDetail": false
                 }
             }
         ],
@@ -19800,7 +19800,7 @@
                 "id": 1,
                 "label": "Enable",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -19837,7 +19837,7 @@
                 "id": 1,
                 "label": "Enable User Profile Blocker Skeleton",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -19900,7 +19900,7 @@
                 "id": 1,
                 "label": "Enable special UI for DMs with Apps",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "quickLaunchEnabled": false,
                     "activityPopoutWindowInAppDMEnabled": false
                 }
@@ -19909,8 +19909,8 @@
                 "id": 2,
                 "label": "Enable special UI for DMs with Apps including quick launch",
                 "config": {
-                    "enabled": true,
-                    "quickLaunchEnabled": true,
+                    "enabled": false,
+                    "quickLaunchEnabled": false,
                     "activityPopoutWindowInAppDMEnabled": false
                 }
             },
@@ -19918,9 +19918,9 @@
                 "id": 3,
                 "label": "Enable App DMs UI including quick launch and activity popout window in app DM",
                 "config": {
-                    "enabled": true,
-                    "quickLaunchEnabled": true,
-                    "activityPopoutWindowInAppDMEnabled": true
+                    "enabled": false,
+                    "quickLaunchEnabled": false,
+                    "activityPopoutWindowInAppDMEnabled": false
                 }
             }
         ],
@@ -19970,15 +19970,15 @@
                 "label": "Control",
                 "config": {
                     "enabled": false,
-                    "analyticsEligible": true
+                    "analyticsEligible": false
                 }
             },
             {
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true,
-                    "analyticsEligible": true
+                    "enabled": false,
+                    "analyticsEligible": false
                 }
             }
         ],
@@ -20117,7 +20117,7 @@
                 "id": 1,
                 "label": "Show improved reaction button",
                 "config": {
-                    "canShowImprovedReactionButton": true
+                    "canShowImprovedReactionButton": false
                 }
             }
         ],
@@ -20148,7 +20148,7 @@
                 "id": 1,
                 "label": "Enable Leaderboard",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20257,12 +20257,12 @@
                 "id": 1,
                 "label": "GTM",
                 "config": {
-                    "canForwardMessages": true,
+                    "canForwardMessages": false,
                     "hasInlineForwardButton": false,
                     "hasOneTapSendButton": false,
-                    "hasMessageInput": true,
-                    "hasPreview": true,
-                    "useOldIcon": true
+                    "hasMessageInput": false,
+                    "hasPreview": false,
+                    "useOldIcon": false
                 }
             }
         ],
@@ -20390,7 +20390,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20457,7 +20457,7 @@
                 "id": 1,
                 "label": "Enables the holdout experiment",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20538,7 +20538,7 @@
                 "id": 1,
                 "label": "Enable Block User Feedback Survey",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20653,7 +20653,7 @@
                 "id": 1,
                 "label": "Enable Improved Desktop Media Viewer",
                 "config": {
-                    "improvedDesktopMediaViewerEnabled": true,
+                    "improvedDesktopMediaViewerEnabled": false,
                     "mediaViewerAffordanceEnabled": false
                 }
             },
@@ -20661,8 +20661,8 @@
                 "id": 2,
                 "label": "Enable Improved Desktop Media Viewer with affordances",
                 "config": {
-                    "improvedDesktopMediaViewerEnabled": true,
-                    "mediaViewerAffordanceEnabled": true
+                    "improvedDesktopMediaViewerEnabled": false,
+                    "mediaViewerAffordanceEnabled": false
                 }
             }
         ],
@@ -20782,7 +20782,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20914,7 +20914,7 @@
                 "id": 1,
                 "label": "Enable shop tile impression logging",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -20982,7 +20982,7 @@
                 "id": 1,
                 "label": "Enable the new user remediation tool",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -21013,7 +21013,7 @@
                 "id": 1,
                 "label": "Enable system formatter",
                 "config": {
-                    "enableSystemFormatter": true,
+                    "enableSystemFormatter": false,
                     "enable24HourPref": false
                 }
             },
@@ -21021,8 +21021,8 @@
                 "id": 2,
                 "label": "Enable pref for 24-hour time format",
                 "config": {
-                    "enableSystemFormatter": true,
-                    "enable24HourPref": true
+                    "enableSystemFormatter": false,
+                    "enable24HourPref": false
                 }
             }
         ],
@@ -21053,14 +21053,14 @@
                 "id": 1,
                 "label": "Tile size based wants enabled only for 1:1 videos (rollout)",
                 "config": {
-                    "enabledSingle": true
+                    "enabledSingle": false
                 }
             },
             {
                 "id": 2,
                 "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)",
                 "config": {
-                    "enabledSingle": true
+                    "enabledSingle": false
                 }
             }
         ],
@@ -21122,7 +21122,7 @@
                 "id": 2,
                 "label": "Animated WebP embeds enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -21159,7 +21159,7 @@
                 "id": 1,
                 "label": "Enable activity popout window",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "enableOverlayInActivityPopoutWindow": false,
                     "enableGoLiveFromActivityCard": false
                 }
@@ -21168,8 +21168,8 @@
                 "id": 2,
                 "label": "Enable activity popout window with overlay",
                 "config": {
-                    "enabled": true,
-                    "enableOverlayInActivityPopoutWindow": true,
+                    "enabled": false,
+                    "enableOverlayInActivityPopoutWindow": false,
                     "enableGoLiveFromActivityCard": false
                 }
             },
@@ -21177,9 +21177,9 @@
                 "id": 3,
                 "label": "Enable activity popout window with overlay and GoLive from activity card",
                 "config": {
-                    "enabled": true,
-                    "enableOverlayInActivityPopoutWindow": true,
-                    "enableGoLiveFromActivityCard": true
+                    "enabled": false,
+                    "enableOverlayInActivityPopoutWindow": false,
+                    "enableGoLiveFromActivityCard": false
                 }
             }
         ],
@@ -21216,14 +21216,14 @@
                 "id": 1,
                 "label": "Enable application IAR reporting flow (US)",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             },
             {
                 "id": 2,
                 "label": "Enable application IAR reporting flow (EU)",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -21254,7 +21254,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "delay": false
                 }
             },
@@ -21262,8 +21262,8 @@
                 "id": 2,
                 "label": "Enabled with delay",
                 "config": {
-                    "enabled": true,
-                    "delay": true
+                    "enabled": false,
+                    "delay": false
                 }
             }
         ],
@@ -21300,7 +21300,7 @@
                 "id": 1,
                 "label": "Enables nitro tenure reward collectible for the user",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -21387,7 +21387,7 @@
                 "id": 1,
                 "label": "Enabled",
                 "config": {
-                    "enabled": true
+                    "enabled": false
                 }
             }
         ],
@@ -21418,7 +21418,7 @@
                 "id": 1,
                 "label": "Enabled w/o emoji section",
                 "config": {
-                    "enabled": true,
+                    "enabled": false,
                     "showSoundmojiInEmojiPicker": false
                 }
             },
@@ -21426,8 +21426,8 @@
                 "id": 2,
                 "label": "Enabled w/ emoji section",
                 "config": {
-                    "enabled": true,
-                    "showSoundmojiInEmojiPicker": true
+                    "enabled": false,
+                    "showSoundmojiInEmojiPicker": false
                 }
             }
         ],

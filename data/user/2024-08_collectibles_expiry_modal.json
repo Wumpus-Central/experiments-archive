@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable collectibles expiry modal",
             "config": {
-                "expiryModalEnabled": true
+                "expiryModalEnabled": false
             }
         }
     ],

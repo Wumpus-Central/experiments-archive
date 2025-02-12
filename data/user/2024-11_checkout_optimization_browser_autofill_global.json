@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enabled",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "delay": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enabled with delay",
             "config": {
-                "enabled": true,
-                "delay": true
+                "enabled": false,
+                "delay": false
             }
         }
     ],

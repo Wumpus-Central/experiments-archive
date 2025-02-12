@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable the App Launcher changes for Open Platform",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

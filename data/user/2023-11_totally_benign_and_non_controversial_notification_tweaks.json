@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Use the unfinished, not ready, and totally benign notification tweaks",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

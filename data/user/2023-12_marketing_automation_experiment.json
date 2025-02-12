@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Ask server for marketing content for rendering",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

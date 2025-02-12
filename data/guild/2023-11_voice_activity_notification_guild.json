@@ -8,7 +8,7 @@
             "id": 2,
             "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
             "config": {
-                "voiceChannelActivityNotifsEnabled": true
+                "voiceChannelActivityNotifsEnabled": false
             }
         }
     ],

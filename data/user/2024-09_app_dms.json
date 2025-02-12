@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable special UI for DMs with Apps",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "quickLaunchEnabled": false,
                 "activityPopoutWindowInAppDMEnabled": false
             }
@@ -17,8 +17,8 @@
             "id": 2,
             "label": "Enable special UI for DMs with Apps including quick launch",
             "config": {
-                "enabled": true,
-                "quickLaunchEnabled": true,
+                "enabled": false,
+                "quickLaunchEnabled": false,
                 "activityPopoutWindowInAppDMEnabled": false
             }
         },
@@ -26,9 +26,9 @@
             "id": 3,
             "label": "Enable App DMs UI including quick launch and activity popout window in app DM",
             "config": {
-                "enabled": true,
-                "quickLaunchEnabled": true,
-                "activityPopoutWindowInAppDMEnabled": true
+                "enabled": false,
+                "quickLaunchEnabled": false,
+                "activityPopoutWindowInAppDMEnabled": false
             }
         }
     ],

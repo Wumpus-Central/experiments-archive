@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables Server Products (AKA one time purchases for creator guilds)",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

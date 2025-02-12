@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable new roadblock experience",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "addSocialProof": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enable new roadblock experience with social proof",
             "config": {
-                "enabled": true,
-                "addSocialProof": true
+                "enabled": false,
+                "addSocialProof": false
             }
         }
     ],

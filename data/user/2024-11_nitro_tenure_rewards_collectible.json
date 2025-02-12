@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables nitro tenure reward collectible for the user",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

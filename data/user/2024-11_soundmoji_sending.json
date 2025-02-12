@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enabled w/o emoji section",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "showSoundmojiInEmojiPicker": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enabled w/ emoji section",
             "config": {
-                "enabled": true,
-                "showSoundmojiInEmojiPicker": true
+                "enabled": false,
+                "showSoundmojiInEmojiPicker": false
             }
         }
     ],

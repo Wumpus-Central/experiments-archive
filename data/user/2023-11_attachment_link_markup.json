@@ -15,7 +15,7 @@
             "id": 2,
             "label": "Shows links to attachments as \"mentions\" of the filename",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

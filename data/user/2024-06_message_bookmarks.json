@@ -8,15 +8,15 @@
             "id": 1,
             "label": "Display in inbox",
             "config": {
-                "enabled": true,
-                "inInbox": true
+                "enabled": false,
+                "inInbox": false
             }
         },
         {
             "id": 2,
             "label": "Display in header bar",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "inInbox": false
             }
         }

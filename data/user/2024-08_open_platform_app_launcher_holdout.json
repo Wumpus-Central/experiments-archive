@@ -15,7 +15,7 @@
             "id": 2,
             "label": "clicking activity in voice app launcher -> opens activity detail page",
             "config": {
-                "clickOnHomeActivityOpensAppDetail": true
+                "clickOnHomeActivityOpensAppDetail": false
             }
         }
     ],

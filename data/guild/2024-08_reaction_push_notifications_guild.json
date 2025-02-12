@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable In App Notifications for Reactions",
             "config": {
-                "enableInAppNotifications": true
+                "enableInAppNotifications": false
             }
         }
     ],

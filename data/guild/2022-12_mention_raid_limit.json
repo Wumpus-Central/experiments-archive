@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Automod Mention Raid Limit",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

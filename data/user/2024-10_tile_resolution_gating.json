@@ -8,14 +8,14 @@
             "id": 1,
             "label": "Tile size based wants enabled only for 1:1 videos (rollout)",
             "config": {
-                "enabledSingle": true
+                "enabledSingle": false
             }
         },
         {
             "id": 2,
             "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)",
             "config": {
-                "enabledSingle": true
+                "enabledSingle": false
             }
         }
     ],

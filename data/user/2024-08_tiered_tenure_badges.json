@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable Tiered Tenure Badges v1",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "version": 1
             }
         },
@@ -16,7 +16,7 @@
             "id": 2,
             "label": "Enable Tiered Tenure Badges v2",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "version": 2
             }
         }

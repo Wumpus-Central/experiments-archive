@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables Server shop phantom preview",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

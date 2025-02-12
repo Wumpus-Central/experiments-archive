@@ -15,7 +15,7 @@
             "id": 2,
             "label": "Animated WebP embeds enabled",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

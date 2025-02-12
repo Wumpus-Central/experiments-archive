@@ -15,7 +15,7 @@
             "id": 1,
             "label": "Enabled",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enabled",
             "config": {
-                "canForwardMessages": true,
+                "canForwardMessages": false,
                 "hasInlineForwardButton": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enabled + inline forward button",
             "config": {
-                "canForwardMessages": true,
-                "hasInlineForwardButton": true
+                "canForwardMessages": false,
+                "hasInlineForwardButton": false
             }
         }
     ],

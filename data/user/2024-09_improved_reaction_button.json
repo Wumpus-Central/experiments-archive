@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Show improved reaction button",
             "config": {
-                "canShowImprovedReactionButton": true
+                "canShowImprovedReactionButton": false
             }
         }
     ],

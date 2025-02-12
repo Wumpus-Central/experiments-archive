@@ -5,7 +5,7 @@
     "kind": "user",
     "treatments": [
         {
-            "id": false,
+            "id": -1,
             "label": "Not in experiment",
             "config": {
                 "enabled": false

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables guild to create Guild Role Subscriptions",
             "config": {
-                "enableRoleSubscriptionsForGuild": true
+                "enableRoleSubscriptionsForGuild": false
             }
         }
     ],

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables the nitro tenure reward backfill for the user",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

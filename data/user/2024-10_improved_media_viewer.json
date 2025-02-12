@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable Improved Desktop Media Viewer",
             "config": {
-                "improvedDesktopMediaViewerEnabled": true,
+                "improvedDesktopMediaViewerEnabled": false,
                 "mediaViewerAffordanceEnabled": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enable Improved Desktop Media Viewer with affordances",
             "config": {
-                "improvedDesktopMediaViewerEnabled": true,
-                "mediaViewerAffordanceEnabled": true
+                "improvedDesktopMediaViewerEnabled": false,
+                "mediaViewerAffordanceEnabled": false
             }
         }
     ],

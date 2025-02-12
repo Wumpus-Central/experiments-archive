@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable the new user remediation tool",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

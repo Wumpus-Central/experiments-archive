@@ -8,7 +8,7 @@
             "id": 3,
             "label": "PS Experiment + upsells + Staging",
             "config": {
-                "allowPlayStationStaging": true
+                "allowPlayStationStaging": false
             }
         }
     ],

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "enable adaptive key frame for nvenc",
             "config": {
-                "nvEnableNewPresets": true
+                "nvEnableNewPresets": false
             }
         }
     ],

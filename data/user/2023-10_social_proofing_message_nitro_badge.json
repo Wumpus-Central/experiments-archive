@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Prefer BOTH nitro badge AND role icon(s)",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "hideNitroBadgeWhenRoleBadgePresent": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Prefer role icon(s) over nitro badge if both are present",
             "config": {
-                "enabled": true,
-                "hideNitroBadgeWhenRoleBadgePresent": true
+                "enabled": false,
+                "hideNitroBadgeWhenRoleBadgePresent": false
             }
         }
     ],

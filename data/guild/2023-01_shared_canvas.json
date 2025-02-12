@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable Shared Canvas",
             "config": {
-                "isSharedCanvasEnabled": true
+                "isSharedCanvasEnabled": false
             }
         }
     ],

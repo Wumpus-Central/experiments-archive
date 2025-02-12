@@ -8,7 +8,7 @@
             "id": 0,
             "label": "Control",
             "config": {
-                "triggerDeadchat": true,
+                "triggerDeadchat": false,
                 "enableDeadchat": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 1,
             "label": "trigger deadchat upon connection open",
             "config": {
-                "triggerDeadchat": true,
-                "enableDeadchat": true
+                "triggerDeadchat": false,
+                "enableDeadchat": false
             }
         }
     ],

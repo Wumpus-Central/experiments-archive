@@ -8,26 +8,26 @@
             "id": 1,
             "label": "Remix for Nitro Subscribers",
             "config": {
-                "canSeeRemixBadge": true,
-                "canRemix": true,
-                "isNitroPerk": true
+                "canSeeRemixBadge": false,
+                "canRemix": false,
+                "isNitroPerk": false
             }
         },
         {
             "id": 3,
             "label": "Upsell Remix for Non-Nitro Users",
             "config": {
-                "canSeeRemixBadge": true,
+                "canSeeRemixBadge": false,
                 "canRemix": false,
-                "isNitroPerk": true
+                "isNitroPerk": false
             }
         },
         {
             "id": 5,
             "label": "Remix GA for everyone",
             "config": {
-                "canSeeRemixBadge": true,
-                "canRemix": true,
+                "canSeeRemixBadge": false,
+                "canRemix": false,
                 "isNitroPerk": false
             }
         }

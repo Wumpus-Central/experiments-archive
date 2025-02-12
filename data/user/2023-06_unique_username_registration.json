@@ -17,14 +17,14 @@
             "label": "Unique Username Registration enabled -livecheck +suggestions",
             "config": {
                 "livecheckEnabled": false,
-                "suggestions": true
+                "suggestions": false
             }
         },
         {
             "id": 3,
             "label": "Unique Username Registration enabled +livecheck -suggestions",
             "config": {
-                "livecheckEnabled": true,
+                "livecheckEnabled": false,
                 "suggestions": false
             }
         },
@@ -32,8 +32,8 @@
             "id": 4,
             "label": "Unique Username Registration enabled +livecheck +suggestions",
             "config": {
-                "livecheckEnabled": true,
-                "suggestions": true
+                "livecheckEnabled": false,
+                "suggestions": false
             }
         }
     ],

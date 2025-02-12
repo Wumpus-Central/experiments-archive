@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Last page of onboarding is rules",
             "config": {
-                "includeRules": true
+                "includeRules": false
             }
         }
     ],

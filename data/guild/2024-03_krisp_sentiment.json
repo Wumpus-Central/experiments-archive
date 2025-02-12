@@ -8,15 +8,15 @@
             "id": 1,
             "label": "Force enable krisp",
             "config": {
-                "shouldOverrideKrisp": true,
-                "overrideKrispSetting": true
+                "shouldOverrideKrisp": false,
+                "overrideKrispSetting": false
             }
         },
         {
             "id": 2,
             "label": "Force disable krisp",
             "config": {
-                "shouldOverrideKrisp": true,
+                "shouldOverrideKrisp": false,
                 "overrideKrispSetting": false
             }
         }

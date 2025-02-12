@@ -8,12 +8,12 @@
             "id": 1,
             "label": "GTM",
             "config": {
-                "canForwardMessages": true,
+                "canForwardMessages": false,
                 "hasInlineForwardButton": false,
                 "hasOneTapSendButton": false,
-                "hasMessageInput": true,
-                "hasPreview": true,
-                "useOldIcon": true
+                "hasMessageInput": false,
+                "hasPreview": false,
+                "useOldIcon": false
             }
         }
     ],

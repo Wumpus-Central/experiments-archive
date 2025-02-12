@@ -8,15 +8,15 @@
             "id": 1,
             "label": "Icon: upper right arrow",
             "config": {
-                "canForwardMessages": true,
-                "useOldIcon": true
+                "canForwardMessages": false,
+                "useOldIcon": false
             }
         },
         {
             "id": 2,
             "label": "Icon: chat bubble",
             "config": {
-                "canForwardMessages": true,
+                "canForwardMessages": false,
                 "useOldIcon": false
             }
         }

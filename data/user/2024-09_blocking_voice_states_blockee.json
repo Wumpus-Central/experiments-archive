@@ -9,15 +9,15 @@
             "label": "Control",
             "config": {
                 "enabled": false,
-                "analyticsEligible": true
+                "analyticsEligible": false
             }
         },
         {
             "id": 1,
             "label": "Enabled",
             "config": {
-                "enabled": true,
-                "analyticsEligible": true
+                "enabled": false,
+                "analyticsEligible": false
             }
         }
     ],

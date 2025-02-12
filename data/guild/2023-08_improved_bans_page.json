@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Guild Settings Improved Bans Page",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

@@ -25,7 +25,7 @@
             "label": "Stable algorithm with hover bar",
             "config": {
                 "frecencyAlgorithm": "safe",
-                "canShowReactionsOnMessageHover": true
+                "canShowReactionsOnMessageHover": false
             }
         },
         {
@@ -33,7 +33,7 @@
             "label": "Volatile algorithm with hover bar",
             "config": {
                 "frecencyAlgorithm": "day_recency",
-                "canShowReactionsOnMessageHover": true
+                "canShowReactionsOnMessageHover": false
             }
         }
     ],

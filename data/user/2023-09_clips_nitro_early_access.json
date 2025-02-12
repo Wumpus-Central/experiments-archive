@@ -9,16 +9,16 @@
             "label": "Clips Nitro EA Upsells Visible",
             "config": {
                 "enableClips": false,
-                "enablePremiumEarlyAccessAnnouncementCoachmark": true,
-                "enablePremiumEarlyAccessGoLiveRoadblock": true
+                "enablePremiumEarlyAccessAnnouncementCoachmark": false,
+                "enablePremiumEarlyAccessGoLiveRoadblock": false
             }
         },
         {
             "id": 2,
             "label": "Clips Enabled (Nitro)",
             "config": {
-                "enableClips": true,
-                "enablePremiumEarlyAccessAnnouncementCoachmark": true,
+                "enableClips": false,
+                "enablePremiumEarlyAccessAnnouncementCoachmark": false,
                 "enablePremiumEarlyAccessGoLiveRoadblock": false
             }
         }

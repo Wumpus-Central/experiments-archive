@@ -8,15 +8,15 @@
             "id": 1,
             "label": "Sidechain Compression available, default enabled",
             "config": {
-                "sidechainAvailable": true,
-                "sidechainEnabled": true
+                "sidechainAvailable": false,
+                "sidechainEnabled": false
             }
         },
         {
             "id": 2,
             "label": "Sidechain Compression avialable, default disabled",
             "config": {
-                "sidechainAvailable": true,
+                "sidechainAvailable": false,
                 "sidechainEnabled": false
             }
         }

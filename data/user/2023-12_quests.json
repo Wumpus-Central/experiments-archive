@@ -15,7 +15,7 @@
             "id": 1,
             "label": "Quests enabled",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

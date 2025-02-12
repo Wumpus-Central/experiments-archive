@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable system formatter",
             "config": {
-                "enableSystemFormatter": true,
+                "enableSystemFormatter": false,
                 "enable24HourPref": false
             }
         },
@@ -16,8 +16,8 @@
             "id": 2,
             "label": "Enable pref for 24-hour time format",
             "config": {
-                "enableSystemFormatter": true,
-                "enable24HourPref": true
+                "enableSystemFormatter": false,
+                "enable24HourPref": false
             }
         }
     ],

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "trigger gaming stats data",
             "config": {
-                "trackGamingStats": true
+                "trackGamingStats": false
             }
         }
     ],

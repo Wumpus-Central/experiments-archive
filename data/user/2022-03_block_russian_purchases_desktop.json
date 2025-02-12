@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Check Payment Source",
             "config": {
-                "checkPaymentSource": true
+                "checkPaymentSource": false
             }
         }
     ],

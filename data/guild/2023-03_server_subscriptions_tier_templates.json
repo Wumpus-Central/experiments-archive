@@ -8,7 +8,7 @@
             "id": 1,
             "label": "299 basic tier + no link",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "showCreatorPortalLink": false
             }
         },
@@ -16,7 +16,7 @@
             "id": 2,
             "label": "399 basic tier + no link",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "showCreatorPortalLink": false
             }
         },
@@ -24,8 +24,8 @@
             "id": 3,
             "label": "399 basic tier + link",
             "config": {
-                "enabled": true,
-                "showCreatorPortalLink": true
+                "enabled": false,
+                "showCreatorPortalLink": false
             }
         }
     ],

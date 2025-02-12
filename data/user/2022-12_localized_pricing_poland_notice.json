@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable Poland Notice",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

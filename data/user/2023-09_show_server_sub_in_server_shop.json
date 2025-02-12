@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables showing server sub in server shop",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

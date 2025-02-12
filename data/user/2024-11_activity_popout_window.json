@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable activity popout window",
             "config": {
-                "enabled": true,
+                "enabled": false,
                 "enableOverlayInActivityPopoutWindow": false,
                 "enableGoLiveFromActivityCard": false
             }
@@ -17,8 +17,8 @@
             "id": 2,
             "label": "Enable activity popout window with overlay",
             "config": {
-                "enabled": true,
-                "enableOverlayInActivityPopoutWindow": true,
+                "enabled": false,
+                "enableOverlayInActivityPopoutWindow": false,
                 "enableGoLiveFromActivityCard": false
             }
         },
@@ -26,9 +26,9 @@
             "id": 3,
             "label": "Enable activity popout window with overlay and GoLive from activity card",
             "config": {
-                "enabled": true,
-                "enableOverlayInActivityPopoutWindow": true,
-                "enableGoLiveFromActivityCard": true
+                "enabled": false,
+                "enableOverlayInActivityPopoutWindow": false,
+                "enableGoLiveFromActivityCard": false
             }
         }
     ],

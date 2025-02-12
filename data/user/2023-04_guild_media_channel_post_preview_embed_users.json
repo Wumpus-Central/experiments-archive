@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enables for users Guild Media Post Preview Embeds",
             "config": {
-                "enabledForUser": true
+                "enabledForUser": false
             }
         }
     ],

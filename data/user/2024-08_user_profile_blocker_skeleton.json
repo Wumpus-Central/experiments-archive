@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable User Profile Blocker Skeleton",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

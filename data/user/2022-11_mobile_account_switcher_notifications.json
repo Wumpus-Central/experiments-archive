@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable notifications for multiple accounts",
             "config": {
-                "isMultiAccountMobileNotificationsEnabled": true
+                "isMultiAccountMobileNotificationsEnabled": false
             }
         }
     ],

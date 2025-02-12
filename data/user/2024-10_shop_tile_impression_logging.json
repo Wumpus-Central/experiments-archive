@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable shop tile impression logging",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

@@ -9,7 +9,7 @@
             "label": "Status Indicator Only",
             "config": {
                 "isFacepileEnabled": false,
-                "isStatusIndicatorEnabled": true,
+                "isStatusIndicatorEnabled": false,
                 "isTypingIndicatorEnabled": false
             }
         },
@@ -19,7 +19,7 @@
             "config": {
                 "isFacepileEnabled": false,
                 "isStatusIndicatorEnabled": false,
-                "isTypingIndicatorEnabled": true
+                "isTypingIndicatorEnabled": false
             }
         },
         {
@@ -27,15 +27,15 @@
             "label": "Status Indicator + Typing Indicator",
             "config": {
                 "isFacepileEnabled": false,
-                "isStatusIndicatorEnabled": true,
-                "isTypingIndicatorEnabled": true
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": false
             }
         },
         {
             "id": 4,
             "label": "Facepile Only",
             "config": {
-                "isFacepileEnabled": true,
+                "isFacepileEnabled": false,
                 "isStatusIndicatorEnabled": false,
                 "isTypingIndicatorEnabled": false
             }
@@ -44,8 +44,8 @@
             "id": 5,
             "label": "Facepile + Status Indicator",
             "config": {
-                "isFacepileEnabled": true,
-                "isStatusIndicatorEnabled": true,
+                "isFacepileEnabled": false,
+                "isStatusIndicatorEnabled": false,
                 "isTypingIndicatorEnabled": false
             }
         },
@@ -53,18 +53,18 @@
             "id": 6,
             "label": "Facepile + Typing Indicator",
             "config": {
-                "isFacepileEnabled": true,
+                "isFacepileEnabled": false,
                 "isStatusIndicatorEnabled": false,
-                "isTypingIndicatorEnabled": true
+                "isTypingIndicatorEnabled": false
             }
         },
         {
             "id": 7,
             "label": "Facepile + Typing Indicator + Status Indicator",
             "config": {
-                "isFacepileEnabled": true,
-                "isStatusIndicatorEnabled": true,
-                "isTypingIndicatorEnabled": true
+                "isFacepileEnabled": false,
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": false
             }
         }
     ],

@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Enable the Contextual Image Recommendations with options",
             "config": {
-                "imageRecsEnabled": true
+                "imageRecsEnabled": false
             }
         }
     ],

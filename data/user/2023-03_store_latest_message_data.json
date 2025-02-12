@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Use latest data from api/gateway",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ],

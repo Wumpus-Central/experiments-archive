@@ -8,14 +8,14 @@
             "id": 1,
             "label": "ability to trigger gaming stats prompt",
             "config": {
-                "triggerGamingStats": true
+                "triggerGamingStats": false
             }
         },
         {
             "id": 2,
             "label": "ability to trigger gaming stats prompt (leaderboard)",
             "config": {
-                "triggerGamingStats": true
+                "triggerGamingStats": false
             }
         }
     ],

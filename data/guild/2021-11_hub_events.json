@@ -8,7 +8,7 @@
             "id": 1,
             "label": "Show Hub Events List",
             "config": {
-                "showHubEventsList": true
+                "showHubEventsList": false
             }
         }
     ],
