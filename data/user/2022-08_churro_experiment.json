@@ -6,26 +6,9 @@
     "treatments": [
         {
             "id": 3,
-            "label": "PS Experiment + upsells + Staging",
-            "config": {
-                "allowPlayStationStaging": false
-            }
+            "aa_mode": 0,
+            "label": "PS Experiment + upsells + Staging"
         }
     ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "population": null
 }

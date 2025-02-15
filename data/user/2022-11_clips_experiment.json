@@ -2,5 +2,23 @@
     "id": "2022-11_clips_experiment",
     "label": "Clips Experiment",
     "hash": 1651184307,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Clips without upsells"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Clips with upsells"
+        },
+        {
+            "id": 99,
+            "aa_mode": 0,
+            "label": "Clips 4 da Developerz"
+        }
+    ],
+    "population": null
 }

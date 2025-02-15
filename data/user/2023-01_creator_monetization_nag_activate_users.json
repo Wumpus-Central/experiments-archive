@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables users to see nag bar to activate server subscriptions",
-            "config": {
-                "enableCreatorMonetizationNagActivateForUser": false
-            }
+            "aa_mode": 0,
+            "label": "Enables users to see nag bar to activate server subscriptions"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

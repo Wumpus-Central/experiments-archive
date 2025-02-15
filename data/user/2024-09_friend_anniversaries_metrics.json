@@ -2,5 +2,13 @@
     "id": "2024-09_friend_anniversaries_metrics",
     "label": "Friend Anniversaries Metrics",
     "hash": 115812232,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Friend anniversaries metrics enabled"
+        }
+    ],
+    "population": null
 }

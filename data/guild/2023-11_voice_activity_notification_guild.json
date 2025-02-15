@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 2,
-            "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
-            "config": {
-                "voiceChannelActivityNotifsEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
         }
     ],
     "populations": [
@@ -61,5 +59,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

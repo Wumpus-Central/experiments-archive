@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables guild to create Guild Role Subscriptions",
-            "config": {
-                "enableRoleSubscriptionsForGuild": false
-            }
+            "aa_mode": 0,
+            "label": "Enables guild to create Guild Role Subscriptions"
         }
     ],
     "populations": [
@@ -93,5 +91,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

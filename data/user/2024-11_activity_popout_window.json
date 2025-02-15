@@ -6,46 +6,19 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable activity popout window",
-            "config": {
-                "enabled": false,
-                "enableOverlayInActivityPopoutWindow": false,
-                "enableGoLiveFromActivityCard": false
-            }
+            "aa_mode": 0,
+            "label": "Enable activity popout window"
         },
         {
             "id": 2,
-            "label": "Enable activity popout window with overlay",
-            "config": {
-                "enabled": false,
-                "enableOverlayInActivityPopoutWindow": false,
-                "enableGoLiveFromActivityCard": false
-            }
+            "aa_mode": 0,
+            "label": "Enable activity popout window with overlay"
         },
         {
             "id": 3,
-            "label": "Enable activity popout window with overlay and GoLive from activity card",
-            "config": {
-                "enabled": false,
-                "enableOverlayInActivityPopoutWindow": false,
-                "enableGoLiveFromActivityCard": false
-            }
+            "aa_mode": 0,
+            "label": "Enable activity popout window with overlay and GoLive from activity card"
         }
     ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 6,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 600
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "population": null
 }

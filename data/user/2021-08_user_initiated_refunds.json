@@ -2,5 +2,18 @@
     "id": "2021-08_user_initiated_refunds",
     "label": "User Initiated Refunds",
     "hash": 2623810566,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Can refund"
+        }
+    ],
+    "population": null
 }

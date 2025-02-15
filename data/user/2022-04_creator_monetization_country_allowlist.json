@@ -2,5 +2,36 @@
     "id": "2022-04_creator_monetization_country_allowlist",
     "label": "Creator Monetization Available in Country",
     "hash": 2532700533,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enables users to view Creator Monetization entrypoints"
+        }
+    ],
+    "population": [
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -6,42 +6,33 @@
     "treatments": [
         {
             "id": 1,
-            "label": "600ms",
-            "config": {
-                "delay": 600
-            }
+            "aa_mode": 0,
+            "label": "600ms"
         },
         {
             "id": 2,
-            "label": "700ms",
-            "config": {
-                "delay": 700
-            }
+            "aa_mode": 0,
+            "label": "700ms"
         },
         {
             "id": 3,
-            "label": "800ms",
-            "config": {
-                "delay": 800
-            }
+            "aa_mode": 0,
+            "label": "800ms"
         },
         {
             "id": 4,
-            "label": "900ms",
-            "config": {
-                "delay": 900
-            }
+            "aa_mode": 0,
+            "label": "900ms"
         },
         {
             "id": 5,
-            "label": "1000ms",
-            "config": {
-                "delay": 1000
-            }
+            "aa_mode": 0,
+            "label": "1000ms"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 3,

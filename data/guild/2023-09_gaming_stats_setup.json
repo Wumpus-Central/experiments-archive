@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "trigger gaming stats data",
-            "config": {
-                "trackGamingStats": false
-            }
+            "aa_mode": 0,
+            "label": "trigger gaming stats data"
         }
     ],
     "populations": [
@@ -61,5 +59,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

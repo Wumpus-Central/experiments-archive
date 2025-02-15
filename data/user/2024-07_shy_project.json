@@ -2,5 +2,13 @@
     "id": "2024-07_shy_project",
     "label": "Shy Project Marketing Variation",
     "hash": 2483448920,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Summer 2024"
+        }
+    ],
+    "population": null
 }

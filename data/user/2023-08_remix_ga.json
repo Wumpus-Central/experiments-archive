@@ -6,34 +6,23 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Remix for Nitro Subscribers",
-            "config": {
-                "canSeeRemixBadge": false,
-                "canRemix": false,
-                "isNitroPerk": false
-            }
+            "aa_mode": 0,
+            "label": "Remix for Nitro Subscribers"
         },
         {
             "id": 3,
-            "label": "Upsell Remix for Non-Nitro Users",
-            "config": {
-                "canSeeRemixBadge": false,
-                "canRemix": false,
-                "isNitroPerk": false
-            }
+            "aa_mode": 0,
+            "label": "Upsell Remix for Non-Nitro Users"
         },
         {
             "id": 5,
-            "label": "Remix GA for everyone",
-            "config": {
-                "canSeeRemixBadge": false,
-                "canRemix": false,
-                "isNitroPerk": false
-            }
+            "aa_mode": 0,
+            "label": "Remix GA for everyone"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 5,

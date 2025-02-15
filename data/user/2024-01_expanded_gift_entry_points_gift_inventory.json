@@ -2,5 +2,13 @@
     "id": "2024-01_expanded_gift_entry_points_gift_inventory",
     "label": "Expanded Gift Entry Points - Gift Inventory",
     "hash": 819931368,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Show Gift Entry Point in Gift Inventory"
+        }
+    ],
+    "population": null
 }

@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enabled"
         }
     ],
     "populations": [
@@ -86,5 +84,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

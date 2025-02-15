@@ -2,5 +2,13 @@
     "id": "2024-06_game_profile_experiment",
     "label": "Enables the Game Profile",
     "hash": 1666007237,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "population": null
 }

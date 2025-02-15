@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Turkey Notice",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable Turkey Notice"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

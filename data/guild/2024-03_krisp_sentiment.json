@@ -6,19 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Force enable krisp",
-            "config": {
-                "shouldOverrideKrisp": false,
-                "overrideKrispSetting": false
-            }
+            "aa_mode": 0,
+            "label": "Force enable krisp"
         },
         {
             "id": 2,
-            "label": "Force disable krisp",
-            "config": {
-                "shouldOverrideKrisp": false,
-                "overrideKrispSetting": false
-            }
+            "aa_mode": 0,
+            "label": "Force disable krisp"
         }
     ],
     "populations": [
@@ -60,5 +54,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

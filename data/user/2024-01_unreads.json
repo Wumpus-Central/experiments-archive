@@ -2,5 +2,23 @@
     "id": "2024-01_unreads",
     "label": "Unreads Experiment (grey-dot mode)",
     "hash": 2883062585,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Auto open migration"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Manually open migration"
+        }
+    ],
+    "population": null
 }

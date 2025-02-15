@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable collectibles expiry modal",
-            "config": {
-                "expiryModalEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable collectibles expiry modal"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

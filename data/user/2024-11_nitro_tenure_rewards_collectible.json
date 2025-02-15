@@ -6,32 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables nitro tenure reward collectible for the user",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enables nitro tenure reward collectible for the user"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 16,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 600
-                        },
-                        {
-                            "start": 1000,
-                            "end": 2000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

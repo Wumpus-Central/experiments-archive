@@ -6,28 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "On",
-            "config": {
-                "inUse": false
-            }
+            "aa_mode": 0,
+            "label": "On"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

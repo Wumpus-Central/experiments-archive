@@ -2,5 +2,13 @@
     "id": "2024-03_valorant_admin_signup",
     "label": "Valorant Admin Signup",
     "hash": 2999880206,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Show admin signup"
+        }
+    ],
+    "population": null
 }

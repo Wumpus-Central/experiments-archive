@@ -2,5 +2,13 @@
     "id": "2024-04_quest_preview_tool",
     "label": "Quest Preview Tool",
     "hash": 3368313611,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Preview tool enabled"
+        }
+    ],
+    "population": null
 }

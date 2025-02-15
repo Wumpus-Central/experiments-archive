@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables Server shop phantom preview",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enables Server shop phantom preview"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

@@ -6,23 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Quest Bar V2 with V1 Progress",
-            "config": {
-                "primaryVariant": 1,
-                "progressVariant": 0
-            }
+            "aa_mode": 0,
+            "label": "Quest Bar V2 with V1 Progress"
         },
         {
             "id": 2,
-            "label": "Quest Bar V2",
-            "config": {
-                "primaryVariant": 1,
-                "progressVariant": 1
-            }
+            "aa_mode": 0,
+            "label": "Quest Bar V2"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

@@ -2,5 +2,13 @@
     "id": "2023-12_pause_subscriptions_experiment",
     "label": "Pause Subscriptions Experiment",
     "hash": 1522152287,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Pause Subscription Enabled"
+        }
+    ],
+    "population": null
 }

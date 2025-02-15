@@ -2,5 +2,18 @@
     "id": "2023-11_voice_activity_notification_user",
     "label": "Voice Activity Notifications for User",
     "hash": 2966119607,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Voice Activity Notifications are enabled for user"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Control for AA test. Voice Activity Notifications are NOT enabled for user."
+        }
+    ],
+    "population": null
 }

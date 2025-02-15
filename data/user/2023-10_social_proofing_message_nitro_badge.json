@@ -6,35 +6,14 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Prefer BOTH nitro badge AND role icon(s)",
-            "config": {
-                "enabled": false,
-                "hideNitroBadgeWhenRoleBadgePresent": false
-            }
+            "aa_mode": 0,
+            "label": "Prefer BOTH nitro badge AND role icon(s)"
         },
         {
             "id": 2,
-            "label": "Prefer role icon(s) over nitro badge if both are present",
-            "config": {
-                "enabled": false,
-                "hideNitroBadgeWhenRoleBadgePresent": false
-            }
+            "aa_mode": 0,
+            "label": "Prefer role icon(s) over nitro badge if both are present"
         }
     ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 3,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 300
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "population": null
 }

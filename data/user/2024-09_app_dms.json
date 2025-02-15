@@ -6,34 +6,23 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable special UI for DMs with Apps",
-            "config": {
-                "enabled": false,
-                "quickLaunchEnabled": false,
-                "activityPopoutWindowInAppDMEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable special UI for DMs with Apps"
         },
         {
             "id": 2,
-            "label": "Enable special UI for DMs with Apps including quick launch",
-            "config": {
-                "enabled": false,
-                "quickLaunchEnabled": false,
-                "activityPopoutWindowInAppDMEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable special UI for DMs with Apps including quick launch"
         },
         {
             "id": 3,
-            "label": "Enable App DMs UI including quick launch and activity popout window in app DM",
-            "config": {
-                "enabled": false,
-                "quickLaunchEnabled": false,
-                "activityPopoutWindowInAppDMEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable App DMs UI including quick launch and activity popout window in app DM"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

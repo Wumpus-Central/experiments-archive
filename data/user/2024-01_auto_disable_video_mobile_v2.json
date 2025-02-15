@@ -2,5 +2,28 @@
     "id": "2024-01_auto_disable_video_mobile_v2",
     "label": "Mobile performance: VideoHealthManager (v2)",
     "hash": 1814449668,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "5 second window, 100% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "5 second window, 100% allowed poor fps ratio, 5 fps threshold, 10 second backoff"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "10 second window, 70% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "10 second window, 90% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
+        }
+    ],
+    "population": null
 }

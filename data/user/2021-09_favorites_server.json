@@ -2,5 +2,28 @@
     "id": "2021-09_favorites_server",
     "label": "Favorites Server",
     "hash": 1134868932,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Favorites v1 - On"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Favorites v1 - Forced Off"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Favorites v2"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "Favorites v2 w/o Staff Privileges"
+        }
+    ],
+    "population": null
 }

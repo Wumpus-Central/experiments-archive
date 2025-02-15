@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Use the unfinished, not ready, and totally benign notification tweaks",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Use the unfinished, not ready, and totally benign notification tweaks"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

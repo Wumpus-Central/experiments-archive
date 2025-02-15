@@ -6,40 +6,9 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Tracking disabled",
-            "config": {
-                "trackingEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Tracking disabled"
         }
     ],
-    "populations": [
-        {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 10,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 1000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 90,
-                    "ranges": [
-                        {
-                            "start": 1000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "population": null
 }

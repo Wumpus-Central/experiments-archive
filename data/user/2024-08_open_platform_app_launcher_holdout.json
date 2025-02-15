@@ -6,35 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "clicking activity in voice app launcher -> performs activity action",
-            "config": {
-                "clickOnHomeActivityOpensAppDetail": false
-            }
+            "aa_mode": 0,
+            "label": "clicking activity in voice app launcher -> performs activity action"
         },
         {
             "id": 2,
-            "label": "clicking activity in voice app launcher -> opens activity detail page",
-            "config": {
-                "clickOnHomeActivityOpensAppDetail": false
-            }
+            "aa_mode": 0,
+            "label": "clicking activity in voice app launcher -> opens activity detail page"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 500
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables Server Products (AKA one time purchases for creator guilds)",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enables Server Products (AKA one time purchases for creator guilds)"
         }
     ],
     "populations": [
@@ -176,5 +174,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

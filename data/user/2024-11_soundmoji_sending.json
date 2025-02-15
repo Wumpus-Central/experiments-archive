@@ -6,45 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled w/o emoji section",
-            "config": {
-                "enabled": false,
-                "showSoundmojiInEmojiPicker": false
-            }
+            "aa_mode": 0,
+            "label": "Enabled w/o emoji section"
         },
         {
             "id": 2,
-            "label": "Enabled w/ emoji section",
-            "config": {
-                "enabled": false,
-                "showSoundmojiInEmojiPicker": false
-            }
+            "aa_mode": 0,
+            "label": "Enabled w/ emoji section"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 10,
-                    "ranges": [
-                        {
-                            "start": 7000,
-                            "end": 7500
-                        },
-                        {
-                            "start": 8500,
-                            "end": 8900
-                        },
-                        {
-                            "start": 9700,
-                            "end": 9800
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
@@ -67,10 +40,11 @@
             ]
         },
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 12,
+                    "percentage": 10,
                     "ranges": [
                         {
                             "start": 8000,
@@ -78,6 +52,10 @@
                         },
                         {
                             "start": 9300,
+                            "end": 9700
+                        },
+                        {
+                            "start": 9900,
                             "end": 10000
                         }
                     ]

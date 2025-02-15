@@ -2,5 +2,23 @@
     "id": "2022-12_channel_notice_redesign",
     "label": "Channel Notice Redesign",
     "hash": 3502788249,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Show Redesigned Channel Notices"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Show Redesigned Stage/Event Notices"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Show Redesigned Channel Notices & Stage/Event Notices"
+        }
+    ],
+    "population": null
 }

@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable shop tile impression logging",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable shop tile impression logging"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

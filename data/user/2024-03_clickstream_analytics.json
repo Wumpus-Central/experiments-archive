@@ -6,35 +6,24 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Clickstream Analytics",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable Clickstream Analytics"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 13,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 1300
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 12,
+                    "percentage": 10,
                     "ranges": [
                         {
                             "start": 100,
+                            "end": 200
+                        },
+                        {
+                            "start": 400,
                             "end": 600
                         },
                         {

@@ -6,39 +6,28 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Stable algorithm with no hover bar",
-            "config": {
-                "frecencyAlgorithm": "safe",
-                "canShowReactionsOnMessageHover": false
-            }
+            "aa_mode": 0,
+            "label": "Stable algorithm with no hover bar"
         },
         {
             "id": 2,
-            "label": "Volatile algorithm with no hover bar",
-            "config": {
-                "frecencyAlgorithm": "day_recency",
-                "canShowReactionsOnMessageHover": false
-            }
+            "aa_mode": 0,
+            "label": "Volatile algorithm with no hover bar"
         },
         {
             "id": 3,
-            "label": "Stable algorithm with hover bar",
-            "config": {
-                "frecencyAlgorithm": "safe",
-                "canShowReactionsOnMessageHover": false
-            }
+            "aa_mode": 0,
+            "label": "Stable algorithm with hover bar"
         },
         {
             "id": 4,
-            "label": "Volatile algorithm with hover bar",
-            "config": {
-                "frecencyAlgorithm": "day_recency",
-                "canShowReactionsOnMessageHover": false
-            }
+            "aa_mode": 0,
+            "label": "Volatile algorithm with hover bar"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 3,

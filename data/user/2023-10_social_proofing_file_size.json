@@ -2,5 +2,13 @@
     "id": "2023-10_social_proofing_file_size",
     "label": "Social Proofing File Size",
     "hash": 3258058784,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Should show nitro upsell for large files"
+        }
+    ],
+    "population": null
 }

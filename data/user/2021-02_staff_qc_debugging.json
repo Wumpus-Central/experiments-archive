@@ -2,5 +2,13 @@
     "id": "2021-02_staff_qc_debugging",
     "label": "Display QS scores in results. Not a real experiment",
     "hash": 2847059306,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Show scores in QS results"
+        }
+    ],
+    "population": null
 }

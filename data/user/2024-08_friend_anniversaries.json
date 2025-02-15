@@ -2,5 +2,18 @@
     "id": "2024-08_friend_anniversaries",
     "label": "Friend Anniversaries",
     "hash": 1006930170,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Friend anniversaries enabled with text CTA"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Friend anniversaries enabled with emoji CTA"
+        }
+    ],
+    "population": null
 }

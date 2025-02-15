@@ -2,5 +2,13 @@
     "id": "2024-02_activity_react_reply",
     "label": "Activity React Reply",
     "hash": 1210736186,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable Activity React / Reply Buttons"
+        }
+    ],
+    "population": null
 }

@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Leaderboard",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable Leaderboard"
         }
     ],
     "populations": [
@@ -99,5 +97,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

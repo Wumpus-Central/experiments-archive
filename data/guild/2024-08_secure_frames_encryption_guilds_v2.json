@@ -6,11 +6,8 @@
     "treatments": [
         {
             "id": 11,
-            "label": "Can support DAVE protocol version 1 and above",
-            "config": {
-                "protocolVersionFloor": 1,
-                "canSupportDaveProtocol": false
-            }
+            "aa_mode": 0,
+            "label": "Can support DAVE protocol version 1 and above"
         }
     ],
     "populations": [
@@ -30,5 +27,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

@@ -6,35 +6,28 @@
     "treatments": [
         {
             "id": 7,
-            "label": "Tide 2024",
-            "config": {
-                "variant": 7
-            }
+            "aa_mode": 0,
+            "label": "Tide 2024"
         },
         {
             "id": 8,
-            "label": "Robert 2024",
-            "config": {
-                "variant": 8
-            }
+            "aa_mode": 0,
+            "label": "Robert 2024"
         },
         {
             "id": 9,
-            "label": "Storm 2024",
-            "config": {
-                "variant": 9
-            }
+            "aa_mode": 0,
+            "label": "Storm 2024"
         },
         {
             "id": 10,
-            "label": "Equinox/fall 2024",
-            "config": {
-                "variant": 10
-            }
+            "aa_mode": 0,
+            "label": "Equinox/fall 2024"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 10,

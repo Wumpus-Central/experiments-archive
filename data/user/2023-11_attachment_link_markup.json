@@ -6,21 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Shows links to attachments as regular links",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Shows links to attachments as regular links"
         },
         {
             "id": 2,
-            "label": "Shows links to attachments as \"mentions\" of the filename",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Shows links to attachments as \"mentions\" of the filename"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

@@ -6,28 +6,23 @@
     "treatments": [
         {
             "id": 1,
-            "label": "250 ms",
-            "config": {
-                "nvMediumVbvSizeMs": 250
-            }
+            "aa_mode": 0,
+            "label": "250 ms"
         },
         {
             "id": 2,
-            "label": "500 ms",
-            "config": {
-                "nvMediumVbvSizeMs": 500
-            }
+            "aa_mode": 0,
+            "label": "500 ms"
         },
         {
             "id": 3,
-            "label": "1000 ms",
-            "config": {
-                "nvMediumVbvSizeMs": 1000
-            }
+            "aa_mode": 0,
+            "label": "1000 ms"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

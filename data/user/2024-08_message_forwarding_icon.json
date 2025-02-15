@@ -6,23 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Icon: upper right arrow",
-            "config": {
-                "canForwardMessages": false,
-                "useOldIcon": false
-            }
+            "aa_mode": 0,
+            "label": "Icon: upper right arrow"
         },
         {
             "id": 2,
-            "label": "Icon: chat bubble",
-            "config": {
-                "canForwardMessages": false,
-                "useOldIcon": false
-            }
+            "aa_mode": 0,
+            "label": "Icon: chat bubble"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

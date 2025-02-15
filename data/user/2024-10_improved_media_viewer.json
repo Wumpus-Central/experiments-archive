@@ -6,37 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Improved Desktop Media Viewer",
-            "config": {
-                "improvedDesktopMediaViewerEnabled": false,
-                "mediaViewerAffordanceEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable Improved Desktop Media Viewer"
         },
         {
             "id": 2,
-            "label": "Enable Improved Desktop Media Viewer with affordances",
-            "config": {
-                "improvedDesktopMediaViewerEnabled": false,
-                "mediaViewerAffordanceEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable Improved Desktop Media Viewer with affordances"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 8500,
-                            "end": 9000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
@@ -51,6 +32,7 @@
             ]
         },
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

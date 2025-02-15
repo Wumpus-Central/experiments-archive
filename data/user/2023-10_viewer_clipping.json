@@ -2,5 +2,18 @@
     "id": "2023-10_viewer_clipping",
     "label": "Test viewer side clipping",
     "hash": 3351049965,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Viewer Clipping enabled"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Viewer Clipping enabled; For developer testing"
+        }
+    ],
+    "population": null
 }

@@ -2,5 +2,18 @@
     "id": "2024-04_quests_logging",
     "label": "Quests Logging",
     "hash": 278740984,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Quest logging enabled"
+        }
+    ],
+    "population": null
 }

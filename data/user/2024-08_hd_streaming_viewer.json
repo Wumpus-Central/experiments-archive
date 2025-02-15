@@ -2,5 +2,13 @@
     "id": "2024-08_hd_streaming_viewer",
     "label": "HD Streaming Viewer Upsell",
     "hash": 1274486444,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "population": null
 }

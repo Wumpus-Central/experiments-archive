@@ -6,31 +6,23 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled (Default Off)",
-            "config": {
-                "experimentState": 2
-            }
+            "aa_mode": 0,
+            "label": "Enabled (Default Off)"
         },
         {
             "id": 3,
-            "label": "Enabled (Default On)",
-            "config": {
-                "experimentState": 1
-            }
+            "aa_mode": 0,
+            "label": "Enabled (Default On)"
         },
         {
             "id": 4,
-            "label": "Coming Soon",
-            "config": {
-                "experimentState": 3
-            }
+            "aa_mode": 0,
+            "label": "Coming Soon"
         },
         {
             "id": 5,
-            "label": "Clyde Profiles",
-            "config": {
-                "experimentState": 4
-            }
+            "aa_mode": 0,
+            "label": "Clyde Profiles"
         }
     ],
     "populations": [
@@ -71,5 +63,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

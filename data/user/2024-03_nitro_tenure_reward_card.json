@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables the nitro tenure reward card for users",
-            "config": {
-                "enableNitroTenureRewardCard": false
-            }
+            "aa_mode": 0,
+            "label": "Enables the nitro tenure reward card for users"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

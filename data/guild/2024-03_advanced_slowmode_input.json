@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "enable the advanced slowmode input",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "enable the advanced slowmode input"
         }
     ],
     "populations": [
@@ -51,5 +49,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

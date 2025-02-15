@@ -2,5 +2,13 @@
     "id": "2021-07_popout_autocomplete",
     "label": "Popout Autocomplete experiment",
     "hash": 1900424093,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "New autocomplete style"
+        }
+    ],
+    "population": null
 }

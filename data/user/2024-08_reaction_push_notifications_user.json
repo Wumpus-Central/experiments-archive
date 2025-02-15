@@ -6,45 +6,23 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable In App Notifications for Reactions (First Reaction)",
-            "config": {
-                "enableInAppNotifications": false,
-                "enableNotificationsForAllReactions": false
-            }
+            "aa_mode": 0,
+            "label": "Enable In App Notifications for Reactions (First Reaction)"
         },
         {
             "id": 2,
-            "label": "Enable In App Notifications for Reactions (All Reactions)",
-            "config": {
-                "enableInAppNotifications": false,
-                "enableNotificationsForAllReactions": false
-            }
+            "aa_mode": 0,
+            "label": "Enable In App Notifications for Reactions (All Reactions)"
         },
         {
             "id": 3,
-            "label": "Enable In App Notifications for Reactions (All Reactions)",
-            "config": {
-                "enableInAppNotifications": false,
-                "enableNotificationsForAllReactions": false
-            }
+            "aa_mode": 0,
+            "label": "Enable In App Notifications for Reactions (All Reactions)"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 500
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

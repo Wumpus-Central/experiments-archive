@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Allow creation of guest voice invites",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Allow creation of guest voice invites"
         }
     ],
     "populations": [
@@ -103,5 +101,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

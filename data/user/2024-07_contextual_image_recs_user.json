@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable the Contextual Image Recommendations with options",
-            "config": {
-                "imageRecsEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable the Contextual Image Recommendations with options"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

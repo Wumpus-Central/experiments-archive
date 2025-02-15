@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables Guilds to (possibly) see the waitlist",
-            "config": {
-                "enableWaitlist": false
-            }
+            "aa_mode": 0,
+            "label": "Enables Guilds to (possibly) see the waitlist"
         }
     ],
     "populations": [
@@ -67,5 +65,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

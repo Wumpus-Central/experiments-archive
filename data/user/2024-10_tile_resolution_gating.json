@@ -6,21 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Tile size based wants enabled only for 1:1 videos (rollout)",
-            "config": {
-                "enabledSingle": false
-            }
+            "aa_mode": 0,
+            "label": "Tile size based wants enabled only for 1:1 videos (rollout)"
         },
         {
             "id": 2,
-            "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)",
-            "config": {
-                "enabledSingle": false
-            }
+            "aa_mode": 0,
+            "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

@@ -2,5 +2,13 @@
     "id": "2024-06_outbound_promo_desktop_upsell",
     "label": "Upsell Outbound Promos",
     "hash": 2302949395,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable upsells for outbound promos w/ Nagbar variant 1 - gift inventory cta"
+        }
+    ],
+    "population": null
 }

@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enables guild to create a media channel",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enables guild to create a media channel"
         }
     ],
     "populations": [
@@ -189,5 +187,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

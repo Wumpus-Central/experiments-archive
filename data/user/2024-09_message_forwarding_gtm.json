@@ -6,19 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "GTM",
-            "config": {
-                "canForwardMessages": false,
-                "hasInlineForwardButton": false,
-                "hasOneTapSendButton": false,
-                "hasMessageInput": false,
-                "hasPreview": false,
-                "useOldIcon": false
-            }
+            "aa_mode": 0,
+            "label": "GTM"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

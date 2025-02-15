@@ -6,21 +6,48 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable application IAR reporting flow (US)",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable application IAR reporting flow (US)"
         },
         {
             "id": 2,
-            "label": "Enable application IAR reporting flow (EU)",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable application IAR reporting flow (EU)"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL",
+                        "DE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,

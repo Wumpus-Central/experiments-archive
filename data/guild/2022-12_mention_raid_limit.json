@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Automod Mention Raid Limit",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Automod Mention Raid Limit"
         }
     ],
     "populations": [
@@ -87,5 +85,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

@@ -6,21 +6,26 @@
     "treatments": [
         {
             "id": 1,
-            "label": "EU user",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "EU user"
         },
         {
             "id": 2,
-            "label": "DSA E2E testing user",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "DSA E2E testing user"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE",
+                        "PL"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,

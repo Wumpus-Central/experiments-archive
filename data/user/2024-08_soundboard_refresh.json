@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable the updated soundboard picker UI",
-            "config": {
-                "refreshEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Enable the updated soundboard picker UI"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

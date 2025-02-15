@@ -6,19 +6,13 @@
     "treatments": [
         {
             "id": 0,
-            "label": "Control",
-            "config": {
-                "triggerDeadchat": false,
-                "enableDeadchat": false
-            }
+            "aa_mode": 0,
+            "label": "Control"
         },
         {
             "id": 1,
-            "label": "trigger deadchat upon connection open",
-            "config": {
-                "triggerDeadchat": false,
-                "enableDeadchat": false
-            }
+            "aa_mode": 0,
+            "label": "trigger deadchat upon connection open"
         }
     ],
     "populations": [
@@ -113,5 +107,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

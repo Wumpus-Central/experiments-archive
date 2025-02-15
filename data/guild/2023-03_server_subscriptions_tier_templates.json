@@ -6,27 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "299 basic tier + no link",
-            "config": {
-                "enabled": false,
-                "showCreatorPortalLink": false
-            }
+            "aa_mode": 0,
+            "label": "299 basic tier + no link"
         },
         {
             "id": 2,
-            "label": "399 basic tier + no link",
-            "config": {
-                "enabled": false,
-                "showCreatorPortalLink": false
-            }
+            "aa_mode": 0,
+            "label": "399 basic tier + no link"
         },
         {
             "id": 3,
-            "label": "399 basic tier + link",
-            "config": {
-                "enabled": false,
-                "showCreatorPortalLink": false
-            }
+            "aa_mode": 0,
+            "label": "399 basic tier + link"
         }
     ],
     "populations": [
@@ -120,5 +111,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

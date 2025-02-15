@@ -2,5 +2,13 @@
     "id": "2024-08_mobile_perguild_collectibles_edit",
     "label": "Mobile Per-guild Collectibles Edit",
     "hash": 2799195304,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable Mobile Per-guild Collectibles Edit"
+        }
+    ],
+    "population": null
 }

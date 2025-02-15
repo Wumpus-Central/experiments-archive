@@ -2,5 +2,13 @@
     "id": "2024-01_uu_forced_migration",
     "label": "Unique Username Forced Migration UI",
     "hash": 3867848536,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable Forced Migration UI"
+        }
+    ],
+    "population": null
 }

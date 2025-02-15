@@ -6,23 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Sidechain Compression available, default enabled",
-            "config": {
-                "sidechainAvailable": false,
-                "sidechainEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Sidechain Compression available, default enabled"
         },
         {
             "id": 2,
-            "label": "Sidechain Compression avialable, default disabled",
-            "config": {
-                "sidechainAvailable": false,
-                "sidechainEnabled": false
-            }
+            "aa_mode": 0,
+            "label": "Sidechain Compression avialable, default disabled"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
@@ -45,6 +40,7 @@
             ]
         },
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

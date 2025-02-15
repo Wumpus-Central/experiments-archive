@@ -6,23 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable system formatter",
-            "config": {
-                "enableSystemFormatter": false,
-                "enable24HourPref": false
-            }
+            "aa_mode": 0,
+            "label": "Enable system formatter"
         },
         {
             "id": 2,
-            "label": "Enable pref for 24-hour time format",
-            "config": {
-                "enableSystemFormatter": false,
-                "enable24HourPref": false
-            }
+            "aa_mode": 0,
+            "label": "Enable pref for 24-hour time format"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,

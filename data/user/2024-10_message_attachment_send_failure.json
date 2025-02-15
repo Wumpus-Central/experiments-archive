@@ -2,5 +2,13 @@
     "id": "2024-10_message_attachment_send_failure",
     "label": "Message Attachment Send Failure Experiment",
     "hash": 3652546672,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "population": null
 }

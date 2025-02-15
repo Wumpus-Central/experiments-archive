@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Guild Settings Improved Bans Page",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Guild Settings Improved Bans Page"
         }
     ],
     "populations": [
@@ -29,5 +27,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

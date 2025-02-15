@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Send metrics",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Send metrics"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

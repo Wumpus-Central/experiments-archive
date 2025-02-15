@@ -6,39 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Clips Nitro EA Upsells Visible",
-            "config": {
-                "enableClips": false,
-                "enablePremiumEarlyAccessAnnouncementCoachmark": false,
-                "enablePremiumEarlyAccessGoLiveRoadblock": false
-            }
+            "aa_mode": 0,
+            "label": "Clips Nitro EA Upsells Visible"
         },
         {
             "id": 2,
-            "label": "Clips Enabled (Nitro)",
-            "config": {
-                "enableClips": false,
-                "enablePremiumEarlyAccessAnnouncementCoachmark": false,
-                "enablePremiumEarlyAccessGoLiveRoadblock": false
-            }
+            "aa_mode": 0,
+            "label": "Clips Enabled (Nitro)"
         }
     ],
-    "populations": [
+    "population": [
         {
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 7,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 700
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

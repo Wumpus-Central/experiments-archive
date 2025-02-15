@@ -6,10 +6,8 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable In App Notifications for Reactions",
-            "config": {
-                "enableInAppNotifications": false
-            }
+            "aa_mode": 0,
+            "label": "Enable In App Notifications for Reactions"
         }
     ],
     "populations": [
@@ -29,5 +27,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "population": null
 }

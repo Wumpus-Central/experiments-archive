@@ -2,5 +2,13 @@
     "id": "2024-08_ctp_dmgdm_list_render__filters",
     "label": "CTP DM/GDM List Render - A/A test - Filters",
     "hash": 857226402,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Treatment"
+        }
+    ],
+    "population": null
 }

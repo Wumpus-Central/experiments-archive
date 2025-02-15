@@ -6,14 +6,13 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Return Variants as Group",
-            "config": {
-                "variantsReturnStyle": null
-            }
+            "aa_mode": 0,
+            "label": "Return Variants as Group"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

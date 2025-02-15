@@ -6,21 +6,18 @@
     "treatments": [
         {
             "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Control"
         },
         {
             "id": 1,
-            "label": "Quests enabled",
-            "config": {
-                "enabled": false
-            }
+            "aa_mode": 0,
+            "label": "Quests enabled"
         }
     ],
-    "populations": [
+    "population": [
         {
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,

@@ -2,5 +2,13 @@
     "id": "2024-03_web_audio_api_rollout",
     "label": "Web Audio API Rollout",
     "hash": 542528704,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable Web Audio API usage"
+        }
+    ],
+    "population": null
 }
