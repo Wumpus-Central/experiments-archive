@@ -32,37 +32,7 @@
             ]
         },
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 3,
-                    "ranges": [
-                        {
-                            "start": 1100,
-                            "end": 1400
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE",
-                        "PL"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 2,
@@ -70,28 +40,6 @@
                     "ranges": [
                         {
                             "start": 1000,
-                            "end": 1500
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 4,
-                    "ranges": [
-                        {
-                            "start": 1100,
                             "end": 1500
                         }
                     ]

@@ -12,62 +12,7 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 7,
-                    "ranges": [
-                        {
-                            "start": 1100,
-                            "end": 1500
-                        },
-                        {
-                            "start": 1700,
-                            "end": 2000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 8,
-                    "ranges": [
-                        {
-                            "start": 1100,
-                            "end": 1900
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
@@ -75,28 +20,6 @@
                     "ranges": [
                         {
                             "start": 1000,
-                            "end": 2000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "PL"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 9,
-                    "ranges": [
-                        {
-                            "start": 1100,
                             "end": 2000
                         }
                     ]

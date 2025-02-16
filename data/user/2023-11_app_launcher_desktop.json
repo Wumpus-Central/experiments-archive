@@ -12,131 +12,14 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 4300
-                        },
-                        {
-                            "start": 4500,
-                            "end": 4700
-                        },
-                        {
-                            "start": 4900,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 93,
+                    "percentage": 100,
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 800
-                        },
-                        {
-                            "start": 1000,
-                            "end": 3200
-                        },
-                        {
-                            "start": 3400,
-                            "end": 9200
-                        },
-                        {
-                            "start": 9400,
-                            "end": 9900
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "PL"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 2000
-                        },
-                        {
-                            "start": 2100,
-                            "end": 4600
-                        },
-                        {
-                            "start": 4700,
-                            "end": 5400
-                        },
-                        {
-                            "start": 5600,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 94,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5500
-                        },
-                        {
-                            "start": 5700,
-                            "end": 8600
-                        },
-                        {
-                            "start": 8800,
-                            "end": 9700
-                        },
-                        {
-                            "start": 9900,
                             "end": 10000
                         }
                     ]

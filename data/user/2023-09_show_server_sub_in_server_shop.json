@@ -12,147 +12,14 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 91,
+                    "percentage": 100,
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 2600
-                        },
-                        {
-                            "start": 2800,
-                            "end": 5800
-                        },
-                        {
-                            "start": 6000,
-                            "end": 8500
-                        },
-                        {
-                            "start": 8700,
-                            "end": 9100
-                        },
-                        {
-                            "start": 9200,
-                            "end": 9600
-                        },
-                        {
-                            "start": 9800,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 94,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 6900
-                        },
-                        {
-                            "start": 7000,
-                            "end": 7900
-                        },
-                        {
-                            "start": 8100,
-                            "end": 8400
-                        },
-                        {
-                            "start": 8500,
-                            "end": 9900
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "PL"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 90,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 4800
-                        },
-                        {
-                            "start": 5000,
-                            "end": 5900
-                        },
-                        {
-                            "start": 6100,
-                            "end": 6600
-                        },
-                        {
-                            "start": 6800,
-                            "end": 8200
-                        },
-                        {
-                            "start": 8400,
-                            "end": 8900
-                        },
-                        {
-                            "start": 9100,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 96,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5300
-                        },
-                        {
-                            "start": 5500,
-                            "end": 7800
-                        },
-                        {
-                            "start": 8000,
                             "end": 10000
                         }
                     ]

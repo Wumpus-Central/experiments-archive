@@ -21,6 +21,8 @@
                 {
                     "type": 3101547287,
                     "data": [
+                        "DE",
+                        "PL",
                         "SE"
                     ]
                 }
@@ -28,86 +30,10 @@
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 93,
+                    "percentage": 100,
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 800
-                        },
-                        {
-                            "start": 900,
-                            "end": 1900
-                        },
-                        {
-                            "start": 2000,
-                            "end": 2900
-                        },
-                        {
-                            "start": 3000,
-                            "end": 4800
-                        },
-                        {
-                            "start": 5000,
-                            "end": 8000
-                        },
-                        {
-                            "start": 8200,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 98,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5700
-                        },
-                        {
-                            "start": 5900,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "PL"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 1200
-                        },
-                        {
-                            "start": 1400,
-                            "end": 9600
-                        },
-                        {
-                            "start": 9800,
                             "end": 10000
                         }
                     ]

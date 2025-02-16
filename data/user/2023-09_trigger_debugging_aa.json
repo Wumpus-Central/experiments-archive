@@ -12,18 +12,11 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 92,
+                    "percentage": 95,
                     "ranges": [
                         {
                             "start": 100,
@@ -31,120 +24,6 @@
                         },
                         {
                             "start": 600,
-                            "end": 4900
-                        },
-                        {
-                            "start": 5100,
-                            "end": 9900
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 88,
-                    "ranges": [
-                        {
-                            "start": 160,
-                            "end": 190
-                        },
-                        {
-                            "start": 600,
-                            "end": 1200
-                        },
-                        {
-                            "start": 1400,
-                            "end": 6700
-                        },
-                        {
-                            "start": 6900,
-                            "end": 8900
-                        },
-                        {
-                            "start": 9100,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "PL"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 93,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        },
-                        {
-                            "start": 600,
-                            "end": 3700
-                        },
-                        {
-                            "start": 3900,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 87,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        },
-                        {
-                            "start": 600,
-                            "end": 1400
-                        },
-                        {
-                            "start": 1600,
-                            "end": 4000
-                        },
-                        {
-                            "start": 4200,
-                            "end": 5000
-                        },
-                        {
-                            "start": 5200,
-                            "end": 6100
-                        },
-                        {
-                            "start": 6300,
                             "end": 10000
                         }
                     ]
