@@ -15,45 +15,5 @@
             "label": "Force disable krisp"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2918402255,
-                    "data": {
-                        "min": 1,
-                        "max": 200
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    2918402255,
-                    [
-                        [
-                            3399957344,
-                            1
-                        ],
-                        [
-                            1238858341,
-                            200
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

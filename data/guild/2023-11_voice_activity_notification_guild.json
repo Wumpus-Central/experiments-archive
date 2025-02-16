@@ -10,55 +10,5 @@
             "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2918402255,
-                    "data": {
-                        "min": 2,
-                        "max": 50
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    2918402255,
-                    [
-                        [
-                            3399957344,
-                            2
-                        ],
-                        [
-                            1238858341,
-                            50
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 80,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 8000
-                        }
-                    ]
-                },
-                {
-                    "treatment": 2,
-                    "percentage": 20,
-                    "ranges": [
-                        {
-                            "start": 8000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

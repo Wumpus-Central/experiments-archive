@@ -20,16 +20,141 @@
             "label": "Enable App DMs UI including quick launch and activity popout window in app DM"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 100,
+                    "percentage": 91,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 4500
+                        },
+                        {
+                            "start": 4700,
+                            "end": 6700
+                        },
+                        {
+                            "start": 6930,
+                            "end": 6960
+                        },
+                        {
+                            "start": 7100,
+                            "end": 7900
+                        },
+                        {
+                            "start": 8100,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 91,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 100
+                        },
+                        {
+                            "start": 400,
+                            "end": 1900
+                        },
+                        {
+                            "start": 2100,
+                            "end": 2500
+                        },
+                        {
+                            "start": 2700,
+                            "end": 6100
+                        },
+                        {
+                            "start": 6300,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 7100
+                        },
+                        {
+                            "start": 7300,
+                            "end": 7500
+                        },
+                        {
+                            "start": 7700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 93,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 1300
+                        },
+                        {
+                            "start": 1500,
+                            "end": 2800
+                        },
+                        {
+                            "start": 2990,
+                            "end": 2990
+                        },
+                        {
+                            "start": 3200,
                             "end": 10000
                         }
                     ]

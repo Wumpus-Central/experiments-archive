@@ -10,7 +10,7 @@
             "label": "Enable weighted sample for activity shelf"
         }
     ],
-    "population": [
+    "populations": [
         {
             "filter": [
                 {

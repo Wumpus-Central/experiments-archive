@@ -25,5 +25,5 @@
             "label": "10 second window, 90% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
         }
     ],
-    "population": null
+    "populations": null
 }

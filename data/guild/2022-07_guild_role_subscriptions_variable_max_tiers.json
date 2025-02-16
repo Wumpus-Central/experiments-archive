@@ -4,23 +4,5 @@
     "hash": 179711638,
     "kind": "guild",
     "treatments": [],
-    "populations": [
-        {
-            "filters": [],
-            "rawFilters": [],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

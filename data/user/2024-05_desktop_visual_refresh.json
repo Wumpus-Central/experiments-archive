@@ -35,9 +35,61 @@
             "label": "External Testers"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 300
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE",
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 0,
@@ -52,7 +104,16 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -67,7 +128,38 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 400,
+                            "end": 600
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 3,
@@ -75,6 +167,28 @@
                     "ranges": [
                         {
                             "start": 600,
+                            "end": 900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 700,
                             "end": 900
                         }
                     ]

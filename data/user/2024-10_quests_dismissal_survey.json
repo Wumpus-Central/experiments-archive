@@ -15,9 +15,16 @@
             "label": "Enabled"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -25,6 +32,55 @@
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 49,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 4900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 47,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 1200
+                        },
+                        {
+                            "start": 1400,
                             "end": 5000
                         }
                     ]

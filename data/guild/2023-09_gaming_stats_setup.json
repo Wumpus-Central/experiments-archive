@@ -10,55 +10,5 @@
             "label": "trigger gaming stats data"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2918402255,
-                    "data": {
-                        "min": 1,
-                        "max": 200
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    2918402255,
-                    [
-                        [
-                            3399957344,
-                            1
-                        ],
-                        [
-                            1238858341,
-                            200
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 98,
-                    "ranges": [
-                        {
-                            "start": 200,
-                            "end": 10000
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 1,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

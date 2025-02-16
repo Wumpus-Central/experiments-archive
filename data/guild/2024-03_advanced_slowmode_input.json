@@ -10,45 +10,5 @@
             "label": "enable the advanced slowmode input"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 2918402255,
-                    "data": {
-                        "min": 0,
-                        "max": null
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    2918402255,
-                    [
-                        [
-                            3399957344,
-                            0
-                        ],
-                        [
-                            1238858341,
-                            null
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

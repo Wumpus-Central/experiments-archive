@@ -15,9 +15,17 @@
             "label": "clicking activity in voice app launcher -> opens activity detail page"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -26,6 +34,50 @@
                         {
                             "start": 500,
                             "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 600,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 700,
+                            "end": 900
                         }
                     ]
                 }

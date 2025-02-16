@@ -15,16 +15,23 @@
             "label": "Display in header bar"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 5,
+                    "percentage": 4,
                     "ranges": [
                         {
-                            "start": 500,
+                            "start": 600,
                             "end": 1000
                         }
                     ]
@@ -32,7 +39,94 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 580,
+                            "end": 580
+                        },
+                        {
+                            "start": 750,
+                            "end": 750
+                        },
+                        {
+                            "start": 900,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 2,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 600
+                        },
+                        {
+                            "start": 800,
+                            "end": 900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
@@ -41,6 +135,28 @@
                         {
                             "start": 1000,
                             "end": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1400
                         }
                     ]
                 }

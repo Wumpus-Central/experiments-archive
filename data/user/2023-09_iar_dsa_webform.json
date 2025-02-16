@@ -15,13 +15,12 @@
             "label": "DSA E2E testing user"
         }
     ],
-    "population": [
+    "populations": [
         {
             "filter": [
                 {
                     "type": 3101547287,
                     "data": [
-                        "PL",
                         "DE"
                     ]
                 }
@@ -29,10 +28,118 @@
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 95,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 3800
+                        },
+                        {
+                            "start": 3900,
+                            "end": 8500
+                        },
+                        {
+                            "start": 8700,
+                            "end": 9800
+                        },
+                        {
+                            "start": 9990,
+                            "end": 9990
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 90,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 700
+                        },
+                        {
+                            "start": 810,
+                            "end": 810
+                        },
+                        {
+                            "start": 1000,
+                            "end": 3400
+                        },
+                        {
+                            "start": 3600,
+                            "end": 3700
+                        },
+                        {
+                            "start": 3900,
+                            "end": 8300
+                        },
+                        {
+                            "start": 8500,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 84,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 2400
+                        },
+                        {
+                            "start": 2600,
+                            "end": 3800
+                        },
+                        {
+                            "start": 4000,
+                            "end": 6400
+                        },
+                        {
+                            "start": 6700,
+                            "end": 7100
+                        },
+                        {
+                            "start": 7300,
+                            "end": 7400
+                        },
+                        {
+                            "start": 7500,
+                            "end": 8200
+                        },
+                        {
+                            "start": 8400,
+                            "end": 9100
+                        },
+                        {
+                            "start": 9240,
+                            "end": 9260
+                        },
+                        {
+                            "start": 9400,
                             "end": 10000
                         }
                     ]

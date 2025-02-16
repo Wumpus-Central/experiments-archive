@@ -10,13 +10,80 @@
             "label": "Enable User Profile Blocker Skeleton"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 10,
+                    "percentage": 8,
+                    "ranges": [
+                        {
+                            "start": 110,
+                            "end": 150
+                        },
+                        {
+                            "start": 600,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1500,
+                            "end": 1900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 9,
+                    "ranges": [
+                        {
+                            "start": 130,
+                            "end": 130
+                        },
+                        {
+                            "start": 600,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1500,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 9,
                     "ranges": [
                         {
                             "start": 100,
@@ -24,7 +91,37 @@
                         },
                         {
                             "start": 600,
-                            "end": 1000
+                            "end": 900
+                        },
+                        {
+                            "start": 1500,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 7,
+                    "ranges": [
+                        {
+                            "start": 190,
+                            "end": 190
+                        },
+                        {
+                            "start": 700,
+                            "end": 900
                         },
                         {
                             "start": 1500,

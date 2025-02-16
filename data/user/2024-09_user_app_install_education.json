@@ -15,5 +15,5 @@
             "label": "show animation on app launcher icon when a user app is authorized when in a channel instead of showing auth success modal"
         }
     ],
-    "population": null
+    "populations": null
 }

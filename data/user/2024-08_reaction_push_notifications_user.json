@@ -20,16 +20,121 @@
             "label": "Enable In App Notifications for Reactions (All Reactions)"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 95,
+                    "percentage": 92,
+                    "ranges": [
+                        {
+                            "start": 600,
+                            "end": 2500
+                        },
+                        {
+                            "start": 2700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 87,
+                    "ranges": [
+                        {
+                            "start": 600,
+                            "end": 5100
+                        },
+                        {
+                            "start": 5300,
+                            "end": 5300
+                        },
+                        {
+                            "start": 5500,
+                            "end": 8600
+                        },
+                        {
+                            "start": 8900,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 91,
+                    "ranges": [
+                        {
+                            "start": 600,
+                            "end": 1800
+                        },
+                        {
+                            "start": 2000,
+                            "end": 7200
+                        },
+                        {
+                            "start": 7300,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 91,
                     "ranges": [
                         {
                             "start": 500,
+                            "end": 4200
+                        },
+                        {
+                            "start": 4400,
+                            "end": 9700
+                        },
+                        {
+                            "start": 9900,
                             "end": 10000
                         }
                     ]

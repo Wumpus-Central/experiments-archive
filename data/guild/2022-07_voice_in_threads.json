@@ -10,44 +10,5 @@
             "label": "On"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 1604612045,
-                    "data": {
-                        "features": [
-                            "VOICE_IN_THREADS"
-                        ]
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    1604612045,
-                    [
-                        [
-                            1183251248,
-                            [
-                                "VOICE_IN_THREADS"
-                            ]
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

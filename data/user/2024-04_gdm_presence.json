@@ -40,17 +40,118 @@
             "label": "Facepile + Typing Indicator + Status Indicator"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 7,
-                    "percentage": 100,
+                    "percentage": 98,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 5700
+                        },
+                        {
+                            "start": 5900,
                             "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 7,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5800
+                        },
+                        {
+                            "start": 6100,
+                            "end": 8500
+                        },
+                        {
+                            "start": 8700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 7,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 6600
+                        },
+                        {
+                            "start": 6800,
+                            "end": 7600
+                        },
+                        {
+                            "start": 7800,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 7,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5200
+                        },
+                        {
+                            "start": 5400,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6200,
+                            "end": 9900
                         }
                     ]
                 }

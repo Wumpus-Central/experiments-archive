@@ -15,9 +15,42 @@
             "label": "Treatment 2"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 3,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 600
+                        },
+                        {
+                            "start": 800,
+                            "end": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -32,7 +65,38 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE",
+                        "PL"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
@@ -41,6 +105,29 @@
                         {
                             "start": 1000,
                             "end": 1500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1400
                         }
                     ]
                 }

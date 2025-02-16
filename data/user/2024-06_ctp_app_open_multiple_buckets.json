@@ -15,7 +15,7 @@
             "label": "Treatment 2"
         }
     ],
-    "population": [
+    "populations": [
         {
             "filter": null,
             "rollout": [
@@ -32,7 +32,38 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1400
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE",
+                        "PL",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,

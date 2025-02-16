@@ -10,16 +10,133 @@
             "label": "Enables users to create Guild Role Subscriptions"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 92,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 1400
+                        },
+                        {
+                            "start": 1600,
+                            "end": 4900
+                        },
+                        {
+                            "start": 5100,
+                            "end": 6300
+                        },
+                        {
+                            "start": 6500,
+                            "end": 8200
+                        },
+                        {
+                            "start": 8400,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 93,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 3200
+                        },
+                        {
+                            "start": 3400,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6100,
+                            "end": 6800
+                        },
+                        {
+                            "start": 7000,
+                            "end": 8000
+                        },
+                        {
+                            "start": 8200,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 98,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 1200
+                        },
+                        {
+                            "start": 1400,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 96,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 400
+                        },
+                        {
+                            "start": 600,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2200,
                             "end": 10000
                         }
                     ]

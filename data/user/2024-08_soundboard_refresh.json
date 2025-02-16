@@ -10,16 +10,161 @@
             "label": "Enable the updated soundboard picker UI"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 93,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 400
+                        },
+                        {
+                            "start": 600,
+                            "end": 4800
+                        },
+                        {
+                            "start": 5000,
+                            "end": 9300
+                        },
+                        {
+                            "start": 9500,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 600
+                        },
+                        {
+                            "start": 800,
+                            "end": 1800
+                        },
+                        {
+                            "start": 1900,
+                            "end": 8000
+                        },
+                        {
+                            "start": 8100,
+                            "end": 8500
+                        },
+                        {
+                            "start": 8600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 92,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 100
+                        },
+                        {
+                            "start": 300,
+                            "end": 2300
+                        },
+                        {
+                            "start": 2400,
+                            "end": 2700
+                        },
+                        {
+                            "start": 2800,
+                            "end": 4200
+                        },
+                        {
+                            "start": 4400,
+                            "end": 5500
+                        },
+                        {
+                            "start": 5700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 86,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 700
+                        },
+                        {
+                            "start": 900,
+                            "end": 3400
+                        },
+                        {
+                            "start": 3700,
+                            "end": 6200
+                        },
+                        {
+                            "start": 6410,
+                            "end": 6460
+                        },
+                        {
+                            "start": 6630,
+                            "end": 6630
+                        },
+                        {
+                            "start": 6900,
+                            "end": 8400
+                        },
+                        {
+                            "start": 8600,
                             "end": 10000
                         }
                     ]

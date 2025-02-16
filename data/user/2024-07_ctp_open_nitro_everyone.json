@@ -10,9 +10,44 @@
             "label": "Treatment"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 47,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 9200
+                        },
+                        {
+                            "start": 9500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE",
+                        "PL"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,

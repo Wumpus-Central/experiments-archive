@@ -15,18 +15,117 @@
             "label": "Enable Tiered Tenure Badges v2"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
-                    "percentage": 80,
+                    "percentage": 70,
+                    "ranges": [
+                        {
+                            "start": 600,
+                            "end": 700
+                        },
+                        {
+                            "start": 800,
+                            "end": 900
+                        },
+                        {
+                            "start": 2010,
+                            "end": 2060
+                        },
+                        {
+                            "start": 2200,
+                            "end": 2800
+                        },
+                        {
+                            "start": 3500,
+                            "end": 5200
+                        },
+                        {
+                            "start": 5400,
+                            "end": 7400
+                        },
+                        {
+                            "start": 7500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 72,
                     "ranges": [
                         {
                             "start": 100,
                             "end": 200
                         },
+                        {
+                            "start": 600,
+                            "end": 800
+                        },
+                        {
+                            "start": 980,
+                            "end": 980
+                        },
+                        {
+                            "start": 2000,
+                            "end": 2900
+                        },
+                        {
+                            "start": 3500,
+                            "end": 4800
+                        },
+                        {
+                            "start": 4900,
+                            "end": 6500
+                        },
+                        {
+                            "start": 6700,
+                            "end": 7400
+                        },
+                        {
+                            "start": 7600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 74,
+                    "ranges": [
                         {
                             "start": 600,
                             "end": 1000
@@ -37,6 +136,64 @@
                         },
                         {
                             "start": 3500,
+                            "end": 4800
+                        },
+                        {
+                            "start": 5000,
+                            "end": 7400
+                        },
+                        {
+                            "start": 7500,
+                            "end": 7900
+                        },
+                        {
+                            "start": 8100,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 72,
+                    "ranges": [
+                        {
+                            "start": 160,
+                            "end": 170
+                        },
+                        {
+                            "start": 600,
+                            "end": 900
+                        },
+                        {
+                            "start": 2000,
+                            "end": 3000
+                        },
+                        {
+                            "start": 3500,
+                            "end": 4500
+                        },
+                        {
+                            "start": 4700,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6200,
+                            "end": 7200
+                        },
+                        {
+                            "start": 7400,
                             "end": 10000
                         }
                     ]

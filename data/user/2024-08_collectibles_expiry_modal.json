@@ -10,16 +10,165 @@
             "label": "Enable collectibles expiry modal"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 86,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 400
+                        },
+                        {
+                            "start": 600,
+                            "end": 2100
+                        },
+                        {
+                            "start": 2400,
+                            "end": 3100
+                        },
+                        {
+                            "start": 3300,
+                            "end": 3700
+                        },
+                        {
+                            "start": 3910,
+                            "end": 3910
+                        },
+                        {
+                            "start": 4100,
+                            "end": 7300
+                        },
+                        {
+                            "start": 7600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 88,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 900
+                        },
+                        {
+                            "start": 1100,
+                            "end": 1900
+                        },
+                        {
+                            "start": 2100,
+                            "end": 4800
+                        },
+                        {
+                            "start": 5100,
+                            "end": 7300
+                        },
+                        {
+                            "start": 7500,
+                            "end": 8400
+                        },
+                        {
+                            "start": 8600,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 93,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 1800
+                        },
+                        {
+                            "start": 2000,
+                            "end": 4400
+                        },
+                        {
+                            "start": 4520,
+                            "end": 4560
+                        },
+                        {
+                            "start": 4700,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6100,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 91,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 600
+                        },
+                        {
+                            "start": 800,
+                            "end": 3400
+                        },
+                        {
+                            "start": 3600,
+                            "end": 8900
+                        },
+                        {
+                            "start": 9100,
+                            "end": 9500
+                        },
+                        {
+                            "start": 9700,
                             "end": 10000
                         }
                     ]

@@ -10,56 +10,5 @@
             "label": "Show Hub Events List"
         }
     ],
-    "populations": [
-        {
-            "filters": [
-                {
-                    "type": 4148745523,
-                    "data": {
-                        "hubTypes": [
-                            2
-                        ]
-                    }
-                }
-            ],
-            "rawFilters": [
-                [
-                    4148745523,
-                    [
-                        [
-                            4148745523,
-                            [
-                                2
-                            ]
-                        ]
-                    ]
-                ]
-            ],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 3333
-                        },
-                        {
-                            "start": 3333,
-                            "end": 6666
-                        },
-                        {
-                            "start": 6666,
-                            "end": 9999
-                        },
-                        {
-                            "start": 9999,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

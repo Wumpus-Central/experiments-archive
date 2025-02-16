@@ -10,5 +10,5 @@
             "label": "Increment mention count when receiving a message in a channel set to all messages"
         }
     ],
-    "population": null
+    "populations": null
 }

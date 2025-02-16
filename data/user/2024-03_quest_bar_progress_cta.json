@@ -15,16 +15,75 @@
             "label": "Quest Bar Progress CTA enabled"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 0,
-                    "percentage": 50,
+                    "percentage": 49,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 4900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 47,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 4300
+                        },
+                        {
+                            "start": 4500,
+                            "end": 4900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 48,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2300
+                        },
+                        {
+                            "start": 2500,
                             "end": 5000
                         }
                     ]
@@ -32,14 +91,137 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 48,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 300
+                        },
+                        {
+                            "start": 500,
+                            "end": 5000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 50,
+                    "percentage": 49,
                     "ranges": [
                         {
                             "start": 5000,
+                            "end": 5700
+                        },
+                        {
+                            "start": 5800,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 47,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 6900
+                        },
+                        {
+                            "start": 7100,
+                            "end": 7500
+                        },
+                        {
+                            "start": 7600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 47,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6200,
+                            "end": 6600
+                        },
+                        {
+                            "start": 6700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 48,
+                    "ranges": [
+                        {
+                            "start": 5000,
+                            "end": 8700
+                        },
+                        {
+                            "start": 8900,
                             "end": 10000
                         }
                     ]

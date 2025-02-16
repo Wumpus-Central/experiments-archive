@@ -15,16 +15,153 @@
             "label": "Concurrent Quests Enabled"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 97,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 6400
+                        },
+                        {
+                            "start": 6700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 88,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 3700
+                        },
+                        {
+                            "start": 3800,
+                            "end": 4400
+                        },
+                        {
+                            "start": 4600,
+                            "end": 5100
+                        },
+                        {
+                            "start": 5230,
+                            "end": 5240
+                        },
+                        {
+                            "start": 5400,
+                            "end": 5800
+                        },
+                        {
+                            "start": 6000,
+                            "end": 6000
+                        },
+                        {
+                            "start": 6200,
+                            "end": 6300
+                        },
+                        {
+                            "start": 6500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 91,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 4100
+                        },
+                        {
+                            "start": 4200,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5200,
+                            "end": 5700
+                        },
+                        {
+                            "start": 5800,
+                            "end": 6100
+                        },
+                        {
+                            "start": 6300,
+                            "end": 6500
+                        },
+                        {
+                            "start": 6700,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 95,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2200
+                        },
+                        {
+                            "start": 2400,
+                            "end": 5200
+                        },
+                        {
+                            "start": 5400,
+                            "end": 7300
+                        },
+                        {
+                            "start": 7400,
                             "end": 10000
                         }
                     ]

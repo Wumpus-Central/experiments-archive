@@ -15,9 +15,61 @@
             "label": "Holdout"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 9500,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 9600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 0,

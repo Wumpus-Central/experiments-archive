@@ -10,17 +10,150 @@
             "label": "Can support DAVE protocol version 1 and above"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 11,
-                    "percentage": 95,
+                    "percentage": 91,
                     "ranges": [
                         {
                             "start": 500,
+                            "end": 1600
+                        },
+                        {
+                            "start": 1800,
+                            "end": 3000
+                        },
+                        {
+                            "start": 3100,
+                            "end": 5800
+                        },
+                        {
+                            "start": 5900,
                             "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 11,
+                    "percentage": 84,
+                    "ranges": [
+                        {
+                            "start": 540,
+                            "end": 560
+                        },
+                        {
+                            "start": 700,
+                            "end": 1100
+                        },
+                        {
+                            "start": 1300,
+                            "end": 2500
+                        },
+                        {
+                            "start": 2800,
+                            "end": 2900
+                        },
+                        {
+                            "start": 3100,
+                            "end": 8600
+                        },
+                        {
+                            "start": 8800,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 11,
+                    "percentage": 90,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 700
+                        },
+                        {
+                            "start": 900,
+                            "end": 4200
+                        },
+                        {
+                            "start": 4300,
+                            "end": 4500
+                        },
+                        {
+                            "start": 4700,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 11,
+                    "percentage": 86,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 700
+                        },
+                        {
+                            "start": 900,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2200,
+                            "end": 6200
+                        },
+                        {
+                            "start": 6410,
+                            "end": 6450
+                        },
+                        {
+                            "start": 6600,
+                            "end": 9900
                         }
                     ]
                 }

@@ -10,16 +10,125 @@
             "label": "Enable notifications for multiple accounts"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
-                    "percentage": 100,
+                    "percentage": 98,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 7900
+                        },
+                        {
+                            "start": 8100,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 97,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 8900
+                        },
+                        {
+                            "start": 9040,
+                            "end": 9050
+                        },
+                        {
+                            "start": 9200,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 92,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 3200
+                        },
+                        {
+                            "start": 3500,
+                            "end": 4100
+                        },
+                        {
+                            "start": 4300,
+                            "end": 6500
+                        },
+                        {
+                            "start": 6700,
+                            "end": 9900
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 96,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 4600
+                        },
+                        {
+                            "start": 4700,
+                            "end": 7700
+                        },
+                        {
+                            "start": 7900,
+                            "end": 9600
+                        },
+                        {
+                            "start": 9700,
                             "end": 10000
                         }
                     ]

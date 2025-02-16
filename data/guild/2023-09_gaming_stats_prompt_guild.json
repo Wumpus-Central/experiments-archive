@@ -15,23 +15,5 @@
             "label": "ability to trigger gaming stats prompt (leaderboard)"
         }
     ],
-    "populations": [
-        {
-            "filters": [],
-            "rawFilters": [],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "population": null
+    "populations": null
 }

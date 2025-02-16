@@ -15,9 +15,39 @@
             "label": "Enabled + inline forward button"
         }
     ],
-    "population": [
+    "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 6100,
+                            "end": 6500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -32,7 +62,42 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 3,
+                    "ranges": [
+                        {
+                            "start": 6000,
+                            "end": 6300
+                        },
+                        {
+                            "start": 6460,
+                            "end": 6470
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "US",
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
@@ -41,6 +106,28 @@
                         {
                             "start": 6500,
                             "end": 7000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 3101547287,
+                    "data": [
+                        "PL"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 4,
+                    "ranges": [
+                        {
+                            "start": 6500,
+                            "end": 6900
                         }
                     ]
                 }
