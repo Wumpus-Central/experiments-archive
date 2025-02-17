@@ -4057,16 +4057,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -4288,6 +4279,28 @@
                 "rollout": [
                     {
                         "treatment": 2,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filter": [
+                    {
+                        "type": 3101547287,
+                        "data": [
+                            "PL"
+                        ]
+                    }
+                ],
+                "rollout": [
+                    {
+                        "treatment": 5,
                         "percentage": 100,
                         "ranges": [
                             {
@@ -5583,16 +5596,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -6689,6 +6693,7 @@
                         "type": 3101547287,
                         "data": [
                             "DE",
+                            "PL",
                             "US"
                         ]
                     }
@@ -6992,16 +6997,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7480,16 +7476,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7675,16 +7662,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7891,16 +7869,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7962,16 +7931,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -8708,16 +8668,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 3,
@@ -8813,16 +8764,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9056,16 +8998,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9149,16 +9082,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9194,16 +9118,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9233,16 +9148,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9292,16 +9198,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9511,16 +9408,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9909,16 +9797,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9963,16 +9842,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 4,
@@ -10008,16 +9878,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10646,16 +10507,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 5,
@@ -10691,16 +10543,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 11,
@@ -10831,16 +10674,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10983,6 +10817,7 @@
                         "type": 3101547287,
                         "data": [
                             "DE",
+                            "PL",
                             "SE"
                         ]
                     }
@@ -11016,16 +10851,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11171,16 +10997,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11222,16 +11039,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11261,16 +11069,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11324,16 +11123,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11797,16 +11587,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11841,16 +11622,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -12115,16 +11887,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12160,16 +11923,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12315,16 +12069,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 10,
@@ -12384,16 +12129,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12499,16 +12235,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12557,16 +12284,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13145,16 +12863,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13342,16 +13051,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13493,16 +13193,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13557,16 +13248,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 0,
@@ -13699,16 +13381,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13792,16 +13465,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13872,16 +13536,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 0,
@@ -13896,16 +13551,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13946,16 +13592,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14003,16 +13640,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14290,16 +13918,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14428,16 +14047,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 7,
@@ -14897,16 +14507,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 0,
@@ -14921,16 +14522,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14945,16 +14537,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 3,
@@ -15068,16 +14651,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15092,16 +14666,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -15220,16 +14785,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -15337,16 +14893,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15462,16 +15009,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15526,16 +15064,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15577,16 +15106,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15616,16 +15136,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15674,16 +15185,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15698,16 +15200,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -15737,16 +15230,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15776,16 +15260,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15815,16 +15290,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15884,16 +15350,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15942,16 +15399,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15966,16 +15414,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -16005,16 +15444,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16044,16 +15474,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16088,16 +15509,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -16220,16 +15632,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16244,16 +15647,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -16364,16 +15758,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16733,16 +16118,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16772,16 +16148,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16830,16 +16197,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16854,16 +16212,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -16893,16 +16242,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16932,16 +16272,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -16971,16 +16302,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17029,16 +16351,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17053,16 +16366,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -17092,16 +16396,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17131,16 +16426,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17170,16 +16456,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17228,16 +16505,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17252,16 +16520,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -17291,16 +16550,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17330,16 +16580,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17369,16 +16610,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17419,16 +16651,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17443,16 +16666,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -17488,16 +16702,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17662,16 +16867,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17878,16 +17074,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17910,16 +17097,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -18022,16 +17200,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18067,16 +17236,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18126,16 +17286,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18184,16 +17335,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18208,16 +17350,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -18247,16 +17380,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18286,16 +17410,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18517,16 +17632,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18589,16 +17695,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 3,
@@ -18652,16 +17749,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -18735,16 +17823,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18779,16 +17858,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -18830,16 +17900,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18912,16 +17973,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19004,16 +18056,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19058,16 +18101,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19146,16 +18180,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19199,16 +18224,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19262,16 +18278,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -19324,16 +18331,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19532,16 +18530,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19591,16 +18580,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19725,16 +18705,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19769,16 +18740,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19793,16 +18755,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -19862,16 +18815,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19950,16 +18894,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20099,16 +19034,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20123,16 +19049,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -20252,16 +19169,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20385,16 +19293,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20430,16 +19329,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20469,16 +19359,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20513,16 +19394,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -20557,16 +19429,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20625,16 +19488,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
@@ -20763,6 +19617,7 @@
                         "type": 3101547287,
                         "data": [
                             "DE",
+                            "PL",
                             "SE"
                         ]
                     }
@@ -20806,6 +19661,7 @@
                         "type": 3101547287,
                         "data": [
                             "DE",
+                            "PL",
                             "SE"
                         ]
                     }
@@ -20845,16 +19701,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20938,16 +19785,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -20982,16 +19820,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -21014,16 +19843,7 @@
                 ]
             },
             {
-                "filter": [
-                    {
-                        "type": 3101547287,
-                        "data": [
-                            "DE",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,

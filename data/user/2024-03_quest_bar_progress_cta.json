@@ -17,16 +17,7 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE",
-                        "SE",
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 0,
@@ -41,16 +32,7 @@
             ]
         },
         {
-            "filter": [
-                {
-                    "type": 3101547287,
-                    "data": [
-                        "DE",
-                        "SE",
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
