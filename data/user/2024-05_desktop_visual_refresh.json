@@ -37,7 +37,16 @@
     ],
     "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "PL",
+                        "SE",
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 0,
@@ -52,7 +61,16 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "PL",
+                        "SE",
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,
@@ -67,7 +85,16 @@
             ]
         },
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "PL",
+                        "SE",
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 3,
