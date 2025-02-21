@@ -20662,30 +20662,7 @@
                 "label": "Enable weighted sample for activity shelf"
             }
         ],
-        "populations": [
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "US"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 2,
-                        "ranges": [
-                            {
-                                "start": 9800,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-11_activity_popout_window",
