@@ -17,16 +17,7 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 0,
@@ -37,21 +28,7 @@
                             "end": 5000
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
+                },
                 {
                     "treatment": 1,
                     "percentage": 50,
