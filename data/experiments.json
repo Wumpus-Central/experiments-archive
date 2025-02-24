@@ -19398,36 +19398,7 @@
         "id": "2024-10_web_display_animated_webp_embeds",
         "label": "Web Display Animated WebP Embeds Experiment",
         "hash": 527410747,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Control treatment"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Animated WebP embeds enabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_weighted_sample_activity_shelf",
