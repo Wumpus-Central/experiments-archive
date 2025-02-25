@@ -12215,41 +12215,7 @@
         "id": "2023-12_nv_relaxed_rate_control",
         "label": "Alternative rate control proposal for Nvidia encoder",
         "hash": 3216770283,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "250 ms"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "500 ms"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "1000 ms"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-12_pause_subscriptions_experiment",
@@ -12557,11 +12523,88 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "enable adaptive key frame for nvenc"
+                "label": "enable adaptive key frame for nvenc",
+                "config": {
+                    "enableAdaptiveKeyFrame": false
+                }
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 3032307853,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                3032307853
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-01_omnibutton_file_upload_subtext",
@@ -13041,31 +13084,7 @@
         "id": "2024-02_nvenc_new_presets",
         "label": "nvenc new presets",
         "hash": 1871481173,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "enable adaptive key frame for nvenc"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-02_premium_trial_offer_ui_revamp",
