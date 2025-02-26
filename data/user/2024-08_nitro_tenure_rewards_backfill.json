@@ -2,33 +2,5 @@
     "id": "2024-08_nitro_tenure_rewards_backfill",
     "label": "Nitro Tenure Reward Backfill",
     "hash": 3782439999,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enables the nitro tenure reward backfill for the user"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 10,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        },
-                        {
-                            "start": 1100,
-                            "end": 2000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
