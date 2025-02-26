@@ -17915,11 +17915,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 95,
+                        "percentage": 90,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 9500
+                                "end": 9000
                             }
                         ]
                     }
@@ -18522,10 +18522,14 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 100,
+                        "percentage": 95,
                         "ranges": [
                             {
                                 "start": 0,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9500,
                                 "end": 10000
                             }
                         ]
