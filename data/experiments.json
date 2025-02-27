@@ -18914,16 +18914,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
-                                "end": 10000
-                            }
-                        ]
                     }
                 ]
             }
