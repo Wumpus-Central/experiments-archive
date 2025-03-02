@@ -14494,7 +14494,7 @@
                         ]
                     },
                     {
-                        "treatment": 1,
+                        "treatment": 5,
                         "percentage": 3,
                         "ranges": [
                             {
@@ -14505,11 +14505,11 @@
                     },
                     {
                         "treatment": 3,
-                        "percentage": 3,
+                        "percentage": 9,
                         "ranges": [
                             {
                                 "start": 600,
-                                "end": 900
+                                "end": 1500
                             }
                         ]
                     }
