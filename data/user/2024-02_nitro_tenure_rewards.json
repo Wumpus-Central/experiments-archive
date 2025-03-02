@@ -2,5 +2,13 @@
     "id": "2024-02_nitro_tenure_rewards",
     "label": "Nitro Tenure Reward Experiment",
     "hash": 1967357639,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enables the nitro tenure reward UI for the user"
+        }
+    ],
+    "populations": null
 }

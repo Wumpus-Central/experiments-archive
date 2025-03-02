@@ -2,5 +2,18 @@
     "id": "2024-08_mobile_message_visibility_percentage_calculation",
     "label": "Mobile Message Visibility Percentage Calculation",
     "hash": 559768860,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Calculate visibility of mobile messages"
+        }
+    ],
+    "populations": null
 }

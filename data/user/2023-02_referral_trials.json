@@ -2,5 +2,13 @@
     "id": "2023-02_referral_trials",
     "label": "Referral Trials",
     "hash": 4247951256,
-    "kind": "user"
+    "kind": "user",
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Nitro users can send a Nitro trial offer to another user."
+        }
+    ],
+    "populations": null
 }
