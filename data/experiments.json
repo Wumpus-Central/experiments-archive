@@ -13450,15 +13450,7 @@
         "id": "2024-03_nitro_tenure_reward_card",
         "label": "Nitro Tenure Reward Card",
         "hash": 2962984975,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enables the nitro tenure reward card for users"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-03_packages",
