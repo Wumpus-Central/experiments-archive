@@ -6,9 +6,86 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "enable adaptive key frame for nvenc"
+            "label": "enable adaptive key frame for nvenc",
+            "config": {
+                "enableAdaptiveKeyFrame": false
+            }
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2294888943,
+                    "data": {
+                        "hashKey": 3032307853,
+                        "percentage": 10000
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    2294888943,
+                    [
+                        [
+                            2690752156,
+                            3032307853
+                        ],
+                        [
+                            1982804121,
+                            10000
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -8289,15 +8289,7 @@
         "id": "2023-02_referral_trials",
         "label": "Referral Trials",
         "hash": 4247951256,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Nitro users can send a Nitro trial offer to another user."
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-02_search_v2_guilds",
@@ -12215,41 +12207,7 @@
         "id": "2023-12_nv_relaxed_rate_control",
         "label": "Alternative rate control proposal for Nvidia encoder",
         "hash": 3216770283,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "250 ms"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "500 ms"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "1000 ms"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-12_pause_subscriptions_experiment",
@@ -12557,11 +12515,88 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "enable adaptive key frame for nvenc"
+                "label": "enable adaptive key frame for nvenc",
+                "config": {
+                    "enableAdaptiveKeyFrame": false
+                }
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 3032307853,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                3032307853
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-01_omnibutton_file_upload_subtext",
@@ -12723,15 +12758,7 @@
         "id": "2024-02_activity_react_reply",
         "label": "Activity React Reply",
         "hash": 1210736186,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Activity React / Reply Buttons"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-02_activityiframemountfromgatewayupdate",
@@ -13027,45 +13054,13 @@
         "id": "2024-02_nitro_tenure_rewards",
         "label": "Nitro Tenure Reward Experiment",
         "hash": 1967357639,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enables the nitro tenure reward UI for the user"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-02_nvenc_new_presets",
         "label": "nvenc new presets",
         "hash": 1871481173,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "enable adaptive key frame for nvenc"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-02_premium_trial_offer_ui_revamp",
@@ -13463,23 +13458,7 @@
                 "label": "Enables the nitro tenure reward card for users"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-03_packages",
@@ -13639,11 +13618,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 95,
+                        "percentage": 100,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 9500
+                                "end": 10000
                             }
                         ]
                     }
@@ -15229,27 +15208,11 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_delta_vanilla",
@@ -17912,11 +17875,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 95,
+                        "percentage": 90,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 9500
+                                "end": 9000
                             }
                         ]
                     }
@@ -17928,20 +17891,7 @@
         "id": "2024-08_mobile_message_visibility_percentage_calculation",
         "label": "Mobile Message Visibility Percentage Calculation",
         "hash": 559768860,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Calculate visibility of mobile messages"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-08_mobile_perguild_collectibles_edit",
@@ -17981,35 +17931,7 @@
         "id": "2024-08_nitro_tenure_rewards_backfill",
         "label": "Nitro Tenure Reward Backfill",
         "hash": 3782439999,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enables the nitro tenure reward backfill for the user"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 100,
-                                "end": 200
-                            },
-                            {
-                                "start": 1100,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_only_channel_screen",
@@ -18519,10 +18441,14 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 100,
+                        "percentage": 95,
                         "ranges": [
                             {
                                 "start": 0,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9500,
                                 "end": 10000
                             }
                         ]
@@ -18968,20 +18894,10 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 5,
+                        "percentage": 50,
                         "ranges": [
                             {
-                                "start": 9000,
-                                "end": 9500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
+                                "start": 5000,
                                 "end": 10000
                             }
                         ]
@@ -19691,49 +19607,7 @@
                 "label": "Enabled w/ emoji section"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 7500,
-                                "end": 8000
-                            },
-                            {
-                                "start": 8900,
-                                "end": 9300
-                            },
-                            {
-                                "start": 9800,
-                                "end": 9900
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 8000,
-                                "end": 8500
-                            },
-                            {
-                                "start": 9300,
-                                "end": 9700
-                            },
-                            {
-                                "start": 9900,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-11_teen_defaults__message_requests",
