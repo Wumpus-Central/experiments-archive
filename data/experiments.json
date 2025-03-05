@@ -13596,31 +13596,7 @@
         "id": "2024-03_referral_program_recipient",
         "label": "Referral Program Recipient Experience",
         "hash": 1203883687,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-03_referral_program_sender",
@@ -14950,31 +14926,7 @@
         "id": "2024-06_app_storefront_message_embeds",
         "label": "Storefront Message Embed",
         "hash": 276020776,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-06_bogo_promotion_marketing_materials",
@@ -18931,15 +18883,7 @@
         "id": "2024-10_message_attachment_send_failure",
         "label": "Message Attachment Send Failure Experiment",
         "hash": 3652546672,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-10_mobile_display_animated_webp_attachments",

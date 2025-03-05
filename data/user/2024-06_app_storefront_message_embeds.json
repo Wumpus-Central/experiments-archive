@@ -2,29 +2,5 @@
     "id": "2024-06_app_storefront_message_embeds",
     "label": "Storefront Message Embed",
     "hash": 276020776,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
