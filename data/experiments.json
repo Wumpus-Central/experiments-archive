@@ -18834,69 +18834,14 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "PL",
-                            "SE",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 50,
+                        "percentage": 95,
                         "ranges": [
                             {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 1120,
-                                "end": 1120
-                            },
-                            {
-                                "start": 1660,
-                                "end": 1660
-                            },
-                            {
-                                "start": 1890,
-                                "end": 1890
-                            },
-                            {
-                                "start": 2570,
-                                "end": 2570
-                            },
-                            {
-                                "start": 3110,
-                                "end": 3110
-                            },
-                            {
-                                "start": 3830,
-                                "end": 3830
-                            },
-                            {
-                                "start": 5000,
+                                "start": 500,
                                 "end": 10000
                             }
                         ]
