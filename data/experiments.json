@@ -17678,22 +17678,10 @@
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 80,
+                        "percentage": 100,
                         "ranges": [
                             {
-                                "start": 100,
-                                "end": 200
-                            },
-                            {
-                                "start": 600,
-                                "end": 1000
-                            },
-                            {
-                                "start": 2000,
-                                "end": 3000
-                            },
-                            {
-                                "start": 3500,
+                                "start": 0,
                                 "end": 10000
                             }
                         ]
