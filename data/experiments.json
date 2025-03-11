@@ -17637,23 +17637,7 @@
                 "label": "Enable the updated soundboard picker UI"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-08_tiered_tenure_badges",
