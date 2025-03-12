@@ -12036,46 +12036,7 @@
         "id": "2023-12_collectibles_shop_marketing",
         "label": "Collectibles Shop Marketing Variations",
         "hash": 488433301,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 7,
-                "aa_mode": 0,
-                "label": "Tide 2024"
-            },
-            {
-                "id": 8,
-                "aa_mode": 0,
-                "label": "Robert 2024"
-            },
-            {
-                "id": 9,
-                "aa_mode": 0,
-                "label": "Storm 2024"
-            },
-            {
-                "id": 10,
-                "aa_mode": 0,
-                "label": "Equinox/fall 2024"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 10,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-12_create_guild_modal_themeing",
@@ -16816,20 +16777,7 @@
         "id": "2024-07_referral_program_sender_incentive",
         "label": "Referral Program Sender Incentive",
         "hash": 3017999764,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Disabled"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-07_reveal_mystery_card",

@@ -2,44 +2,5 @@
     "id": "2023-12_collectibles_shop_marketing",
     "label": "Collectibles Shop Marketing Variations",
     "hash": 488433301,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 7,
-            "aa_mode": 0,
-            "label": "Tide 2024"
-        },
-        {
-            "id": 8,
-            "aa_mode": 0,
-            "label": "Robert 2024"
-        },
-        {
-            "id": 9,
-            "aa_mode": 0,
-            "label": "Storm 2024"
-        },
-        {
-            "id": 10,
-            "aa_mode": 0,
-            "label": "Equinox/fall 2024"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 10,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
