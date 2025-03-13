@@ -8814,15 +8814,7 @@
         "id": "2023-03_trial_redemption_default_to_monthly_plan",
         "label": "Trial Redemption Default To Monthly Plan",
         "hash": 1656308555,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Set default plan to monthly plan"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-03_user_trial_offer_marketing_page_tier_0_cta_copy",
