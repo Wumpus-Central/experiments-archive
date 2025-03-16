@@ -15,25 +15,5 @@
             "label": "Clips Enabled (Nitro)"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 6,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 400
-                        },
-                        {
-                            "start": 700,
-                            "end": 1000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }

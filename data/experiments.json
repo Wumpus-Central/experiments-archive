@@ -10656,27 +10656,7 @@
                 "label": "Clips Enabled (Nitro)"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 6,
-                        "ranges": [
-                            {
-                                "start": 100,
-                                "end": 400
-                            },
-                            {
-                                "start": 700,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2023-09_collectibles_marketing_page",
@@ -10979,23 +10959,7 @@
                 "label": "Redesigned icons enabled"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2023-09_register_device_post_connection_open",
@@ -11051,23 +11015,7 @@
                 "label": "Enables showing server sub in server shop"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2023-09_social_summary_push_notification_ml",
@@ -12072,23 +12020,7 @@
                 "label": "Ask server for marketing content for rendering"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2023-12_marketing_mobile_redesign_banner",
@@ -12280,7 +12212,23 @@
                 "label": "10 second window, 90% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-01_bluetooth_sco_retry",
@@ -13194,23 +13142,7 @@
                 "label": "Holdout"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-03_content_inventory_ranker_api_dummy",
@@ -13327,23 +13259,7 @@
                 "label": "Send metrics"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-03_metrics_endpoint_v2",
@@ -13914,23 +13830,7 @@
                 "label": "Facepile + Typing Indicator + Status Indicator"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 7,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-04_genshin_admin_signup",
@@ -14374,43 +14274,7 @@
                 "label": "External Testers"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 3,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 300
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 3,
-                        "ranges": [
-                            {
-                                "start": 300,
-                                "end": 600
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 3,
-                        "percentage": 3,
-                        "ranges": [
-                            {
-                                "start": 600,
-                                "end": 900
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-05_discount_model_data_collection",
@@ -14637,23 +14501,7 @@
                 "label": "Quest Bar V2"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-05_quest_home",
@@ -15311,23 +15159,7 @@
                 "label": "Enable the desktop app launcher in activities shelf: On home screen, clicking activity card -> activity detail page"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_deprecate_old_settings_rollout",
@@ -15555,23 +15387,7 @@
                 "label": "Enable new roadblock experience with social proof"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_premium_feature_apperance_upsell_desktop",
@@ -16830,49 +16646,7 @@
                 "label": "Sidechain Compression avialable, default disabled"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 80,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 2000
-                            },
-                            {
-                                "start": 2500,
-                                "end": 4500
-                            },
-                            {
-                                "start": 5000,
-                                "end": 9000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 20,
-                        "ranges": [
-                            {
-                                "start": 2000,
-                                "end": 2500
-                            },
-                            {
-                                "start": 4500,
-                                "end": 5000
-                            },
-                            {
-                                "start": 9000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-07_storm_mobile_shop_marketing",
@@ -16987,23 +16761,7 @@
                 "label": "Enable collectibles expiry modal"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-08_content_inventory_analytics_sampling",
@@ -17559,23 +17317,7 @@
                 "label": "Enable Tiered Tenure Badges v2"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-08_toggle_soundshare_menu_experiment",
@@ -17589,23 +17331,7 @@
                 "label": "Enable"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-08_trial_cooldown_correction",
@@ -17698,7 +17424,23 @@
                 "label": "Enable Mobile Per-guild Collectibles Edit"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_new_gateway_dispatcher",
@@ -18154,23 +17896,7 @@
                 "label": "Show improved reaction button"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-09_league_of_legends_leaderboard",
@@ -18364,33 +18090,7 @@
                 "label": "Automatic is Rust ADM (new stats slice)"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 90,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 9000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-09_secure_frames_deeplink",
@@ -18513,23 +18213,7 @@
                 "label": "Enable Block User Feedback Survey"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-10_blocking_context",
@@ -18653,23 +18337,7 @@
                 "label": "Enable Improved Desktop Media Viewer with affordances"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-10_merge_notifications_tab",
@@ -18925,23 +18593,7 @@
                 "label": "Return Variants as Group"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-10_stealth_remediation",
@@ -18990,23 +18642,7 @@
                 "label": "Enable pref for 24-hour time format"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-10_tile_resolution_gating",
@@ -19025,23 +18661,7 @@
                 "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-10_updated_fetch_subscription_plans_for_sku_error",
@@ -19134,54 +18754,7 @@
                 "label": "Enable application IAR reporting flow (EU)"
             }
         ],
-        "populations": [
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "US"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE",
-                            "PL",
-                            "SE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-11_checkout_optimization_browser_autofill_global",
@@ -19245,31 +18818,7 @@
                 "label": "Enables nitro tenure reward collectible for the user"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 15,
-                        "ranges": [
-                            {
-                                "start": 100,
-                                "end": 200
-                            },
-                            {
-                                "start": 600,
-                                "end": 1000
-                            },
-                            {
-                                "start": 2000,
-                                "end": 3000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-11_premium_q4_moment_core",
