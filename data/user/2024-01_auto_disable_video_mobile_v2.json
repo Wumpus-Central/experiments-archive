@@ -25,21 +25,5 @@
             "label": "10 second window, 90% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }

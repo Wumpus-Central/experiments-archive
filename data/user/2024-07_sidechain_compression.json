@@ -15,5 +15,47 @@
             "label": "Sidechain Compression avialable, default disabled"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 80,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2500,
+                            "end": 4500
+                        },
+                        {
+                            "start": 5000,
+                            "end": 9000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 2,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 2000,
+                            "end": 2500
+                        },
+                        {
+                            "start": 4500,
+                            "end": 5000
+                        },
+                        {
+                            "start": 9000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
