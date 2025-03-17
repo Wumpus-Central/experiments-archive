@@ -10,5 +10,30 @@
             "label": "Allow guild violations to be applied using the new appeals ingestion flow"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "DE",
+                        "PL",
+                        "US"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 9900,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
