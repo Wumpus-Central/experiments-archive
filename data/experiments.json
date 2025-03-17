@@ -7953,40 +7953,7 @@
         "id": "2023-01_guild_onboarding_includes_rules",
         "label": "Guild Onboarding includes rules experience",
         "hash": 987713133,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Last page of onboarding is rules"
-            }
-        ],
-        "populations": [
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE",
-                            "PL",
-                            "US"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-01_kv_storage_field_trial",
