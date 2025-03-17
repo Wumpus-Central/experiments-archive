@@ -2,38 +2,5 @@
     "id": "2023-09_redesigned_icons_experiment",
     "label": "Redesigned icons experiment",
     "hash": 2688743035,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Redesigned icons enabled"
-        }
-    ],
-    "populations": [
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
