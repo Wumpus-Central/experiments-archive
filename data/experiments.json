@@ -14673,31 +14673,7 @@
         "id": "2024-05_secure_frames_ui_rollout",
         "label": "Secure Frames Rollout",
         "hash": 474159616,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled."
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_server_profiles",
