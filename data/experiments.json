@@ -15131,7 +15131,36 @@
                 "label": "AMD AV1 video encoding"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "DE",
+                            "PL",
+                            "US"
+                        ]
+                    }
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 6000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_android_shopp",
