@@ -2,34 +2,5 @@
     "id": "2024-06_desktop_app_launcher_in_activities_shelf",
     "label": "Desktop App Launcher In Activities Shelf",
     "hash": 2442141621,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable the desktop app launcher in activities shelf: On home screen, clicking activity card -> performs activity action (i.e. launch)"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enable the desktop app launcher in activities shelf: On home screen, clicking activity card -> activity detail page"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

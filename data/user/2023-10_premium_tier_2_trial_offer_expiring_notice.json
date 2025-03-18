@@ -2,13 +2,5 @@
     "id": "2023-10_premium_tier_2_trial_offer_expiring_notice",
     "label": "Premium Tier 2 Trial Offer Expiring Notice",
     "hash": 3950847537,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
