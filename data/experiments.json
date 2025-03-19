@@ -11546,20 +11546,7 @@
         "id": "2023-11_cannibalization_model_data_collection",
         "label": "Cannibalization Model Data Collection",
         "hash": 1294709229,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-11_channel_list_v2",
@@ -14356,20 +14343,7 @@
         "id": "2024-05_discount_model_data_collection",
         "label": "Discount Model Data Collection",
         "hash": 2631310213,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-05_enable_stripe_link_on_split_cardelement",

@@ -2,18 +2,5 @@
     "id": "2024-05_discount_model_data_collection",
     "label": "Discount Model Data Collection",
     "hash": 2631310213,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enabled"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
