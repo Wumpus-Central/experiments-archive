@@ -5,11 +5,6 @@
     "kind": "user",
     "treatments": [
         {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable Tiered Tenure Badges v1"
-        },
-        {
             "id": 2,
             "aa_mode": 0,
             "label": "Enable Tiered Tenure Badges v2"
