@@ -40,22 +40,12 @@
             "filter": null,
             "rollout": [
                 {
-                    "treatment": 0,
-                    "percentage": 3,
+                    "treatment": 3,
+                    "percentage": 100,
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 300
-                        }
-                    ]
-                },
-                {
-                    "treatment": 3,
-                    "percentage": 6,
-                    "ranges": [
-                        {
-                            "start": 300,
-                            "end": 900
+                            "end": 10000
                         }
                     ]
                 }
