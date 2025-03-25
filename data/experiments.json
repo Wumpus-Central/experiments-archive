@@ -18757,31 +18757,7 @@
         "id": "2024-10_stealth_remediation",
         "label": "A new user remediation tool",
         "hash": 3936986189,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable the new user remediation tool"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_system_date_formatter",
