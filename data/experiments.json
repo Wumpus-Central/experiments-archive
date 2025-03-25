@@ -16507,31 +16507,7 @@
         "id": "2024-07_open_platform_app_launcher",
         "label": "Open Platform App Launcher",
         "hash": 4205780956,
-        "kind": "user",
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable the App Launcher changes for Open Platform"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-07_passkey_upsell_on_login",
