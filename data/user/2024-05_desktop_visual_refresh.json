@@ -50,16 +50,6 @@
                     ]
                 },
                 {
-                    "treatment": 1,
-                    "percentage": 3,
-                    "ranges": [
-                        {
-                            "start": 300,
-                            "end": 600
-                        }
-                    ]
-                },
-                {
                     "treatment": 3,
                     "percentage": 6,
                     "ranges": [
