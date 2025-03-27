@@ -2,33 +2,5 @@
     "id": "2024-06_amd_av1_video_encoding",
     "label": "Test how AV1 works on windows with AMD GPU",
     "hash": 1887363890,
-    "kind": "user",
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "AMD AV1 video encoding"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 1000
-                        },
-                        {
-                            "start": 2000,
-                            "end": 6000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
