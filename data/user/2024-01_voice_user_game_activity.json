@@ -3,6 +3,7 @@
     "label": "Voice User Game Activity",
     "hash": 1400973357,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -10,5 +10,6 @@
             "label": "Can support DAVE protocol version 1 and above"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

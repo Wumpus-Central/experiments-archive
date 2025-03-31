@@ -3,6 +3,7 @@
     "label": "CTP voice call - A/A test - Filters",
     "hash": 1950006063,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

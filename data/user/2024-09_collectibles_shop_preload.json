@@ -3,6 +3,7 @@
     "label": "Collectibles Shop Preload",
     "hash": 81858881,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

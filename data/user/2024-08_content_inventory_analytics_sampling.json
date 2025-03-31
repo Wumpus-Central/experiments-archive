@@ -3,6 +3,7 @@
     "label": "Content Inventory Analytics Sampling",
     "hash": 1274464129,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

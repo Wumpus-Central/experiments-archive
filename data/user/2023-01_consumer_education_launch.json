@@ -3,6 +3,7 @@
     "label": "Safety Consumer Education Launch - Block/Mute",
     "hash": 1318110575,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Longer Group DM Invites",
     "hash": 1693164202,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

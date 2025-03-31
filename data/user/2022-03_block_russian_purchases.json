@@ -3,6 +3,7 @@
     "label": "Block purchases based on country",
     "hash": 3011681066,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

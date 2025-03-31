@@ -3,6 +3,7 @@
     "label": "Upsell Outbound Promos",
     "hash": 2302949395,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

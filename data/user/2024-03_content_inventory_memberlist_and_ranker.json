@@ -3,6 +3,7 @@
     "label": "Enables the memberlist content feed",
     "hash": 3541906113,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": -1,

@@ -3,6 +3,7 @@
     "label": "HD Streaming Viewer Upsell",
     "hash": 1274486444,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

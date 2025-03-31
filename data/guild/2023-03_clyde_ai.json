@@ -25,5 +25,6 @@
             "label": "Clyde Profiles"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

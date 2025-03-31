@@ -3,6 +3,7 @@
     "label": "Unreads Experiment (grey-dot mode)",
     "hash": 2883062585,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

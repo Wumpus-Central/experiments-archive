@@ -3,6 +3,7 @@
     "label": "System DM Safety Onboarding",
     "hash": 488500683,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

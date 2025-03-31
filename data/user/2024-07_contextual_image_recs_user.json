@@ -3,6 +3,7 @@
     "label": "Contextual Image Recommendations",
     "hash": 2916972233,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

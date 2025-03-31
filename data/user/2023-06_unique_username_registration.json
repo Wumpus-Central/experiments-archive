@@ -3,6 +3,7 @@
     "label": "Unique Username Registration",
     "hash": 2476969328,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

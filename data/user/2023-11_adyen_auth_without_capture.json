@@ -3,6 +3,7 @@
     "label": "Adyen auth without capture rollout",
     "hash": 1511378616,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

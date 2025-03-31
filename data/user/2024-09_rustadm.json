@@ -3,6 +3,7 @@
     "label": "Rust Audio Device Manager",
     "hash": 4226263373,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

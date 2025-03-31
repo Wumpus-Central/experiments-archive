@@ -3,6 +3,7 @@
     "label": "Content Inventory Embed",
     "hash": 1466873010,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

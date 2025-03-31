@@ -3,6 +3,7 @@
     "label": "Inappropriate Conversation Warning",
     "hash": 1265607294,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

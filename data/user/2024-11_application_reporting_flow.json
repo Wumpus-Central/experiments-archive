@@ -3,6 +3,7 @@
     "label": "Apps In-App Reporting",
     "hash": 1859137100,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

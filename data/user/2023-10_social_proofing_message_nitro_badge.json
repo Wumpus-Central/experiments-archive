@@ -3,6 +3,7 @@
     "label": "Social Proofing Message Nitro Badge",
     "hash": 725728798,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

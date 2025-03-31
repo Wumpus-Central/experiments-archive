@@ -3,6 +3,7 @@
     "label": "Shop tile impressions logging",
     "hash": 1219608372,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

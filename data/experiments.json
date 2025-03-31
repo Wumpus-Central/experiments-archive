@@ -3142,6 +3142,7 @@
         "label": "Display QS scores in results. Not a real experiment",
         "hash": 2847059306,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -3480,6 +3481,7 @@
         "label": "Longer Group DM Invites",
         "hash": 1693164202,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -3783,7 +3785,8 @@
                 "label": "Enables guild to create Guild Role Subscriptions"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2021-06_guild_subscriptions_payment_flow_test_page",
@@ -3850,6 +3853,7 @@
         "label": "Promotions Preview",
         "hash": 3704699110,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -3948,6 +3952,7 @@
         "label": "Popout Autocomplete experiment",
         "hash": 1900424093,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -3962,6 +3967,7 @@
         "label": "Role Popout",
         "hash": 1428438599,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4048,6 +4054,7 @@
         "label": "Guild Role Subscription Users",
         "hash": 1567199723,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4162,6 +4169,7 @@
         "label": "Regional Payment Methods",
         "hash": 3091068323,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4358,6 +4366,7 @@
         "label": "User Initiated Refunds",
         "hash": 2623810566,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -4431,6 +4440,7 @@
         "label": "Favorites Server",
         "hash": 1134868932,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4682,6 +4692,7 @@
         "label": "Runtime Accessibility System",
         "hash": 3654722494,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4719,6 +4730,7 @@
         "label": "Student hub study group",
         "hash": 4030301365,
         "kind": "guild",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -4878,7 +4890,8 @@
                 "label": "Show Hub Events List"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2021-11_hub_unreads",
@@ -5029,6 +5042,7 @@
         "label": "Inferno Spam Redaction",
         "hash": 4179344527,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -5200,7 +5214,8 @@
                 "label": "Enables guild to create Guild Role Subscription Trials"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-01_guild_sidebar_boosting_stats",
@@ -5573,6 +5588,7 @@
         "label": "Block purchases based on country",
         "hash": 3011681066,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -5587,6 +5603,7 @@
         "label": "Block purchases based on country (desktop specific flags)",
         "hash": 1814483290,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -5821,6 +5838,7 @@
         "label": "Creator Monetization Available in Country",
         "hash": 2532700533,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -6531,7 +6549,8 @@
         "hash": 179711638,
         "kind": "guild",
         "treatments": [],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-07_home_demote_channels",
@@ -6604,6 +6623,7 @@
         "label": "System DM Safety Onboarding",
         "hash": 488500683,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -6648,7 +6668,8 @@
                 "label": "On"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-08_activities_prerelease_overrides",
@@ -6679,6 +6700,7 @@
         "label": "Back to School Event",
         "hash": 2676348506,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -6730,6 +6752,7 @@
         "label": "PS5 Voice Experiment",
         "hash": 4136574802,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 3,
@@ -6852,6 +6875,7 @@
         "label": "Message TODO list",
         "hash": 4170652702,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -6981,13 +7005,15 @@
                 "label": "Enables guild to create Guild Role Subscriptions quickly"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-09_creator_monetization_raven_users",
         "label": "Creator Monetization Onboarding v2 Users",
         "hash": 2539540256,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7090,6 +7116,7 @@
         "label": "Mobile Account Switcher",
         "hash": 2001067746,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7361,6 +7388,7 @@
         "label": "Clips Experiment",
         "hash": 1651184307,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7398,7 +7426,8 @@
                 "label": "Enables Guilds to (possibly) see the waitlist"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-11_default_disable_mass_mention",
@@ -7412,7 +7441,8 @@
                 "label": "Enabled"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-11_default_to_server_vanity_v2",
@@ -7467,6 +7497,7 @@
         "label": "Mobile Account Switcher: Notifications",
         "hash": 1333727,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7587,6 +7618,7 @@
         "label": "Channel Notice Redesign",
         "hash": 3502788249,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7653,6 +7685,7 @@
         "label": "Localized Pricing Poland Notice",
         "hash": 4169494713,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7702,7 +7735,8 @@
                 "label": "Automod Mention Raid Limit"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-12_message_request_home_count",
@@ -7721,6 +7755,7 @@
         "label": "Mobile Guild Role Subscription Team Setup",
         "hash": 3313601281,
         "kind": "guild",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7777,6 +7812,7 @@
         "label": "Timestamp Tooltip",
         "hash": 1978665225,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7827,6 +7863,7 @@
         "label": "Safety Experience Reject All Message Requests",
         "hash": 400679165,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7841,6 +7878,7 @@
         "label": "Safety Consumer Education Launch - Block/Mute",
         "hash": 1318110575,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7860,6 +7898,7 @@
         "label": "Creator Monetization Nag Activate Users",
         "hash": 3029387945,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7902,6 +7941,7 @@
         "label": "Forum non-community",
         "hash": 1446479414,
         "kind": "guild",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -7971,7 +8011,8 @@
                 "label": "Enable Shared Canvas"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-01_silent_messages",
@@ -8105,7 +8146,8 @@
                 "label": "Allow creation of guest voice invites"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_guild_boosting_marketing_redesign",
@@ -8203,7 +8245,8 @@
                 "label": "On"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_onboarding_home",
@@ -8229,7 +8272,8 @@
                 "label": "On"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_p13n_summarization",
@@ -8320,6 +8364,7 @@
         "label": "AA test to validate segmentation filter",
         "hash": 1998088971,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8428,7 +8473,8 @@
                 "label": "Clyde Profiles"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_cr_accept_new_terms",
@@ -8484,7 +8530,8 @@
                 "label": "Enables guild to create a media channel"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_guild_safety_settings",
@@ -8587,6 +8634,7 @@
         "label": "Pomelo",
         "hash": 268309827,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8607,6 +8655,7 @@
         "label": "Pomelo Debounce Delay",
         "hash": 373531156,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8698,7 +8747,8 @@
                 "label": "399 basic tier + link"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_sharing_and_messaging_holdout_phase_1",
@@ -8723,6 +8773,7 @@
         "label": "Store latest message data",
         "hash": 1617749743,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8753,6 +8804,7 @@
         "label": "Text Playground",
         "hash": 3074921198,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8869,6 +8921,7 @@
         "label": "Community Endless Invites",
         "hash": 3964855818,
         "kind": "guild",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -8949,6 +9002,7 @@
         "label": "Guild Role Subscription Users",
         "hash": 288968706,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9033,6 +9087,7 @@
         "label": "Null Experiment",
         "hash": 1045730203,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9069,6 +9124,7 @@
         "label": "Pomelo Attempt",
         "hash": 3522378716,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9099,6 +9155,7 @@
         "label": "Pomelo Suggestions",
         "hash": 2091202574,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9142,13 +9199,15 @@
                 "label": "Enables Server Products (AKA one time purchases for creator guilds)"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-04_server_subscriptions_tier_templates_user",
         "label": "Server Subscriptions Tier Templates",
         "hash": 4265918989,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9359,6 +9418,7 @@
         "label": "Localized Pricing Turkey Notice",
         "hash": 2556223249,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9413,6 +9473,7 @@
         "label": "Detect and report crashes in the overlay hook",
         "hash": 933369006,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9456,6 +9517,7 @@
         "label": "Safety User Sentiment Feedback Eligible",
         "hash": 1344378364,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9524,6 +9586,7 @@
         "label": "BOGO Promotion Manager",
         "hash": 680908968,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9748,6 +9811,7 @@
         "label": "Username Livecheck in Settings",
         "hash": 2698112799,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9778,6 +9842,7 @@
         "label": "Unique Username Registration",
         "hash": 2476969328,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9829,6 +9894,7 @@
         "label": "Announcement Views",
         "hash": 3583259547,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -9877,6 +9943,7 @@
         "label": "Checkout Optimization Browser Autofill",
         "hash": 3608176496,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10093,6 +10160,7 @@
         "label": "AA test to validate fallback trigger and location frequency change",
         "hash": 3307441810,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10149,6 +10217,7 @@
         "label": "DCF ML Perks Relevance Model",
         "hash": 1694039129,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -10195,7 +10264,8 @@
                 "label": "trigger deadchat upon connection open"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-08_decay_old_unreads",
@@ -10274,6 +10344,7 @@
         "label": "Guild Usage Survey",
         "hash": 1468919041,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10307,7 +10378,8 @@
                 "label": "Guild Settings Improved Bans Page"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-08_invoice_pdf_allowlist",
@@ -10380,6 +10452,7 @@
         "label": "Open Channel in Popout",
         "hash": 281174794,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10448,6 +10521,7 @@
         "label": "Remix General Available",
         "hash": 3382036696,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10494,6 +10568,7 @@
         "label": "Allowing testing DAVE protocol for voice/video",
         "hash": 3013881204,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 11,
@@ -10620,6 +10695,7 @@
         "label": "Clips (Nitro EA)",
         "hash": 67524618,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10713,7 +10789,8 @@
                 "label": "ability to trigger gaming stats prompt (leaderboard)"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-09_gaming_stats_setup",
@@ -10727,7 +10804,8 @@
                 "label": "trigger gaming stats data"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-09_guild_events_auto_start",
@@ -10758,6 +10836,7 @@
         "label": "Safety Experience Unauthenticated Report Form",
         "hash": 1438986391,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10802,6 +10881,7 @@
         "label": "Safety Experience IAR User Reporting",
         "hash": 2180379513,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10910,6 +10990,7 @@
         "label": "Proxy Block Experiment",
         "hash": 1121995325,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10966,6 +11047,7 @@
         "label": "Server Shop Phantom Preview",
         "hash": 759064140,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -10996,6 +11078,7 @@
         "label": "Show server sub in server shop",
         "hash": 1680860120,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11050,6 +11133,7 @@
         "label": "trigger debugging aa mobile",
         "hash": 1454135605,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11168,6 +11252,7 @@
         "label": "Call Banner Background Experiment",
         "hash": 2681214381,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11362,6 +11447,7 @@
         "label": "Social Proofing File Size",
         "hash": 3258058784,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11376,6 +11462,7 @@
         "label": "Social Proofing Message Nitro Badge",
         "hash": 725728798,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11455,6 +11542,7 @@
         "label": "Test viewer side clipping",
         "hash": 3351049965,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11492,6 +11580,7 @@
         "label": "Adyen auth without capture rollout",
         "hash": 1511378616,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11512,6 +11601,7 @@
         "label": "Attachment Link Config User Experiment",
         "hash": 1894288113,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11625,6 +11715,7 @@
         "label": "Overlay Keybind Indicators",
         "hash": 3181891567,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11645,6 +11736,7 @@
         "label": "Midjourney Onboarding",
         "hash": 1881851350,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11707,6 +11799,7 @@
         "label": "Seasonal Gifting Marketing 2023",
         "hash": 3863309922,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11739,6 +11832,7 @@
         "label": "Soundboard Recently Heard & Frequently Played",
         "hash": 3577312222,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11769,6 +11863,7 @@
         "label": "Notification Changes",
         "hash": 1580712211,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11805,6 +11900,7 @@
         "label": "Unique Username one click",
         "hash": 3151821390,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11860,13 +11956,15 @@
                 "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-11_voice_activity_notification_user",
         "label": "Voice Activity Notifications for User",
         "hash": 2966119607,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11886,6 +11984,7 @@
         "label": "Xbox Game Invites Experiment",
         "hash": 4094597383,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -11972,6 +12071,7 @@
         "label": "Marketing Automation",
         "hash": 2969274422,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12074,6 +12174,7 @@
         "label": "Pause Subscriptions Experiment",
         "hash": 1522152287,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12088,6 +12189,7 @@
         "label": "Quests",
         "hash": 2582794089,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -12165,6 +12267,7 @@
         "label": "Mobile performance: VideoHealthManager (v2)",
         "hash": 1814449668,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12206,6 +12309,7 @@
         "label": "Use chunked uploads for message attachments",
         "hash": 2992238206,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12250,6 +12354,7 @@
         "label": "Expanded Gift Entry Points - Gift Inventory",
         "hash": 819931368,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12300,6 +12405,7 @@
         "label": "Inappropriate Conversation Warning",
         "hash": 1265607294,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12320,6 +12426,7 @@
         "label": "Mention on all messages",
         "hash": 3038837490,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12473,6 +12580,7 @@
         "label": "Quiet Mode (dnd-equivalent) Experiment ",
         "hash": 711383732,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12535,6 +12643,7 @@
         "label": "Unreads Experiment (grey-dot mode)",
         "hash": 2883062585,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -12559,6 +12668,7 @@
         "label": "Unique Username Forced Migration UI",
         "hash": 3867848536,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12591,6 +12701,7 @@
         "label": "Voice User Game Activity",
         "hash": 1400973357,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12641,6 +12752,7 @@
         "label": "Audio processing short circuiting",
         "hash": 2886828494,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12733,6 +12845,7 @@
         "label": "Desktop animated icons",
         "hash": 151550492,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12769,6 +12882,7 @@
         "label": "Desktop: Consistently show the Emoji Picker Upload button at the start of emoji lists",
         "hash": 350727084,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12800,6 +12914,7 @@
         "label": "Family Center VC Join",
         "hash": 3569895137,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12820,6 +12935,7 @@
         "label": "Hide member list activities",
         "hash": 1585236473,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12834,6 +12950,7 @@
         "label": "Image load metrics Config User Experiment",
         "hash": 476313123,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -12937,6 +13054,7 @@
         "label": "Safety Hub Guild Violation In App Appeals",
         "hash": 668094544,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13010,7 +13128,8 @@
                 "label": "enable the advanced slowmode input"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-03_airpods_mute_support",
@@ -13059,6 +13178,7 @@
         "label": "Clickstream Analytics",
         "hash": 937474337,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13109,6 +13229,7 @@
         "label": "Enables the memberlist content feed",
         "hash": 3541906113,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": -1,
@@ -13240,13 +13361,15 @@
                 "label": "Force disable krisp"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-03_media_play_metrics",
         "label": "Media play metrics User Experiment",
         "hash": 465715532,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13373,6 +13496,7 @@
         "label": "Quest Bar Progress CTA",
         "hash": 1001340284,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -13398,6 +13522,7 @@
         "label": "Quests client monitoring experiment",
         "hash": 2848826960,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -13457,6 +13582,7 @@
         "label": "Referral Program Sender Experience",
         "hash": 2843439589,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -13493,6 +13619,7 @@
         "label": "Shop card hover animation experiment",
         "hash": 3326718803,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13548,6 +13675,7 @@
         "label": "Valorant Admin Signup",
         "hash": 2999880206,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13562,6 +13690,7 @@
         "label": "Valorant User Signup",
         "hash": 950315547,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13582,6 +13711,7 @@
         "label": "Web Audio API Rollout",
         "hash": 542528704,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13614,6 +13744,7 @@
         "label": "Audio processing short circuiting (guild)",
         "hash": 2830925563,
         "kind": "guild",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13700,6 +13831,7 @@
         "label": "Concurrent Quests",
         "hash": 3093464864,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -13747,6 +13879,7 @@
         "label": "Custom Notification Sound for Desktop",
         "hash": 1788171924,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13784,6 +13917,7 @@
         "label": "Game Settings Merge",
         "hash": 1248071225,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13804,6 +13938,7 @@
         "label": "Group DM Presence",
         "hash": 2244369299,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13864,6 +13999,7 @@
         "label": "Genshin Admin Signup",
         "hash": 1087745567,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13878,6 +14014,7 @@
         "label": "Genshin User Signup",
         "hash": 472742731,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -13922,6 +14059,7 @@
         "label": "Replace registered keywords with asterisks",
         "hash": 1751765672,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14044,6 +14182,7 @@
         "label": "Quest Preview Tool",
         "hash": 3368313611,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14094,6 +14233,7 @@
         "label": "Quests Logging",
         "hash": 278740984,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -14269,6 +14409,7 @@
         "label": "Desktop Visual Refresh",
         "hash": 1585279012,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -14390,6 +14531,7 @@
         "label": "Message forwarding",
         "hash": 2255117514,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14519,6 +14661,7 @@
         "label": "Quest Bar",
         "hash": 4231678187,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14722,6 +14865,7 @@
         "label": "Summer BOGO Marketing Materials",
         "hash": 3312664982,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14742,6 +14886,7 @@
         "label": "Testing",
         "hash": 2984314285,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -14789,6 +14934,7 @@
         "label": "Content Inventory Embed",
         "hash": 1466873010,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14819,6 +14965,7 @@
         "label": "CTP app open - A/A test - Everyone",
         "hash": 3950566842,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -14849,6 +14996,7 @@
         "label": "CTP app open - A/A test - Filters",
         "hash": 3146386527,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14863,6 +15011,7 @@
         "label": "CTP app open - A/A test - Multiple buckets",
         "hash": 160851838,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -14908,6 +15057,7 @@
         "label": "CTP app open - A/A test - Uneven buckets",
         "hash": 3785125664,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -14938,6 +15088,7 @@
         "label": "CTP app open - A/A test - Vanilla",
         "hash": 3140086051,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -14952,6 +15103,7 @@
         "label": "CTP Delta Vanilla - A/A test",
         "hash": 4257547968,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15012,6 +15164,7 @@
         "label": "CTP voice call - A/A test - Everyone",
         "hash": 3056661591,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15042,6 +15195,7 @@
         "label": "CTP voice call - A/A test - Filters",
         "hash": 1950006063,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15056,6 +15210,7 @@
         "label": "CTP voice call - A/A test - Multiple buckets",
         "hash": 967281137,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15101,6 +15256,7 @@
         "label": "CTP voice call - A/A test - Uneven buckets",
         "hash": 1085782314,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15131,6 +15287,7 @@
         "label": "CTP voice call - A/A test - Vanilla",
         "hash": 1444157241,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15185,6 +15342,7 @@
         "label": "Frecency List Split",
         "hash": 1650926153,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15211,6 +15369,7 @@
         "label": "Enables the Game Profile",
         "hash": 1666007237,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15255,6 +15414,7 @@
         "label": "For Later - Bookmarks & Reminders",
         "hash": 3155441480,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15300,6 +15460,7 @@
         "label": "Message forward breadcrumb",
         "hash": 3302321270,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15356,6 +15517,7 @@
         "label": "Upsell Outbound Promos",
         "hash": 2302949395,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15376,6 +15538,7 @@
         "label": "Premium Emoji Desktop Upsell",
         "hash": 939388181,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15411,6 +15574,7 @@
         "label": "Premium Client Themes / App Icons Desktop Upsell",
         "hash": 1276606570,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15454,6 +15618,7 @@
         "label": "Quest Inline Console Connection Experiment",
         "hash": 630483190,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -15563,6 +15728,7 @@
         "label": "Repeat Gift Purchase",
         "hash": 4075801892,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15592,6 +15758,7 @@
         "label": "RTC Pacer & Golive Simulcast",
         "hash": 175769529,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15709,6 +15876,7 @@
         "label": "BOGO Countdown Experiment",
         "hash": 3062760589,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15741,6 +15909,7 @@
         "label": "Contextual Image Recommendations",
         "hash": 2916972233,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15771,6 +15940,7 @@
         "label": "CTP collectibles shop open - A/A test - Everyone",
         "hash": 4287288770,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15801,6 +15971,7 @@
         "label": "CTP collectibles shop open - A/A test - Filters",
         "hash": 3369115928,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15815,6 +15986,7 @@
         "label": "CTP collectibles shop open - A/A test - Multiple buckets",
         "hash": 3107793125,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15860,6 +16032,7 @@
         "label": "CTP collectibles shop open - A/A test - Uneven buckets",
         "hash": 3211810241,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15890,6 +16063,7 @@
         "label": "CTP collectibles shop open - A/A test - Vanilla",
         "hash": 2664479295,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15920,6 +16094,7 @@
         "label": "CTP open nitro - A/A test - Everyone",
         "hash": 2186054133,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -15950,6 +16125,7 @@
         "label": "CTP open nitro - A/A test - Filters",
         "hash": 919330149,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -15964,6 +16140,7 @@
         "label": "CTP open nitro - A/A test - Multiple buckets",
         "hash": 2877495005,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16009,6 +16186,7 @@
         "label": "CTP open nitro - A/A test - Uneven buckets",
         "hash": 3652203932,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16039,6 +16217,7 @@
         "label": "CTP open nitro - A/A test - Vanilla",
         "hash": 893386376,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16069,6 +16248,7 @@
         "label": "CTP open user settings - A/A test - Everyone",
         "hash": 2882656906,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16099,6 +16279,7 @@
         "label": "CTP open user settings - A/A test - Filters",
         "hash": 765549105,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16113,6 +16294,7 @@
         "label": "CTP open user settings - A/A test - Multiple buckets",
         "hash": 1154689066,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16158,6 +16340,7 @@
         "label": "CTP open user settings - A/A test - Uneven buckets",
         "hash": 3867222182,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16188,6 +16371,7 @@
         "label": "CTP open user settings - A/A test - Vanilla",
         "hash": 844414773,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16218,6 +16402,7 @@
         "label": "CTP payment flow started - A/A test - Everyone",
         "hash": 529306240,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16254,6 +16439,7 @@
         "label": "CTP payment flow started - A/A test - Multiple buckets",
         "hash": 3096398147,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16305,6 +16491,7 @@
         "label": "CTP payment flow started - A/A test - Vanilla",
         "hash": 2299950222,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16389,6 +16576,7 @@
         "label": "In-case-you-missed-it tab",
         "hash": 4207551078,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16413,6 +16601,7 @@
         "label": "icymi negative content (debugging only)",
         "hash": 501017028,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16451,6 +16640,7 @@
         "label": "Use system picker for screen sharing",
         "hash": 1062665695,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16518,6 +16708,7 @@
         "label": "Quest interactable expired crendentials errors",
         "hash": 3385138022,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -16627,6 +16818,7 @@
         "label": "Test sidechain compression",
         "hash": 3312979622,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16748,6 +16940,7 @@
         "label": "Blocking Voice States (Blocker)",
         "hash": 3896794487,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -16789,6 +16982,7 @@
         "label": "Collectibles Expiry Experiment",
         "hash": 1636636786,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16819,6 +17013,7 @@
         "label": "Content Inventory Analytics Sampling",
         "hash": 1274464129,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16839,6 +17034,7 @@
         "label": "CTP DM/GDM List Render - A/A test - Everyone",
         "hash": 1907391960,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16869,6 +17065,7 @@
         "label": "CTP DM/GDM List Render - A/A test - Filters",
         "hash": 857226402,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -16883,6 +17080,7 @@
         "label": "CTP DM/GDM List Render - A/A test - Multiple buckets",
         "hash": 727071739,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16928,6 +17126,7 @@
         "label": "CTP DM/GDM List Render - A/A test - Uneven buckets",
         "hash": 2569252158,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16958,6 +17157,7 @@
         "label": "CTP DM/GDM List Render - A/A test - Vanilla",
         "hash": 3781250242,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -16988,6 +17188,7 @@
         "label": "Dismissible Desktop PiP",
         "hash": 3654487046,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17026,6 +17227,7 @@
         "label": "Friend Anniversaries",
         "hash": 1006930170,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17051,6 +17253,7 @@
         "label": "Halloween nitro gifting campaign",
         "hash": 3596515720,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17071,6 +17274,7 @@
         "label": "HD Streaming Viewer Upsell",
         "hash": 1274486444,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17199,6 +17403,7 @@
         "label": "Reaction Frecency Algorithms",
         "hash": 92152290,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17277,6 +17482,7 @@
         "label": "In App Notifications for Reactions",
         "hash": 939840210,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17336,7 +17542,8 @@
                 "label": "Can support DAVE protocol version 1 and above"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-08_self_recent_activity",
@@ -17361,6 +17568,7 @@
         "label": "Soundboard UI Refresh",
         "hash": 670930559,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17375,6 +17583,7 @@
         "label": "Tiered Tenure Badging",
         "hash": 882504092,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 2,
@@ -17405,6 +17614,7 @@
         "label": "Toggle soundshare from stream settings menu",
         "hash": 3853396589,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17447,6 +17657,7 @@
         "label": "Language Filter Upsells",
         "hash": 3902307858,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17473,6 +17684,7 @@
         "label": "Message forwarding icon change",
         "hash": 1378883154,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17514,6 +17726,7 @@
         "label": "Mobile Per-guild Collectibles Edit",
         "hash": 2799195304,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17528,6 +17741,7 @@
         "label": "New Gateway Dispatcher",
         "hash": 191973690,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17560,6 +17774,7 @@
         "label": "Open Platform App Launcher Holdout",
         "hash": 154757202,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17625,6 +17840,7 @@
         "label": "Private Channel Hiding",
         "hash": 687045128,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17650,6 +17866,7 @@
         "label": "User Profile Blockee Hide Mutuals",
         "hash": 1502922057,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17676,6 +17893,7 @@
         "label": "App DMs Experiment",
         "hash": 898010800,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17734,6 +17952,7 @@
         "label": "Blocking Voice States (Blockee)",
         "hash": 1813334724,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -17775,6 +17994,7 @@
         "label": "Don't show guild Browse Channels when all channels are already visible",
         "hash": 1325580951,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17789,6 +18009,7 @@
         "label": "Bug Reporter",
         "hash": 3673264743,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17809,6 +18030,7 @@
         "label": "Collectibles Shop Preload",
         "hash": 81858881,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17853,6 +18075,7 @@
         "label": "DM Mute Feedback Experiment",
         "hash": 3721779707,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17879,6 +18102,7 @@
         "label": "Friend Anniversaries Metrics",
         "hash": 115812232,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17893,6 +18117,7 @@
         "label": "Friends in Server",
         "hash": 2409701526,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17919,6 +18144,7 @@
         "label": "Consumable HD Streaming Experiment",
         "hash": 963601694,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -17938,6 +18164,7 @@
         "label": "Improved Reaction Button",
         "hash": 96191983,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -17975,7 +18202,8 @@
                 "label": "Enable Leaderboard"
             }
         ],
-        "populations": null
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-09_mobile_bundle",
@@ -17988,6 +18216,7 @@
         "label": "Message forwarding GTM",
         "hash": 1298178098,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18108,6 +18337,7 @@
         "label": "Trophy Case",
         "hash": 692564799,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -18143,6 +18373,7 @@
         "label": "Rust Audio Device Manager",
         "hash": 4226263373,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18218,6 +18449,7 @@
         "label": "Holdout experiment",
         "hash": 2622662067,
         "kind": "user",
+        "aa_mode": 1,
         "treatments": [
             {
                 "id": 1,
@@ -18254,6 +18486,7 @@
         "label": "User App Install Education Experiment",
         "hash": 2283061372,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18297,6 +18530,7 @@
         "label": "Block User Feedback Experiment",
         "hash": 1345574151,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18363,6 +18597,7 @@
         "label": "Email Change Reasoning Buttons Free Text Response",
         "hash": 3097744375,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18383,6 +18618,7 @@
         "label": "GoLive Simulcast",
         "hash": 3942584255,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18432,6 +18668,7 @@
         "label": "Improved Desktop Media Viewer",
         "hash": 1621420501,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18467,6 +18704,7 @@
         "label": "Merge notifications tab",
         "hash": 2998143296,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18544,6 +18782,7 @@
         "label": "Quests Dismissal Survey",
         "hash": 704914099,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,
@@ -18633,6 +18872,7 @@
         "label": "Rapidash Discovery Plus",
         "hash": 1731609653,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18659,6 +18899,7 @@
         "label": "(Retrigger) Reaction Frecency Algorithms",
         "hash": 3254726199,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [],
         "populations": null
     },
@@ -18673,6 +18914,7 @@
         "label": "Shop tile impressions logging",
         "hash": 1219608372,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18709,6 +18951,7 @@
         "label": "Shop Variants Experiment",
         "hash": 2849820511,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18745,6 +18988,7 @@
         "label": "Use system APIs for date formatting",
         "hash": 2327380316,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18780,6 +19024,7 @@
         "label": "Tile Resolution Gating",
         "hash": 3172358820,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18845,6 +19090,7 @@
         "label": "Weighted Sample Activity Shelf",
         "hash": 2793808763,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18859,6 +19105,7 @@
         "label": "Activity Popout Window Experiment",
         "hash": 4090186469,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18889,6 +19136,7 @@
         "label": "Apps In-App Reporting",
         "hash": 1859137100,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -18955,6 +19203,7 @@
         "label": "Checkout Optimization Browser Autofill Global",
         "hash": 402972005,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19005,6 +19254,7 @@
         "label": "Nitro Tenure Reward Collectible",
         "hash": 369847441,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19055,6 +19305,7 @@
         "label": "Seasonal Gifting 2024",
         "hash": 797131451,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19069,6 +19320,7 @@
         "label": "Seasonal Gifting Reminder 2024",
         "hash": 926272517,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19089,6 +19341,7 @@
         "label": "Render soundmojis",
         "hash": 375271128,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19119,6 +19372,7 @@
         "label": "Send soundmojis",
         "hash": 1328765334,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19144,6 +19398,7 @@
         "label": "Third Party Access User Settings Redesign",
         "hash": 2932220947,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 1,
@@ -19158,6 +19413,7 @@
         "label": "Unreads Experiment (grey-dot mode) (new users) 2",
         "hash": 1130924794,
         "kind": "user",
+        "aa_mode": 0,
         "treatments": [
             {
                 "id": 0,

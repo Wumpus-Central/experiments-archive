@@ -3,6 +3,7 @@
     "label": "Group DM Presence",
     "hash": 2244369299,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

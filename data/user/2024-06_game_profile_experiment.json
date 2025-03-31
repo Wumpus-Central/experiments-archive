@@ -3,6 +3,7 @@
     "label": "Enables the Game Profile",
     "hash": 1666007237,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

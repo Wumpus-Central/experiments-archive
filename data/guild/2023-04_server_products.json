@@ -10,5 +10,6 @@
             "label": "Enables Server Products (AKA one time purchases for creator guilds)"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

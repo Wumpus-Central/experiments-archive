@@ -3,6 +3,7 @@
     "label": "Social Proofing File Size",
     "hash": 3258058784,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

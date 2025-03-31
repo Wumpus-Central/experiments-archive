@@ -3,6 +3,7 @@
     "label": "Marketing Automation",
     "hash": 2969274422,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

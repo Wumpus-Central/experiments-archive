@@ -3,6 +3,7 @@
     "label": "In App Notifications for Reactions",
     "hash": 939840210,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -10,5 +10,6 @@
             "label": "Enables Guilds to (possibly) see the waitlist"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

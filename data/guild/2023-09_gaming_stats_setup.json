@@ -10,5 +10,6 @@
             "label": "trigger gaming stats data"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

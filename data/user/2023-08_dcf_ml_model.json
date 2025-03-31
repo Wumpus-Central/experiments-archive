@@ -3,6 +3,7 @@
     "label": "DCF ML Perks Relevance Model",
     "hash": 1694039129,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

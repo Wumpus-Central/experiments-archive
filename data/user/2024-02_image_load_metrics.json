@@ -3,6 +3,7 @@
     "label": "Image load metrics Config User Experiment",
     "hash": 476313123,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

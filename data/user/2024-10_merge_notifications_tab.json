@@ -3,6 +3,7 @@
     "label": "Merge notifications tab",
     "hash": 2998143296,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

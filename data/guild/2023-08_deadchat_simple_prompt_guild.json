@@ -15,5 +15,6 @@
             "label": "trigger deadchat upon connection open"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

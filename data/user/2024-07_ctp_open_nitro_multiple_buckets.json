@@ -3,6 +3,7 @@
     "label": "CTP open nitro - A/A test - Multiple buckets",
     "hash": 2877495005,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

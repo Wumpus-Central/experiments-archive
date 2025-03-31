@@ -3,6 +3,7 @@
     "label": "CTP open nitro - A/A test - Uneven buckets",
     "hash": 3652203932,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

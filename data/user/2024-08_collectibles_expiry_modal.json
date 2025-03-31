@@ -3,6 +3,7 @@
     "label": "Collectibles Expiry Experiment",
     "hash": 1636636786,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

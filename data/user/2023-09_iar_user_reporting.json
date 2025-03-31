@@ -3,6 +3,7 @@
     "label": "Safety Experience IAR User Reporting",
     "hash": 2180379513,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

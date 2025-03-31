@@ -3,6 +3,7 @@
     "label": "CTP app open - A/A test - Multiple buckets",
     "hash": 160851838,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

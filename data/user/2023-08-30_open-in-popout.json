@@ -3,6 +3,7 @@
     "label": "Open Channel in Popout",
     "hash": 281174794,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

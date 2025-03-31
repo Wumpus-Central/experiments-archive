@@ -3,6 +3,7 @@
     "label": "Shop Variants Experiment",
     "hash": 2849820511,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

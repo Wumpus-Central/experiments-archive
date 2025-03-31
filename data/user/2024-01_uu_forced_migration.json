@@ -3,6 +3,7 @@
     "label": "Unique Username Forced Migration UI",
     "hash": 3867848536,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Audio processing short circuiting (guild)",
     "hash": 2830925563,
     "kind": "guild",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

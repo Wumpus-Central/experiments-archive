@@ -3,6 +3,7 @@
     "label": "Notification Changes",
     "hash": 1580712211,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

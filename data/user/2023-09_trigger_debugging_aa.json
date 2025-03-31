@@ -3,6 +3,7 @@
     "label": "trigger debugging aa mobile",
     "hash": 1454135605,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

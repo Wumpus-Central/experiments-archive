@@ -3,6 +3,7 @@
     "label": "Checkout Optimization Browser Autofill",
     "hash": 3608176496,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

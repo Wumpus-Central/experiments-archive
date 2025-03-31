@@ -3,6 +3,7 @@
     "label": "CTP app open - A/A test - Filters",
     "hash": 3146386527,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

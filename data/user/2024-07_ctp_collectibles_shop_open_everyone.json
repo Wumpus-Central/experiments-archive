@@ -3,6 +3,7 @@
     "label": "CTP collectibles shop open - A/A test - Everyone",
     "hash": 4287288770,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

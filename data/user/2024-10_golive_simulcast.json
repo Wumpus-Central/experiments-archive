@@ -3,6 +3,7 @@
     "label": "GoLive Simulcast",
     "hash": 3942584255,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Nitro Tenure Reward Collectible",
     "hash": 369847441,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

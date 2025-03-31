@@ -3,6 +3,7 @@
     "label": "Block purchases based on country (desktop specific flags)",
     "hash": 1814483290,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

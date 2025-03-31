@@ -3,6 +3,7 @@
     "label": "Third Party Access User Settings Redesign",
     "hash": 2932220947,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

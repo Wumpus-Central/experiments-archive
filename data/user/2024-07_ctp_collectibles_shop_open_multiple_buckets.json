@@ -3,6 +3,7 @@
     "label": "CTP collectibles shop open - A/A test - Multiple buckets",
     "hash": 3107793125,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

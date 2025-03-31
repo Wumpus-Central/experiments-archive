@@ -3,6 +3,7 @@
     "label": "Premium Emoji Desktop Upsell",
     "hash": 939388181,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

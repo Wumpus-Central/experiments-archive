@@ -3,6 +3,7 @@
     "label": "Genshin Admin Signup",
     "hash": 1087745567,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

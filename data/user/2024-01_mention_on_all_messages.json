@@ -3,6 +3,7 @@
     "label": "Mention on all messages",
     "hash": 3038837490,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

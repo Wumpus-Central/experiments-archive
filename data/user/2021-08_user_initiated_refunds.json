@@ -3,6 +3,7 @@
     "label": "User Initiated Refunds",
     "hash": 2623810566,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

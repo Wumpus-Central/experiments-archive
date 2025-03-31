@@ -3,6 +3,7 @@
     "label": "Mobile performance: VideoHealthManager (v2)",
     "hash": 1814449668,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Web Audio API Rollout",
     "hash": 542528704,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

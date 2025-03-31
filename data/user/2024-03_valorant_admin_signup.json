@@ -3,6 +3,7 @@
     "label": "Valorant Admin Signup",
     "hash": 2999880206,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Quests client monitoring experiment",
     "hash": 2848826960,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

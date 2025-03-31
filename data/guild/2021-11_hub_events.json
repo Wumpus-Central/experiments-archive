@@ -10,5 +10,6 @@
             "label": "Show Hub Events List"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

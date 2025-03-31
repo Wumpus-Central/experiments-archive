@@ -3,6 +3,7 @@
     "label": "Mobile Account Switcher: Notifications",
     "hash": 1333727,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

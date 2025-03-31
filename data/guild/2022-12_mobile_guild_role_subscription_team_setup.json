@@ -3,6 +3,7 @@
     "label": "Mobile Guild Role Subscription Team Setup",
     "hash": 3313601281,
     "kind": "guild",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

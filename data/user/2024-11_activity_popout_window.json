@@ -3,6 +3,7 @@
     "label": "Activity Popout Window Experiment",
     "hash": 4090186469,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

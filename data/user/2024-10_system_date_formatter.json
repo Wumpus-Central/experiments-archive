@@ -3,6 +3,7 @@
     "label": "Use system APIs for date formatting",
     "hash": 2327380316,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

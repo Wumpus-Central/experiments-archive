@@ -3,6 +3,7 @@
     "label": "CTP payment flow started - A/A test - Vanilla",
     "hash": 2299950222,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

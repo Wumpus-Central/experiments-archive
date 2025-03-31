@@ -3,6 +3,7 @@
     "label": "Consumable HD Streaming Experiment",
     "hash": 963601694,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

@@ -3,6 +3,7 @@
     "label": "Channel Notice Redesign",
     "hash": 3502788249,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

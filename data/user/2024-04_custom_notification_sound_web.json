@@ -3,6 +3,7 @@
     "label": "Custom Notification Sound for Desktop",
     "hash": 1788171924,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

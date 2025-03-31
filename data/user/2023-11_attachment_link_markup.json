@@ -3,6 +3,7 @@
     "label": "Attachment Link Config User Experiment",
     "hash": 1894288113,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

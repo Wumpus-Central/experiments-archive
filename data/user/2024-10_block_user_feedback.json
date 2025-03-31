@@ -3,6 +3,7 @@
     "label": "Block User Feedback Experiment",
     "hash": 1345574151,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

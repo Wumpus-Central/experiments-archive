@@ -15,5 +15,6 @@
             "label": "Force disable krisp"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

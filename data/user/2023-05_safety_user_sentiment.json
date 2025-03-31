@@ -3,6 +3,7 @@
     "label": "Safety User Sentiment Feedback Eligible",
     "hash": 1344378364,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

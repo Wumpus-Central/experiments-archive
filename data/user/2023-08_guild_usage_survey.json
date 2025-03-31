@@ -3,6 +3,7 @@
     "label": "Guild Usage Survey",
     "hash": 1468919041,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

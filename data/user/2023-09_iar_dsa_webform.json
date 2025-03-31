@@ -3,6 +3,7 @@
     "label": "Safety Experience Unauthenticated Report Form",
     "hash": 1438986391,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

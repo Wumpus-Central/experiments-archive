@@ -3,6 +3,7 @@
     "label": "CTP Delta Vanilla - A/A test",
     "hash": 4257547968,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "CTP app open - A/A test - Uneven buckets",
     "hash": 3785125664,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

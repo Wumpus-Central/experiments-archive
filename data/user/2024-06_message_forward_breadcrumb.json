@@ -3,6 +3,7 @@
     "label": "Message forward breadcrumb",
     "hash": 3302321270,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

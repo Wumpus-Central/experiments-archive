@@ -10,5 +10,6 @@
             "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

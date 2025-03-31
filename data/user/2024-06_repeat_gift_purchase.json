@@ -3,6 +3,7 @@
     "label": "Repeat Gift Purchase",
     "hash": 4075801892,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

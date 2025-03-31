@@ -3,6 +3,7 @@
     "label": "Inferno Spam Redaction",
     "hash": 4179344527,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

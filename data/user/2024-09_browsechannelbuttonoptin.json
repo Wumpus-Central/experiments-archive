@@ -3,6 +3,7 @@
     "label": "Don't show guild Browse Channels when all channels are already visible",
     "hash": 1325580951,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

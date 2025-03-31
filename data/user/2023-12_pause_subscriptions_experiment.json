@@ -3,6 +3,7 @@
     "label": "Pause Subscriptions Experiment",
     "hash": 1522152287,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "CTP payment flow started - A/A test - Multiple buckets",
     "hash": 3096398147,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

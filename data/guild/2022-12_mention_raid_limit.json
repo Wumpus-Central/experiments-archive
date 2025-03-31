@@ -10,5 +10,6 @@
             "label": "Automod Mention Raid Limit"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

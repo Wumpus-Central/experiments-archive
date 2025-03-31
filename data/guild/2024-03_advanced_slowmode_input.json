@@ -10,5 +10,6 @@
             "label": "enable the advanced slowmode input"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

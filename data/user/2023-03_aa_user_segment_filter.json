@@ -3,6 +3,7 @@
     "label": "AA test to validate segmentation filter",
     "hash": 1998088971,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

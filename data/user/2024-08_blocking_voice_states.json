@@ -3,6 +3,7 @@
     "label": "Blocking Voice States (Blocker)",
     "hash": 3896794487,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

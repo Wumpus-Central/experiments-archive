@@ -3,6 +3,7 @@
     "label": "Popout Autocomplete experiment",
     "hash": 1900424093,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

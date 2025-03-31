@@ -3,6 +3,7 @@
     "label": "Test sidechain compression",
     "hash": 3312979622,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

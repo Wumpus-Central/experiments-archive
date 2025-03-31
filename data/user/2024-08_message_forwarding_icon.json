@@ -3,6 +3,7 @@
     "label": "Message forwarding icon change",
     "hash": 1378883154,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

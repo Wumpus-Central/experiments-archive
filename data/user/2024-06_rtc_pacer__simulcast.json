@@ -3,6 +3,7 @@
     "label": "RTC Pacer & Golive Simulcast",
     "hash": 175769529,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

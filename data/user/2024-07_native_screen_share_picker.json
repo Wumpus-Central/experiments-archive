@@ -3,6 +3,7 @@
     "label": "Use system picker for screen sharing",
     "hash": 1062665695,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

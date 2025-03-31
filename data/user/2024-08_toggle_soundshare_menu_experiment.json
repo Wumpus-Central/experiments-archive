@@ -3,6 +3,7 @@
     "label": "Toggle soundshare from stream settings menu",
     "hash": 3853396589,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

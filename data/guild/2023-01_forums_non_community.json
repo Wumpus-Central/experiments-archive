@@ -3,6 +3,7 @@
     "label": "Forum non-community",
     "hash": 1446479414,
     "kind": "guild",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

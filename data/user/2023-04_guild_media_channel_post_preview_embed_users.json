@@ -3,6 +3,7 @@
     "label": "Guild Role Subscription Users",
     "hash": 288968706,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

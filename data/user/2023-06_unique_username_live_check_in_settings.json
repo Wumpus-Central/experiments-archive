@@ -3,6 +3,7 @@
     "label": "Username Livecheck in Settings",
     "hash": 2698112799,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "CTP DM/GDM List Render - A/A test - Multiple buckets",
     "hash": 727071739,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Replace registered keywords with asterisks",
     "hash": 1751765672,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

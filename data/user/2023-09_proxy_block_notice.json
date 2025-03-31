@@ -3,6 +3,7 @@
     "label": "Proxy Block Experiment",
     "hash": 1121995325,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

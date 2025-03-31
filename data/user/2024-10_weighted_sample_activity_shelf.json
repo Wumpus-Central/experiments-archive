@@ -3,6 +3,7 @@
     "label": "Weighted Sample Activity Shelf",
     "hash": 2793808763,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

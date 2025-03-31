@@ -3,6 +3,7 @@
     "label": "Use chunked uploads for message attachments",
     "hash": 2992238206,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

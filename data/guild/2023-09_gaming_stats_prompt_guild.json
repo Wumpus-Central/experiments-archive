@@ -15,5 +15,6 @@
             "label": "ability to trigger gaming stats prompt (leaderboard)"
         }
     ],
-    "populations": null
+    "populations": null,
+    "aa_mode": 0
 }

@@ -3,6 +3,7 @@
     "label": "Xbox Game Invites Experiment",
     "hash": 4094597383,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

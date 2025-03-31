@@ -3,6 +3,7 @@
     "label": "Holdout experiment",
     "hash": 2622662067,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Quest Inline Console Connection Experiment",
     "hash": 630483190,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

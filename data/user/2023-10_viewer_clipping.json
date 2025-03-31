@@ -3,6 +3,7 @@
     "label": "Test viewer side clipping",
     "hash": 3351049965,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

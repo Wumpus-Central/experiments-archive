@@ -3,6 +3,7 @@
     "label": "New Gateway Dispatcher",
     "hash": 191973690,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

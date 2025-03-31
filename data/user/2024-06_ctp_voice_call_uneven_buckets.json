@@ -3,6 +3,7 @@
     "label": "CTP voice call - A/A test - Uneven buckets",
     "hash": 1085782314,
     "kind": "user",
+    "aa_mode": 1,
     "treatments": [
         {
             "id": 1,

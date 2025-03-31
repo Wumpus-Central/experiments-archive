@@ -3,6 +3,7 @@
     "label": "BOGO Promotion Manager",
     "hash": 680908968,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

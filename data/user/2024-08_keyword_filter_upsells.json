@@ -3,6 +3,7 @@
     "label": "Language Filter Upsells",
     "hash": 3902307858,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

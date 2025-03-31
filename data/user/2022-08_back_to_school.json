@@ -3,6 +3,7 @@
     "label": "Back to School Event",
     "hash": 2676348506,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

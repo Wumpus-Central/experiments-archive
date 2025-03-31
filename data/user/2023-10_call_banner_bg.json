@@ -3,6 +3,7 @@
     "label": "Call Banner Background Experiment",
     "hash": 2681214381,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

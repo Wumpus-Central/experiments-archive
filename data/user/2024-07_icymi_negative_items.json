@@ -3,6 +3,7 @@
     "label": "icymi negative content (debugging only)",
     "hash": 501017028,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

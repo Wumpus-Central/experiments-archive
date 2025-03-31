@@ -3,6 +3,7 @@
     "label": "Blocking Voice States (Blockee)",
     "hash": 1813334724,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

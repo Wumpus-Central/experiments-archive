@@ -3,6 +3,7 @@
     "label": "Safety Hub Guild Violation In App Appeals",
     "hash": 668094544,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

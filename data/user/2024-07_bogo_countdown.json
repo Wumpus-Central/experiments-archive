@@ -3,6 +3,7 @@
     "label": "BOGO Countdown Experiment",
     "hash": 3062760589,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

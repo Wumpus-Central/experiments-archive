@@ -3,6 +3,7 @@
     "label": "Quests Dismissal Survey",
     "hash": 704914099,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 0,

@@ -3,6 +3,7 @@
     "label": "Quest Bar",
     "hash": 4231678187,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

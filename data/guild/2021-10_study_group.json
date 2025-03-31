@@ -3,6 +3,7 @@
     "label": "Student hub study group",
     "hash": 4030301365,
     "kind": "guild",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,

@@ -3,6 +3,7 @@
     "label": "Tiered Tenure Badging",
     "hash": 882504092,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 2,

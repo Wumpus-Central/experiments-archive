@@ -3,6 +3,7 @@
     "label": "CTP open nitro - A/A test - Filters",
     "hash": 919330149,
     "kind": "user",
+    "aa_mode": 0,
     "treatments": [
         {
             "id": 1,
