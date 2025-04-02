@@ -4365,21 +4365,7 @@
         "id": "2021-08_user_initiated_refunds",
         "label": "User Initiated Refunds",
         "hash": 2623810566,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Can refund"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2021-08_video_backgrounds",
@@ -19333,23 +19319,7 @@
                 "label": "Enabled"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-11_soundmoji_sending",
