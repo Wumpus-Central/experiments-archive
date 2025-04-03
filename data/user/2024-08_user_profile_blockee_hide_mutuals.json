@@ -2,14 +2,5 @@
     "id": "2024-08_user_profile_blockee_hide_mutuals",
     "label": "User Profile Blockee Hide Mutuals",
     "hash": 1502922057,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable User Profile Blockee Hide Mutuals"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

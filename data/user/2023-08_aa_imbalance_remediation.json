@@ -2,14 +2,5 @@
     "id": "2023-08_aa_imbalance_remediation",
     "label": "AA test to validate fallback trigger and location frequency change",
     "hash": 3307441810,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "AA test enabled. Noop on UI effect."
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

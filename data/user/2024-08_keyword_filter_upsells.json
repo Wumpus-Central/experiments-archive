@@ -2,14 +2,5 @@
     "id": "2024-08_keyword_filter_upsells",
     "label": "Language Filter Upsells",
     "hash": 3902307858,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable Upsell for Keyword Language Filters"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

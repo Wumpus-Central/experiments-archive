@@ -2,14 +2,5 @@
     "id": "2024-07_ctp_collectibles_shop_open_filters",
     "label": "CTP collectibles shop open - A/A test - Filters",
     "hash": 3369115928,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Treatment"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

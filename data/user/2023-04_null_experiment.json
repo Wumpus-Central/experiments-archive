@@ -2,30 +2,5 @@
     "id": "2023-04_null_experiment",
     "label": "Null Experiment",
     "hash": 1045730203,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "On"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 5000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

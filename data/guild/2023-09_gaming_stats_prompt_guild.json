@@ -6,15 +6,35 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "ability to trigger gaming stats prompt"
+            "label": "ability to trigger gaming stats prompt",
+            "config": {
+                "triggerGamingStats": false
+            }
         },
         {
             "id": 2,
-            "aa_mode": 0,
-            "label": "ability to trigger gaming stats prompt (leaderboard)"
+            "label": "ability to trigger gaming stats prompt (leaderboard)",
+            "config": {
+                "triggerGamingStats": false
+            }
         }
     ],
-    "populations": null,
-    "aa_mode": 0
+    "populations": [
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

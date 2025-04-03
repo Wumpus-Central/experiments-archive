@@ -2,14 +2,5 @@
     "id": "2021-04_longer_group_dm_invites",
     "label": "Longer Group DM Invites",
     "hash": 1693164202,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Makes group DM invites expire after 1 week."
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

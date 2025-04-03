@@ -2,35 +2,5 @@
     "id": "2024-09_quests_trophy_case",
     "label": "Trophy Case",
     "hash": 692564799,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

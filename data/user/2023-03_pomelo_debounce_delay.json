@@ -2,50 +2,5 @@
     "id": "2023-03_pomelo_debounce_delay",
     "label": "Pomelo Debounce Delay",
     "hash": 373531156,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "600ms"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "700ms"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "800ms"
-        },
-        {
-            "id": 4,
-            "aa_mode": 0,
-            "label": "900ms"
-        },
-        {
-            "id": 5,
-            "aa_mode": 0,
-            "label": "1000ms"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 3,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

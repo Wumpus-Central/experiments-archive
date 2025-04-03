@@ -2,14 +2,5 @@
     "id": "2024-09_dm_mute_feedback",
     "label": "DM Mute Feedback Experiment",
     "hash": 3721779707,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable DM Mute Feedback Survey"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

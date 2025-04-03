@@ -2,40 +2,5 @@
     "id": "2024-08_reaction_push_notifications_user",
     "label": "In App Notifications for Reactions",
     "hash": 939840210,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable In App Notifications for Reactions (First Reaction)"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enable In App Notifications for Reactions (All Reactions)"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Enable In App Notifications for Reactions (All Reactions)"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 500,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
