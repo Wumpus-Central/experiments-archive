@@ -2,14 +2,5 @@
     "id": "2024-10_weighted_sample_activity_shelf",
     "label": "Weighted Sample Activity Shelf",
     "hash": 2793808763,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable weighted sample for activity shelf"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
