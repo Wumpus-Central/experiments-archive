@@ -2,5 +2,14 @@
     "id": "2024-07_ctp_open_nitro_filters",
     "label": "CTP open nitro - A/A test - Filters",
     "hash": 919330149,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Treatment"
+        }
+    ],
+    "populations": null
 }

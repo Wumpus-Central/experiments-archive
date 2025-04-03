@@ -2,5 +2,35 @@
     "id": "2024-04_concurrent_quests",
     "label": "Concurrent Quests",
     "hash": 3093464864,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Concurrent Quests Enabled"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

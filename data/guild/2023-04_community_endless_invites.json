@@ -2,5 +2,14 @@
     "id": "2023-04_community_endless_invites",
     "label": "Community Endless Invites",
     "hash": 3964855818,
-    "kind": "guild"
+    "kind": "guild",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Causes invites to never expire (by default) in the Guild"
+        }
+    ],
+    "populations": null
 }

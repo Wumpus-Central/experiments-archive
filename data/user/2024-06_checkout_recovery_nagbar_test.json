@@ -2,5 +2,19 @@
     "id": "2024-06_checkout_recovery_nagbar_test",
     "label": "Testing",
     "hash": 2984314285,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Users will not see the nagbar"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Users will see the nagbar"
+        }
+    ],
+    "populations": null
 }

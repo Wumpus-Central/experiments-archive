@@ -2,5 +2,30 @@
     "id": "2024-09_improved_reaction_button",
     "label": "Improved Reaction Button",
     "hash": 96191983,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Show improved reaction button"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

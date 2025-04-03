@@ -2,5 +2,30 @@
     "id": "2024-07_ctp_open_nitro_uneven_buckets",
     "label": "CTP open nitro - A/A test - Uneven buckets",
     "hash": 3652203932,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 1,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 1,
+            "label": "Treatment"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 1,
+                    "ranges": [
+                        {
+                            "start": 400,
+                            "end": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

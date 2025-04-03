@@ -2,5 +2,14 @@
     "id": "2024-10_email_change_reasoning_buttons_free_text_response",
     "label": "Email Change Reasoning Buttons Free Text Response",
     "hash": 3097744375,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Display a text area when the user selects \"Something else\""
+        }
+    ],
+    "populations": null
 }

@@ -2,5 +2,60 @@
     "id": "2024-04_gdm_presence",
     "label": "Group DM Presence",
     "hash": 2244369299,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Status Indicator Only"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Typing Indicator Only"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Status Indicator + Typing Indicator"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "Facepile Only"
+        },
+        {
+            "id": 5,
+            "aa_mode": 0,
+            "label": "Facepile + Status Indicator"
+        },
+        {
+            "id": 6,
+            "aa_mode": 0,
+            "label": "Facepile + Typing Indicator"
+        },
+        {
+            "id": 7,
+            "aa_mode": 0,
+            "label": "Facepile + Typing Indicator + Status Indicator"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 7,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -2,5 +2,14 @@
     "id": "2024-02_hide_member_list_activities",
     "label": "Hide member list activities",
     "hash": 1585236473,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled (hide activities)"
+        }
+    ],
+    "populations": null
 }

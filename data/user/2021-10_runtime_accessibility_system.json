@@ -2,5 +2,19 @@
     "id": "2021-10_runtime_accessibility_system",
     "label": "Runtime Accessibility System",
     "hash": 3654722494,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled but silent"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Enabled and reporting"
+        }
+    ],
+    "populations": null
 }

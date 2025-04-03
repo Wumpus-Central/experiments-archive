@@ -2,5 +2,14 @@
     "id": "2023-01_clear_all_message_requests",
     "label": "Safety Experience Reject All Message Requests",
     "hash": 400679165,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "populations": null
 }

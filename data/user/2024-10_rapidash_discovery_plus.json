@@ -2,5 +2,14 @@
     "id": "2024-10_rapidash_discovery_plus",
     "label": "Rapidash Discovery Plus",
     "hash": 1731609653,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Discovery Plus Enabled"
+        }
+    ],
+    "populations": null
 }

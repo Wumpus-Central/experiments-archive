@@ -3141,7 +3141,16 @@
         "id": "2021-02_staff_qc_debugging",
         "label": "Display QS scores in results. Not a real experiment",
         "hash": 2847059306,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Show scores in QS results"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2021-02_stage_channel_guilds",
@@ -3471,7 +3480,16 @@
         "id": "2021-04_longer_group_dm_invites",
         "label": "Longer Group DM Invites",
         "hash": 1693164202,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Makes group DM invites expire after 1 week."
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2021-04_marketing_splitmetrics_app_links",
@@ -4659,7 +4677,21 @@
         "id": "2021-10_runtime_accessibility_system",
         "label": "Runtime Accessibility System",
         "hash": 3654722494,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled but silent"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Enabled and reporting"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2021-10_server_recommendations_gaming",
@@ -4683,7 +4715,16 @@
         "id": "2021-10_study_group",
         "label": "Student hub study group",
         "hash": 4030301365,
-        "kind": "guild"
+        "kind": "guild",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enables study group sidebar"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2021-11_activities_baseline_engagement_bundle",
@@ -4831,63 +4872,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Show Hub Events List",
-                "config": {
-                    "showHubEventsList": false
-                }
+                "aa_mode": 0,
+                "label": "Show Hub Events List"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 4148745523,
-                        "data": {
-                            "hubTypes": [
-                                2
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        4148745523,
-                        [
-                            [
-                                4148745523,
-                                [
-                                    2
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 3333
-                            },
-                            {
-                                "start": 3333,
-                                "end": 6666
-                            },
-                            {
-                                "start": 6666,
-                                "end": 9999
-                            },
-                            {
-                                "start": 9999,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2021-11_hub_unreads",
@@ -5037,7 +5027,16 @@
         "id": "2021-12_inferno_spam_redaction",
         "label": "Inferno Spam Redaction",
         "hash": 4179344527,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Allow guild channel messages from spammers to be collapsed"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2021-12_ios_in_app_education",
@@ -6609,7 +6608,21 @@
         "id": "2022-07_system_dm_safety_onboarding",
         "label": "System DM Safety Onboarding",
         "hash": 488500683,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled, v1 copy"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Enabled, v2 copy"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2022-07_updated_bad_domains",
@@ -6672,7 +6685,41 @@
         "id": "2022-08_back_to_school",
         "label": "Back to School Event",
         "hash": 2676348506,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Back to School experience enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "DE",
+                            "PL",
+                            "US"
+                        ]
+                    }
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2022-08_better_video_uploads",
@@ -7376,87 +7423,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Enabled",
-                "config": {
-                    "enabled": false
-                }
+                "aa_mode": 0,
+                "label": "Enabled"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY"
-                            ]
-                        }
-                    },
-                    {
-                        "type": 2918402255,
-                        "data": {
-                            "min": 5000,
-                            "max": null
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        2918402255,
-                        [
-                            [
-                                3399957344,
-                                5000
-                            ],
-                            [
-                                1238858341,
-                                null
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-11_default_to_server_vanity_v2",
@@ -7631,7 +7603,26 @@
         "id": "2022-12_channel_notice_redesign",
         "label": "Channel Notice Redesign",
         "hash": 3502788249,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Show Redesigned Channel Notices"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Show Redesigned Stage/Event Notices"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "Show Redesigned Channel Notices & Stage/Event Notices"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2022-12_chat_list_animations_android",
@@ -7726,88 +7717,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Automod Mention Raid Limit",
-                "config": {
-                    "enabled": false
-                }
+                "aa_mode": 0,
+                "label": "Automod Mention Raid Limit"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "PARTNERED"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "PARTNERED"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-12_message_request_home_count",
@@ -7933,13 +7848,36 @@
         "id": "2023-01_clear_all_message_requests",
         "label": "Safety Experience Reject All Message Requests",
         "hash": 400679165,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-01_consumer_education_launch",
         "label": "Safety Consumer Education Launch - Block/Mute",
         "hash": 1318110575,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Mute"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Block"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-01_creator_monetization_nag_activate_users",
@@ -7988,7 +7926,16 @@
         "id": "2023-01_forums_non_community",
         "label": "Forum non-community",
         "hash": 1446479414,
-        "kind": "guild"
+        "kind": "guild",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "On"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-01_global_display_names",
@@ -8046,88 +7993,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Enable Shared Canvas",
-                "config": {
-                    "isSharedCanvasEnabled": false
-                }
+                "aa_mode": 0,
+                "label": "Enable Shared Canvas"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "INTERNAL_EMPLOYEE_ONLY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "INTERNAL_EMPLOYEE_ONLY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "SHARED_CANVAS_FRIENDS_AND_FAMILY_TEST"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "SHARED_CANVAS_FRIENDS_AND_FAMILY_TEST"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-01_silent_messages",
@@ -8257,104 +8128,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Allow creation of guest voice invites",
-                "config": {
-                    "enabled": false
-                }
+                "aa_mode": 0,
+                "label": "Allow creation of guest voice invites"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "GUILD_ONBOARDING_HAS_PROMPTS"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "GUILD_ONBOARDING_HAS_PROMPTS"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 188952590,
-                        "data": {
-                            "hasVanity": false
-                        }
-                    },
-                    {
-                        "type": 2918402255,
-                        "data": {
-                            "min": 1,
-                            "max": 200
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        188952590,
-                        [
-                            [
-                                188952590,
-                                false
-                            ]
-                        ]
-                    ],
-                    [
-                        2918402255,
-                        [
-                            [
-                                3399957344,
-                                1
-                            ],
-                            [
-                                1238858341,
-                                200
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_guild_boosting_marketing_redesign",
@@ -8448,162 +8227,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "On",
-                "config": {
-                    "advancedModeAllowed": false
-                }
+                "aa_mode": 0,
+                "label": "On"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY_CANARY"
-                            ]
-                        }
-                    },
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 2544556038,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY_CANARY"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                2544556038
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY_CANARY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY_CANARY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 2544556038,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                2544556038
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_onboarding_home",
@@ -8625,68 +8254,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "On",
-                "config": {
-                    "dropdownsAllowed": false
-                }
+                "aa_mode": 0,
+                "label": "On"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 3884904940,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                3884904940
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_p13n_summarization",
@@ -8776,7 +8349,16 @@
         "id": "2023-03_aa_user_segment_filter",
         "label": "AA test to validate segmentation filter",
         "hash": 1998088971,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "AA test enabled. Noop on UI effect."
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-03_activities_game_night_coach_mark",
@@ -8930,190 +8512,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "Enables guild to create a media channel",
-                "config": {
-                    "enabled": false
-                }
+                "aa_mode": 0,
+                "label": "Enables guild to create a media channel"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "BOT_DEVELOPER_EARLY_ACCESS"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "BOT_DEVELOPER_EARLY_ACCESS"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "CREATOR_MONETIZABLE_DISABLED"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "CREATOR_MONETIZABLE_DISABLED"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "ROLE_SUBSCRIPTIONS_ENABLED"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "ROLE_SUBSCRIPTIONS_ENABLED"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 2500
-                            },
-                            {
-                                "start": 2500,
-                                "end": 3000
-                            },
-                            {
-                                "start": 3000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "CREATOR_MONETIZABLE_PROVISIONAL"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "CREATOR_MONETIZABLE_PROVISIONAL"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_guild_safety_settings",
@@ -9236,7 +8640,52 @@
         "id": "2023-03_pomelo_debounce_delay",
         "label": "Pomelo Debounce Delay",
         "hash": 373531156,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "600ms"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "700ms"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "800ms"
+            },
+            {
+                "id": 4,
+                "aa_mode": 0,
+                "label": "900ms"
+            },
+            {
+                "id": 5,
+                "aa_mode": 0,
+                "label": "1000ms"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 3,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-03_promo_eligibility_cooldown",
@@ -9340,7 +8789,16 @@
         "id": "2023-03_text_playground_settings_pane",
         "label": "Text Playground",
         "hash": 3074921198,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable settings pane"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-03_tier_0_marketing_page_headline_copy",
@@ -9448,7 +8906,16 @@
         "id": "2023-04_community_endless_invites",
         "label": "Community Endless Invites",
         "hash": 3964855818,
-        "kind": "guild"
+        "kind": "guild",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Causes invites to never expire (by default) in the Guild"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-04_console_lan_detection",
@@ -9520,7 +8987,32 @@
         "id": "2023-04_guild_media_channel_post_preview_embed_users",
         "label": "Guild Role Subscription Users",
         "hash": 288968706,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enables for users Guild Media Post Preview Embeds"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-04_missed_message_crank_rollout",
@@ -9580,7 +9072,32 @@
         "id": "2023-04_null_experiment",
         "label": "Null Experiment",
         "hash": 1045730203,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "On"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-04_pomelo_announcement",
@@ -9592,13 +9109,63 @@
         "id": "2023-04_pomelo_attempt",
         "label": "Pomelo Attempt",
         "hash": 3522378716,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-04_pomelo_suggestions",
         "label": "Pomelo Suggestions",
         "hash": 2091202574,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-04_server_badging",
@@ -9935,7 +9502,16 @@
         "id": "2023-05_safety_user_sentiment",
         "label": "Safety User Sentiment Feedback Eligible",
         "hash": 1344378364,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Eligible"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-05_speed_test",
@@ -10220,13 +9796,78 @@
         "id": "2023-06_unique_username_live_check_in_settings",
         "label": "Username Livecheck in Settings",
         "hash": 2698112799,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Livecheck enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-06_unique_username_registration",
         "label": "Unique Username Registration",
         "hash": 2476969328,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Unique Username Registration enabled -livecheck -suggestions"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Unique Username Registration enabled -livecheck +suggestions"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "Unique Username Registration enabled +livecheck -suggestions"
+            },
+            {
+                "id": 4,
+                "aa_mode": 0,
+                "label": "Unique Username Registration enabled +livecheck +suggestions"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 4,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-07_allow_welcome_message_replies",
@@ -10238,7 +9879,32 @@
         "id": "2023-07_announcement_views",
         "label": "Announcement Views",
         "hash": 3583259547,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-07_autocomplete_emojis_nitro_upsell",
@@ -10479,7 +10145,16 @@
         "id": "2023-08_aa_imbalance_remediation",
         "label": "AA test to validate fallback trigger and location frequency change",
         "hash": 3307441810,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "AA test enabled. Noop on UI effect."
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-08_activities_in_text",
@@ -10527,7 +10202,36 @@
         "id": "2023-08_dcf_ml_model",
         "label": "DCF ML Perks Relevance Model",
         "hash": 1694039129,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "threshold 0"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "threshold 1"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "threshold 2"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "threshold 3"
+            },
+            {
+                "id": 4,
+                "aa_mode": 0,
+                "label": "threshold 4"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-08_deadchat_simple_prompt_guild",
@@ -10625,7 +10329,16 @@
         "id": "2023-08_guild_usage_survey",
         "label": "Guild Usage Survey",
         "hash": 1468919041,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "show survey nag bar"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-08_iar_fraud_impersonation",
@@ -10724,7 +10437,16 @@
         "id": "2023-08-30_open-in-popout",
         "label": "Open Channel in Popout",
         "hash": 281174794,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-08_overlay3_out_of_process_enablement",
@@ -10784,7 +10506,42 @@
         "id": "2023-08_remix_ga",
         "label": "Remix General Available",
         "hash": 3382036696,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Remix for Nitro Subscribers"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "Upsell Remix for Non-Nitro Users"
+            },
+            {
+                "id": 5,
+                "aa_mode": 0,
+                "label": "Remix GA for everyone"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 5,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-08_reranked_marketing_tiles",
@@ -11009,37 +10766,17 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "ability to trigger gaming stats prompt",
-                "config": {
-                    "triggerGamingStats": false
-                }
+                "aa_mode": 0,
+                "label": "ability to trigger gaming stats prompt"
             },
             {
                 "id": 2,
-                "label": "ability to trigger gaming stats prompt (leaderboard)",
-                "config": {
-                    "triggerGamingStats": false
-                }
+                "aa_mode": 0,
+                "label": "ability to trigger gaming stats prompt (leaderboard)"
             }
         ],
-        "populations": [
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-09_gaming_stats_setup",
@@ -11084,7 +10821,46 @@
         "id": "2023-09_iar_dsa_webform",
         "label": "Safety Experience Unauthenticated Report Form",
         "hash": 1438986391,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "EU user"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "DSA E2E testing user"
+            }
+        ],
+        "populations": [
+            {
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "DE",
+                            "PL",
+                            "SE"
+                        ]
+                    }
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-09_iar_user_reporting",
@@ -11199,7 +10975,16 @@
         "id": "2023-09_proxy_block_notice",
         "label": "Proxy Block Experiment",
         "hash": 1121995325,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Show nag bar when proxy blocks an API request"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-09_recurring_events",
@@ -11647,13 +11432,36 @@
         "id": "2023-10_social_proofing_file_size",
         "label": "Social Proofing File Size",
         "hash": 3258058784,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Should show nitro upsell for large files"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-10_social_proofing_message_nitro_badge",
         "label": "Social Proofing Message Nitro Badge",
         "hash": 725728798,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Prefer BOTH nitro badge AND role icon(s)"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Prefer role icon(s) over nitro badge if both are present"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-10_soundboard_in_tabs_ui",
@@ -12161,7 +11969,16 @@
         "id": "2023-11_xbox_game_invites",
         "label": "Xbox Game Invites Experiment",
         "hash": 4094597383,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Xbox Game Invites UI Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-12_2023_eoy_ringtone",
@@ -12239,7 +12056,32 @@
         "id": "2023-12_marketing_automation_experiment",
         "label": "Marketing Automation",
         "hash": 2969274422,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Ask server for marketing content for rendering"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-12_marketing_mobile_redesign_banner",
@@ -12317,7 +12159,16 @@
         "id": "2023-12_pause_subscriptions_experiment",
         "label": "Pause Subscriptions Experiment",
         "hash": 1522152287,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Pause Subscription Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-12_quests",
@@ -12488,7 +12339,16 @@
         "id": "2024-01_expanded_gift_entry_points_gift_inventory",
         "label": "Expanded Gift Entry Points - Gift Inventory",
         "hash": 819931368,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Show Gift Entry Point in Gift Inventory"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-01_expanded_gift_entry_points_profile_panel",
@@ -12551,7 +12411,16 @@
         "id": "2024-01_mention_on_all_messages",
         "label": "Mention on all messages",
         "hash": 3038837490,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Increment mention count when receiving a message in a channel set to all messages"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-01_mobile_link_underline_accessibility_setting",
@@ -12696,7 +12565,16 @@
         "id": "2024-01_quiet_mode",
         "label": "Quiet Mode (dnd-equivalent) Experiment ",
         "hash": 711383732,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "allow quiet mode"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-01_reactivation_user_discount_offer_experiment",
@@ -13021,7 +12899,16 @@
         "id": "2024-02_family_center_vc_join",
         "label": "Family Center VC Join",
         "hash": 3569895137,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable VC Join in Family Center"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-02_h265_for_windows_with_amd",
@@ -13033,7 +12920,16 @@
         "id": "2024-02_hide_member_list_activities",
         "label": "Hide member list activities",
         "hash": 1585236473,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled (hide activities)"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-02_image_load_metrics",
@@ -13143,7 +13039,44 @@
         "id": "2024-02_safety_hub_guild_violation_in_app_appeals",
         "label": "Safety Hub Guild Violation In App Appeals",
         "hash": 668094544,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Allow guild violations to be applied using the new appeals ingestion flow"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 600,
+                                "end": 1000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 7500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-02_somethings_happening_with_happening_now",
@@ -13177,52 +13110,12 @@
         "treatments": [
             {
                 "id": 1,
-                "label": "enable the advanced slowmode input",
-                "config": {
-                    "enabled": false
-                }
+                "aa_mode": 0,
+                "label": "enable the advanced slowmode input"
             }
         ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 2918402255,
-                        "data": {
-                            "min": 0,
-                            "max": null
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2918402255,
-                        [
-                            [
-                                3399957344,
-                                0
-                            ],
-                            [
-                                1238858341,
-                                null
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-03_airpods_mute_support",
@@ -13588,7 +13481,21 @@
         "id": "2024-03_quest_bar_progress_cta",
         "label": "Quest Bar Progress CTA",
         "hash": 1001340284,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Quest Bar Progress CTA enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-03_quests_activity_quest",
@@ -13660,7 +13567,26 @@
         "id": "2024-03_referral_program_sender",
         "label": "Referral Program Sender Experience",
         "hash": 2843439589,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Disabled"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-03_remb_experiment",
@@ -13678,7 +13604,21 @@
         "id": "2024-03_shop_card_hover_animation",
         "label": "Shop card hover animation experiment",
         "hash": 3326718803,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Use CSS Transformation"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "No hover movement"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-03_shop_unpublished_profile_effect_gate",
@@ -13876,7 +13816,37 @@
         "id": "2024-04_concurrent_quests",
         "label": "Concurrent Quests",
         "hash": 3093464864,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Concurrent Quests Enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-04_content_inventory_listened_media",
@@ -13894,7 +13864,21 @@
         "id": "2024-04_custom_notification_sound_web",
         "label": "Custom Notification Sound for Desktop",
         "hash": 1788171924,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable custom notification sounds"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Enable custom notification sounds + nested entry point"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-04_dm_settings_upsell",
@@ -13939,7 +13923,62 @@
         "id": "2024-04_gdm_presence",
         "label": "Group DM Presence",
         "hash": 2244369299,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Status Indicator Only"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Typing Indicator Only"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "Status Indicator + Typing Indicator"
+            },
+            {
+                "id": 4,
+                "aa_mode": 0,
+                "label": "Facepile Only"
+            },
+            {
+                "id": 5,
+                "aa_mode": 0,
+                "label": "Facepile + Status Indicator"
+            },
+            {
+                "id": 6,
+                "aa_mode": 0,
+                "label": "Facepile + Typing Indicator"
+            },
+            {
+                "id": 7,
+                "aa_mode": 0,
+                "label": "Facepile + Typing Indicator + Status Indicator"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 7,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-04_genshin_admin_signup",
@@ -14005,7 +14044,16 @@
         "id": "2024-04_keyword_filter_experiment",
         "label": "Replace registered keywords with asterisks",
         "hash": 1751765672,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable Keyword Filter"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-04_lightning_checkout",
@@ -14598,7 +14646,37 @@
         "id": "2024-05_quest_bar",
         "label": "Quest Bar",
         "hash": 4231678187,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Quest Bar V2 with V1 Progress"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Quest Bar V2"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-05_quest_home",
@@ -14793,7 +14871,21 @@
         "id": "2024-06_checkout_recovery_nagbar_test",
         "label": "Testing",
         "hash": 2984314285,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Users will not see the nagbar"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Users will see the nagbar"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-06_clans_mobile_tags",
@@ -15337,7 +15429,16 @@
         "id": "2024-06_message_forward_breadcrumb",
         "label": "Message forward breadcrumb",
         "hash": 3302321270,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "No breadcrumb"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-06_message_send_failure",
@@ -15486,7 +15587,21 @@
         "id": "2024-06_quest_inline_console_connection",
         "label": "Quest Inline Console Connection Experiment",
         "hash": 630483190,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Simplified console connection flow"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Inline console connection flow"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-06_quests_fortnite_quest",
@@ -15763,67 +15878,340 @@
         "id": "2024-07_contextual_image_recs_user",
         "label": "Contextual Image Recommendations",
         "hash": 2916972233,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable the Contextual Image Recommendations with options"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_everyone",
         "label": "CTP collectibles shop open - A/A test - Everyone",
         "hash": 4287288770,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_filters",
         "label": "CTP collectibles shop open - A/A test - Filters",
         "hash": 3369115928,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Treatment"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_multiple_buckets",
         "label": "CTP collectibles shop open - A/A test - Multiple buckets",
         "hash": 3107793125,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment 1"
+            },
+            {
+                "id": 2,
+                "aa_mode": 1,
+                "label": "Treatment 2"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 1000,
+                                "end": 1500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_uneven_buckets",
         "label": "CTP collectibles shop open - A/A test - Uneven buckets",
         "hash": 3211810241,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 400,
+                                "end": 500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_vanilla",
         "label": "CTP collectibles shop open - A/A test - Vanilla",
         "hash": 2664479295,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_nitro_everyone",
         "label": "CTP open nitro - A/A test - Everyone",
         "hash": 2186054133,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_nitro_filters",
         "label": "CTP open nitro - A/A test - Filters",
         "hash": 919330149,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Treatment"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-07_ctp_open_nitro_multiple_buckets",
         "label": "CTP open nitro - A/A test - Multiple buckets",
         "hash": 2877495005,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment 1"
+            },
+            {
+                "id": 2,
+                "aa_mode": 1,
+                "label": "Treatment 2"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 1000,
+                                "end": 1500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_nitro_uneven_buckets",
         "label": "CTP open nitro - A/A test - Uneven buckets",
         "hash": 3652203932,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 400,
+                                "end": 500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_nitro_vanilla",
         "label": "CTP open nitro - A/A test - Vanilla",
         "hash": 893386376,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_user_settings_everyone",
@@ -16289,7 +16677,21 @@
         "id": "2024-07_quest_interactable_expired_crendentials",
         "label": "Quest interactable expired crendentials errors",
         "hash": 3385138022,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "not interactable"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "interactable"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-07_quests_gta_online_quest",
@@ -16549,7 +16951,32 @@
         "id": "2024-08_collectibles_expiry_modal",
         "label": "Collectibles Expiry Experiment",
         "hash": 1636636786,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable collectibles expiry modal"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_content_inventory_analytics_sampling",
@@ -16576,31 +17003,155 @@
         "id": "2024-08_ctp_dmgdm_list_render__everyone",
         "label": "CTP DM/GDM List Render - A/A test - Everyone",
         "hash": 1907391960,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_ctp_dmgdm_list_render__filters",
         "label": "CTP DM/GDM List Render - A/A test - Filters",
         "hash": 857226402,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Treatment"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-08_ctp_dmgdm_list_render__multiple_buckets",
         "label": "CTP DM/GDM List Render - A/A test - Multiple buckets",
         "hash": 727071739,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment 1"
+            },
+            {
+                "id": 2,
+                "aa_mode": 1,
+                "label": "Treatment 2"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 1000,
+                                "end": 1500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_ctp_dmgdm_list_render__uneven_buckets",
         "label": "CTP DM/GDM List Render - A/A test - Uneven buckets",
         "hash": 2569252158,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 400,
+                                "end": 500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_ctp_dmgdm_list_render__vanilla_",
         "label": "CTP DM/GDM List Render - A/A test - Vanilla",
         "hash": 3781250242,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 1,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 1,
+                "label": "Treatment"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_dismissible_pip",
@@ -16692,7 +17243,16 @@
         "id": "2024-08_hd_streaming_viewer",
         "label": "HD Streaming Viewer Upsell",
         "hash": 1274486444,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-08_iar_privacy_and_safety_settings_upsells",
@@ -16891,7 +17451,42 @@
         "id": "2024-08_reaction_push_notifications_user",
         "label": "In App Notifications for Reactions",
         "hash": 939840210,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable In App Notifications for Reactions (First Reaction)"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Enable In App Notifications for Reactions (All Reactions)"
+            },
+            {
+                "id": 3,
+                "aa_mode": 0,
+                "label": "Enable In App Notifications for Reactions (All Reactions)"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 95,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_reverse_trial",
@@ -17031,7 +17626,16 @@
         "id": "2024-08_keyword_filter_upsells",
         "label": "Language Filter Upsells",
         "hash": 3902307858,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable Upsell for Keyword Language Filters"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-08_load_test_guild_recs",
@@ -17231,7 +17835,16 @@
         "id": "2024-08_user_profile_blockee_hide_mutuals",
         "label": "User Profile Blockee Hide Mutuals",
         "hash": 1502922057,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable User Profile Blockee Hide Mutuals"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-08_user_profile_blocker_skeleton",
@@ -17350,13 +17963,31 @@
         "id": "2024-09_browsechannelbuttonoptin",
         "label": "Don't show guild Browse Channels when all channels are already visible",
         "hash": 1325580951,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Hide Browse Channels when all channels are visible"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-09_bug_reporter",
         "label": "Bug Reporter",
         "hash": 3673264743,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "\ud83d\udc1b"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-09_collectibles_mobile_marketing_variant",
@@ -17368,7 +17999,16 @@
         "id": "2024-09_collectibles_shop_preload",
         "label": "Collectibles Shop Preload",
         "hash": 81858881,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Preloads collectible shop payload"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-09_concurrent_quests_engine_v2",
@@ -17404,7 +18044,16 @@
         "id": "2024-09_dm_mute_feedback",
         "label": "DM Mute Feedback Experiment",
         "hash": 3721779707,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable DM Mute Feedback Survey"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-09_fewer_speaking_messages",
@@ -17437,7 +18086,16 @@
         "id": "2024-09_friends_in_server",
         "label": "Friends in Server",
         "hash": 2409701526,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-09_game_profile_feedback_flow",
@@ -17475,7 +18133,32 @@
         "id": "2024-09_improved_reaction_button",
         "label": "Improved Reaction Button",
         "hash": 96191983,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Show improved reaction button"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_league_of_legends_leaderboard",
@@ -17623,7 +18306,37 @@
         "id": "2024-09_quests_trophy_case",
         "label": "Trophy Case",
         "hash": 692564799,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enabled"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-09_rustadm",
@@ -17786,7 +18499,32 @@
         "id": "2024-10_block_user_feedback",
         "label": "Block User Feedback Experiment",
         "hash": 1345574151,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable Block User Feedback Survey"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-10_blocking_context",
@@ -17828,7 +18566,16 @@
         "id": "2024-10_email_change_reasoning_buttons_free_text_response",
         "label": "Email Change Reasoning Buttons Free Text Response",
         "hash": 3097744375,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Display a text area when the user selects \"Something else\""
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-10_global_discovery_servers_search",
@@ -18094,7 +18841,16 @@
         "id": "2024-10_rapidash_discovery_plus",
         "label": "Rapidash Discovery Plus",
         "hash": 1731609653,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Discovery Plus Enabled"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-10_rapidash_request_to_join_dm",
@@ -18127,7 +18883,32 @@
         "id": "2024-10_shop_tile_impression_logging",
         "label": "Shop tile impressions logging",
         "hash": 1219608372,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable shop tile impression logging"
+            }
+        ],
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-2024-10_shop_variants",
@@ -18278,7 +19059,16 @@
         "id": "2024-10_weighted_sample_activity_shelf",
         "label": "Weighted Sample Activity Shelf",
         "hash": 2793808763,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "Enable weighted sample for activity shelf"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-11_activity_popout_window",
@@ -18561,7 +19351,16 @@
         "id": "2024-11_third_party_access_settings_redesign",
         "label": "Third Party Access User Settings Redesign",
         "hash": 2932220947,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "show updated settings UI"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2024-11_unreads_new_users2",
