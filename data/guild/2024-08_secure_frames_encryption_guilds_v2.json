@@ -6,10 +6,29 @@
     "treatments": [
         {
             "id": 11,
-            "aa_mode": 0,
-            "label": "Can support DAVE protocol version 1 and above"
+            "label": "Can support DAVE protocol version 1 and above",
+            "config": {
+                "protocolVersionFloor": 1,
+                "canSupportDaveProtocol": false
+            }
         }
     ],
-    "populations": null,
-    "aa_mode": 0
+    "populations": [
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
