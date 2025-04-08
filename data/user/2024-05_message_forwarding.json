@@ -2,45 +2,5 @@
     "id": "2024-05_message_forwarding",
     "label": "Message forwarding",
     "hash": 2255117514,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enabled + inline forward button"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 6000,
-                            "end": 6500
-                        }
-                    ]
-                },
-                {
-                    "treatment": 2,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 6500,
-                            "end": 7000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

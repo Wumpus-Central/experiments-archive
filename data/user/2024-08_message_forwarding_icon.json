@@ -2,35 +2,5 @@
     "id": "2024-08_message_forwarding_icon",
     "label": "Message forwarding icon change",
     "hash": 1378883154,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Icon: upper right arrow"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Icon: chat bubble"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 90,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 9000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

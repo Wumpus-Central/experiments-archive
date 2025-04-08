@@ -14504,47 +14504,7 @@
         "id": "2024-05_message_forwarding",
         "label": "Message forwarding",
         "hash": 2255117514,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enabled + inline forward button"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 6000,
-                                "end": 6500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 6500,
-                                "end": 7000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_mobile_image_compression_guild",
@@ -15417,16 +15377,7 @@
         "id": "2024-06_message_forward_breadcrumb",
         "label": "Message forward breadcrumb",
         "hash": 3302321270,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "No breadcrumb"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-06_message_send_failure",
@@ -17660,37 +17611,7 @@
         "id": "2024-08_message_forwarding_icon",
         "label": "Message forwarding icon change",
         "hash": 1378883154,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Icon: upper right arrow"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Icon: chat bubble"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 90,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 9000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_mobile_message_visibility_percentage_calculation",
@@ -18192,32 +18113,7 @@
         "id": "2024-09_message_forwarding_gtm",
         "label": "Message forwarding GTM",
         "hash": 1298178098,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "GTM"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 90,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 9000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-09_only_channel_screen_tablet",
