@@ -18540,37 +18540,7 @@
         "id": "2024-10_improved_media_viewer",
         "label": "Improved Desktop Media Viewer",
         "hash": 1621420501,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Improved Desktop Media Viewer"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enable Improved Desktop Media Viewer with affordances"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-10_merge_notifications_tab",
