@@ -14382,57 +14382,7 @@
         "id": "2024-05_desktop_visual_refresh",
         "label": "Desktop Visual Refresh",
         "hash": 1585279012,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Refresh with New Chat Input"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Refresh with New Chat Input, Collapsible Sidebar"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "Refresh with Legacy Chat Input"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "Refresh with Legacy Chat Input, Collapsible Sidebar"
-            },
-            {
-                "id": 5,
-                "aa_mode": 0,
-                "label": "External Testers"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 3,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_discount_model_data_collection",
@@ -17671,37 +17621,7 @@
         "id": "2024-08_open_platform_app_launcher_holdout",
         "label": "Open Platform App Launcher Holdout",
         "hash": 154757202,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "clicking activity in voice app launcher -> performs activity action"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "clicking activity in voice app launcher -> opens activity detail page"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_open_platform_link_sharing",

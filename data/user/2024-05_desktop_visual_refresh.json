@@ -2,55 +2,5 @@
     "id": "2024-05_desktop_visual_refresh",
     "label": "Desktop Visual Refresh",
     "hash": 1585279012,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Refresh with New Chat Input"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Refresh with New Chat Input, Collapsible Sidebar"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Refresh with Legacy Chat Input"
-        },
-        {
-            "id": 4,
-            "aa_mode": 0,
-            "label": "Refresh with Legacy Chat Input, Collapsible Sidebar"
-        },
-        {
-            "id": 5,
-            "aa_mode": 0,
-            "label": "External Testers"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 3,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
