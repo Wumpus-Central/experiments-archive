@@ -13,7 +13,16 @@
     ],
     "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "DE",
+                        "SE",
+                        "US"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 2,
