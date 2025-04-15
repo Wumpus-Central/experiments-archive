@@ -16801,39 +16801,9 @@
     },
     {
         "id": "2024-08_blocking_voice_states",
-        "label": "Blocking Voice States (Blocker)",
+        "label": "Blocking Voice States",
         "hash": 3896794487,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_captcha_serve_volume_distribution_metric",
@@ -17774,37 +17744,7 @@
         "id": "2024-09_blocking_voice_states_blockee",
         "label": "Blocking Voice States (Blockee)",
         "hash": 1813334724,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-09_browse_channel_visible",
