@@ -2,44 +2,5 @@
     "id": "2024-11_checkout_optimization_browser_autofill_global",
     "label": "Checkout Optimization Browser Autofill Global",
     "hash": 402972005,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enabled with delay"
-        }
-    ],
-    "populations": [
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
