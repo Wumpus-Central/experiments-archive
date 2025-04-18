@@ -12215,31 +12215,7 @@
         "id": "2024-01_auto_disable_video_mobile_v2",
         "label": "Mobile performance: VideoHealthManager (v2)",
         "hash": 1814449668,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "5 second window, 100% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "5 second window, 100% allowed poor fps ratio, 5 fps threshold, 10 second backoff"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "10 second window, 70% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "10 second window, 90% allowed poor fps ratio, 5 fps threshold, 15 second backoff"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-01_bluetooth_sco_retry",
@@ -14732,21 +14708,7 @@
         "id": "2024-06_checkout_recovery_nagbar_test",
         "label": "Testing",
         "hash": 2984314285,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Users will not see the nagbar"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Users will see the nagbar"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-06_clans_mobile_tags",
@@ -16466,21 +16428,7 @@
         "id": "2024-07_native_screen_share_picker",
         "label": "Use system picker for screen sharing",
         "hash": 1062665695,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable system picker"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enable system picker behind pref gate"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-07_open_platform_app_launcher",
@@ -17429,32 +17377,7 @@
         "id": "2024-08_toggle_soundshare_menu_experiment",
         "label": "Toggle soundshare from stream settings menu",
         "hash": 3853396589,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_trial_cooldown_correction",
@@ -18093,20 +18016,10 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 90,
+                        "percentage": 100,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 9000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 9500,
                                 "end": 10000
                             }
                         ]
