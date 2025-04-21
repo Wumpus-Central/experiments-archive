@@ -8227,12 +8227,162 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "On"
+                "label": "On",
+                "config": {
+                    "advancedModeAllowed": false
+                }
             }
         ],
-        "populations": null,
-        "aa_mode": 0
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY_CANARY"
+                            ]
+                        }
+                    },
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 2544556038,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY_CANARY"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                2544556038
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY_CANARY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY_CANARY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 2544556038,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                2544556038
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-02_onboarding_home",
