@@ -4254,83 +4254,10 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "PL"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 5,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "SE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 6,
                         "percentage": 100,
                         "ranges": [
                             {
@@ -5834,14 +5761,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -6696,16 +6616,7 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE",
-                            "PL",
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10939,32 +10850,7 @@
                 "label": "DSA E2E testing user"
             }
         ],
-        "populations": [
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE",
-                            "PL",
-                            "SE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2023-09_iar_user_reporting",
@@ -18858,41 +18744,10 @@
         ],
         "populations": [
             {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "US"
-                        ]
-                    }
-                ],
+                "filter": null,
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filter": [
-                    {
-                        "type": 1175413786,
-                        "data": [
-                            "DE",
-                            "PL",
-                            "SE"
-                        ]
-                    }
-                ],
-                "rollout": [
-                    {
-                        "treatment": 2,
                         "percentage": 100,
                         "ranges": [
                             {
