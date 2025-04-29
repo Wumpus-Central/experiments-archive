@@ -18237,21 +18237,7 @@
         "id": "2024-09_user_app_install_education",
         "label": "User App Install Education Experiment",
         "hash": 2283061372,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "show animation on app launcher icon + tooltip when a user app is authorized when in a channel instead of showing auth success modal"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "show animation on app launcher icon when a user app is authorized when in a channel instead of showing auth success modal"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-09_voice_channel_blocked_user_warning",
