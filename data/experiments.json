@@ -13759,31 +13759,13 @@
         "id": "2024-03_valorant_admin_signup",
         "label": "Valorant Admin Signup",
         "hash": 2999880206,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show admin signup"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-03_valorant_user_signup",
         "label": "Valorant User Signup",
         "hash": 950315547,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show user signup"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-03_vp_tablet_rollout",
@@ -14083,31 +14065,13 @@
         "id": "2024-04_genshin_admin_signup",
         "label": "Genshin Admin Signup",
         "hash": 1087745567,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show admin signup"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-04_genshin_user_signup",
         "label": "Genshin User Signup",
         "hash": 472742731,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show user signup"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-04_go_live_simulcast",

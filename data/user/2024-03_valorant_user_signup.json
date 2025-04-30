@@ -2,14 +2,5 @@
     "id": "2024-03_valorant_user_signup",
     "label": "Valorant User Signup",
     "hash": 950315547,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Show user signup"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
