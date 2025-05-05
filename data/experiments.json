@@ -6860,16 +6860,7 @@
         "id": "2022-08_message_todos_staff_only",
         "label": "Message TODO list",
         "hash": 4170652702,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show message TODOs CTA"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2022-08_mobile_web_role_subscription_upsell",
