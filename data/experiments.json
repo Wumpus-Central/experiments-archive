@@ -17675,7 +17675,7 @@
             {
                 "id": 2,
                 "aa_mode": 0,
-                "label": "Enable special UI for DMs with Apps including quick launch"
+                "label": "(Treatment deprecated): Enable special UI for DMs with Apps including quick launch"
             },
             {
                 "id": 3,
