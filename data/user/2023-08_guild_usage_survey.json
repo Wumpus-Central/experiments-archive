@@ -2,14 +2,5 @@
     "id": "2023-08_guild_usage_survey",
     "label": "Guild Usage Survey",
     "hash": 1468919041,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "show survey nag bar"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
