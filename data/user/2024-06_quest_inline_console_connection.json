@@ -2,19 +2,5 @@
     "id": "2024-06_quest_inline_console_connection",
     "label": "Quest Inline Console Connection Experiment",
     "hash": 630483190,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Simplified console connection flow"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Inline console connection flow"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
