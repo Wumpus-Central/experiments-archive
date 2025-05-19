@@ -17474,16 +17474,7 @@
         "id": "2024-08_mobile_perguild_collectibles_edit",
         "label": "Mobile Per-guild Collectibles Edit",
         "hash": 2799195304,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Mobile Per-guild Collectibles Edit"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-08_new_gateway_dispatcher",
