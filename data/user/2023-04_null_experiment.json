@@ -11,21 +11,5 @@
             "label": "On"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 5000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }
