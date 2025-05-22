@@ -15373,37 +15373,7 @@
         "id": "2024-06_premium_emoji_desktop_upsell",
         "label": "Premium Emoji Desktop Upsell",
         "hash": 939388181,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable new roadblock experience"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enable new roadblock experience with social proof"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-06_premium_feature_apperance_upsell_desktop",
