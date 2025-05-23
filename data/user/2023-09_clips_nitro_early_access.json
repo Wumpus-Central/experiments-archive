@@ -18,16 +18,7 @@
     ],
     "populations": [
         {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "US"
-                    ]
-                }
-            ],
+            "filter": null,
             "rollout": [
                 {
                     "treatment": 1,
@@ -35,36 +26,6 @@
                     "ranges": [
                         {
                             "start": 100,
-                            "end": 400
-                        },
-                        {
-                            "start": 700,
-                            "end": 1000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        },
-                        {
-                            "start": 300,
                             "end": 400
                         },
                         {
