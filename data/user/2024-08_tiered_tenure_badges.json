@@ -2,39 +2,5 @@
     "id": "2024-08_tiered_tenure_badges",
     "label": "Tiered Tenure Badging",
     "hash": 882504092,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enable Tiered Tenure Badges v2"
-        }
-    ],
-    "populations": [
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "PL",
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
