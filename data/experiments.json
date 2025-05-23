@@ -15379,21 +15379,7 @@
         "id": "2024-06_premium_feature_apperance_upsell_desktop",
         "label": "Premium Client Themes / App Icons Desktop Upsell",
         "hash": 1276606570,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enabled + Social Proofing"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-06_premium_soundboard_desktop_upsell",
