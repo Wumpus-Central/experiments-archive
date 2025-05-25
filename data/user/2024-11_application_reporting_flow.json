@@ -38,6 +38,29 @@
                     ]
                 }
             ]
+        },
+        {
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "DE",
+                        "SE"
+                    ]
+                }
+            ],
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
