@@ -19082,26 +19082,7 @@
         "id": "2024-11_activity_popout_window",
         "label": "Activity Popout Window Experiment",
         "hash": 4090186469,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable activity popout window"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Enable activity popout window with overlay"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "Enable activity popout window with overlay and GoLive from activity card"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-11_android_call_notifications",
