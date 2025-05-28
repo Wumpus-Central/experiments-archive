@@ -29,52 +29,13 @@
                             "end": 1000
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "DE",
-                        "US"
-                    ]
-                }
-            ],
-            "rollout": [
+                },
                 {
                     "treatment": 2,
                     "percentage": 5,
                     "ranges": [
                         {
                             "start": 1000,
-                            "end": 1500
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "filter": [
-                {
-                    "type": 1175413786,
-                    "data": [
-                        "SE"
-                    ]
-                }
-            ],
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 4,
-                    "ranges": [
-                        {
-                            "start": 1000,
-                            "end": 1010
-                        },
-                        {
-                            "start": 1100,
                             "end": 1500
                         }
                     ]
