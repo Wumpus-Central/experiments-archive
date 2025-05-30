@@ -4,6 +4,12 @@
     "hash": 3254726199,
     "kind": "user",
     "aa_mode": 0,
-    "treatments": [],
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        }
+    ],
     "populations": null
 }

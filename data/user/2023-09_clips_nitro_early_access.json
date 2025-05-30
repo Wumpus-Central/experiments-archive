@@ -6,6 +6,11 @@
     "aa_mode": 0,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
             "id": 1,
             "aa_mode": 0,
             "label": "Clips Nitro EA Upsells Visible"
@@ -20,6 +25,24 @@
         {
             "filter": null,
             "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 100
+                        },
+                        {
+                            "start": 200,
+                            "end": 300
+                        },
+                        {
+                            "start": 400,
+                            "end": 700
+                        }
+                    ]
+                },
                 {
                     "treatment": 1,
                     "percentage": 5,

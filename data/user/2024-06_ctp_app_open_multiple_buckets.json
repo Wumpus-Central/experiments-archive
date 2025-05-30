@@ -6,6 +6,11 @@
     "aa_mode": 1,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 1,
+            "label": "Control"
+        },
+        {
             "id": 1,
             "aa_mode": 1,
             "label": "Treatment 1"
@@ -20,6 +25,16 @@
         {
             "filter": null,
             "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                },
                 {
                     "treatment": 1,
                     "percentage": 5,

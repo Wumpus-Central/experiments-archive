@@ -4048,6 +4048,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enables users to create Guild Role Subscriptions"
@@ -4162,6 +4167,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -5530,6 +5540,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Check Payment Source"
@@ -5764,6 +5779,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -6620,6 +6640,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Back to School experience enabled"
@@ -6662,6 +6687,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 3,
                 "aa_mode": 0,
@@ -6914,6 +6944,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -7399,6 +7434,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable notifications for multiple accounts"
@@ -7586,6 +7626,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -7799,6 +7844,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -8763,6 +8813,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "600ms"
@@ -8880,6 +8935,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -9101,6 +9161,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enables for users Guild Media Post Preview Embeds"
@@ -9213,6 +9278,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "enabled"
@@ -9264,6 +9334,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -9475,6 +9550,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -9869,6 +9949,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Livecheck enabled"
@@ -9911,6 +9996,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -10493,6 +10583,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Remix for Nitro Subscribers"
@@ -10540,6 +10635,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 11,
                 "aa_mode": 0,
                 "label": "Can support DAVE protocol version 1 and above"
@@ -10549,6 +10649,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 11,
                         "percentage": 95,
@@ -10667,6 +10777,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Clips Nitro EA Upsells Visible"
@@ -10681,6 +10796,24 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 200,
+                                "end": 300
+                            },
+                            {
+                                "start": 400,
+                                "end": 700
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -10812,6 +10945,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "EU user"
@@ -10847,6 +10985,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -11014,6 +11157,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enables Server shop phantom preview"
@@ -11044,6 +11192,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -11100,6 +11253,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "On"
@@ -11109,6 +11267,20 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 200,
+                                "end": 600
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 95,
@@ -11568,6 +11740,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Shows links to attachments as regular links"
@@ -11830,6 +12007,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Use the unfinished, not ready, and totally benign notification tweaks"
@@ -12012,6 +12194,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -12763,6 +12950,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Animated icons enabled"
@@ -12972,6 +13164,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Allow guild violations to be applied using the new appeals ingestion flow"
@@ -13084,6 +13281,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable Clickstream Analytics"
@@ -13093,6 +13295,24 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 200,
+                                "end": 400
+                            },
+                            {
+                                "start": 600,
+                                "end": 1300
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 10,
@@ -13274,6 +13494,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -13795,6 +14020,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -14411,6 +14641,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Quest Bar V2 with V1 Progress"
@@ -14654,6 +14889,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enabled"
@@ -14685,6 +14925,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -14694,6 +14939,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -14731,6 +14986,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -14745,6 +15005,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -14777,6 +15047,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -14786,6 +15061,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -14823,6 +15108,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -14832,6 +15122,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -14884,6 +15184,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -14893,6 +15198,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -14930,6 +15245,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -14944,6 +15264,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -14976,6 +15306,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -14985,6 +15320,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -15007,6 +15352,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15016,6 +15366,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15134,6 +15494,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Display in inbox"
@@ -15148,6 +15513,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15567,6 +15942,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable the Contextual Image Recommendations with options"
@@ -15598,6 +15978,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15607,6 +15992,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -15644,6 +16039,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -15658,6 +16058,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15690,6 +16100,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15699,6 +16114,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -15721,6 +16146,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15730,6 +16160,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15752,6 +16192,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15761,6 +16206,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -15798,6 +16253,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -15812,6 +16272,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15844,6 +16314,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15853,6 +16328,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -15875,6 +16360,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15884,6 +16374,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15906,6 +16406,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -15915,6 +16420,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -15952,6 +16467,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -15966,6 +16486,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -15998,6 +16528,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16007,6 +16542,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -16029,6 +16574,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16038,6 +16588,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -16060,6 +16620,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16069,6 +16634,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -16097,6 +16672,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -16111,6 +16691,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -16149,6 +16739,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16158,6 +16753,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -16462,6 +17067,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Sidechain Compression available, default enabled"
@@ -16596,6 +17206,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable collectibles expiry modal"
@@ -16648,6 +17263,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16657,6 +17277,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 50,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 50,
@@ -16694,6 +17324,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment 1"
@@ -16708,6 +17343,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -16740,6 +17385,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16749,6 +17399,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 4,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 400
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 1,
@@ -16771,6 +17431,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Treatment"
@@ -16780,6 +17445,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 5,
@@ -17008,6 +17683,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Stable algorithm with no hover bar"
@@ -17087,6 +17767,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable In App Notifications for Reactions (First Reaction)"
@@ -17106,6 +17791,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
                     {
                         "treatment": 2,
                         "percentage": 95,
@@ -17397,6 +18092,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -17834,6 +18534,11 @@
         "aa_mode": 1,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 1,
                 "label": "Enables the holdout experiment"
@@ -17843,6 +18548,16 @@
             {
                 "filter": null,
                 "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            }
+                        ]
+                    },
                     {
                         "treatment": 1,
                         "percentage": 10,
@@ -17900,6 +18615,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -18229,7 +18949,13 @@
         "hash": 3254726199,
         "kind": "user",
         "aa_mode": 0,
-        "treatments": [],
+        "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            }
+        ],
         "populations": null
     },
     {
@@ -18257,6 +18983,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -18295,6 +19026,11 @@
         "aa_mode": 0,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable system formatter"
@@ -18330,6 +19066,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -18414,6 +19155,11 @@
         "kind": "user",
         "aa_mode": 0,
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,

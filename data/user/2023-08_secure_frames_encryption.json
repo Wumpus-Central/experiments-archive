@@ -6,6 +6,11 @@
     "aa_mode": 0,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
             "id": 11,
             "aa_mode": 0,
             "label": "Can support DAVE protocol version 1 and above"
@@ -15,6 +20,16 @@
         {
             "filter": null,
             "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                },
                 {
                     "treatment": 11,
                     "percentage": 95,

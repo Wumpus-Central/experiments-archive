@@ -6,6 +6,11 @@
     "aa_mode": 0,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
             "id": 1,
             "aa_mode": 0,
             "label": "Enable Poland Notice"
