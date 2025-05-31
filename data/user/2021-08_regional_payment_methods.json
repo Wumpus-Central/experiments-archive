@@ -117,10 +117,14 @@
                 },
                 {
                     "treatment": 6,
-                    "percentage": 100,
+                    "percentage": 99,
                     "ranges": [
                         {
                             "start": 0,
+                            "end": 400
+                        },
+                        {
+                            "start": 500,
                             "end": 10000
                         }
                     ]
