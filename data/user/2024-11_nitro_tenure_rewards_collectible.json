@@ -2,14 +2,5 @@
     "id": "2024-11_nitro_tenure_rewards_collectible",
     "label": "Nitro Tenure Reward Collectible",
     "hash": 369847441,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enables nitro tenure reward collectible for the user"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
