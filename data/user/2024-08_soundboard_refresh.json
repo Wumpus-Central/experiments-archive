@@ -2,14 +2,5 @@
     "id": "2024-08_soundboard_refresh",
     "label": "Soundboard UI Refresh",
     "hash": 670930559,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable the updated soundboard picker UI"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
