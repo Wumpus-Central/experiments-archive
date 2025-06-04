@@ -2,29 +2,5 @@
     "id": "2024-06_repeat_gift_purchase",
     "label": "Repeat Gift Purchase",
     "hash": 4075801892,
-    "kind": "user",
-    "aa_mode": 0,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Redirect to review step"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Redirect to review step + remove gift recipient UI"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Redirect to customize step"
-        },
-        {
-            "id": 4,
-            "aa_mode": 0,
-            "label": "Redirect to customize step + remove gift recipient UI"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
