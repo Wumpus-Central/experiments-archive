@@ -4975,16 +4975,7 @@
         "id": "2021-12_inferno_spam_redaction",
         "label": "Inferno Spam Redaction",
         "hash": 4179344527,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Allow guild channel messages from spammers to be collapsed"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2021-12_ios_in_app_education",
@@ -9651,16 +9642,7 @@
         "id": "2023-05_safety_user_sentiment",
         "label": "Safety User Sentiment Feedback Eligible",
         "hash": 1344378364,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Eligible"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-05_speed_test",
@@ -9993,37 +9975,7 @@
         "id": "2023-07_announcement_views",
         "label": "Announcement Views",
         "hash": 3583259547,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-07_autocomplete_emojis_nitro_upsell",
@@ -11096,16 +11048,7 @@
         "id": "2023-09_proxy_block_notice",
         "label": "Proxy Block Experiment",
         "hash": 1121995325,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show nag bar when proxy blocks an API request"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-09_recurring_events",
@@ -11582,16 +11525,7 @@
         "id": "2023-10_social_proofing_file_size",
         "label": "Social Proofing File Size",
         "hash": 3258058784,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Should show nitro upsell for large files"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-10_social_proofing_message_nitro_badge",
@@ -12104,16 +12038,7 @@
         "id": "2023-11_xbox_game_invites",
         "label": "Xbox Game Invites Experiment",
         "hash": 4094597383,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Xbox Game Invites UI Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-12_2023_eoy_ringtone",
@@ -18169,16 +18094,7 @@
         "id": "2024-09_bug_reporter",
         "label": "Bug Reporter",
         "hash": 3673264743,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "\ud83d\udc1b"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-09_collectibles_mobile_marketing_variant",
