@@ -2,5 +2,14 @@
     "id": "2021-12_inferno_spam_redaction",
     "label": "Inferno Spam Redaction",
     "hash": 4179344527,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Allow guild channel messages from spammers to be collapsed"
+        }
+    ],
+    "populations": null
 }

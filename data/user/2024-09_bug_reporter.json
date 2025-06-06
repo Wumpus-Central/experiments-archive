@@ -2,5 +2,14 @@
     "id": "2024-09_bug_reporter",
     "label": "Bug Reporter",
     "hash": 3673264743,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "🐛"
+        }
+    ],
+    "populations": null
 }
