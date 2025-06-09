@@ -10284,36 +10284,7 @@
         "id": "2023-08_dcf_ml_model",
         "label": "DCF ML Perks Relevance Model",
         "hash": 1694039129,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "threshold 0"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "threshold 1"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "threshold 2"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "threshold 3"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "threshold 4"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-08_deadchat_simple_prompt_guild",
