@@ -93,7 +93,14 @@
     ],
     "populations": [
         {
-            "filter": null,
+            "filter": [
+                {
+                    "type": 1175413786,
+                    "data": [
+                        "global"
+                    ]
+                }
+            ],
             "rollout": [
                 {
                     "treatment": 1,

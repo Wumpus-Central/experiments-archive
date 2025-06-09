@@ -4060,7 +4060,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -4255,7 +4262,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -5552,7 +5566,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -5792,7 +5813,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -6652,7 +6680,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -6957,7 +6992,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7446,7 +7488,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7639,7 +7688,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -7857,7 +7913,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -8845,7 +8908,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 3,
@@ -8948,7 +9018,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9173,7 +9250,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9290,7 +9374,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9347,7 +9438,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9563,7 +9661,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -9961,7 +10066,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10009,7 +10121,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10605,7 +10724,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 5,
@@ -10647,7 +10773,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -10794,7 +10927,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -10962,7 +11102,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -10998,7 +11145,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11169,7 +11323,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11205,7 +11366,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -11265,7 +11433,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -11757,7 +11932,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 2,
@@ -12019,7 +12201,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12207,7 +12396,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12330,7 +12526,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -12953,7 +13156,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13167,7 +13377,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13284,7 +13501,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -13358,7 +13582,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -13498,7 +13729,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -13656,7 +13894,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14054,7 +14299,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 7,
@@ -14649,7 +14901,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 2,
@@ -14892,7 +15151,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -14928,7 +15194,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -14994,7 +15267,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15050,7 +15330,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15096,7 +15383,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15142,7 +15436,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15218,7 +15519,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15284,7 +15592,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15340,7 +15655,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15386,7 +15708,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15533,7 +15862,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -15952,7 +16288,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -15988,7 +16331,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16054,7 +16404,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16110,7 +16467,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16156,7 +16520,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16202,7 +16573,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16268,7 +16646,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16324,7 +16709,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16370,7 +16762,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16416,7 +16815,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16482,7 +16888,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16538,7 +16951,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16584,7 +17004,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16630,7 +17057,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16687,7 +17121,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -16749,7 +17190,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -17082,7 +17530,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17216,7 +17671,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -17273,7 +17735,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -17339,7 +17808,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -17395,7 +17871,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -17441,7 +17924,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -17708,7 +18198,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 3,
@@ -17787,7 +18284,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -18104,7 +18608,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18454,7 +18965,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18526,7 +19044,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 0,
@@ -18608,7 +19133,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18835,7 +19367,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -18976,7 +19515,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19023,7 +19569,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 2,
@@ -19064,7 +19617,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
@@ -19153,7 +19713,14 @@
         ],
         "populations": [
             {
-                "filter": null,
+                "filter": [
+                    {
+                        "type": 1175413786,
+                        "data": [
+                            "global"
+                        ]
+                    }
+                ],
                 "rollout": [
                     {
                         "treatment": 1,
