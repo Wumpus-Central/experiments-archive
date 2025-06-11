@@ -15865,16 +15865,7 @@
         "id": "2024-07_bogo_countdown",
         "label": "BOGO Countdown Experiment",
         "hash": 3062760589,
-        "kind": "user",
-        "aa_mode": 0,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Disable BOGO countdown"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-07_cash_app_pay_awareness_campaign",
