@@ -111,16 +111,10 @@
                     "ranges": [
                         {
                             "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                },
-                {
-                    "treatment": 6,
-                    "percentage": 100,
-                    "ranges": [
+                            "end": 4600
+                        },
                         {
-                            "start": 0,
+                            "start": 4600,
                             "end": 10000
                         }
                     ]
