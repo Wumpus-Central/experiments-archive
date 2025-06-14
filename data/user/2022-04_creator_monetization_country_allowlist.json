@@ -4,34 +4,13 @@
     "hash": 2532700533,
     "kind": "user",
     "aa_mode": 0,
-    "hashkey": "2021-02_staff_qc_debugging",
+    "hashkey": null,
     "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
         {
             "id": 1,
             "aa_mode": 0,
             "label": "Enables users to view Creator Monetization entrypoints"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }
