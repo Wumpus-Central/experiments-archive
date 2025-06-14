@@ -4,7 +4,7 @@
     "hash": 2830925563,
     "kind": "guild",
     "aa_mode": 0,
-    "hashkey": "",
+    "hashkey": null,
     "treatments": [
         {
             "id": 1,
