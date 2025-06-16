@@ -18695,47 +18695,16 @@
         "label": "Holdout experiment",
         "hash": 2622662067,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Enables the holdout experiment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 10,
-                        "ranges": [
-                            {
-                                "start": 1000,
-                                "end": 2000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-09_tiered_tenure_badging_whats_new",
