@@ -3,6 +3,8 @@
     "label": "Hub Events",
     "hash": 1107510295,
     "kind": "guild",
+    "aa_mode": 0,
+    "hashkey": null,
     "treatments": [
         {
             "id": 1,
@@ -10,7 +12,5 @@
             "label": "Show Hub Events List"
         }
     ],
-    "populations": null,
-    "aa_mode": 0,
-    "hashkey": null
+    "populations": null
 }

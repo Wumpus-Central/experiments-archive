@@ -1,34 +1,6 @@
 {
     "id": "2024-08_secure_frames_encryption_guilds_v2",
-    "label": "Allowing testing DAVE protocol for voice/video (Guilds)",
+    "label": "Allowing testing secure frames for voice/video (Guilds)",
     "hash": 2125168757,
-    "kind": "guild",
-    "treatments": [
-        {
-            "id": 11,
-            "label": "Can support DAVE protocol version 1 and above",
-            "config": {
-                "protocolVersionFloor": 1,
-                "canSupportDaveProtocol": false
-            }
-        }
-    ],
-    "populations": [
-        {
-            "filters": [],
-            "rawFilters": [],
-            "rollout": [
-                {
-                    "treatment": -1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "guild"
 }

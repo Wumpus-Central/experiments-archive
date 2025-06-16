@@ -3,6 +3,8 @@
     "label": "Gaming stats prompt",
     "hash": 2478854553,
     "kind": "guild",
+    "aa_mode": 0,
+    "hashkey": null,
     "treatments": [
         {
             "id": 1,
@@ -15,7 +17,5 @@
             "label": "ability to trigger gaming stats prompt (leaderboard)"
         }
     ],
-    "populations": null,
-    "aa_mode": 0,
-    "hashkey": null
+    "populations": null
 }

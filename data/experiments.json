@@ -3788,8 +3788,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2021-06_guild_subscriptions_payment_flow_test_page",
@@ -4827,6 +4829,8 @@
         "label": "Hub Events",
         "hash": 1107510295,
         "kind": "guild",
+        "aa_mode": 0,
+        "hashkey": null,
         "treatments": [
             {
                 "id": 1,
@@ -4834,9 +4838,7 @@
                 "label": "Show Hub Events List"
             }
         ],
-        "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "populations": null
     },
     {
         "id": "2021-11_hub_unreads",
@@ -5161,8 +5163,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-01_guild_sidebar_boosting_stats",
@@ -6503,8 +6507,10 @@
         "kind": "guild",
         "treatments": [],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-07_home_demote_channels",
@@ -6624,8 +6630,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-08_activities_prerelease_overrides",
@@ -6956,8 +6964,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-09_creator_monetization_raven_users",
@@ -7386,8 +7396,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-11_default_disable_mass_mention",
@@ -7402,8 +7414,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-11_default_to_server_vanity_v2",
@@ -7710,8 +7724,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2022-12_message_request_home_count",
@@ -7990,6 +8006,8 @@
         "label": "Shared Canvas",
         "hash": 280866660,
         "kind": "guild",
+        "aa_mode": 0,
+        "hashkey": null,
         "treatments": [
             {
                 "id": 1,
@@ -7997,9 +8015,7 @@
                 "label": "Enable Shared Canvas"
             }
         ],
-        "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "populations": null
     },
     {
         "id": "2023-01_silent_messages",
@@ -8134,8 +8150,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-02_guild_boosting_marketing_redesign",
@@ -8225,166 +8243,7 @@
         "id": "2023-02_onboarding_advanced_mode",
         "label": "Enables setting up onboarding with advanced mode",
         "hash": 2544556038,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "On",
-                "config": {
-                    "advancedModeAllowed": false
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY_CANARY"
-                            ]
-                        }
-                    },
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 2544556038,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY_CANARY"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                2544556038
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY_CANARY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY_CANARY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 2544556038,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                2544556038
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2023-02_onboarding_home",
@@ -8402,72 +8261,7 @@
         "id": "2023-02_onboardingdropdowns",
         "label": "Enables dropdown selections from onboarding prompts",
         "hash": 3884904940,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "On",
-                "config": {
-                    "dropdownsAllowed": false
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 3884904940,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                3884904940
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2023-02_p13n_summarization",
@@ -8645,76 +8439,7 @@
         "id": "2023-03_clyde_ai",
         "label": "ClydeAI",
         "hash": 4083096281,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enabled (Default Off)",
-                "config": {
-                    "experimentState": 2
-                }
-            },
-            {
-                "id": 3,
-                "label": "Enabled (Default On)",
-                "config": {
-                    "experimentState": 1
-                }
-            },
-            {
-                "id": 4,
-                "label": "Coming Soon",
-                "config": {
-                    "experimentState": 3
-                }
-            },
-            {
-                "id": 5,
-                "label": "Clyde Profiles",
-                "config": {
-                    "experimentState": 4
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "INTERNAL_EMPLOYEE_ONLY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "INTERNAL_EMPLOYEE_ONLY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 5,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2023-03_cr_accept_new_terms",
@@ -8771,8 +8496,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_guild_safety_settings",
@@ -8996,8 +8723,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-03_sharing_and_messaging_holdout_phase_1",
@@ -9419,8 +9148,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-04_server_subscriptions_tier_templates_user",
@@ -10407,8 +10138,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-08_decay_old_unreads",
@@ -10513,8 +10246,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-08_invoice_pdf_allowlist",
@@ -10963,6 +10698,8 @@
         "label": "Gaming stats prompt",
         "hash": 2478854553,
         "kind": "guild",
+        "aa_mode": 0,
+        "hashkey": null,
         "treatments": [
             {
                 "id": 1,
@@ -10975,9 +10712,7 @@
                 "label": "ability to trigger gaming stats prompt (leaderboard)"
             }
         ],
-        "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "populations": null
     },
     {
         "id": "2023-09_gaming_stats_setup",
@@ -10992,8 +10727,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-09_guild_events_auto_start",
@@ -12177,8 +11914,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2023-11_voice_activity_notification_user",
@@ -12671,92 +12410,7 @@
         "id": "2024-01_nvencadaptivekeyframe",
         "label": "nvenc adaptive key frame interval",
         "hash": 3032307853,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "enable adaptive key frame for nvenc",
-                "config": {
-                    "enableAdaptiveKeyFrame": false
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 2294888943,
-                        "data": {
-                            "hashKey": 3032307853,
-                            "percentage": 10000
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        2294888943,
-                        [
-                            [
-                                2690752156,
-                                3032307853
-                            ],
-                            [
-                                1982804121,
-                                10000
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2024-01_omnibutton_file_upload_subtext",
@@ -13339,8 +12993,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-03_airpods_mute_support",
@@ -13585,6 +13241,8 @@
         "label": "override krisp setting",
         "hash": 2156584863,
         "kind": "guild",
+        "aa_mode": 0,
+        "hashkey": null,
         "treatments": [
             {
                 "id": 1,
@@ -13597,9 +13255,7 @@
                 "label": "Force disable krisp"
             }
         ],
-        "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "populations": null
     },
     {
         "id": "2024-03_media_play_metrics",
@@ -17898,34 +17554,7 @@
         "id": "2024-08_reaction_push_notifications_guild",
         "label": "In App Notifications for Reactions (Guild)",
         "hash": 3810214821,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "Enable In App Notifications for Reactions",
-                "config": {
-                    "enableInAppNotifications": false
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2024-08_reaction_push_notifications_user",
@@ -17998,37 +17627,9 @@
     },
     {
         "id": "2024-08_secure_frames_encryption_guilds_v2",
-        "label": "Allowing testing DAVE protocol for voice/video (Guilds)",
+        "label": "Allowing testing secure frames for voice/video (Guilds)",
         "hash": 2125168757,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 11,
-                "label": "Can support DAVE protocol version 1 and above",
-                "config": {
-                    "protocolVersionFloor": 1,
-                    "canSupportDaveProtocol": false
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "guild"
     },
     {
         "id": "2024-08_self_recent_activity",
@@ -18512,8 +18113,10 @@
             }
         ],
         "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "overrides": [],
+        "aamode": false,
+        "hashkey": null,
+        "aa_mode": 0
     },
     {
         "id": "2024-09_mobile_bundle",

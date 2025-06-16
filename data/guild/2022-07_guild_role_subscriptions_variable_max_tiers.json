@@ -5,6 +5,8 @@
     "kind": "guild",
     "treatments": [],
     "populations": null,
-    "aa_mode": 0,
-    "hashkey": null
+    "overrides": [],
+    "aamode": false,
+    "hashkey": null,
+    "aa_mode": 0
 }

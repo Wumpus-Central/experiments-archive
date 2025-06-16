@@ -3,6 +3,8 @@
     "label": "Shared Canvas",
     "hash": 280866660,
     "kind": "guild",
+    "aa_mode": 0,
+    "hashkey": null,
     "treatments": [
         {
             "id": 1,
@@ -10,7 +12,5 @@
             "label": "Enable Shared Canvas"
         }
     ],
-    "populations": null,
-    "aa_mode": 0,
-    "hashkey": null
+    "populations": null
 }

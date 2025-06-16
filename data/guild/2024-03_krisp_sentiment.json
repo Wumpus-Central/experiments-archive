@@ -3,6 +3,8 @@
     "label": "override krisp setting",
     "hash": 2156584863,
     "kind": "guild",
+    "aa_mode": 0,
+    "hashkey": null,
     "treatments": [
         {
             "id": 1,
@@ -15,7 +17,5 @@
             "label": "Force disable krisp"
         }
     ],
-    "populations": null,
-    "aa_mode": 0,
-    "hashkey": null
+    "populations": null
 }
