@@ -8649,28 +8649,72 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled (Default Off)"
+                "label": "Enabled (Default Off)",
+                "config": {
+                    "experimentState": 2
+                }
             },
             {
                 "id": 3,
-                "aa_mode": 0,
-                "label": "Enabled (Default On)"
+                "label": "Enabled (Default On)",
+                "config": {
+                    "experimentState": 1
+                }
             },
             {
                 "id": 4,
-                "aa_mode": 0,
-                "label": "Coming Soon"
+                "label": "Coming Soon",
+                "config": {
+                    "experimentState": 3
+                }
             },
             {
                 "id": 5,
-                "aa_mode": 0,
-                "label": "Clyde Profiles"
+                "label": "Clyde Profiles",
+                "config": {
+                    "experimentState": 4
+                }
             }
         ],
-        "populations": null,
-        "aa_mode": 0,
-        "hashkey": null
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "INTERNAL_EMPLOYEE_ONLY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "INTERNAL_EMPLOYEE_ONLY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 5,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-03_cr_accept_new_terms",
