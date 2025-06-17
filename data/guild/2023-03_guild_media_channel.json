@@ -6,13 +6,191 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "Enables guild to create a media channel"
+            "label": "Enables guild to create a media channel",
+            "config": {
+                "enabled": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "BOT_DEVELOPER_EARLY_ACCESS"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "BOT_DEVELOPER_EARLY_ACCESS"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "CREATOR_MONETIZABLE_DISABLED"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "CREATOR_MONETIZABLE_DISABLED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "ROLE_SUBSCRIPTIONS_ENABLED"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 2500
+                        },
+                        {
+                            "start": 2500,
+                            "end": 3000
+                        },
+                        {
+                            "start": 3000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "CREATOR_MONETIZABLE_PROVISIONAL"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "CREATOR_MONETIZABLE_PROVISIONAL"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": null
 }

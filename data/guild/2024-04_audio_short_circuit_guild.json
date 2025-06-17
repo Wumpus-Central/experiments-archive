@@ -2,45 +2,5 @@
     "id": "2024-04_audio_short_circuit_guild",
     "label": "Audio processing short circuiting (guild)",
     "hash": 2830925563,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Mute before processing"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "PTT before processing"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Mute + PTT before processing"
-        },
-        {
-            "id": 4,
-            "aa_mode": 0,
-            "label": "Skip encode"
-        },
-        {
-            "id": 5,
-            "aa_mode": 0,
-            "label": "Mute before processing, skip encode"
-        },
-        {
-            "id": 6,
-            "aa_mode": 0,
-            "label": "PTT before processing, skip encode"
-        },
-        {
-            "id": 7,
-            "aa_mode": 0,
-            "label": "Mute + PTT before processing, skip encode"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }

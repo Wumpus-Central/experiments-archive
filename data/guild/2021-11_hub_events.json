@@ -2,15 +2,5 @@
     "id": "2021-11_hub_events",
     "label": "Hub Events",
     "hash": 1107510295,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Show Hub Events List"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }

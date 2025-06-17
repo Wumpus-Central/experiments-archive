@@ -6,13 +6,63 @@
     "treatments": [
         {
             "id": 2,
-            "aa_mode": 0,
-            "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
+            "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
+            "config": {
+                "voiceChannelActivityNotifsEnabled": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 2,
+                        "max": 50
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    2918402255,
+                    [
+                        [
+                            3399957344,
+                            2
+                        ],
+                        [
+                            1238858341,
+                            50
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 80,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 8000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 2,
+                    "percentage": 20,
+                    "ranges": [
+                        {
+                            "start": 8000,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": "2023-12_voice_lockscreen_widget"
 }

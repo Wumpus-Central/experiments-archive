@@ -3783,15 +3783,97 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables guild to create Guild Role Subscriptions"
+                "label": "Enables guild to create Guild Role Subscriptions",
+                "config": {
+                    "enableRoleSubscriptionsForGuild": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 1405831955,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                1405831955
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 28,
+                        "ranges": [
+                            {
+                                "start": 7200,
+                                "end": 10000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 72,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 4750
+                            },
+                            {
+                                "start": 4750,
+                                "end": 5200
+                            },
+                            {
+                                "start": 5200,
+                                "end": 5700
+                            },
+                            {
+                                "start": 5700,
+                                "end": 6200
+                            },
+                            {
+                                "start": 6200,
+                                "end": 7200
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2021-06_guild_role_subscriptions"
     },
     {
         "id": "2021-06_guild_subscriptions_payment_flow_test_page",
@@ -4633,17 +4715,7 @@
         "id": "2021-10_study_group",
         "label": "Student hub study group",
         "hash": 4030301365,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enables study group sidebar"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2021-11_activities_baseline_engagement_bundle",
@@ -4787,17 +4859,7 @@
         "id": "2021-11_hub_events",
         "label": "Hub Events",
         "hash": 1107510295,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Show Hub Events List"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2021-11_hub_unreads",
@@ -5117,15 +5179,71 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables guild to create Guild Role Subscription Trials"
+                "label": "Enables guild to create Guild Role Subscription Trials",
+                "config": {
+                    "enableRoleSubscriptionTrialsForGuild": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 770139301,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                770139301
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2022-01_guild_role_subscription_trials"
     },
     {
         "id": "2022-01_guild_sidebar_boosting_stats",
@@ -6465,11 +6583,27 @@
         "hash": 179711638,
         "kind": "guild",
         "treatments": [],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2022-07_home_demote_channels",
@@ -6584,15 +6718,54 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "On"
+                "label": "On",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "VOICE_IN_THREADS"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "VOICE_IN_THREADS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2022-08_activities_prerelease_overrides",
@@ -6918,15 +7091,49 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables guild to create Guild Role Subscriptions quickly"
+                "label": "Enables guild to create Guild Role Subscriptions quickly",
+                "config": {
+                    "enableFastMonetizationOnboardingForGuild": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2022-09_creator_monetization_raven_users",
@@ -7350,15 +7557,71 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables Guilds to (possibly) see the waitlist"
+                "label": "Enables Guilds to (possibly) see the waitlist",
+                "config": {
+                    "enableWaitlist": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2294888943,
+                        "data": {
+                            "hashKey": 987884927,
+                            "percentage": 10000
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2294888943,
+                        [
+                            [
+                                2690752156,
+                                987884927
+                            ],
+                            [
+                                1982804121,
+                                10000
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2022-11_creator_monetization_onboarding_waitlist"
     },
     {
         "id": "2022-11_default_disable_mass_mention",
@@ -7368,15 +7631,90 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
+                "label": "Enabled",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY"
+                            ]
+                        }
+                    },
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 5000,
+                            "max": null
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                5000
+                            ],
+                            [
+                                1238858341,
+                                null
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2022-11_default_to_server_vanity_v2",
@@ -7678,15 +8016,91 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Automod Mention Raid Limit"
+                "label": "Automod Mention Raid Limit",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "PARTNERED"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "PARTNERED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2022-12_message_request_home_count",
@@ -7704,17 +8118,7 @@
         "id": "2022-12_mobile_guild_role_subscription_team_setup",
         "label": "Mobile Guild Role Subscription Team Setup",
         "hash": 3313601281,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enables guild to allow payout team setup on mobile"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2022-12_nitroduction_onboarding_tutorial",
@@ -7900,17 +8304,7 @@
         "id": "2023-01_forums_non_community",
         "label": "Forum non-community",
         "hash": 1446479414,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "On"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2023-01_global_display_names",
@@ -7964,17 +8358,7 @@
         "id": "2023-01_shared_canvas",
         "label": "Shared Canvas",
         "hash": 280866660,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Shared Canvas"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2023-01_silent_messages",
@@ -8104,15 +8488,107 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Allow creation of guest voice invites"
+                "label": "Allow creation of guest voice invites",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "GUILD_ONBOARDING_HAS_PROMPTS"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_ONBOARDING_HAS_PROMPTS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 188952590,
+                        "data": {
+                            "hasVanity": false
+                        }
+                    },
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 1,
+                            "max": 200
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        188952590,
+                        [
+                            [
+                                188952590,
+                                false
+                            ]
+                        ]
+                    ],
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2023-02_guild_boosting_marketing_redesign",
@@ -8450,15 +8926,193 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables guild to create a media channel"
+                "label": "Enables guild to create a media channel",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "BOT_DEVELOPER_EARLY_ACCESS"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "BOT_DEVELOPER_EARLY_ACCESS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "CREATOR_MONETIZABLE_DISABLED"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "CREATOR_MONETIZABLE_DISABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "ROLE_SUBSCRIPTIONS_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2500,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "CREATOR_MONETIZABLE_PROVISIONAL"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "CREATOR_MONETIZABLE_PROVISIONAL"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2023-03_guild_safety_settings",
@@ -8667,25 +9321,124 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "299 basic tier + no link"
+                "label": "299 basic tier + no link",
+                "config": {
+                    "enabled": true,
+                    "showCreatorPortalLink": false
+                }
             },
             {
                 "id": 2,
-                "aa_mode": 0,
-                "label": "399 basic tier + no link"
+                "label": "399 basic tier + no link",
+                "config": {
+                    "enabled": true,
+                    "showCreatorPortalLink": false
+                }
             },
             {
                 "id": 3,
-                "aa_mode": 0,
-                "label": "399 basic tier + link"
+                "label": "399 basic tier + link",
+                "config": {
+                    "enabled": true,
+                    "showCreatorPortalLink": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 3,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "ROLE_SUBSCRIPTIONS_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 3,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2023-03_sharing_and_messaging_holdout_phase_1",
@@ -8854,17 +9607,7 @@
         "id": "2023-04_community_endless_invites",
         "label": "Community Endless Invites",
         "hash": 3964855818,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Causes invites to never expire (by default) in the Guild"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2023-04_console_lan_detection",
@@ -9102,15 +9845,180 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enables Server Products (AKA one time purchases for creator guilds)"
+                "label": "Enables Server Products (AKA one time purchases for creator guilds)",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "GUILD_PRODUCTS"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "GUILD_PRODUCTS"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 1000,
+                            "max": 100000
+                        }
+                    },
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1000
+                            ],
+                            [
+                                1238858341,
+                                100000
+                            ]
+                        ]
+                    ],
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "COMMUNITY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "COMMUNITY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2023-04_server_subscriptions_tier_templates_user",
@@ -10087,20 +10995,117 @@
         "treatments": [
             {
                 "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
+                "label": "Control",
+                "config": {
+                    "triggerDeadchat": true,
+                    "enableDeadchat": false
+                }
             },
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "trigger deadchat upon connection open"
+                "label": "trigger deadchat upon connection open",
+                "config": {
+                    "triggerDeadchat": true,
+                    "enableDeadchat": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 3,
+                            "max": 200
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                3
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "INTERNAL_EMPLOYEE_ONLY"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "INTERNAL_EMPLOYEE_ONLY"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2023-08_deadchat_simple_prompt_guild"
     },
     {
         "id": "2023-08_decay_old_unreads",
@@ -10200,15 +11205,33 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Guild Settings Improved Bans Page"
+                "label": "Guild Settings Improved Bans Page",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [],
+                "rawFilters": [],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2023-08_invoice_pdf_allowlist",
@@ -10656,22 +11679,7 @@
         "id": "2023-09_gaming_stats_prompt_guild",
         "label": "Gaming stats prompt",
         "hash": 2478854553,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "ability to trigger gaming stats prompt"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "ability to trigger gaming stats prompt (leaderboard)"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2023-09_gaming_stats_setup",
@@ -10681,15 +11689,65 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "trigger gaming stats data"
+                "label": "trigger gaming stats data",
+                "config": {
+                    "trackGamingStats": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 1,
+                            "max": 200
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                1
+                            ],
+                            [
+                                1238858341,
+                                200
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 98,
+                        "ranges": [
+                            {
+                                "start": 200,
+                                "end": 10000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 1,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2023-09_gaming_stats_prompt_guild"
     },
     {
         "id": "2023-09_guild_events_auto_start",
@@ -11868,15 +12926,65 @@
         "treatments": [
             {
                 "id": 2,
-                "aa_mode": 0,
-                "label": "Deadchat notifs disabled, voice channel activity notifs enabled"
+                "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
+                "config": {
+                    "voiceChannelActivityNotifsEnabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 2,
+                            "max": 50
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                2
+                            ],
+                            [
+                                1238858341,
+                                50
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 80,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 8000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 20,
+                        "ranges": [
+                            {
+                                "start": 8000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": "2023-12_voice_lockscreen_widget"
     },
     {
         "id": "2023-11_voice_activity_notification_user",
@@ -12947,15 +14055,55 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "enable the advanced slowmode input"
+                "label": "enable the advanced slowmode input",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 2918402255,
+                        "data": {
+                            "min": 0,
+                            "max": null
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        2918402255,
+                        [
+                            [
+                                3399957344,
+                                0
+                            ],
+                            [
+                                1238858341,
+                                null
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2024-03_airpods_mute_support",
@@ -13199,22 +14347,7 @@
         "id": "2024-03_krisp_sentiment",
         "label": "override krisp setting",
         "hash": 2156584863,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Force enable krisp"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Force disable krisp"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2024-03_media_play_metrics",
@@ -13578,47 +14711,7 @@
         "id": "2024-04_audio_short_circuit_guild",
         "label": "Audio processing short circuiting (guild)",
         "hash": 2830925563,
-        "kind": "guild",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Mute before processing"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "PTT before processing"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "Mute + PTT before processing"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "Skip encode"
-            },
-            {
-                "id": 5,
-                "aa_mode": 0,
-                "label": "Mute before processing, skip encode"
-            },
-            {
-                "id": 6,
-                "aa_mode": 0,
-                "label": "PTT before processing, skip encode"
-            },
-            {
-                "id": 7,
-                "aa_mode": 0,
-                "label": "Mute + PTT before processing, skip encode"
-            }
-        ],
-        "populations": null
+        "kind": "guild"
     },
     {
         "id": "2024-04_call_experience",
@@ -18067,15 +19160,54 @@
         "treatments": [
             {
                 "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Leaderboard"
+                "label": "Enable Leaderboard",
+                "config": {
+                    "enabled": true
+                }
             }
         ],
-        "populations": null,
+        "populations": [
+            {
+                "filters": [
+                    {
+                        "type": 1604612045,
+                        "data": {
+                            "features": [
+                                "LEADERBOARD_ENABLED"
+                            ]
+                        }
+                    }
+                ],
+                "rawFilters": [
+                    [
+                        1604612045,
+                        [
+                            [
+                                1183251248,
+                                [
+                                    "LEADERBOARD_ENABLED"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "rollout": [
+                    {
+                        "treatment": -1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "overrides": [],
         "aamode": false,
-        "hashkey": null,
-        "aa_mode": 0
+        "hashkey": null
     },
     {
         "id": "2024-09_mobile_bundle",

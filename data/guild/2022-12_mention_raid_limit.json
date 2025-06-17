@@ -6,13 +6,89 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "Automod Mention Raid Limit"
+            "label": "Automod Mention Raid Limit",
+            "config": {
+                "enabled": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "PARTNERED"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "PARTNERED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "COMMUNITY"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": null
 }

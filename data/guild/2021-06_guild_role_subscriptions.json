@@ -6,13 +6,95 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "Enables guild to create Guild Role Subscriptions"
+            "label": "Enables guild to create Guild Role Subscriptions",
+            "config": {
+                "enableRoleSubscriptionsForGuild": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2294888943,
+                    "data": {
+                        "hashKey": 1405831955,
+                        "percentage": 10000
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    2294888943,
+                    [
+                        [
+                            2690752156,
+                            1405831955
+                        ],
+                        [
+                            1982804121,
+                            10000
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 28,
+                    "ranges": [
+                        {
+                            "start": 7200,
+                            "end": 10000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 72,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 4750
+                        },
+                        {
+                            "start": 4750,
+                            "end": 5200
+                        },
+                        {
+                            "start": 5200,
+                            "end": 5700
+                        },
+                        {
+                            "start": 5700,
+                            "end": 6200
+                        },
+                        {
+                            "start": 6200,
+                            "end": 7200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": "2021-06_guild_role_subscriptions"
 }

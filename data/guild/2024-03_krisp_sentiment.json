@@ -2,20 +2,5 @@
     "id": "2024-03_krisp_sentiment",
     "label": "override krisp setting",
     "hash": 2156584863,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Force enable krisp"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Force disable krisp"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }

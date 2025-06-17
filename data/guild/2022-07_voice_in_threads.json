@@ -6,13 +6,52 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "On"
+            "label": "On",
+            "config": {
+                "enabled": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "VOICE_IN_THREADS"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "VOICE_IN_THREADS"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": null
 }

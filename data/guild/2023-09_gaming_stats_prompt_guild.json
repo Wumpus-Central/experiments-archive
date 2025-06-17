@@ -2,20 +2,5 @@
     "id": "2023-09_gaming_stats_prompt_guild",
     "label": "Gaming stats prompt",
     "hash": 2478854553,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "ability to trigger gaming stats prompt"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "ability to trigger gaming stats prompt (leaderboard)"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }

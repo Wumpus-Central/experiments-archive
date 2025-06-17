@@ -6,23 +6,122 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "299 basic tier + no link"
+            "label": "299 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
         },
         {
             "id": 2,
-            "aa_mode": 0,
-            "label": "399 basic tier + no link"
+            "label": "399 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
         },
         {
             "id": 3,
-            "aa_mode": 0,
-            "label": "399 basic tier + link"
+            "label": "399 basic tier + link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "ROLE_SUBSCRIPTIONS_ENABLED"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "ROLE_SUBSCRIPTIONS_ENABLED"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": null
 }

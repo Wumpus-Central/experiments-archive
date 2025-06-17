@@ -6,18 +6,115 @@
     "treatments": [
         {
             "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
+            "label": "Control",
+            "config": {
+                "triggerDeadchat": true,
+                "enableDeadchat": false
+            }
         },
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "trigger deadchat upon connection open"
+            "label": "trigger deadchat upon connection open",
+            "config": {
+                "triggerDeadchat": true,
+                "enableDeadchat": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 3,
+                        "max": 200
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    2918402255,
+                    [
+                        [
+                            3399957344,
+                            3
+                        ],
+                        [
+                            1238858341,
+                            200
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "INTERNAL_EMPLOYEE_ONLY"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": "2023-08_deadchat_simple_prompt_guild"
 }

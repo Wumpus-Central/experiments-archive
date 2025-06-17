@@ -2,15 +2,5 @@
     "id": "2021-10_study_group",
     "label": "Student hub study group",
     "hash": 4030301365,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enables study group sidebar"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }

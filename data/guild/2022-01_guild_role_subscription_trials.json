@@ -6,13 +6,69 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "Enables guild to create Guild Role Subscription Trials"
+            "label": "Enables guild to create Guild Role Subscription Trials",
+            "config": {
+                "enableRoleSubscriptionTrialsForGuild": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 2294888943,
+                    "data": {
+                        "hashKey": 770139301,
+                        "percentage": 10000
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    2294888943,
+                    [
+                        [
+                            2690752156,
+                            770139301
+                        ],
+                        [
+                            1982804121,
+                            10000
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": "2022-01_guild_role_subscription_trials"
 }

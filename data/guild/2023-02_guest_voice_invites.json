@@ -6,13 +6,105 @@
     "treatments": [
         {
             "id": 1,
-            "aa_mode": 0,
-            "label": "Allow creation of guest voice invites"
+            "label": "Allow creation of guest voice invites",
+            "config": {
+                "enabled": true
+            }
         }
     ],
-    "populations": null,
+    "populations": [
+        {
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "GUILD_ONBOARDING_HAS_PROMPTS"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "GUILD_ONBOARDING_HAS_PROMPTS"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [
+                {
+                    "type": 188952590,
+                    "data": {
+                        "hasVanity": false
+                    }
+                },
+                {
+                    "type": 2918402255,
+                    "data": {
+                        "min": 1,
+                        "max": 200
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    188952590,
+                    [
+                        [
+                            188952590,
+                            false
+                        ]
+                    ]
+                ],
+                [
+                    2918402255,
+                    [
+                        [
+                            3399957344,
+                            1
+                        ],
+                        [
+                            1238858341,
+                            200
+                        ]
+                    ]
+                ]
+            ],
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "overrides": [],
     "aamode": false,
-    "hashkey": null,
-    "aa_mode": 0
+    "hashkey": null
 }

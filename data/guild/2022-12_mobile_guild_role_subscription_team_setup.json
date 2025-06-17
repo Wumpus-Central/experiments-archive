@@ -2,15 +2,5 @@
     "id": "2022-12_mobile_guild_role_subscription_team_setup",
     "label": "Mobile Guild Role Subscription Team Setup",
     "hash": 3313601281,
-    "kind": "guild",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enables guild to allow payout team setup on mobile"
-        }
-    ],
-    "populations": null
+    "kind": "guild"
 }
