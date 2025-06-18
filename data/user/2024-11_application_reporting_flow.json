@@ -2,51 +2,5 @@
     "id": "2024-11_application_reporting_flow",
     "label": "Apps In-App Reporting",
     "hash": 1859137100,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable application IAR reporting flow (US)"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enable application IAR reporting flow (EU)"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                },
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
