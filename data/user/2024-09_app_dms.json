@@ -2,46 +2,5 @@
     "id": "2024-09_app_dms",
     "label": "App DMs Experiment",
     "hash": 898010800,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable special UI for DMs with Apps"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "(Treatment deprecated): Enable special UI for DMs with Apps including quick launch"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Enable App DMs UI including quick launch and activity popout window in app DM"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }
