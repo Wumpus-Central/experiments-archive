@@ -13661,17 +13661,7 @@
         "id": "2024-01_uu_forced_migration",
         "label": "Unique Username Forced Migration UI",
         "hash": 3867848536,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable Forced Migration UI"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-01_voice_call_backgrounds_mobile",
@@ -18482,17 +18472,7 @@
         "id": "2024-08_halloween_nitro_gifting_campaign",
         "label": "Halloween nitro gifting campaign",
         "hash": 3596515720,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Halloween nitro gifting campaign"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-08_happening_now_cards_disabled",
@@ -19050,17 +19030,7 @@
         "id": "2024-09_collectibles_shop_preload",
         "label": "Collectibles Shop Preload",
         "hash": 81858881,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Preloads collectible shop payload"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-09_concurrent_quests_engine_v2",
