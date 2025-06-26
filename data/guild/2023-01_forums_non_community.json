@@ -2,5 +2,35 @@
     "id": "2023-01_forums_non_community",
     "label": "Forum non-community",
     "hash": 1446479414,
-    "kind": "guild"
+    "kind": "guild",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "populations": [
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "overrides": [],
+    "aamode": false,
+    "hashkey": null
 }
