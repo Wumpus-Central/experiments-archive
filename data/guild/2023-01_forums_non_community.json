@@ -14,8 +14,29 @@
     ],
     "populations": [
         {
-            "filters": [],
-            "rawFilters": [],
+            "filters": [
+                {
+                    "type": 1604612045,
+                    "data": {
+                        "features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                }
+            ],
+            "rawFilters": [
+                [
+                    1604612045,
+                    [
+                        [
+                            1183251248,
+                            [
+                                "COMMUNITY"
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             "rollout": [
                 {
                     "treatment": -1,
@@ -24,6 +45,40 @@
                         {
                             "start": 0,
                             "end": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filters": [],
+            "rawFilters": [],
+            "rollout": [
+                {
+                    "treatment": -1,
+                    "percentage": 90,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 2500
+                        },
+                        {
+                            "start": 3000,
+                            "end": 5000
+                        },
+                        {
+                            "start": 5000,
+                            "end": 10000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 2500,
+                            "end": 3000
                         }
                     ]
                 }
