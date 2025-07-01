@@ -12700,43 +12700,7 @@
         "id": "2023-11_attachment_link_markup",
         "label": "Attachment Link Config User Experiment",
         "hash": 1894288113,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Shows links to attachments as regular links"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Shows links to attachments as \"mentions\" of the filename"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2023-11_cannibalization_model_data_collection",
