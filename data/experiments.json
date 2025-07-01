@@ -10536,15 +10536,36 @@
         "hash": 680908968,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "unknown",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable BOGO Promotion Manager"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 0.5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 50
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-06_burst_reaction_entry_point_ordering",
