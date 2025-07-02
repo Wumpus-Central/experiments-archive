@@ -15766,15 +15766,50 @@
         "hash": 3312664982,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "unknown",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable BOGO Promotion marketing materials"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 0.2,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10
+                            },
+                            {
+                                "start": 100,
+                                "end": 110
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 2,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_bot_add_guild_member_system_message",
