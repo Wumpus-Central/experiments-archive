@@ -10555,11 +10555,11 @@
                 "rollout": [
                     {
                         "treatment": 1,
-                        "percentage": 1,
+                        "percentage": 2,
                         "ranges": [
                             {
                                 "start": 0,
-                                "end": 100
+                                "end": 200
                             }
                         ]
                     }
