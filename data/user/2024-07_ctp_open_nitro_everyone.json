@@ -4,7 +4,7 @@
     "hash": 2186054133,
     "kind": "user",
     "aa_mode": 1,
-    "hashkey": "unknown",
+    "hashkey": null,
     "treatments": [
         {
             "id": 0,
