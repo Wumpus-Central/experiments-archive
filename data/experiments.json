@@ -15746,106 +15746,15 @@
         "hash": 3312664982,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": "unknown",
+        "hashkey": null,
         "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable BOGO Promotion marketing materials"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 6.7,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10
-                            },
-                            {
-                                "start": 100,
-                                "end": 110
-                            },
-                            {
-                                "start": 200,
-                                "end": 220
-                            },
-                            {
-                                "start": 500,
-                                "end": 530
-                            },
-                            {
-                                "start": 1000,
-                                "end": 1100
-                            },
-                            {
-                                "start": 2500,
-                                "end": 2600
-                            },
-                            {
-                                "start": 4000,
-                                "end": 4100
-                            },
-                            {
-                                "start": 5500,
-                                "end": 5600
-                            },
-                            {
-                                "start": 7000,
-                                "end": 7100
-                            },
-                            {
-                                "start": 8500,
-                                "end": 8600
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 1000
-                            },
-                            {
-                                "start": 1000,
-                                "end": 2500
-                            },
-                            {
-                                "start": 2500,
-                                "end": 4000
-                            },
-                            {
-                                "start": 4000,
-                                "end": 5500
-                            },
-                            {
-                                "start": 5500,
-                                "end": 7000
-                            },
-                            {
-                                "start": 7000,
-                                "end": 8500
-                            },
-                            {
-                                "start": 8500,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_bot_add_guild_member_system_message",
