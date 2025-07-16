@@ -7,53 +7,10 @@
     "hashkey": null,
     "treatments": [
         {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
             "id": 1,
             "aa_mode": 0,
             "label": "On"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 100
-                        },
-                        {
-                            "start": 200,
-                            "end": 500
-                        },
-                        {
-                            "start": 500,
-                            "end": 600
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 100,
-                            "end": 200
-                        },
-                        {
-                            "start": 600,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }
