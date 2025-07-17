@@ -12207,17 +12207,7 @@
         "id": "2023-09_trigger_debugging_aa",
         "label": "trigger debugging aa mobile",
         "hash": 1454135605,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "On"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-09_unified_chat_input_expression_icon",
