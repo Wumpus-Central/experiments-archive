@@ -19508,32 +19508,7 @@
         "id": "2024-10_merge_notifications_tab",
         "label": "Merge notifications tab",
         "hash": 2998143296,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Merge notifications tab - no badging changes"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Merge notifications tab - move recent mentions badges to ICYMI"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "Merge notifications tab - duplciate recent mentions tab badges to ICYMI"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "Merge notifications tab - blue badge ICYMI tab when there are new recent mentinos"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-10_message_attachment_send_failure",
