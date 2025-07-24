@@ -66,11 +66,11 @@
                 },
                 {
                     "treatment": 1,
-                    "percentage": 25,
+                    "percentage": 50,
                     "ranges": [
                         {
                             "start": 2500,
-                            "end": 5000
+                            "end": 7500
                         }
                     ]
                 }
