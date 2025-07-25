@@ -2,15 +2,5 @@
     "id": "2023-05_localized_pricing_turkey_notice",
     "label": "Localized Pricing Turkey Notice",
     "hash": 2556223249,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enable Turkey Notice"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
