@@ -8351,22 +8351,12 @@
                 "rawFilters": [],
                 "rollout": [
                     {
-                        "treatment": -1,
-                        "percentage": 25,
-                        "ranges": [
-                            {
-                                "start": 7500,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    {
                         "treatment": 1,
-                        "percentage": 50,
+                        "percentage": 75,
                         "ranges": [
                             {
                                 "start": 2500,
-                                "end": 7500
+                                "end": 10000
                             }
                         ]
                     }
