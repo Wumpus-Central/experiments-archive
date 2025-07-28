@@ -8243,22 +8243,7 @@
         "id": "2023-01_consumer_education_launch",
         "label": "Safety Consumer Education Launch - Block/Mute",
         "hash": 1318110575,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Mute"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Block"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-01_creator_monetization_nag_activate_users",
