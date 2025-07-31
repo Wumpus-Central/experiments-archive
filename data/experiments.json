@@ -8298,74 +8298,7 @@
         "id": "2023-01_forums_non_community",
         "label": "Forum non-community",
         "hash": 1446479414,
-        "kind": "guild",
-        "treatments": [
-            {
-                "id": 1,
-                "label": "On",
-                "config": {
-                    "enabled": true
-                }
-            }
-        ],
-        "populations": [
-            {
-                "filters": [
-                    {
-                        "type": 1604612045,
-                        "data": {
-                            "features": [
-                                "COMMUNITY"
-                            ]
-                        }
-                    }
-                ],
-                "rawFilters": [
-                    [
-                        1604612045,
-                        [
-                            [
-                                1183251248,
-                                [
-                                    "COMMUNITY"
-                                ]
-                            ]
-                        ]
-                    ]
-                ],
-                "rollout": [
-                    {
-                        "treatment": -1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "filters": [],
-                "rawFilters": [],
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "overrides": [],
-        "aamode": false,
-        "hashkey": null
+        "kind": "guild"
     },
     {
         "id": "2023-01_global_display_names",
