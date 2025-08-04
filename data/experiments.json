@@ -17905,38 +17905,7 @@
         "id": "2024-08_collectibles_expiry_modal",
         "label": "Collectibles Expiry Experiment",
         "hash": 1636636786,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enable collectibles expiry modal"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_content_inventory_analytics_sampling",
