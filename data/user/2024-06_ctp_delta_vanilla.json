@@ -3,45 +3,14 @@
     "label": "CTP Delta Vanilla - A/A test",
     "hash": 4257547968,
     "kind": "user",
-    "aa_mode": 1,
+    "aa_mode": 0,
     "hashkey": null,
     "treatments": [
         {
-            "id": 0,
-            "aa_mode": 1,
-            "label": "Control"
-        },
-        {
             "id": 1,
-            "aa_mode": 1,
+            "aa_mode": 0,
             "label": "Treatment"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 500
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 500,
-                            "end": 1000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }

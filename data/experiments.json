@@ -15588,47 +15588,16 @@
         "label": "CTP app open - A/A test - Everyone",
         "hash": 3950566842,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_app_open_filters",
@@ -15713,141 +15682,48 @@
         "label": "CTP app open - A/A test - Uneven buckets",
         "hash": 3785125664,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 4,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 400
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 1,
-                        "ranges": [
-                            {
-                                "start": 400,
-                                "end": 500
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_app_open_vanilla",
         "label": "CTP app open - A/A test - Vanilla",
         "hash": 3140086051,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_delta_vanilla",
         "label": "CTP Delta Vanilla - A/A test",
         "hash": 4257547968,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_open_user_settings_everyone",
@@ -15884,47 +15760,16 @@
         "label": "CTP voice call - A/A test - Everyone",
         "hash": 3056661591,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_voice_call_filters",
@@ -16009,94 +15854,32 @@
         "label": "CTP voice call - A/A test - Uneven buckets",
         "hash": 1085782314,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 4,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 400
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 1,
-                        "ranges": [
-                            {
-                                "start": 400,
-                                "end": 500
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_ctp_voice_call_vanilla",
         "label": "CTP voice call - A/A test - Vanilla",
         "hash": 1444157241,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-06_desktop_app_launcher_in_activities_shelf",
@@ -17094,47 +16877,16 @@
         "label": "CTP open user settings - A/A test - Everyone",
         "hash": 2882656906,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 50,
-                        "ranges": [
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-07_ctp_open_user_settings_filters",
@@ -17157,156 +16909,53 @@
         "label": "CTP open user settings - A/A test - Multiple buckets",
         "hash": 1154689066,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment 1"
             },
             {
                 "id": 2,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment 2"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 1000,
-                                "end": 1500
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-07_ctp_open_user_settings_uneven_buckets",
         "label": "CTP open user settings - A/A test - Uneven buckets",
         "hash": 3867222182,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 4,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 400
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 1,
-                        "ranges": [
-                            {
-                                "start": 400,
-                                "end": 500
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-07_ctp_open_user_settings_vanilla",
         "label": "CTP open user settings - A/A test - Vanilla",
         "hash": 844414773,
         "kind": "user",
-        "aa_mode": 1,
+        "aa_mode": 0,
         "hashkey": null,
         "treatments": [
             {
-                "id": 0,
-                "aa_mode": 1,
-                "label": "Control"
-            },
-            {
                 "id": 1,
-                "aa_mode": 1,
+                "aa_mode": 0,
                 "label": "Treatment"
             }
         ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 0,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 500
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 1,
-                        "percentage": 5,
-                        "ranges": [
-                            {
-                                "start": 500,
-                                "end": 1000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "populations": null
     },
     {
         "id": "2024-07_ctp_payment_flow_started_everyone",
