@@ -10,11 +10,6 @@
             "id": 1,
             "aa_mode": 0,
             "label": "Enable upsells for outbound promos w/ Nagbar variant 1 - gift inventory cta"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enable upsells for outbound promos w/ Nagbar variant 2 - get nitro cta"
         }
     ],
     "populations": null
