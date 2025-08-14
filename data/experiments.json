@@ -12667,17 +12667,7 @@
         "id": "2023-11_seasonal_gifting_marketing_2023",
         "label": "Seasonal Gifting Marketing 2023",
         "hash": 3863309922,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2023-11_secure_frames_encryption_guilds",
@@ -19344,17 +19334,7 @@
         "id": "2024-11_seasonal_gifting",
         "label": "Seasonal Gifting 2024",
         "hash": 797131451,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-11_seasonal_gifting_reminder",
