@@ -7,11 +7,6 @@
     "hashkey": null,
     "treatments": [
         {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
             "id": 1,
             "aa_mode": 0,
             "label": "Quest Bar V2 with V1 Progress"
@@ -22,21 +17,5 @@
             "label": "Quest Bar V2"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 2,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }

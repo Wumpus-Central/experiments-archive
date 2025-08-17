@@ -7,11 +7,6 @@
     "hashkey": null,
     "treatments": [
         {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
             "id": 1,
             "aa_mode": 0,
             "label": "Status Indicator Only"
@@ -47,21 +42,5 @@
             "label": "Facepile + Typing Indicator + Status Indicator"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 7,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }

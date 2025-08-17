@@ -7,11 +7,6 @@
     "hashkey": null,
     "treatments": [
         {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
             "id": 1,
             "aa_mode": 0,
             "label": "Tile size based wants enabled only for 1:1 videos (rollout)"
@@ -22,21 +17,5 @@
             "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)"
         }
     ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "populations": null
 }
