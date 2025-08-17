@@ -4,8 +4,13 @@
     "hash": 92152290,
     "kind": "user",
     "aa_mode": 0,
-    "hashkey": null,
+    "hashkey": "2024-06_frecency_list_split",
     "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
         {
             "id": 1,
             "aa_mode": 0,
@@ -27,5 +32,21 @@
             "label": "Volatile algorithm with hover bar"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 3,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

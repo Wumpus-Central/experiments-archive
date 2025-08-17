@@ -10611,12 +10611,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Livecheck enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-06_unique_username_registration",
@@ -10639,12 +10660,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-07_autocomplete_emojis_nitro_upsell",
@@ -11352,12 +11394,43 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 11,
                 "aa_mode": 0,
                 "label": "Can support DAVE protocol version 1 and above"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 11,
+                        "percentage": 95,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-08_self_mod_stranger_danger_teens",
@@ -12655,12 +12728,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Use the unfinished, not ready, and totally benign notification tweaks"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-11_trial_churn_guardrail",
@@ -12878,12 +12972,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Ask server for marketing content for rendering"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-12_marketing_mobile_redesign_banner",
@@ -12992,7 +13107,23 @@
                 "label": "Quests enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-12_request_mobile_app_review_feature_flag",
@@ -13873,12 +14004,59 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable Clickstream Analytics"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 200,
+                                "end": 400
+                            },
+                            {
+                                "start": 600,
+                                "end": 1300
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 10,
+                        "ranges": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 400,
+                                "end": 600
+                            },
+                            {
+                                "start": 1300,
+                                "end": 2000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-03_collectibles_hide_descriptions",
@@ -13911,7 +14089,23 @@
                 "label": "Holdout"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 9500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-03_content_inventory_ranker_api_dummy",
@@ -14477,6 +14671,11 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Status Indicator Only"
@@ -14512,7 +14711,23 @@
                 "label": "Facepile + Typing Indicator + Status Indicator"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 7,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-04_genshin_admin_signup",
@@ -15080,6 +15295,11 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Quest Bar V2 with V1 Progress"
@@ -15090,7 +15310,23 @@
                 "label": "Quest Bar V2"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 2,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-05_quest_home",
@@ -15309,12 +15545,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_ctp_app_open_everyone",
@@ -15721,6 +15978,11 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Display in inbox"
@@ -15731,7 +15993,43 @@
                 "label": "Display in header bar"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 1000,
+                                "end": 1500
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_message_forward_breadcrumb",
@@ -17689,8 +17987,13 @@
         "hash": 92152290,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "2024-06_frecency_list_split",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
@@ -17712,7 +18015,23 @@
                 "label": "Volatile algorithm with hover bar"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 3,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_reaction_push_notifications_guild",
@@ -17729,6 +18048,11 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable In App Notifications for Reactions (First Reaction)"
@@ -17744,7 +18068,33 @@
                 "label": "Enable In App Notifications for Reactions (All Reactions)"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 5,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 2,
+                        "percentage": 95,
+                        "ranges": [
+                            {
+                                "start": 500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_reverse_trial",
@@ -18460,12 +18810,33 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable Block User Feedback Survey"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-10_blocking_context",
@@ -18842,6 +19213,11 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Tile size based wants enabled only for 1:1 videos (rollout)"
@@ -18852,7 +19228,23 @@
                 "label": "Tile size based wants enabled only for 1:1 videos (new stats slice to compare against control)"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 100,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-10_updated_fetch_subscription_plans_for_sku_error",

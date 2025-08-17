@@ -7,10 +7,57 @@
     "hashkey": null,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
             "id": 1,
             "aa_mode": 0,
             "label": "Enable Clickstream Analytics"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 100
+                        },
+                        {
+                            "start": 200,
+                            "end": 400
+                        },
+                        {
+                            "start": 600,
+                            "end": 1300
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 10,
+                    "ranges": [
+                        {
+                            "start": 100,
+                            "end": 200
+                        },
+                        {
+                            "start": 400,
+                            "end": 600
+                        },
+                        {
+                            "start": 1300,
+                            "end": 2000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

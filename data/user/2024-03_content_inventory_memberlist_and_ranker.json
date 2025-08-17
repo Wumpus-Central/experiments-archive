@@ -17,5 +17,21 @@
             "label": "Holdout"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 9500,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
