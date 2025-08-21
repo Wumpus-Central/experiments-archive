@@ -17399,69 +17399,7 @@
         "id": "2024-07_sidechain_compression",
         "label": "Test sidechain compression",
         "hash": 3312979622,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Sidechain Compression available, default enabled"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Sidechain Compression avialable, default disabled"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 1,
-                        "percentage": 80,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 2000
-                            },
-                            {
-                                "start": 2500,
-                                "end": 4500
-                            },
-                            {
-                                "start": 5000,
-                                "end": 9000
-                            }
-                        ]
-                    },
-                    {
-                        "treatment": 2,
-                        "percentage": 20,
-                        "ranges": [
-                            {
-                                "start": 2000,
-                                "end": 2500
-                            },
-                            {
-                                "start": 4500,
-                                "end": 5000
-                            },
-                            {
-                                "start": 9000,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-07_storm_mobile_shop_marketing",
