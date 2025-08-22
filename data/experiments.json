@@ -14334,22 +14334,7 @@
         "id": "2024-03_quest_bar_progress_cta",
         "label": "Quest Bar Progress CTA",
         "hash": 1001340284,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Quest Bar Progress CTA enabled"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-03_quests_activity_quest",
@@ -15290,43 +15275,7 @@
         "id": "2024-05_quest_bar",
         "label": "Quest Bar",
         "hash": 4231678187,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Quest Bar V2 with V1 Progress"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Quest Bar V2"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 2,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-05_quest_home",
