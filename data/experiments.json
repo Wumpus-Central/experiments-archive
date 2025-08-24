@@ -11576,11 +11576,11 @@
                     },
                     {
                         "treatment": 1,
-                        "percentage": 4.9,
+                        "percentage": 5,
                         "ranges": [
                             {
                                 "start": 100,
-                                "end": 190
+                                "end": 200
                             },
                             {
                                 "start": 300,
