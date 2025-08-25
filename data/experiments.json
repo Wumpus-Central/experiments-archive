@@ -14892,6 +14892,11 @@
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Preview tool enabled"
+            },
+            {
+                "id": 2,
+                "aa_mode": 0,
+                "label": "Preview tool 2 enabled"
             }
         ],
         "populations": null
