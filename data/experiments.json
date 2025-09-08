@@ -12406,7 +12406,17 @@
         "id": "2023-10_triggerdebuggingaa",
         "label": "Trigger Debugging User AA Experiment",
         "hash": 1863147434,
-        "kind": "user"
+        "kind": "user",
+        "aa_mode": 0,
+        "hashkey": null,
+        "treatments": [
+            {
+                "id": 1,
+                "aa_mode": 0,
+                "label": "On"
+            }
+        ],
+        "populations": null
     },
     {
         "id": "2023-10_try_it_out_profile_upsell",
