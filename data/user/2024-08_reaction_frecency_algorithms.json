@@ -2,51 +2,5 @@
     "id": "2024-08_reaction_frecency_algorithms",
     "label": "Reaction Frecency Algorithms",
     "hash": 92152290,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": "2024-06_frecency_list_split",
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Stable algorithm with no hover bar"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Volatile algorithm with no hover bar"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "Stable algorithm with hover bar"
-        },
-        {
-            "id": 4,
-            "aa_mode": 0,
-            "label": "Volatile algorithm with hover bar"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 3,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

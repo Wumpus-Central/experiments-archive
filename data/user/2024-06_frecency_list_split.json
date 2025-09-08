@@ -2,15 +2,5 @@
     "id": "2024-06_frecency_list_split",
     "label": "Frecency List Split",
     "hash": 1650926153,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Split frecency emoji messages from reactions"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

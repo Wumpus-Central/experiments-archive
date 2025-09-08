@@ -15792,17 +15792,7 @@
         "id": "2024-06_frecency_list_split",
         "label": "Frecency List Split",
         "hash": 1650926153,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": null,
-        "treatments": [
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Split frecency emoji messages from reactions"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-06_friends_with_nitro_on_profile_side_panel_experiment",
@@ -17816,53 +17806,7 @@
         "id": "2024-08_reaction_frecency_algorithms",
         "label": "Reaction Frecency Algorithms",
         "hash": 92152290,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": "2024-06_frecency_list_split",
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            },
-            {
-                "id": 1,
-                "aa_mode": 0,
-                "label": "Stable algorithm with no hover bar"
-            },
-            {
-                "id": 2,
-                "aa_mode": 0,
-                "label": "Volatile algorithm with no hover bar"
-            },
-            {
-                "id": 3,
-                "aa_mode": 0,
-                "label": "Stable algorithm with hover bar"
-            },
-            {
-                "id": 4,
-                "aa_mode": 0,
-                "label": "Volatile algorithm with hover bar"
-            }
-        ],
-        "populations": [
-            {
-                "filter": null,
-                "rollout": [
-                    {
-                        "treatment": 3,
-                        "percentage": 100,
-                        "ranges": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "kind": "user"
     },
     {
         "id": "2024-08_reaction_push_notifications_guild",
@@ -18900,17 +18844,7 @@
         "id": "2024-10_retrigger_reaction_frecency_algorithms",
         "label": "(Retrigger) Reaction Frecency Algorithms",
         "hash": 3254726199,
-        "kind": "user",
-        "aa_mode": 0,
-        "hashkey": "2024-06_frecency_list_split",
-        "treatments": [
-            {
-                "id": 0,
-                "aa_mode": 0,
-                "label": "Control"
-            }
-        ],
-        "populations": null
+        "kind": "user"
     },
     {
         "id": "2024-10_shop_browse_spookynight_switch",

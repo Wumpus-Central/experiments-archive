@@ -2,15 +2,5 @@
     "id": "2024-10_retrigger_reaction_frecency_algorithms",
     "label": "(Retrigger) Reaction Frecency Algorithms",
     "hash": 3254726199,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": "2024-06_frecency_list_split",
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
