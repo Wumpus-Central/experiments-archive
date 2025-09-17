@@ -2,5 +2,15 @@
     "id": "2023-03_aa_user_segment_filter",
     "label": "AA test to validate segmentation filter",
     "hash": 1998088971,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "AA test enabled. Noop on UI effect."
+        }
+    ],
+    "populations": null
 }

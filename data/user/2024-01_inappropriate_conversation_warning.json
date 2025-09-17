@@ -2,5 +2,15 @@
     "id": "2024-01_inappropriate_conversation_warning",
     "label": "Inappropriate Conversation Warning",
     "hash": 1265607294,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable Inappropriate Conversation Warning"
+        }
+    ],
+    "populations": null
 }

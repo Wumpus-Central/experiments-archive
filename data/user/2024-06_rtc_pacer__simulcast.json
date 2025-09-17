@@ -2,5 +2,40 @@
     "id": "2024-06_rtc_pacer__simulcast",
     "label": "RTC Pacer & Golive Simulcast",
     "hash": 175769529,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Golive Simulcast without prober 720p@500k"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Golive Simulcast 720p@500k"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Golive with pacing"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "Golive with pacing and probing"
+        },
+        {
+            "id": 5,
+            "aa_mode": 0,
+            "label": "Golive Simulcast 720p@750k"
+        },
+        {
+            "id": 6,
+            "aa_mode": 0,
+            "label": "Golive Simulcast 720p@1000k"
+        }
+    ],
+    "populations": null
 }

@@ -2,5 +2,15 @@
     "id": "2024-11_third_party_access_settings_redesign",
     "label": "Third Party Access User Settings Redesign",
     "hash": 2932220947,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "show updated settings UI"
+        }
+    ],
+    "populations": null
 }

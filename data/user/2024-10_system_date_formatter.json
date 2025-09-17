@@ -2,5 +2,41 @@
     "id": "2024-10_system_date_formatter",
     "label": "Use system APIs for date formatting",
     "hash": 2327380316,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable system formatter"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Enable pref for 24-hour time format"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 2,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

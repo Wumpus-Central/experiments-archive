@@ -2,5 +2,15 @@
     "id": "2022-12_timestamp_tooltip",
     "label": "Timestamp Tooltip",
     "hash": 1978665225,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "populations": null
 }

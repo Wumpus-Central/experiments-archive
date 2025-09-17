@@ -2,5 +2,90 @@
     "id": "2021-08_regional_payment_methods",
     "label": "Regional Payment Methods",
     "hash": 3091068323,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Germany"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for US"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Brazil"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Turkey"
+        },
+        {
+            "id": 5,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Poland"
+        },
+        {
+            "id": 6,
+            "aa_mode": 0,
+            "label": "Enable paysafecard"
+        },
+        {
+            "id": 7,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Philippines"
+        },
+        {
+            "id": 8,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Malaysia"
+        },
+        {
+            "id": 9,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Vietnam"
+        },
+        {
+            "id": 10,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Indonesia"
+        },
+        {
+            "id": 11,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for South Korea"
+        },
+        {
+            "id": 12,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Belgium"
+        },
+        {
+            "id": 13,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Austria"
+        },
+        {
+            "id": 14,
+            "aa_mode": 0,
+            "label": "Regional Payment Method for Netherlands"
+        },
+        {
+            "id": 15,
+            "aa_mode": 0,
+            "label": "Launch Paysafecard"
+        },
+        {
+            "id": 16,
+            "aa_mode": 0,
+            "label": "Launch Cash App"
+        }
+    ],
+    "populations": null
 }

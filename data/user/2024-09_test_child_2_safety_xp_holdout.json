@@ -2,5 +2,15 @@
     "id": "2024-09_test_child_2_safety_xp_holdout",
     "label": "Holdout experiment",
     "hash": 2622662067,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enables the holdout experiment"
+        }
+    ],
+    "populations": null
 }

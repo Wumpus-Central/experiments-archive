@@ -2,5 +2,15 @@
     "id": "2024-06_ctp_delta_vanilla",
     "label": "CTP Delta Vanilla - A/A test",
     "hash": 4257547968,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Treatment"
+        }
+    ],
+    "populations": null
 }

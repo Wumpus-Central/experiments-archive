@@ -2,5 +2,15 @@
     "id": "2023-08-30_open-in-popout",
     "label": "Open Channel in Popout",
     "hash": 281174794,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "populations": null
 }

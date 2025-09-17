@@ -2,5 +2,36 @@
     "id": "2021-08_guild_role_subscription_users",
     "label": "Guild Role Subscription Users",
     "hash": 1567199723,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enables users to create Guild Role Subscriptions"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

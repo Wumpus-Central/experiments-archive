@@ -2,5 +2,36 @@
     "id": "2024-02_safety_hub_guild_violation_in_app_appeals",
     "label": "Safety Hub Guild Violation In App Appeals",
     "hash": 668094544,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Allow guild violations to be applied using the new appeals ingestion flow"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

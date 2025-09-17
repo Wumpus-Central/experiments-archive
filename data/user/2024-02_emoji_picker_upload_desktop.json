@@ -2,5 +2,20 @@
     "id": "2024-02_emoji_picker_upload_desktop",
     "label": "Desktop: Consistently show the Emoji Picker Upload button at the start of emoji lists",
     "hash": 350727084,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "With Top Emojis showing the Upload button"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Without Top Emojis showing the Upload button"
+        }
+    ],
+    "populations": null
 }

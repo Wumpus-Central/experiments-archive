@@ -2,5 +2,36 @@
     "id": "2023-04_guild_media_channel_post_preview_embed_users",
     "label": "Guild Role Subscription Users",
     "hash": 288968706,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enables for users Guild Media Post Preview Embeds"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

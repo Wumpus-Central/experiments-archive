@@ -2,5 +2,25 @@
     "id": "2023-11_soundboard_recently_heard_frequently_played",
     "label": "Soundboard Recently Heard & Frequently Played",
     "hash": 3577312222,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "User can see Recently Heard soundboard section"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "User can see Frequently Played soundboard section"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "User can see Frequently Played & Recently Heard soundboard sections"
+        }
+    ],
+    "populations": null
 }

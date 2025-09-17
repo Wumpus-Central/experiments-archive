@@ -2,5 +2,15 @@
     "id": "2023-06_bogo_promotion_gate",
     "label": "BOGO Promotion Manager",
     "hash": 680908968,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable BOGO Promotion Manager"
+        }
+    ],
+    "populations": null
 }

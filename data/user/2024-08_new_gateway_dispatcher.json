@@ -2,5 +2,15 @@
     "id": "2024-08_new_gateway_dispatcher",
     "label": "New Gateway Dispatcher",
     "hash": 191973690,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enabled"
+        }
+    ],
+    "populations": null
 }

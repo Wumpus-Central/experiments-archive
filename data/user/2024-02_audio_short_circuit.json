@@ -2,5 +2,45 @@
     "id": "2024-02_audio_short_circuit",
     "label": "Audio processing short circuiting",
     "hash": 2886828494,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Mute before processing"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "PTT before processing"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "Mute + PTT before processing"
+        },
+        {
+            "id": 4,
+            "aa_mode": 0,
+            "label": "Skip encode"
+        },
+        {
+            "id": 5,
+            "aa_mode": 0,
+            "label": "Mute before processing, skip encode"
+        },
+        {
+            "id": 6,
+            "aa_mode": 0,
+            "label": "PTT before processing, skip encode"
+        },
+        {
+            "id": 7,
+            "aa_mode": 0,
+            "label": "Mute + PTT before processing, skip encode"
+        }
+    ],
+    "populations": null
 }

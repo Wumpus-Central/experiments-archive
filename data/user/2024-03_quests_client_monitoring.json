@@ -2,5 +2,36 @@
     "id": "2024-03_quests_client_monitoring",
     "label": "Quests client monitoring experiment",
     "hash": 2848826960,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "disabled"
+        },
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "enabled"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 1,
+                    "percentage": 100,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

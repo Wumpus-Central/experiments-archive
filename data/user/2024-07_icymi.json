@@ -2,5 +2,25 @@
     "id": "2024-07_icymi",
     "label": "In-case-you-missed-it tab",
     "hash": 4207551078,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "enables the new icymi tab"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "new icymi tab with some new features"
+        },
+        {
+            "id": 3,
+            "aa_mode": 0,
+            "label": "new icymi tab with more new features"
+        }
+    ],
+    "populations": null
 }

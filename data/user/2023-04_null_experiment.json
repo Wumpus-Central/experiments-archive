@@ -2,5 +2,15 @@
     "id": "2023-04_null_experiment",
     "label": "Null Experiment",
     "hash": 1045730203,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "On"
+        }
+    ],
+    "populations": null
 }

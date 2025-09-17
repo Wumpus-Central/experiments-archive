@@ -2,5 +2,15 @@
     "id": "2024-02_family_center_vc_join",
     "label": "Family Center VC Join",
     "hash": 3569895137,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Enable VC Join in Family Center"
+        }
+    ],
+    "populations": null
 }

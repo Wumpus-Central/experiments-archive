@@ -2,5 +2,20 @@
     "id": "2024-10_golive_simulcast",
     "label": "GoLive Simulcast",
     "hash": 3942584255,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Simulcast"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Simulcast, no pacer for LQ"
+        }
+    ],
+    "populations": null
 }

@@ -2,5 +2,61 @@
     "id": "2024-06_ctp_app_open_multiple_buckets",
     "label": "CTP app open - A/A test - Multiple buckets",
     "hash": 160851838,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 1,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 1,
+            "label": "Control"
+        },
+        {
+            "id": 1,
+            "aa_mode": 1,
+            "label": "Treatment 1"
+        },
+        {
+            "id": 2,
+            "aa_mode": 1,
+            "label": "Treatment 2"
+        }
+    ],
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 500
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 500,
+                            "end": 1000
+                        }
+                    ]
+                },
+                {
+                    "treatment": 2,
+                    "percentage": 5,
+                    "ranges": [
+                        {
+                            "start": 1000,
+                            "end": 1500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

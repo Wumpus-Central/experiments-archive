@@ -2,5 +2,15 @@
     "id": "2024-07_ctp_open_user_settings_everyone",
     "label": "CTP open user settings - A/A test - Everyone",
     "hash": 2882656906,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Treatment"
+        }
+    ],
+    "populations": null
 }

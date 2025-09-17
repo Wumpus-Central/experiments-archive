@@ -2,5 +2,20 @@
     "id": "2024-08_private_channel_hiding",
     "label": "Private Channel Hiding",
     "hash": 687045128,
-    "kind": "user"
+    "kind": "user",
+    "aa_mode": 0,
+    "hashkey": null,
+    "treatments": [
+        {
+            "id": 1,
+            "aa_mode": 0,
+            "label": "Obfuscation Enabled"
+        },
+        {
+            "id": 2,
+            "aa_mode": 0,
+            "label": "Obfuscation + Integrity Check Enabled"
+        }
+    ],
+    "populations": null
 }
