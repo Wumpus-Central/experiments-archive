@@ -2,15 +2,5 @@
     "id": "2024-06_ctp_voice_call_vanilla",
     "label": "CTP voice call - A/A test - Vanilla",
     "hash": 1444157241,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Treatment"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

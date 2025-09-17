@@ -2,46 +2,5 @@
     "id": "2024-08_ctp_dmgdm_list_render__uneven_buckets",
     "label": "CTP DM/GDM List Render - A/A test - Uneven buckets",
     "hash": 2569252158,
-    "kind": "user",
-    "aa_mode": 1,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 1,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 1,
-            "label": "Treatment"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 4,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 400
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 1,
-                    "ranges": [
-                        {
-                            "start": 400,
-                            "end": 500
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

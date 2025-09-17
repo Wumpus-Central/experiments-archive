@@ -2,15 +2,5 @@
     "id": "2023-10_triggerdebuggingaa",
     "label": "Trigger Debugging User AA Experiment",
     "hash": 1863147434,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "On"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

@@ -2,46 +2,5 @@
     "id": "2024-08_ctp_dmgdm_list_render__everyone",
     "label": "CTP DM/GDM List Render - A/A test - Everyone",
     "hash": 1907391960,
-    "kind": "user",
-    "aa_mode": 1,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 1,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 1,
-            "label": "Treatment"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 5000
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 50,
-                    "ranges": [
-                        {
-                            "start": 5000,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

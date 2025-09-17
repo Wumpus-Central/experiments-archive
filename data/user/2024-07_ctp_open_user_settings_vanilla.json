@@ -2,15 +2,5 @@
     "id": "2024-07_ctp_open_user_settings_vanilla",
     "label": "CTP open user settings - A/A test - Vanilla",
     "hash": 844414773,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Treatment"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

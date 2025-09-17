@@ -1,47 +1,6 @@
 {
     "id": "2023-08_secure_frames_encryption",
-    "label": "Allowing testing DAVE protocol for voice/video",
+    "label": "Allowing testing secure frames for voice/video",
     "hash": 3013881204,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 11,
-            "aa_mode": 0,
-            "label": "Can support DAVE protocol version 1 and above"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 500
-                        }
-                    ]
-                },
-                {
-                    "treatment": 11,
-                    "percentage": 95,
-                    "ranges": [
-                        {
-                            "start": 500,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

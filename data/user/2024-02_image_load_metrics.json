@@ -2,20 +2,5 @@
     "id": "2024-02_image_load_metrics",
     "label": "Image load metrics Config User Experiment",
     "hash": 476313123,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Do not send metrics for image load"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Send metrics for image load"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

@@ -2,15 +2,5 @@
     "id": "2023-11_midjourney_onboarding",
     "label": "Midjourney Onboarding",
     "hash": 1881851350,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enables the accelerated Midjourney Onboarding & Discord experience for the user."
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

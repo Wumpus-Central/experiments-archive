@@ -2,41 +2,5 @@
     "id": "2023-09_iar_dsa_webform",
     "label": "Safety Experience Unauthenticated Report Form",
     "hash": 1438986391,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "EU user"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "DSA E2E testing user"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 1,
-                    "percentage": 100,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

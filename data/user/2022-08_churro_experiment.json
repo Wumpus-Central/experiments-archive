@@ -2,20 +2,5 @@
     "id": "2022-08_churro_experiment",
     "label": "PS5 Voice Experiment",
     "hash": 4136574802,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Control"
-        },
-        {
-            "id": 3,
-            "aa_mode": 0,
-            "label": "PS Experiment + upsells + Staging"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

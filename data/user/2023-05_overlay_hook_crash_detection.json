@@ -2,20 +2,5 @@
     "id": "2023-05_overlay_hook_crash_detection",
     "label": "Detect and report crashes in the overlay hook",
     "hash": 933369006,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "EnableCrashReporting"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "EnableCrashTrigger"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

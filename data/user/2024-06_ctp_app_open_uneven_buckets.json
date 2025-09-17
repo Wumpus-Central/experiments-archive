@@ -2,15 +2,5 @@
     "id": "2024-06_ctp_app_open_uneven_buckets",
     "label": "CTP app open - A/A test - Uneven buckets",
     "hash": 3785125664,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Treatment"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

@@ -2,36 +2,5 @@
     "id": "2024-03_content_inventory_memberlist_and_ranker",
     "label": "Enables the memberlist content feed",
     "hash": 3541906113,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": -1,
-            "aa_mode": 0,
-            "label": "Not in experiment"
-        },
-        {
-            "id": 0,
-            "aa_mode": 0,
-            "label": "Holdout"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 9500,
-                            "end": 10000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

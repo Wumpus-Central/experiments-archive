@@ -2,46 +2,5 @@
     "id": "2024-08_ctp_dmgdm_list_render__vanilla_",
     "label": "CTP DM/GDM List Render - A/A test - Vanilla",
     "hash": 3781250242,
-    "kind": "user",
-    "aa_mode": 1,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 0,
-            "aa_mode": 1,
-            "label": "Control"
-        },
-        {
-            "id": 1,
-            "aa_mode": 1,
-            "label": "Treatment"
-        }
-    ],
-    "populations": [
-        {
-            "filter": null,
-            "rollout": [
-                {
-                    "treatment": 0,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 0,
-                            "end": 500
-                        }
-                    ]
-                },
-                {
-                    "treatment": 1,
-                    "percentage": 5,
-                    "ranges": [
-                        {
-                            "start": 500,
-                            "end": 1000
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "kind": "user"
 }

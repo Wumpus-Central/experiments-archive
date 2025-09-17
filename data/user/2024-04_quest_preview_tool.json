@@ -2,20 +2,5 @@
     "id": "2024-04_quest_preview_tool",
     "label": "Quest Preview Tool",
     "hash": 3368313611,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Preview tool enabled"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Preview tool 2 enabled"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

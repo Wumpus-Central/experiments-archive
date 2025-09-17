@@ -2,15 +2,5 @@
     "id": "2023-11_xbox_game_invites",
     "label": "Xbox Game Invites Experiment",
     "hash": 4094597383,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Xbox Game Invites UI Enabled"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

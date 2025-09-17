@@ -2,15 +2,5 @@
     "id": "2023-09_proxy_block_notice",
     "label": "Proxy Block Experiment",
     "hash": 1121995325,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Show nag bar when proxy blocks an API request"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

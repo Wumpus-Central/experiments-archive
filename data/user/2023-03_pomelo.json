@@ -2,15 +2,5 @@
     "id": "2023-03_pomelo",
     "label": "Pomelo",
     "hash": 268309827,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "enabled"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

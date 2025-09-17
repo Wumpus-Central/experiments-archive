@@ -2,15 +2,5 @@
     "id": "2024-07_icymi_negative_items",
     "label": "icymi negative content (debugging only)",
     "hash": 501017028,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "allow negative items only"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

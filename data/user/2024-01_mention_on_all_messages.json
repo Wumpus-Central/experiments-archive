@@ -2,15 +2,5 @@
     "id": "2024-01_mention_on_all_messages",
     "label": "Mention on all messages",
     "hash": 3038837490,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Increment mention count when receiving a message in a channel set to all messages"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

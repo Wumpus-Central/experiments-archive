@@ -2,15 +2,5 @@
     "id": "2024-01_voice_user_game_activity",
     "label": "Voice User Game Activity",
     "hash": 1400973357,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Show game icon next to the Voice User in VC"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

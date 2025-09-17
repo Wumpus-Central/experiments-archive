@@ -2,20 +2,5 @@
     "id": "2024-07_ctp_open_user_settings_multiple_buckets",
     "label": "CTP open user settings - A/A test - Multiple buckets",
     "hash": 1154689066,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Treatment 1"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Treatment 2"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }

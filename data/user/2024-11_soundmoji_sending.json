@@ -2,20 +2,5 @@
     "id": "2024-11_soundmoji_sending",
     "label": "Send soundmojis",
     "hash": 1328765334,
-    "kind": "user",
-    "aa_mode": 0,
-    "hashkey": null,
-    "treatments": [
-        {
-            "id": 1,
-            "aa_mode": 0,
-            "label": "Enabled w/o emoji section"
-        },
-        {
-            "id": 2,
-            "aa_mode": 0,
-            "label": "Enabled w/ emoji section"
-        }
-    ],
-    "populations": null
+    "kind": "user"
 }
