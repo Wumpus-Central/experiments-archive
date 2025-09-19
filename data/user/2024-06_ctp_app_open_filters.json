@@ -3,14 +3,45 @@
     "label": "CTP app open - A/A test - Filters",
     "hash": 3146386527,
     "kind": "user",
-    "aa_mode": 0,
+    "aa_mode": 1,
     "hashkey": null,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 1,
+            "label": "Control"
+        },
+        {
             "id": 1,
-            "aa_mode": 0,
+            "aa_mode": 1,
             "label": "Treatment"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 0.1,
+                    "ranges": [
+                        {
+                            "start": 0,
+                            "end": 10
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 0.1,
+                    "ranges": [
+                        {
+                            "start": 690,
+                            "end": 700
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

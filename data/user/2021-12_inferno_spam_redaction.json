@@ -4,13 +4,184 @@
     "hash": 4179344527,
     "kind": "user",
     "aa_mode": 0,
-    "hashkey": null,
+    "hashkey": "unknown",
     "treatments": [
+        {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
         {
             "id": 1,
             "aa_mode": 0,
             "label": "Allow guild channel messages from spammers to be collapsed"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 2.6,
+                    "ranges": [
+                        {
+                            "start": 10,
+                            "end": 40
+                        },
+                        {
+                            "start": 110,
+                            "end": 200
+                        },
+                        {
+                            "start": 240,
+                            "end": 300
+                        },
+                        {
+                            "start": 350,
+                            "end": 430
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 74.59,
+                    "ranges": [
+                        {
+                            "start": 520,
+                            "end": 520
+                        },
+                        {
+                            "start": 570,
+                            "end": 600
+                        },
+                        {
+                            "start": 650,
+                            "end": 680
+                        },
+                        {
+                            "start": 700,
+                            "end": 1000
+                        },
+                        {
+                            "start": 1020,
+                            "end": 1030
+                        },
+                        {
+                            "start": 1150,
+                            "end": 1180
+                        },
+                        {
+                            "start": 1220,
+                            "end": 1240
+                        },
+                        {
+                            "start": 1310,
+                            "end": 1370
+                        },
+                        {
+                            "start": 1400,
+                            "end": 1600
+                        },
+                        {
+                            "start": 1610,
+                            "end": 1620
+                        },
+                        {
+                            "start": 1760,
+                            "end": 1840
+                        },
+                        {
+                            "start": 1890,
+                            "end": 1910
+                        },
+                        {
+                            "start": 1970,
+                            "end": 2000
+                        },
+                        {
+                            "start": 2050,
+                            "end": 2050
+                        },
+                        {
+                            "start": 2130,
+                            "end": 2220
+                        },
+                        {
+                            "start": 2300,
+                            "end": 2530
+                        },
+                        {
+                            "start": 2690,
+                            "end": 2740
+                        },
+                        {
+                            "start": 2810,
+                            "end": 2860
+                        },
+                        {
+                            "start": 2930,
+                            "end": 2990
+                        },
+                        {
+                            "start": 3030,
+                            "end": 3070
+                        },
+                        {
+                            "start": 3130,
+                            "end": 3140
+                        },
+                        {
+                            "start": 3200,
+                            "end": 3240
+                        },
+                        {
+                            "start": 3300,
+                            "end": 3350
+                        },
+                        {
+                            "start": 3410,
+                            "end": 3500
+                        },
+                        {
+                            "start": 3580,
+                            "end": 3640
+                        },
+                        {
+                            "start": 3690,
+                            "end": 3740
+                        },
+                        {
+                            "start": 3800,
+                            "end": 3810
+                        },
+                        {
+                            "start": 3870,
+                            "end": 3890
+                        },
+                        {
+                            "start": 4000,
+                            "end": 4300
+                        },
+                        {
+                            "start": 4370,
+                            "end": 4380
+                        },
+                        {
+                            "start": 4440,
+                            "end": 4450
+                        },
+                        {
+                            "start": 4490,
+                            "end": 4560
+                        },
+                        {
+                            "start": 4600,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -7,10 +7,265 @@
     "hashkey": null,
     "treatments": [
         {
+            "id": 0,
+            "aa_mode": 0,
+            "label": "Control"
+        },
+        {
             "id": 1,
             "aa_mode": 0,
             "label": "Enabled"
         }
     ],
-    "populations": null
+    "populations": [
+        {
+            "filter": null,
+            "rollout": [
+                {
+                    "treatment": 0,
+                    "percentage": 24.3,
+                    "ranges": [
+                        {
+                            "start": 160,
+                            "end": 260
+                        },
+                        {
+                            "start": 320,
+                            "end": 330
+                        },
+                        {
+                            "start": 430,
+                            "end": 480
+                        },
+                        {
+                            "start": 540,
+                            "end": 570
+                        },
+                        {
+                            "start": 680,
+                            "end": 690
+                        },
+                        {
+                            "start": 770,
+                            "end": 790
+                        },
+                        {
+                            "start": 840,
+                            "end": 880
+                        },
+                        {
+                            "start": 1050,
+                            "end": 1060
+                        },
+                        {
+                            "start": 1150,
+                            "end": 1250
+                        },
+                        {
+                            "start": 1300,
+                            "end": 1540
+                        },
+                        {
+                            "start": 1610,
+                            "end": 1620
+                        },
+                        {
+                            "start": 1700,
+                            "end": 1750
+                        },
+                        {
+                            "start": 1810,
+                            "end": 1820
+                        },
+                        {
+                            "start": 1900,
+                            "end": 2210
+                        },
+                        {
+                            "start": 2370,
+                            "end": 2440
+                        },
+                        {
+                            "start": 2490,
+                            "end": 2540
+                        },
+                        {
+                            "start": 2580,
+                            "end": 2630
+                        },
+                        {
+                            "start": 2680,
+                            "end": 2690
+                        },
+                        {
+                            "start": 2790,
+                            "end": 2790
+                        },
+                        {
+                            "start": 2860,
+                            "end": 2890
+                        },
+                        {
+                            "start": 2900,
+                            "end": 3200
+                        },
+                        {
+                            "start": 3280,
+                            "end": 3370
+                        },
+                        {
+                            "start": 3430,
+                            "end": 3440
+                        },
+                        {
+                            "start": 3500,
+                            "end": 3500
+                        },
+                        {
+                            "start": 3580,
+                            "end": 3620
+                        },
+                        {
+                            "start": 3700,
+                            "end": 3900
+                        },
+                        {
+                            "start": 3940,
+                            "end": 3970
+                        },
+                        {
+                            "start": 4060,
+                            "end": 4130
+                        },
+                        {
+                            "start": 4190,
+                            "end": 4240
+                        },
+                        {
+                            "start": 4320,
+                            "end": 4600
+                        },
+                        {
+                            "start": 4670,
+                            "end": 4720
+                        },
+                        {
+                            "start": 4780,
+                            "end": 4830
+                        },
+                        {
+                            "start": 4880,
+                            "end": 4890
+                        },
+                        {
+                            "start": 4940,
+                            "end": 4990
+                        }
+                    ]
+                },
+                {
+                    "treatment": 1,
+                    "percentage": 34.1,
+                    "ranges": [
+                        {
+                            "start": 5080,
+                            "end": 5130
+                        },
+                        {
+                            "start": 5200,
+                            "end": 5400
+                        },
+                        {
+                            "start": 5480,
+                            "end": 5700
+                        },
+                        {
+                            "start": 5810,
+                            "end": 5850
+                        },
+                        {
+                            "start": 5930,
+                            "end": 6500
+                        },
+                        {
+                            "start": 6640,
+                            "end": 6720
+                        },
+                        {
+                            "start": 6780,
+                            "end": 6790
+                        },
+                        {
+                            "start": 6880,
+                            "end": 6890
+                        },
+                        {
+                            "start": 6950,
+                            "end": 7030
+                        },
+                        {
+                            "start": 7080,
+                            "end": 7090
+                        },
+                        {
+                            "start": 7140,
+                            "end": 7190
+                        },
+                        {
+                            "start": 7230,
+                            "end": 7260
+                        },
+                        {
+                            "start": 7300,
+                            "end": 7730
+                        },
+                        {
+                            "start": 7800,
+                            "end": 8000
+                        },
+                        {
+                            "start": 8030,
+                            "end": 8120
+                        },
+                        {
+                            "start": 8190,
+                            "end": 8200
+                        },
+                        {
+                            "start": 8300,
+                            "end": 8500
+                        },
+                        {
+                            "start": 8600,
+                            "end": 8900
+                        },
+                        {
+                            "start": 8950,
+                            "end": 9520
+                        },
+                        {
+                            "start": 9590,
+                            "end": 9600
+                        },
+                        {
+                            "start": 9640,
+                            "end": 9650
+                        },
+                        {
+                            "start": 9700,
+                            "end": 9900
+                        },
+                        {
+                            "start": 9920,
+                            "end": 9940
+                        },
+                        {
+                            "start": 9980,
+                            "end": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

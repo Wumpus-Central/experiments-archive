@@ -5011,15 +5011,186 @@
         "hash": 4179344527,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "unknown",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Allow guild channel messages from spammers to be collapsed"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 2.6,
+                        "ranges": [
+                            {
+                                "start": 10,
+                                "end": 40
+                            },
+                            {
+                                "start": 110,
+                                "end": 200
+                            },
+                            {
+                                "start": 240,
+                                "end": 300
+                            },
+                            {
+                                "start": 350,
+                                "end": 430
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 74.59,
+                        "ranges": [
+                            {
+                                "start": 520,
+                                "end": 520
+                            },
+                            {
+                                "start": 570,
+                                "end": 600
+                            },
+                            {
+                                "start": 650,
+                                "end": 680
+                            },
+                            {
+                                "start": 700,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1020,
+                                "end": 1030
+                            },
+                            {
+                                "start": 1150,
+                                "end": 1180
+                            },
+                            {
+                                "start": 1220,
+                                "end": 1240
+                            },
+                            {
+                                "start": 1310,
+                                "end": 1370
+                            },
+                            {
+                                "start": 1400,
+                                "end": 1600
+                            },
+                            {
+                                "start": 1610,
+                                "end": 1620
+                            },
+                            {
+                                "start": 1760,
+                                "end": 1840
+                            },
+                            {
+                                "start": 1890,
+                                "end": 1910
+                            },
+                            {
+                                "start": 1970,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2050,
+                                "end": 2050
+                            },
+                            {
+                                "start": 2130,
+                                "end": 2220
+                            },
+                            {
+                                "start": 2300,
+                                "end": 2530
+                            },
+                            {
+                                "start": 2690,
+                                "end": 2740
+                            },
+                            {
+                                "start": 2810,
+                                "end": 2860
+                            },
+                            {
+                                "start": 2930,
+                                "end": 2990
+                            },
+                            {
+                                "start": 3030,
+                                "end": 3070
+                            },
+                            {
+                                "start": 3130,
+                                "end": 3140
+                            },
+                            {
+                                "start": 3200,
+                                "end": 3240
+                            },
+                            {
+                                "start": 3300,
+                                "end": 3350
+                            },
+                            {
+                                "start": 3410,
+                                "end": 3500
+                            },
+                            {
+                                "start": 3580,
+                                "end": 3640
+                            },
+                            {
+                                "start": 3690,
+                                "end": 3740
+                            },
+                            {
+                                "start": 3800,
+                                "end": 3810
+                            },
+                            {
+                                "start": 3870,
+                                "end": 3890
+                            },
+                            {
+                                "start": 4000,
+                                "end": 4300
+                            },
+                            {
+                                "start": 4370,
+                                "end": 4380
+                            },
+                            {
+                                "start": 4440,
+                                "end": 4450
+                            },
+                            {
+                                "start": 4490,
+                                "end": 4560
+                            },
+                            {
+                                "start": 4600,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2021-12_ios_in_app_education",
@@ -9213,12 +9384,317 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 26.99,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 40
+                            },
+                            {
+                                "start": 310,
+                                "end": 320
+                            },
+                            {
+                                "start": 450,
+                                "end": 470
+                            },
+                            {
+                                "start": 640,
+                                "end": 660
+                            },
+                            {
+                                "start": 760,
+                                "end": 770
+                            },
+                            {
+                                "start": 820,
+                                "end": 870
+                            },
+                            {
+                                "start": 950,
+                                "end": 950
+                            },
+                            {
+                                "start": 1030,
+                                "end": 1040
+                            },
+                            {
+                                "start": 1100,
+                                "end": 1300
+                            },
+                            {
+                                "start": 1320,
+                                "end": 1330
+                            },
+                            {
+                                "start": 1440,
+                                "end": 1450
+                            },
+                            {
+                                "start": 1490,
+                                "end": 1550
+                            },
+                            {
+                                "start": 1620,
+                                "end": 1630
+                            },
+                            {
+                                "start": 1720,
+                                "end": 1740
+                            },
+                            {
+                                "start": 1920,
+                                "end": 1930
+                            },
+                            {
+                                "start": 2000,
+                                "end": 2200
+                            },
+                            {
+                                "start": 2400,
+                                "end": 2440
+                            },
+                            {
+                                "start": 2600,
+                                "end": 2670
+                            },
+                            {
+                                "start": 2870,
+                                "end": 2880
+                            },
+                            {
+                                "start": 2950,
+                                "end": 3010
+                            },
+                            {
+                                "start": 3090,
+                                "end": 3140
+                            },
+                            {
+                                "start": 3270,
+                                "end": 3280
+                            },
+                            {
+                                "start": 3400,
+                                "end": 3410
+                            },
+                            {
+                                "start": 3480,
+                                "end": 3490
+                            },
+                            {
+                                "start": 3550,
+                                "end": 3560
+                            },
+                            {
+                                "start": 3610,
+                                "end": 3620
+                            },
+                            {
+                                "start": 3670,
+                                "end": 3680
+                            },
+                            {
+                                "start": 3830,
+                                "end": 3840
+                            },
+                            {
+                                "start": 3910,
+                                "end": 3910
+                            },
+                            {
+                                "start": 3960,
+                                "end": 3970
+                            },
+                            {
+                                "start": 4120,
+                                "end": 4130
+                            },
+                            {
+                                "start": 4230,
+                                "end": 4240
+                            },
+                            {
+                                "start": 4320,
+                                "end": 4330
+                            },
+                            {
+                                "start": 4510,
+                                "end": 4530
+                            },
+                            {
+                                "start": 4580,
+                                "end": 4580
+                            },
+                            {
+                                "start": 4650,
+                                "end": 4700
+                            },
+                            {
+                                "start": 4750,
+                                "end": 4760
+                            },
+                            {
+                                "start": 4860,
+                                "end": 4870
+                            },
+                            {
+                                "start": 4990,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5060,
+                                "end": 5150
+                            },
+                            {
+                                "start": 5200,
+                                "end": 5210
+                            },
+                            {
+                                "start": 5270,
+                                "end": 5280
+                            },
+                            {
+                                "start": 5360,
+                                "end": 5370
+                            },
+                            {
+                                "start": 5410,
+                                "end": 5490
+                            },
+                            {
+                                "start": 5680,
+                                "end": 5690
+                            },
+                            {
+                                "start": 5870,
+                                "end": 5880
+                            },
+                            {
+                                "start": 5940,
+                                "end": 5950
+                            },
+                            {
+                                "start": 6060,
+                                "end": 6100
+                            },
+                            {
+                                "start": 6340,
+                                "end": 6350
+                            },
+                            {
+                                "start": 6470,
+                                "end": 6500
+                            },
+                            {
+                                "start": 6560,
+                                "end": 6570
+                            },
+                            {
+                                "start": 6690,
+                                "end": 6700
+                            },
+                            {
+                                "start": 6790,
+                                "end": 6800
+                            },
+                            {
+                                "start": 6850,
+                                "end": 6910
+                            },
+                            {
+                                "start": 6970,
+                                "end": 6990
+                            },
+                            {
+                                "start": 7040,
+                                "end": 7050
+                            },
+                            {
+                                "start": 7200,
+                                "end": 7230
+                            },
+                            {
+                                "start": 7290,
+                                "end": 7360
+                            },
+                            {
+                                "start": 7490,
+                                "end": 7510
+                            },
+                            {
+                                "start": 7550,
+                                "end": 7560
+                            },
+                            {
+                                "start": 7610,
+                                "end": 7620
+                            },
+                            {
+                                "start": 7900,
+                                "end": 7910
+                            },
+                            {
+                                "start": 8290,
+                                "end": 8300
+                            },
+                            {
+                                "start": 8350,
+                                "end": 8390
+                            },
+                            {
+                                "start": 8470,
+                                "end": 8530
+                            },
+                            {
+                                "start": 8590,
+                                "end": 8600
+                            },
+                            {
+                                "start": 8700,
+                                "end": 9030
+                            },
+                            {
+                                "start": 9080,
+                                "end": 9170
+                            },
+                            {
+                                "start": 9210,
+                                "end": 9220
+                            },
+                            {
+                                "start": 9270,
+                                "end": 9360
+                            },
+                            {
+                                "start": 9410,
+                                "end": 9470
+                            },
+                            {
+                                "start": 9700,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-03_pomelo_compatible_ux",
@@ -12556,12 +13032,265 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enables the accelerated Midjourney Onboarding & Discord experience for the user."
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 63,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 200
+                            },
+                            {
+                                "start": 260,
+                                "end": 270
+                            },
+                            {
+                                "start": 300,
+                                "end": 500
+                            },
+                            {
+                                "start": 550,
+                                "end": 550
+                            },
+                            {
+                                "start": 600,
+                                "end": 620
+                            },
+                            {
+                                "start": 700,
+                                "end": 900
+                            },
+                            {
+                                "start": 950,
+                                "end": 950
+                            },
+                            {
+                                "start": 1000,
+                                "end": 1010
+                            },
+                            {
+                                "start": 1110,
+                                "end": 1140
+                            },
+                            {
+                                "start": 1200,
+                                "end": 1250
+                            },
+                            {
+                                "start": 1300,
+                                "end": 1310
+                            },
+                            {
+                                "start": 1360,
+                                "end": 1420
+                            },
+                            {
+                                "start": 1560,
+                                "end": 1570
+                            },
+                            {
+                                "start": 1600,
+                                "end": 2300
+                            },
+                            {
+                                "start": 2310,
+                                "end": 2320
+                            },
+                            {
+                                "start": 2400,
+                                "end": 2600
+                            },
+                            {
+                                "start": 2630,
+                                "end": 2640
+                            },
+                            {
+                                "start": 2700,
+                                "end": 2900
+                            },
+                            {
+                                "start": 2960,
+                                "end": 3400
+                            },
+                            {
+                                "start": 3440,
+                                "end": 3460
+                            },
+                            {
+                                "start": 3500,
+                                "end": 3530
+                            },
+                            {
+                                "start": 3620,
+                                "end": 3670
+                            },
+                            {
+                                "start": 3720,
+                                "end": 3810
+                            },
+                            {
+                                "start": 3890,
+                                "end": 3930
+                            },
+                            {
+                                "start": 4000,
+                                "end": 4020
+                            },
+                            {
+                                "start": 4140,
+                                "end": 4200
+                            },
+                            {
+                                "start": 4300,
+                                "end": 4310
+                            },
+                            {
+                                "start": 4390,
+                                "end": 4390
+                            },
+                            {
+                                "start": 4400,
+                                "end": 4860
+                            },
+                            {
+                                "start": 4930,
+                                "end": 4980
+                            },
+                            {
+                                "start": 5060,
+                                "end": 5120
+                            },
+                            {
+                                "start": 5220,
+                                "end": 5230
+                            },
+                            {
+                                "start": 5330,
+                                "end": 5410
+                            },
+                            {
+                                "start": 5460,
+                                "end": 5490
+                            },
+                            {
+                                "start": 5560,
+                                "end": 5600
+                            },
+                            {
+                                "start": 5700,
+                                "end": 6190
+                            },
+                            {
+                                "start": 6240,
+                                "end": 6320
+                            },
+                            {
+                                "start": 6420,
+                                "end": 6470
+                            },
+                            {
+                                "start": 6530,
+                                "end": 6580
+                            },
+                            {
+                                "start": 6600,
+                                "end": 6840
+                            },
+                            {
+                                "start": 6880,
+                                "end": 6930
+                            },
+                            {
+                                "start": 7000,
+                                "end": 7200
+                            },
+                            {
+                                "start": 7220,
+                                "end": 7290
+                            },
+                            {
+                                "start": 7330,
+                                "end": 7600
+                            },
+                            {
+                                "start": 7660,
+                                "end": 7720
+                            },
+                            {
+                                "start": 7770,
+                                "end": 7820
+                            },
+                            {
+                                "start": 7880,
+                                "end": 7940
+                            },
+                            {
+                                "start": 7980,
+                                "end": 8060
+                            },
+                            {
+                                "start": 8120,
+                                "end": 8180
+                            },
+                            {
+                                "start": 8310,
+                                "end": 8320
+                            },
+                            {
+                                "start": 8380,
+                                "end": 8450
+                            },
+                            {
+                                "start": 8500,
+                                "end": 8510
+                            },
+                            {
+                                "start": 8580,
+                                "end": 8630
+                            },
+                            {
+                                "start": 8710,
+                                "end": 8720
+                            },
+                            {
+                                "start": 8770,
+                                "end": 9100
+                            },
+                            {
+                                "start": 9210,
+                                "end": 9220
+                            },
+                            {
+                                "start": 9270,
+                                "end": 9800
+                            },
+                            {
+                                "start": 9870,
+                                "end": 9870
+                            },
+                            {
+                                "start": 9940,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2023-11_mobile_gift_redemption",
@@ -15435,16 +16164,47 @@
         "label": "CTP app open - A/A test - Filters",
         "hash": 3146386527,
         "kind": "user",
-        "aa_mode": 0,
+        "aa_mode": 1,
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
-                "aa_mode": 0,
+                "aa_mode": 1,
                 "label": "Treatment"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 10
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 690,
+                                "end": 700
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_ctp_app_open_multiple_buckets",
@@ -15760,15 +16520,240 @@
         "hash": 1666007237,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "2024-03_content_inventory_memberlist_and_ranker",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 54.2,
+                        "ranges": [
+                            {
+                                "start": 30,
+                                "end": 40
+                            },
+                            {
+                                "start": 170,
+                                "end": 210
+                            },
+                            {
+                                "start": 260,
+                                "end": 500
+                            },
+                            {
+                                "start": 560,
+                                "end": 620
+                            },
+                            {
+                                "start": 660,
+                                "end": 710
+                            },
+                            {
+                                "start": 890,
+                                "end": 1300
+                            },
+                            {
+                                "start": 1360,
+                                "end": 1450
+                            },
+                            {
+                                "start": 1500,
+                                "end": 1550
+                            },
+                            {
+                                "start": 1610,
+                                "end": 1690
+                            },
+                            {
+                                "start": 1800,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2540,
+                                "end": 2550
+                            },
+                            {
+                                "start": 2610,
+                                "end": 2630
+                            },
+                            {
+                                "start": 2700,
+                                "end": 3300
+                            },
+                            {
+                                "start": 3390,
+                                "end": 3400
+                            },
+                            {
+                                "start": 3520,
+                                "end": 3530
+                            },
+                            {
+                                "start": 3640,
+                                "end": 3670
+                            },
+                            {
+                                "start": 3740,
+                                "end": 3800
+                            },
+                            {
+                                "start": 3960,
+                                "end": 4010
+                            },
+                            {
+                                "start": 4060,
+                                "end": 4160
+                            },
+                            {
+                                "start": 4300,
+                                "end": 4380
+                            },
+                            {
+                                "start": 4440,
+                                "end": 4490
+                            },
+                            {
+                                "start": 4620,
+                                "end": 4640
+                            },
+                            {
+                                "start": 4730,
+                                "end": 4740
+                            },
+                            {
+                                "start": 4810,
+                                "end": 4810
+                            },
+                            {
+                                "start": 4870,
+                                "end": 4880
+                            },
+                            {
+                                "start": 4930,
+                                "end": 4970
+                            },
+                            {
+                                "start": 5040,
+                                "end": 5090
+                            },
+                            {
+                                "start": 5170,
+                                "end": 5210
+                            },
+                            {
+                                "start": 5270,
+                                "end": 5300
+                            },
+                            {
+                                "start": 5350,
+                                "end": 5420
+                            },
+                            {
+                                "start": 5470,
+                                "end": 5500
+                            },
+                            {
+                                "start": 5580,
+                                "end": 5660
+                            },
+                            {
+                                "start": 5790,
+                                "end": 5830
+                            },
+                            {
+                                "start": 5960,
+                                "end": 5960
+                            },
+                            {
+                                "start": 6050,
+                                "end": 6400
+                            },
+                            {
+                                "start": 6550,
+                                "end": 6570
+                            },
+                            {
+                                "start": 6620,
+                                "end": 6720
+                            },
+                            {
+                                "start": 6770,
+                                "end": 6790
+                            },
+                            {
+                                "start": 6870,
+                                "end": 6920
+                            },
+                            {
+                                "start": 7050,
+                                "end": 7650
+                            },
+                            {
+                                "start": 7700,
+                                "end": 7710
+                            },
+                            {
+                                "start": 7750,
+                                "end": 7820
+                            },
+                            {
+                                "start": 7900,
+                                "end": 7910
+                            },
+                            {
+                                "start": 7950,
+                                "end": 7960
+                            },
+                            {
+                                "start": 8020,
+                                "end": 8030
+                            },
+                            {
+                                "start": 8110,
+                                "end": 8190
+                            },
+                            {
+                                "start": 8200,
+                                "end": 8400
+                            },
+                            {
+                                "start": 8450,
+                                "end": 8460
+                            },
+                            {
+                                "start": 8500,
+                                "end": 9010
+                            },
+                            {
+                                "start": 9080,
+                                "end": 9170
+                            },
+                            {
+                                "start": 9250,
+                                "end": 9340
+                            },
+                            {
+                                "start": 9420,
+                                "end": 9440
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_hd_streaming_desktop_upsell",
@@ -15916,15 +16901,222 @@
         "hash": 2302949395,
         "kind": "user",
         "aa_mode": 0,
-        "hashkey": null,
+        "hashkey": "unknown",
         "treatments": [
+            {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
             {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enable upsells for outbound promos w/ Nagbar variant 1 - gift inventory cta"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 2.2,
+                        "ranges": [
+                            {
+                                "start": 30,
+                                "end": 40
+                            },
+                            {
+                                "start": 230,
+                                "end": 240
+                            },
+                            {
+                                "start": 300,
+                                "end": 500
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 67.19,
+                        "ranges": [
+                            {
+                                "start": 520,
+                                "end": 570
+                            },
+                            {
+                                "start": 600,
+                                "end": 900
+                            },
+                            {
+                                "start": 1000,
+                                "end": 1200
+                            },
+                            {
+                                "start": 1220,
+                                "end": 1320
+                            },
+                            {
+                                "start": 1370,
+                                "end": 1380
+                            },
+                            {
+                                "start": 1430,
+                                "end": 1520
+                            },
+                            {
+                                "start": 1610,
+                                "end": 1630
+                            },
+                            {
+                                "start": 1690,
+                                "end": 2200
+                            },
+                            {
+                                "start": 2240,
+                                "end": 2320
+                            },
+                            {
+                                "start": 2380,
+                                "end": 2470
+                            },
+                            {
+                                "start": 2500,
+                                "end": 2910
+                            },
+                            {
+                                "start": 3000,
+                                "end": 3700
+                            },
+                            {
+                                "start": 3750,
+                                "end": 3840
+                            },
+                            {
+                                "start": 3890,
+                                "end": 3890
+                            },
+                            {
+                                "start": 3970,
+                                "end": 3970
+                            },
+                            {
+                                "start": 4020,
+                                "end": 4070
+                            },
+                            {
+                                "start": 4130,
+                                "end": 4140
+                            },
+                            {
+                                "start": 4200,
+                                "end": 4500
+                            },
+                            {
+                                "start": 4530,
+                                "end": 4570
+                            },
+                            {
+                                "start": 4620,
+                                "end": 4630
+                            },
+                            {
+                                "start": 4670,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5050,
+                                "end": 5060
+                            },
+                            {
+                                "start": 5120,
+                                "end": 5160
+                            },
+                            {
+                                "start": 5240,
+                                "end": 5290
+                            },
+                            {
+                                "start": 5350,
+                                "end": 5400
+                            },
+                            {
+                                "start": 5500,
+                                "end": 5740
+                            },
+                            {
+                                "start": 5830,
+                                "end": 5880
+                            },
+                            {
+                                "start": 5950,
+                                "end": 5960
+                            },
+                            {
+                                "start": 6110,
+                                "end": 6110
+                            },
+                            {
+                                "start": 6200,
+                                "end": 6550
+                            },
+                            {
+                                "start": 6590,
+                                "end": 6600
+                            },
+                            {
+                                "start": 6800,
+                                "end": 7300
+                            },
+                            {
+                                "start": 7400,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8030,
+                                "end": 8040
+                            },
+                            {
+                                "start": 8090,
+                                "end": 8150
+                            },
+                            {
+                                "start": 8280,
+                                "end": 8290
+                            },
+                            {
+                                "start": 8330,
+                                "end": 8340
+                            },
+                            {
+                                "start": 8400,
+                                "end": 8800
+                            },
+                            {
+                                "start": 8870,
+                                "end": 8880
+                            },
+                            {
+                                "start": 8970,
+                                "end": 8980
+                            },
+                            {
+                                "start": 9000,
+                                "end": 9900
+                            },
+                            {
+                                "start": 9920,
+                                "end": 9920
+                            },
+                            {
+                                "start": 9990,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-06_perks_demo_hd_streaming_opt_in",
@@ -16302,16 +17494,37 @@
         "label": "CTP collectibles shop open - A/A test - Filters",
         "hash": 3369115928,
         "kind": "user",
-        "aa_mode": 0,
+        "aa_mode": 1,
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
-                "aa_mode": 0,
+                "aa_mode": 1,
                 "label": "Treatment"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 910,
+                                "end": 920
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_collectibles_shop_open_multiple_buckets",
@@ -16521,16 +17734,47 @@
         "label": "CTP open nitro - A/A test - Filters",
         "hash": 919330149,
         "kind": "user",
-        "aa_mode": 0,
+        "aa_mode": 1,
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
-                "aa_mode": 0,
+                "aa_mode": 1,
                 "label": "Treatment"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 430,
+                                "end": 440
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 710,
+                                "end": 720
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_ctp_open_nitro_multiple_buckets",
@@ -17134,7 +18378,291 @@
                 "label": "interactable"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 55.8,
+                        "ranges": [
+                            {
+                                "start": 0,
+                                "end": 300
+                            },
+                            {
+                                "start": 330,
+                                "end": 400
+                            },
+                            {
+                                "start": 490,
+                                "end": 500
+                            },
+                            {
+                                "start": 580,
+                                "end": 620
+                            },
+                            {
+                                "start": 760,
+                                "end": 830
+                            },
+                            {
+                                "start": 930,
+                                "end": 950
+                            },
+                            {
+                                "start": 1030,
+                                "end": 1080
+                            },
+                            {
+                                "start": 1140,
+                                "end": 1150
+                            },
+                            {
+                                "start": 1210,
+                                "end": 1220
+                            },
+                            {
+                                "start": 1270,
+                                "end": 1330
+                            },
+                            {
+                                "start": 1390,
+                                "end": 1400
+                            },
+                            {
+                                "start": 1450,
+                                "end": 1460
+                            },
+                            {
+                                "start": 1520,
+                                "end": 1540
+                            },
+                            {
+                                "start": 1590,
+                                "end": 1630
+                            },
+                            {
+                                "start": 1670,
+                                "end": 1750
+                            },
+                            {
+                                "start": 1800,
+                                "end": 2020
+                            },
+                            {
+                                "start": 2100,
+                                "end": 2600
+                            },
+                            {
+                                "start": 2680,
+                                "end": 2730
+                            },
+                            {
+                                "start": 2770,
+                                "end": 2860
+                            },
+                            {
+                                "start": 2940,
+                                "end": 3030
+                            },
+                            {
+                                "start": 3100,
+                                "end": 3140
+                            },
+                            {
+                                "start": 3200,
+                                "end": 3210
+                            },
+                            {
+                                "start": 3260,
+                                "end": 3270
+                            },
+                            {
+                                "start": 3300,
+                                "end": 3500
+                            },
+                            {
+                                "start": 3510,
+                                "end": 3520
+                            },
+                            {
+                                "start": 3570,
+                                "end": 3630
+                            },
+                            {
+                                "start": 3700,
+                                "end": 4040
+                            },
+                            {
+                                "start": 4090,
+                                "end": 4170
+                            },
+                            {
+                                "start": 4280,
+                                "end": 4290
+                            },
+                            {
+                                "start": 4360,
+                                "end": 4410
+                            },
+                            {
+                                "start": 4450,
+                                "end": 4520
+                            },
+                            {
+                                "start": 4590,
+                                "end": 4600
+                            },
+                            {
+                                "start": 4700,
+                                "end": 4900
+                            },
+                            {
+                                "start": 4910,
+                                "end": 4970
+                            },
+                            {
+                                "start": 5020,
+                                "end": 5030
+                            },
+                            {
+                                "start": 5080,
+                                "end": 5090
+                            },
+                            {
+                                "start": 5100,
+                                "end": 5400
+                            },
+                            {
+                                "start": 5420,
+                                "end": 5430
+                            },
+                            {
+                                "start": 5500,
+                                "end": 5530
+                            },
+                            {
+                                "start": 5600,
+                                "end": 5610
+                            },
+                            {
+                                "start": 5680,
+                                "end": 5760
+                            },
+                            {
+                                "start": 5820,
+                                "end": 5830
+                            },
+                            {
+                                "start": 5930,
+                                "end": 6020
+                            },
+                            {
+                                "start": 6060,
+                                "end": 6080
+                            },
+                            {
+                                "start": 6250,
+                                "end": 6260
+                            },
+                            {
+                                "start": 6360,
+                                "end": 6410
+                            },
+                            {
+                                "start": 6490,
+                                "end": 6560
+                            },
+                            {
+                                "start": 6630,
+                                "end": 6640
+                            },
+                            {
+                                "start": 6710,
+                                "end": 6780
+                            },
+                            {
+                                "start": 6800,
+                                "end": 7000
+                            },
+                            {
+                                "start": 7020,
+                                "end": 7080
+                            },
+                            {
+                                "start": 7140,
+                                "end": 7170
+                            },
+                            {
+                                "start": 7470,
+                                "end": 7800
+                            },
+                            {
+                                "start": 7840,
+                                "end": 7850
+                            },
+                            {
+                                "start": 7900,
+                                "end": 7930
+                            },
+                            {
+                                "start": 7970,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8060,
+                                "end": 8080
+                            },
+                            {
+                                "start": 8130,
+                                "end": 8140
+                            },
+                            {
+                                "start": 8240,
+                                "end": 8240
+                            },
+                            {
+                                "start": 8290,
+                                "end": 8360
+                            },
+                            {
+                                "start": 8400,
+                                "end": 8490
+                            },
+                            {
+                                "start": 8600,
+                                "end": 8610
+                            },
+                            {
+                                "start": 8700,
+                                "end": 8900
+                            },
+                            {
+                                "start": 8960,
+                                "end": 9010
+                            },
+                            {
+                                "start": 9050,
+                                "end": 9070
+                            },
+                            {
+                                "start": 9120,
+                                "end": 9220
+                            },
+                            {
+                                "start": 9270,
+                                "end": 9310
+                            },
+                            {
+                                "start": 9400,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-07_quests_gta_online_quest",
@@ -17384,16 +18912,37 @@
         "label": "CTP DM/GDM List Render - A/A test - Filters",
         "hash": 857226402,
         "kind": "user",
-        "aa_mode": 0,
+        "aa_mode": 1,
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 1,
+                "label": "Control"
+            },
+            {
                 "id": 1,
-                "aa_mode": 0,
+                "aa_mode": 1,
                 "label": "Treatment"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 1,
+                        "percentage": 0.1,
+                        "ranges": [
+                            {
+                                "start": 650,
+                                "end": 660
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_ctp_dmgdm_list_render__multiple_buckets",
@@ -17940,12 +19489,267 @@
         "hashkey": null,
         "treatments": [
             {
+                "id": 0,
+                "aa_mode": 0,
+                "label": "Control"
+            },
+            {
                 "id": 1,
                 "aa_mode": 0,
                 "label": "Enabled"
             }
         ],
-        "populations": null
+        "populations": [
+            {
+                "filter": null,
+                "rollout": [
+                    {
+                        "treatment": 0,
+                        "percentage": 24.3,
+                        "ranges": [
+                            {
+                                "start": 160,
+                                "end": 260
+                            },
+                            {
+                                "start": 320,
+                                "end": 330
+                            },
+                            {
+                                "start": 430,
+                                "end": 480
+                            },
+                            {
+                                "start": 540,
+                                "end": 570
+                            },
+                            {
+                                "start": 680,
+                                "end": 690
+                            },
+                            {
+                                "start": 770,
+                                "end": 790
+                            },
+                            {
+                                "start": 840,
+                                "end": 880
+                            },
+                            {
+                                "start": 1050,
+                                "end": 1060
+                            },
+                            {
+                                "start": 1150,
+                                "end": 1250
+                            },
+                            {
+                                "start": 1300,
+                                "end": 1540
+                            },
+                            {
+                                "start": 1610,
+                                "end": 1620
+                            },
+                            {
+                                "start": 1700,
+                                "end": 1750
+                            },
+                            {
+                                "start": 1810,
+                                "end": 1820
+                            },
+                            {
+                                "start": 1900,
+                                "end": 2210
+                            },
+                            {
+                                "start": 2370,
+                                "end": 2440
+                            },
+                            {
+                                "start": 2490,
+                                "end": 2540
+                            },
+                            {
+                                "start": 2580,
+                                "end": 2630
+                            },
+                            {
+                                "start": 2680,
+                                "end": 2690
+                            },
+                            {
+                                "start": 2790,
+                                "end": 2790
+                            },
+                            {
+                                "start": 2860,
+                                "end": 2890
+                            },
+                            {
+                                "start": 2900,
+                                "end": 3200
+                            },
+                            {
+                                "start": 3280,
+                                "end": 3370
+                            },
+                            {
+                                "start": 3430,
+                                "end": 3440
+                            },
+                            {
+                                "start": 3500,
+                                "end": 3500
+                            },
+                            {
+                                "start": 3580,
+                                "end": 3620
+                            },
+                            {
+                                "start": 3700,
+                                "end": 3900
+                            },
+                            {
+                                "start": 3940,
+                                "end": 3970
+                            },
+                            {
+                                "start": 4060,
+                                "end": 4130
+                            },
+                            {
+                                "start": 4190,
+                                "end": 4240
+                            },
+                            {
+                                "start": 4320,
+                                "end": 4600
+                            },
+                            {
+                                "start": 4670,
+                                "end": 4720
+                            },
+                            {
+                                "start": 4780,
+                                "end": 4830
+                            },
+                            {
+                                "start": 4880,
+                                "end": 4890
+                            },
+                            {
+                                "start": 4940,
+                                "end": 4990
+                            }
+                        ]
+                    },
+                    {
+                        "treatment": 1,
+                        "percentage": 34.1,
+                        "ranges": [
+                            {
+                                "start": 5080,
+                                "end": 5130
+                            },
+                            {
+                                "start": 5200,
+                                "end": 5400
+                            },
+                            {
+                                "start": 5480,
+                                "end": 5700
+                            },
+                            {
+                                "start": 5810,
+                                "end": 5850
+                            },
+                            {
+                                "start": 5930,
+                                "end": 6500
+                            },
+                            {
+                                "start": 6640,
+                                "end": 6720
+                            },
+                            {
+                                "start": 6780,
+                                "end": 6790
+                            },
+                            {
+                                "start": 6880,
+                                "end": 6890
+                            },
+                            {
+                                "start": 6950,
+                                "end": 7030
+                            },
+                            {
+                                "start": 7080,
+                                "end": 7090
+                            },
+                            {
+                                "start": 7140,
+                                "end": 7190
+                            },
+                            {
+                                "start": 7230,
+                                "end": 7260
+                            },
+                            {
+                                "start": 7300,
+                                "end": 7730
+                            },
+                            {
+                                "start": 7800,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8030,
+                                "end": 8120
+                            },
+                            {
+                                "start": 8190,
+                                "end": 8200
+                            },
+                            {
+                                "start": 8300,
+                                "end": 8500
+                            },
+                            {
+                                "start": 8600,
+                                "end": 8900
+                            },
+                            {
+                                "start": 8950,
+                                "end": 9520
+                            },
+                            {
+                                "start": 9590,
+                                "end": 9600
+                            },
+                            {
+                                "start": 9640,
+                                "end": 9650
+                            },
+                            {
+                                "start": 9700,
+                                "end": 9900
+                            },
+                            {
+                                "start": 9920,
+                                "end": 9940
+                            },
+                            {
+                                "start": 9980,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2024-08_nitro_standard_trial_uplift_model_t2_rollout",
