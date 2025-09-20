@@ -23,7 +23,7 @@
             "rollout": [
                 {
                     "treatment": 0,
-                    "percentage": 3.4,
+                    "percentage": 4.59,
                     "ranges": [
                         {
                             "start": 0,
@@ -31,24 +31,16 @@
                         },
                         {
                             "start": 240,
-                            "end": 300
-                        },
-                        {
-                            "start": 350,
-                            "end": 430
+                            "end": 500
                         }
                     ]
                 },
                 {
                     "treatment": 1,
-                    "percentage": 78.7,
+                    "percentage": 82.2,
                     "ranges": [
                         {
                             "start": 520,
-                            "end": 520
-                        },
-                        {
-                            "start": 570,
                             "end": 600
                         },
                         {
@@ -57,11 +49,7 @@
                         },
                         {
                             "start": 700,
-                            "end": 1000
-                        },
-                        {
-                            "start": 1020,
-                            "end": 1030
+                            "end": 1100
                         },
                         {
                             "start": 1150,
@@ -77,18 +65,6 @@
                         },
                         {
                             "start": 1760,
-                            "end": 2000
-                        },
-                        {
-                            "start": 2050,
-                            "end": 2050
-                        },
-                        {
-                            "start": 2130,
-                            "end": 2220
-                        },
-                        {
-                            "start": 2300,
                             "end": 2600
                         },
                         {
